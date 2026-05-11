@@ -1,0 +1,21 @@
+# Source: biomarker_interventions/male_hormones/LH.md §3 Supplements ("LH-supporting" with weak evidence)
+# Mucuna pruriens — LH +28% in infertile men trial (Shukla 2009). Population-specific (infertility).
+
+intervention_id: mucuna_pruriens_5g
+marker_id: lh
+direction: increase
+effect_type: pct
+effect_lo: 20
+effect_hi: 35
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 12
+time_hi_wk: 12
+citations:
+  - author: Shukla
+    journal: Fertil Steril
+    year: 2009
+    vol: 92
+    page: 1934

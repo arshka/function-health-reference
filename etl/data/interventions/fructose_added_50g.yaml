@@ -1,0 +1,12 @@
+id: fructose_added_50g
+canonical_name: Added fructose / sugar (hypercaloric)
+type: food
+dose_amount: 50
+dose_unit: g_per_day
+dose_split: ">50 g/d added fructose, hypercaloric context"
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

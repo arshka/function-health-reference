@@ -1,0 +1,9 @@
+id: ayurvedic_rasa_shastra
+canonical_name: Ayurvedic / rasa shastra preparations (bhasma-containing)
+type: behavior
+dose_amount: 1
+dose_unit: doses_per_day
+dose_split: "Daily oral use of US/India-sourced Ayurvedic pills"
+mechanisms: []
+dietary_tags: []
+exclusions: []

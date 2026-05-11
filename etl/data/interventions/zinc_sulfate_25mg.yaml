@@ -1,0 +1,21 @@
+id: zinc_sulfate_25mg
+canonical_name: Zinc sulfate
+type: supplement
+dose_amount: 25
+dose_unit: mg_per_day
+mechanisms:
+  - zinc_provision
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions:
+  - type: drug_interaction
+    value: tetracycline_within_2h
+  - type: drug_interaction
+    value: fluoroquinolone_within_2h
+  - type: drug_interaction
+    value: levothyroxine_within_4h
+  - type: drug_interaction
+    value: iron_supplement_within_2h

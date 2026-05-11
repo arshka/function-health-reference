@@ -1,0 +1,24 @@
+# Source: hs-CRP.md §4 Activities & Behaviors
+# "Resistance training | 3 sessions/wk full body | hs-CRP −0.2 to −0.4 mg/L | 12–24 wk | [Meta]"
+
+intervention_id: resistance_training_3x_wk
+marker_id: hs_crp
+direction: decrease
+effect_type: absolute
+effect_lo: -0.4
+effect_hi: -0.2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Donges
+    journal: J Aging Phys Act
+    year: 2010
+    vol: 18
+    page: 329
+  - author: Phillips
+    journal: Br J Sports Med
+    year: 2010

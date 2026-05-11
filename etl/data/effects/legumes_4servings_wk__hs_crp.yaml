@@ -1,0 +1,19 @@
+# Source: hs-CRP.md §1 Foods that LOWER
+# "Legumes | ≥4 servings/wk | hs-CRP −0.3 mg/L | 8–24 wk | [Cohort]"
+
+intervention_id: legumes_4servings_wk
+marker_id: hs_crp
+direction: decrease
+effect_type: absolute
+effect_lo: -0.4
+effect_hi: -0.2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 8
+time_hi_wk: 24
+citations:
+  - author: Mollard
+    journal: Appl Physiol Nutr Metab
+    year: 2012

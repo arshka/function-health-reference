@@ -1,0 +1,18 @@
+# Source: HbA1c.md §1 — Broccoli sprouts 150 g/d; A1c −0.14% in T2D RCT (single high-quality trial)
+intervention_id: cruciferous_veg_3servings
+marker_id: hba1c
+direction: decrease
+effect_type: absolute
+effect_lo: -0.20
+effect_hi: -0.05
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 12
+time_hi_wk: 12
+citations:
+  - author: Axelsson
+    journal: Sci Transl Med
+    year: 2017
+    pmid: "28615356"

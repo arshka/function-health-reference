@@ -1,0 +1,17 @@
+id: ashwagandha_600mg
+canonical_name: Ashwagandha (KSM-66 / Shoden standardized extract)
+type: supplement
+dose_amount: 600
+dose_unit: mg_per_day
+mechanisms:
+  - cortisol_modulation
+  - stress_reduction
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: condition
+    value: hyperthyroidism
+  - type: condition
+    value: pregnancy

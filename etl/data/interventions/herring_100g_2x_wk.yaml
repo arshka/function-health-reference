@@ -1,0 +1,20 @@
+id: herring_100g_2x_wk
+canonical_name: Herring (Atlantic, pickled or smoked)
+type: food
+dose_amount: 200
+dose_unit: g_per_week
+dose_split: "100 g serving, 2 times per week"
+mechanisms:
+  - omega3_epa_dha
+  - anti_inflammatory
+dietary_tags:
+  - pescatarian
+  - mediterranean
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: fish_allergy
+  - type: dietary
+    value: vegan
+  - type: dietary
+    value: vegetarian

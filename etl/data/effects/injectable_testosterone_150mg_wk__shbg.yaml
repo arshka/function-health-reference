@@ -1,0 +1,18 @@
+# Source: biomarker_interventions/male_hormones/SHBG.md §3 (exogenous androgens / AAS / TRT)
+# Diagnostic signature: low SHBG + high total T + suppressed LH/FSH.
+intervention_id: injectable_testosterone_150mg_wk
+marker_id: shbg
+direction: decrease
+effect_type: pct
+effect_lo: -50
+effect_hi: -30
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 1.0
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 8
+time_hi_wk: 24
+citations:
+  - author: Bhasin
+    journal: Journal of Clinical Endocrinology and Metabolism
+    year: 2018

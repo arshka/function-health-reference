@@ -1,0 +1,15 @@
+# Source: metabolic_panel.md §Fasting Glucose; biomarker_interventions/metabolic/fasting_glucose.md.
+# Reference per ADA: normal <100 mg/dL; 100-125 = prediabetes; >=126 (x2) = diabetes.
+# Optimal 70-90 mg/dL — within-normal lower band is associated with lowest CV/all-cause mortality.
+
+id: fasting_glucose
+name: Fasting Glucose
+panel: metabolic
+units: mg/dL
+direction: lower_is_better
+ref_lo: 70
+ref_hi: 100
+opt_lo: 70
+opt_hi: 90
+immutable: false
+demographic_modifiers: []

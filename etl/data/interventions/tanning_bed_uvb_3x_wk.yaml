@@ -1,0 +1,14 @@
+id: tanning_bed_uvb_3x_wk
+canonical_name: Tanning bed (UVB-enriched, low-pressure)
+type: behavior
+dose_amount: 3
+dose_unit: sessions_per_week
+dose_split: "5–10 min, 3×/wk"
+mechanisms:
+  - vitamin_d_provision
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: skin_cancer_history
+  - type: condition
+    value: photosensitive_disorder

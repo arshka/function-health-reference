@@ -1,0 +1,17 @@
+# Source: HbA1c.md §4 — Mindfulness/MBSR 8-wk programs; A1c −0.31% in T2D
+intervention_id: mbsr_30min_daily
+marker_id: hba1c
+direction: decrease
+effect_type: absolute
+effect_lo: -0.40
+effect_hi: -0.20
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 16
+citations:
+  - author: Cui
+    journal: J Diabetes Investig
+    year: 2022

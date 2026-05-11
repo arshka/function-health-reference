@@ -1,0 +1,16 @@
+intervention_id: mct_oil_30g
+marker_id: ldl_medium
+direction: increase
+effect_type: pct
+effect_lo: 3
+effect_hi: 10
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 4
+time_hi_wk: 4
+citations:
+  - author: Mumme
+    journal: J Acad Nutr Diet
+    year: 2015

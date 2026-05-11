@@ -1,0 +1,24 @@
+# Source: biomarker_interventions/omega_fatty_acids/EPA.md §1 / §3 (SDA stearidonic acid / echium oil)
+intervention_id: sda_oil_2g
+marker_id: epa
+direction: increase
+effect_type: absolute
+effect_lo: 0.3
+effect_hi: 0.5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: James
+    journal: AJCN
+    year: 2003
+    vol: 77
+    page: 1140
+  - author: Lemke
+    journal: Lipids
+    year: 2013
+    vol: 48
+    page: 75

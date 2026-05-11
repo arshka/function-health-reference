@@ -1,0 +1,19 @@
+# Source: LDL_pattern.md §4 — Resistance training 3-5×/wk, 12-24 wk
+# "Pattern shift toward A modestly. Smaller effect than aerobic; additive."
+
+intervention_id: resistance_training_3x_wk
+marker_id: ldl_pattern
+direction: decrease
+effect_type: absolute
+effect_lo: -0.5
+effect_hi: -0.2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Halverstadt
+    journal: Metabolism
+    year: 2007

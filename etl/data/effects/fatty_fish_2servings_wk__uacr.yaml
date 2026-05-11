@@ -1,0 +1,18 @@
+intervention_id: fatty_fish_2servings_wk
+marker_id: uacr
+direction: decrease
+effect_type: pct
+effect_lo: -10
+effect_hi: -3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 26
+citations:
+  - author: Hu
+    journal: J Am Soc Nephrol
+    year: 2017
+    vol: 28
+    page: 2207

@@ -1,0 +1,12 @@
+id: rice_based_gluten_free_products
+canonical_name: Rice-based gluten-free staples (rice pasta, rice flour bread, rice cakes, rice crackers)
+type: food
+dose_amount: 1
+dose_unit: servings_per_day
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions: []

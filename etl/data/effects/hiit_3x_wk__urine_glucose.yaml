@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/urinalysis/urine_glucose.md §4
+# HIIT 3×/wk lowers HbA1c 0.3-0.5% over 12 wk, reducing daily PP excursions
+# crossing the renal threshold and reducing glycosuria probability.
+intervention_id: hiit_3x_wk
+marker_id: urine_glucose
+direction: decrease
+effect_type: pct
+effect_lo: -20
+effect_hi: -10
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 12
+citations:
+  - author: Jelleyman
+    journal: Obes Rev
+    year: 2015
+    pmid: "26481101"

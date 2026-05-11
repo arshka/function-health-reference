@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/advanced_lipids/LDL_small.md §6 Synthesis;
+# heart_lipids_advanced.md §5. NMR LipoProfile (LabCorp/Function Health), nmol/L.
+# Cutpoints (file §7 and §6): optimal <200 nmol/L (near-optimal baseline);
+# borderline-high ≥527 nmol/L; high >745 nmol/L. Reference upper bound 1500.
+# South Asian: lower threshold given TOFI / insulin-resistance phenotype.
+
+id: ldl_small
+name: LDL Small Particles (sdLDL)
+panel: advanced_lipids
+units: nmol/L
+direction: lower_is_better
+ref_lo: 0
+ref_hi: 1500
+opt_lo: 0
+opt_hi: 200
+immutable: false
+demographic_modifiers:
+  - trait: south_asian
+    opt_lo: 0
+    opt_hi: 150

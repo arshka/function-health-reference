@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/omega_fatty_acids/DHA.md §4
+# Smoking cessation → DHA ↑ ~0.1–0.3 pp via reduced peroxidation
+intervention_id: smoking_cessation
+marker_id: dha
+direction: increase
+effect_type: absolute
+effect_lo: 0.1
+effect_hi: 0.3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Block
+    journal: Lipids Health Dis
+    year: 2012
+    vol: 11
+    page: 43

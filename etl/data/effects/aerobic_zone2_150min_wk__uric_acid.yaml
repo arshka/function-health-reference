@@ -1,0 +1,19 @@
+# Source: biomarker_interventions/metabolic/uric_acid.md §4 (Aerobic exercise chronic moderate)
+# 150 min/wk chronic moderate aerobic → UA chronic ↓; acute exercise transiently ↑ (1–6 hr).
+
+intervention_id: aerobic_zone2_150min_wk
+marker_id: uric_acid
+direction: decrease
+effect_type: absolute
+effect_lo: -0.5
+effect_hi: -0.1
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Williams
+    journal: Sports Med
+    year: 2008

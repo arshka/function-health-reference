@@ -1,0 +1,18 @@
+intervention_id: evoo_30ml
+marker_id: uacr
+direction: decrease
+effect_type: pct
+effect_lo: -10
+effect_hi: -3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 52
+citations:
+  - author: Domenech
+    journal: Hypertension
+    year: 2014
+    vol: 64
+    page: 69

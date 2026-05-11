@@ -1,0 +1,13 @@
+# Source: blood_cbc_indices.md §MCH; biomarker_interventions/cbc/MCH.md
+# Mean corpuscular hemoglobin. In-band marker; tracks closely with MCV.
+
+id: mch
+name: Mean Corpuscular Hemoglobin
+panel: cbc
+units: pg
+direction: in_band
+ref_lo: 27
+ref_hi: 33
+opt_lo: 28
+opt_hi: 32
+immutable: false

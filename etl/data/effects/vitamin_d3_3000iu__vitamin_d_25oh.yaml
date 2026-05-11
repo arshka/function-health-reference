@@ -1,0 +1,22 @@
+intervention_id: vitamin_d3_3000iu
+marker_id: vitamin_d_25oh
+direction: increase
+effect_type: absolute
+effect_lo: 15
+effect_hi: 30
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.2
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 10
+time_hi_wk: 16
+citations:
+  - author: Heaney
+    journal: Am J Clin Nutr
+    year: 2003
+    vol: 77
+    page: 204
+    pmid: "12499343"
+  - author: Garland
+    journal: Anticancer Res
+    year: 2011

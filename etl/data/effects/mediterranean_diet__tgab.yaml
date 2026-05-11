@@ -1,0 +1,16 @@
+intervention_id: mediterranean_diet
+marker_id: tgab
+direction: decrease
+effect_type: pct
+effect_lo: -20
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Ülker
+    journal: Food Sci Nutr
+    year: 2024

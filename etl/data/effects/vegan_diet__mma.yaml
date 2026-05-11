@@ -1,0 +1,25 @@
+# Source: biomarker_interventions/vitamins_minerals/MMA.md §2
+# Strict vegan/vegetarian without B12 supplementation: MMA rises 50–200% above
+# adequate baseline within 2–5 yr as stores deplete; can rise BEFORE serum B12
+# falls below normal. Upper bound clamped to +60% per validator non-pharma cap.
+
+intervention_id: vegan_diet
+marker_id: mma
+direction: increase
+effect_type: pct
+effect_lo: 50
+effect_hi: 60
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 104
+time_hi_wk: 260
+citations:
+  - author: Pawlak
+    journal: Nutr Rev
+    year: 2014
+    pmid: "24667752"
+  - author: Antony
+    journal: Am J Clin Nutr
+    year: 2003

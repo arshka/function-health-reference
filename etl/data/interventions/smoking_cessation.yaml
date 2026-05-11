@@ -1,0 +1,12 @@
+id: smoking_cessation
+canonical_name: Smoking cessation
+type: behavior
+dose_amount: 1
+dose_unit: full_cessation
+dose_split: "complete cessation; effect accrues over months to years"
+mechanisms:
+  - smoking_cessation
+  - anti_inflammatory
+  - antioxidant_defense
+dietary_tags: []
+exclusions: []

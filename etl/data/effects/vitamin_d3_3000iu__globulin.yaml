@@ -1,0 +1,18 @@
+# Source: biomarker_interventions/liver/globulin.md §3 row 3 (vit D3 2000-4000 IU, deficient pop)
+intervention_id: vitamin_d3_3000iu
+marker_id: globulin
+direction: decrease
+effect_type: pct
+effect_lo: -4
+effect_hi: -1
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.2
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Aranow
+    journal: J Investig Med
+    year: 2011
+    pmid: "21527855"

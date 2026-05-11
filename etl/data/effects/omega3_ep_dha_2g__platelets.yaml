@@ -1,0 +1,19 @@
+# Source: biomarker_interventions/cbc/platelets.md §3
+# Marine omega-3 (EPA+DHA) at 2 g/day lowers platelet count modestly.
+
+intervention_id: omega3_ep_dha_2g
+marker_id: platelets
+direction: decrease
+effect_type: pct
+effect_lo: -6
+effect_hi: -3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Hartweg
+    journal: Diabetologia
+    year: 2007

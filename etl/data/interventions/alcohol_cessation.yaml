@@ -1,0 +1,11 @@
+id: alcohol_cessation
+canonical_name: Alcohol cessation (from heavy drinking)
+type: behavior
+dose_amount: 1
+dose_unit: full_cessation
+dose_split: "full elimination of ethanol from prior heavy-drinking baseline"
+mechanisms:
+  - alcohol_reduction
+  - anti_inflammatory
+dietary_tags: []
+exclusions: []

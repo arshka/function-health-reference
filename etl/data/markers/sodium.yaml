@@ -1,0 +1,14 @@
+# Source: kidney_electrolytes_pancreas.md §Sodium, biomarker_interventions/kidney_electrolytes_pancreas/sodium.md
+# Tightly homeostatic; reference per standard clinical labs.
+
+id: sodium
+name: Sodium
+panel: kidney_electrolytes_pancreas
+units: mmol/L
+direction: in_band
+ref_lo: 135
+ref_hi: 145
+opt_lo: 137
+opt_hi: 142
+immutable: false
+demographic_modifiers: []

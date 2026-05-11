@@ -1,0 +1,15 @@
+# Source: metabolic_panel.md §HbA1c; biomarker_interventions/metabolic/HbA1c.md.
+# ADA: normal <5.7%; prediabetes 5.7-6.4%; diabetes >=6.5%. Optimal 4.5-5.2%.
+# Note: HbA1c <4.5% can reflect hemolysis, RBC turnover, or anemia rather than glycemic excellence.
+
+id: hba1c
+name: Hemoglobin A1c
+panel: metabolic
+units: '%'
+direction: lower_is_better
+ref_lo: 4.0
+ref_hi: 5.6
+opt_lo: 4.5
+opt_hi: 5.2
+immutable: false
+demographic_modifiers: []

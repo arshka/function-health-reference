@@ -1,0 +1,22 @@
+# Source: biomarker_interventions/omega_fatty_acids/DHA.md §1
+# Atlantic salmon 150g 2x/wk → RBC DHA ↑ ~1.0–1.5 pp from 3.5% baseline
+# Effect units: percentage points of RBC fatty acid composition (absolute pp)
+intervention_id: fatty_fish_2servings_wk
+marker_id: dha
+direction: increase
+effect_type: absolute
+effect_lo: 1.0
+effect_hi: 1.5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: Raatz
+    journal: J Acad Nutr Diet
+    year: 2013
+    vol: 113
+    page: 1188
+    pmid: "23871110"

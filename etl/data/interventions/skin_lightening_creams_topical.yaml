@@ -1,0 +1,9 @@
+id: skin_lightening_creams_topical
+canonical_name: Mercury-containing skin-lightening creams (informal-supply imported, calomel-containing)
+type: behavior
+dose_amount: 1
+dose_unit: applications_per_day
+dose_split: "Daily topical application of imported skin-lightening creams"
+mechanisms: []
+dietary_tags: []
+exclusions: []

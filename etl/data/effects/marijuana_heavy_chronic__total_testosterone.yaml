@@ -1,0 +1,18 @@
+intervention_id: marijuana_heavy_chronic
+marker_id: total_testosterone
+direction: decrease
+effect_type: pct
+effect_lo: -15
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 1.0
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 26
+time_hi_wk: 104
+citations:
+  - author: Thistle
+    journal: Andrology
+    year: 2017
+    vol: 5
+    page: 833

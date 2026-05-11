@@ -1,0 +1,15 @@
+# Source: immune_cbc_differential.md §5 (Eosinophils), summary table.
+# Absolute count. Conventional 0.0-0.5 ×10⁹/L; functional optimal 0.05-0.3.
+# Skewed lower-better (high suggests allergy/parasites/HES/EGPA).
+
+id: eosinophils
+name: Eosinophils (absolute)
+panel: immune
+units: x10^9/L
+direction: in_band
+ref_lo: 0.0
+ref_hi: 0.5
+opt_lo: 0.05
+opt_hi: 0.3
+immutable: false
+demographic_modifiers: []

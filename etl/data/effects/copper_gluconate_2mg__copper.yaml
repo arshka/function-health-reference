@@ -1,0 +1,29 @@
+# Source: biomarker_interventions/vitamins_minerals/copper.md §3 (supplements - improving/repleting)
+# Cu gluconate 1-3 mg/d raises serum Cu and ceruloplasmin to normal range from deficient baseline
+# in 4-12 wk. Source synthesis: baseline <70 µg/dL → 90-130 µg/dL within 8-16 wk = ~30-60% rise.
+
+intervention_id: copper_gluconate_2mg
+marker_id: copper
+direction: increase
+effect_type: pct
+effect_lo: 25
+effect_hi: 50
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: Willis
+    journal: Am J Clin Pathol
+    year: 2005
+    vol: 123
+    page: 125
+    pmid: "15762287"
+  - author: Duncan
+    journal: Br J Clin Pharmacol
+    year: 2023
+    vol: 89
+    page: 1875
+    pmid: "26085547"

@@ -1,0 +1,9 @@
+id: high_glycemic_load_diet
+canonical_name: High-glycemic-load diet (GL >150/d)
+type: behavior
+dose_amount: 150
+dose_unit: gl_units_per_day
+mechanisms:
+  - glycemic_load_reduction
+dietary_tags: []
+exclusions: []

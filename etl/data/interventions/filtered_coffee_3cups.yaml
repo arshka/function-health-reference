@@ -1,0 +1,14 @@
+id: filtered_coffee_3cups
+canonical_name: Filtered coffee
+type: food
+dose_amount: 3
+dose_unit: cups_per_day
+dose_split: "3–4 cups/day filtered (paper-filter)"
+mechanisms:
+  - polyphenol_oxldl_reduction
+  - anti_inflammatory
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

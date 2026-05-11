@@ -1,0 +1,13 @@
+id: modified_atkins_diet
+canonical_name: Modified Atkins diet (carb <20 g/d induction phase)
+type: behavior
+dose_amount: 20
+dose_unit: g_carb_per_day
+mechanisms: []
+dietary_tags:
+  - gluten_free
+exclusions:
+  - type: drug_interaction
+    value: sglt2_inhibitor
+  - type: condition
+    value: type1_diabetes

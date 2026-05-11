@@ -1,0 +1,12 @@
+id: combined_aerobic_resistance
+canonical_name: Combined aerobic + resistance training
+type: activity
+dose_amount: 5
+dose_unit: sessions_per_week
+dose_split: "≥150 min/wk aerobic + 2-3 sessions/wk resistance training"
+mechanisms:
+  - aerobic_capacity
+  - resistance_training
+  - lean_mass_accretion
+dietary_tags: []
+exclusions: []

@@ -1,0 +1,20 @@
+# Source: Lp(a).md §1 Foods that LOWER
+# "Pistachios | 56–84 g/d for 4 wk | Lp(a) directionally ↓ (~−5%) non-significant | 4 wk | [1-Trial]"
+# Likely noise; document as small/uncertain.
+
+intervention_id: pistachios_60g
+marker_id: lp_a
+direction: decrease
+effect_type: pct
+effect_lo: -5
+effect_hi: -1
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 4
+time_hi_wk: 4
+citations:
+  - author: Hernández-Alonso
+    journal: J Nutr
+    year: 2014

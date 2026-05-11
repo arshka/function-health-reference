@@ -1,0 +1,8 @@
+id: mineral_water_mg_rich_1l
+canonical_name: Mineral water (Mg-rich)
+type: food
+dose_amount: 1
+dose_unit: l_per_day
+mechanisms: []
+dietary_tags: []
+exclusions: []

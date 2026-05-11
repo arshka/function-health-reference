@@ -1,0 +1,21 @@
+# Source: heart_lipids_basic.md §non-HDL-C, NLA recommendations.
+# non-HDL-C = TC - HDL-C; better surrogate for ApoB than LDL-C alone (captures TRL particles).
+# Optimal: <130 mg/dL primary prevention; <100 mg/dL high-risk; <85 mg/dL very-high-risk.
+
+id: non_hdl_c
+name: non-HDL Cholesterol
+panel: cardiovascular
+units: mg/dL
+direction: lower_is_better
+ref_lo: 60
+ref_hi: 190
+opt_lo: 60
+opt_hi: 130
+immutable: false
+demographic_modifiers:
+  - trait: south_asian
+    opt_lo: 60
+    opt_hi: 100
+  - trait: high_cv_risk
+    opt_lo: 60
+    opt_hi: 100

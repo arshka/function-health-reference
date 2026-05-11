@@ -1,0 +1,11 @@
+id: industrial_trans_fat_5pct_kcal
+canonical_name: Industrial trans fatty acids (partially hydrogenated oils)
+type: food
+dose_amount: 5
+dose_unit: pct_energy
+dose_split: "~3–8% of energy from industrial trans fats"
+mechanisms: []
+dietary_tags:
+  - vegetarian
+  - gluten_free
+exclusions: []

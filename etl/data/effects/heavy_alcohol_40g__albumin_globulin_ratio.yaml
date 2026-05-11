@@ -1,0 +1,21 @@
+# Source: albumin_globulin_ratio.md §2 — Heavy alcohol ≥3 drinks/d chronic
+# "A/G ↓ via low albumin (malnutrition, liver synthesis ↓) + high γ-globulin (chronic immune activation, IgA ↑)"
+# Strongest single lever in alcohol-driven low A/G; chronic months–years.
+
+intervention_id: heavy_alcohol_40g
+marker_id: albumin_globulin_ratio
+direction: decrease
+effect_type: pct
+effect_lo: -10
+effect_hi: -3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 26
+time_hi_wk: 104
+citations:
+  - author: Lieber
+    journal: Alcohol Health Res World
+    year: 1995
+    pmid: "8541324"

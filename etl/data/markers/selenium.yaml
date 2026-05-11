@@ -1,0 +1,15 @@
+# Source: nutrients_vitamins_minerals.md §Selenium, biomarker_interventions/vitamins_minerals/selenium.md.
+# Plasma selenium reference 70-150 μg/L. Adequate selenium (>120) is required for
+# glutathione peroxidase and deiodinase activity; chronic >400 risks selenosis.
+
+id: selenium
+name: Selenium, plasma
+panel: vitamins_minerals
+units: μg/L
+direction: in_band
+ref_lo: 70
+ref_hi: 150
+opt_lo: 120
+opt_hi: 150
+immutable: false
+demographic_modifiers: []

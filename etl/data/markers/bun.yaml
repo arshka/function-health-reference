@@ -1,0 +1,14 @@
+# Source: kidney_electrolytes_pancreas.md §BUN, biomarker_interventions/kidney_electrolytes_pancreas/BUN.md
+# Blood urea nitrogen; reflects renal function and protein intake/hydration status.
+
+id: bun
+name: Blood Urea Nitrogen (BUN)
+panel: kidney_electrolytes_pancreas
+units: mg/dL
+direction: in_band
+ref_lo: 7
+ref_hi: 25
+opt_lo: 10
+opt_hi: 18
+immutable: false
+demographic_modifiers: []

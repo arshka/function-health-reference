@@ -1,0 +1,15 @@
+# Source: liver_panel.md §9 Total Protein; biomarker_interventions/liver/total_protein.md.
+# Reference range per standard clinical labs. Sum of albumin + globulin. In-band:
+# low signals malnutrition/liver failure/malabsorption; high signals dehydration or
+# chronic inflammation/monoclonal gammopathy. Optimal 6.5-7.8 g/dL.
+
+id: total_protein
+name: Total Protein
+panel: liver
+units: g/dL
+direction: in_band
+ref_lo: 6.0
+ref_hi: 8.3
+opt_lo: 6.5
+opt_hi: 7.8
+immutable: false

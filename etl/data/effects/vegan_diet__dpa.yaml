@@ -1,0 +1,21 @@
+# Source: DPA.md §2 — Strict vegan (no algal oil) RBC DPA ~1.5–2% vs ~2.5% omnivore avg
+# Net deficit ~0.5–1.0 pp lower than omnivore baseline
+
+intervention_id: vegan_diet
+marker_id: dpa
+direction: decrease
+effect_type: absolute
+effect_lo: -1.0
+effect_hi: -0.5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 24
+time_hi_wk: 52
+citations:
+  - author: Sarter
+    journal: Clin Nutr
+    year: 2015
+    vol: 34
+    page: 212

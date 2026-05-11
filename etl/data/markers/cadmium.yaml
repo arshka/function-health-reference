@@ -1,0 +1,17 @@
+# Source: biomarker_interventions/heavy_metals_phenoage/cadmium.md preamble + §6
+# Non-smoker blood Cd geometric mean ~0.3 µg/L; smokers ~1.5 µg/L (NHANES). Lab
+# reference upper bound ~5 µg/L; optimal <1 µg/L. Mutable — smoking cessation
+# halves blood Cd over ~1 year; iron sufficiency (ferritin >30 µg/L) cuts GI
+# absorption ~30–50%. Kidney cortex burden persists for decades.
+
+id: cadmium
+name: Cadmium (blood)
+panel: heavy_metals_phenoage
+units: µg/L
+direction: lower_is_better
+ref_lo: 0
+ref_hi: 5
+opt_lo: 0
+opt_hi: 1
+immutable: false
+demographic_modifiers: []

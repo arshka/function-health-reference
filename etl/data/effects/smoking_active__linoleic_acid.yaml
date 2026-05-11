@@ -1,0 +1,22 @@
+# Source: biomarker_interventions/omega_fatty_acids/linoleic_acid.md §4
+# Active smoking → LA modestly ↓ via lipid peroxidation (preferential OXLAM formation/consumption).
+# Units = percentage points (pp) of RBC total fatty acids.
+
+intervention_id: smoking_active
+marker_id: linoleic_acid
+direction: decrease
+effect_type: absolute
+effect_lo: -0.5
+effect_hi: -0.1
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 16
+time_hi_wk: 52
+citations:
+  - author: Block
+    journal: Lipids Health Dis
+    year: 2012
+    vol: 11
+    page: 43

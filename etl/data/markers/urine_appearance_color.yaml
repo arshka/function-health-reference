@@ -1,0 +1,21 @@
+# Source: urinalysis_panel.md, biomarker_interventions/urinalysis/urine_appearance_color.md
+# Qualitative marker encoded on 1-5 scale:
+#   1 = very dilute / clear
+#   2 = pale yellow
+#   3 = light yellow (well-hydrated)
+#   4 = dark yellow
+#   5 = very concentrated / amber-dark
+# Reference covers full dipstick-acceptable range; optimal targets well-hydrated zone.
+# Detection-based marker; solver may downweight.
+
+id: urine_appearance_color
+name: Urine Appearance / Color
+panel: urinalysis
+units: scale_1_5
+direction: in_band
+ref_lo: 1
+ref_hi: 5
+opt_lo: 2
+opt_hi: 3
+immutable: false
+demographic_modifiers: []

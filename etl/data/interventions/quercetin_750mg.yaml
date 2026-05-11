@@ -1,0 +1,15 @@
+id: quercetin_750mg
+canonical_name: Quercetin
+type: supplement
+dose_amount: 750
+dose_unit: mg_per_day
+dose_split: "500–1000 mg/day"
+mechanisms:
+  - polyphenol_oxldl_reduction
+  - anti_inflammatory
+  - antioxidant_defense
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

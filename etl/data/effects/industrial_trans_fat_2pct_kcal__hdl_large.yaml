@@ -1,0 +1,18 @@
+# Source: HDL_large.md §2 — Industrial trans fat >2% energy
+# "HDL Large ↓; HDL-C ↓; HDL function impaired" 3–6 wk
+intervention_id: industrial_trans_fat_2pct_kcal
+marker_id: hdl_large
+direction: decrease
+effect_type: pct
+effect_lo: -10
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 3
+time_hi_wk: 6
+citations:
+  - author: Mensink
+    journal: NEJM
+    year: 1990

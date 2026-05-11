@@ -1,0 +1,32 @@
+# Source: mercury_blood.md §1 row "Eliminating top-tier predator fish"
+# Source magnitude: ~50% per ~50-day MeHg t½; ~70% drop by 3–4 months from heavy-predator-fish baseline.
+# Clamped from -70% to -60% per validator non-pharmacotherapy magnitude ceiling.
+intervention_id: predator_fish_elimination
+marker_id: mercury_blood
+direction: decrease
+effect_type: pct
+effect_lo: -60
+effect_hi: -50
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 8
+time_hi_wk: 16
+citations:
+  - author: Mahaffey
+    journal: Trans Am Clin Climatol Assoc
+    year: 2005
+    vol: 116
+    page: 127
+  - author: Stern
+    journal: Environ Health Perspect
+    year: 2005
+    vol: 113
+    page: 155
+  - author: Caldwell
+    journal: Environ Res
+    year: 2014
+    vol: 134
+    page: 362
+    pmid: "25173092"

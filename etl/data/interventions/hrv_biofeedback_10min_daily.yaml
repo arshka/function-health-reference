@@ -1,0 +1,11 @@
+id: hrv_biofeedback_10min_daily
+canonical_name: HRV biofeedback (resonance breathing)
+type: behavior
+dose_amount: 10
+dose_unit: min_per_day
+dose_split: "daily 10-min paced-breathing sessions (~6 breaths/min)"
+mechanisms:
+  - stress_reduction
+  - anti_inflammatory
+dietary_tags: []
+exclusions: []

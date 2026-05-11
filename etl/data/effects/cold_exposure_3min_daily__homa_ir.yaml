@@ -1,0 +1,19 @@
+intervention_id: cold_exposure_3min_daily
+marker_id: homa_ir
+direction: decrease
+effect_type: absolute
+effect_lo: -0.6
+effect_hi: -0.2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 4
+time_hi_wk: 6
+citations:
+  - author: van der Lans
+    journal: J Clin Invest
+    year: 2013
+  - author: Hanssen
+    journal: Nat Med
+    year: 2015

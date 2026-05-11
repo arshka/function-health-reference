@@ -1,0 +1,15 @@
+# Source: liver_panel.md §7 Globulin; biomarker_interventions/liver/globulin.md.
+# Reference range per standard clinical labs. In-band: low globulin → immunodeficiency
+# / liver synthetic failure; high globulin → chronic inflammation, infection, or
+# monoclonal gammopathy. Calculated as total protein − albumin.
+
+id: globulin
+name: Globulin
+panel: liver
+units: g/dL
+direction: in_band
+ref_lo: 2.0
+ref_hi: 3.5
+opt_lo: 2.3
+opt_hi: 3.0
+immutable: false

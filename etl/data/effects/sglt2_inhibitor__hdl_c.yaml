@@ -1,0 +1,20 @@
+# Source: HDL-C.md §3 Supplements — Worsening or no effect (small + effect on HDL-C)
+# "SGLT2 inhibitors (empagliflozin, dapagliflozin) | Standard |
+#  HDL-C +1–2 mg/dL (small) | 12–24 wk | [Meta]"
+
+intervention_id: sglt2_inhibitor
+marker_id: hdl_c
+direction: increase
+effect_type: absolute
+effect_lo: 1
+effect_hi: 2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Sánchez-García
+    journal: J Cardiovasc Pharmacol
+    year: 2020

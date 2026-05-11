@@ -1,0 +1,23 @@
+# Source: biomarker_interventions/urinalysis/urine_ketones.md §2 (foods that RAISE)
+# Modified Atkins (carb <20 g/d induction) and carnivore / very-low-carb sustained
+# → strong ketonuria (similar magnitude to ketogenic diet, slightly slower onset)
+
+intervention_id: low_carb_diet_50g
+marker_id: urine_ketones
+direction: increase
+effect_type: absolute
+effect_lo: 15
+effect_hi: 60
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 1
+time_hi_wk: 4
+citations:
+  - author: Foster
+    journal: NEJM
+    year: 2003
+    vol: 348
+    page: 2082
+    pmid: "12761364"

@@ -1,0 +1,17 @@
+intervention_id: vegan_diet
+marker_id: mcv
+direction: increase
+effect_type: absolute
+effect_lo: 5
+effect_hi: 15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 156
+time_hi_wk: 260
+citations:
+  - author: Pawlak
+    journal: Eur J Clin Nutr
+    year: 2014
+    pmid: "24667752"

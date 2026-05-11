@@ -1,0 +1,23 @@
+intervention_id: smoking_active
+marker_id: tpo_ab
+direction: decrease
+effect_type: pct
+effect_lo: -30
+effect_hi: -10
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 52
+time_hi_wk: 260
+citations:
+  - author: Strieder
+    journal: Eur J Endocrinol
+    year: 2003
+    vol: 149
+    page: 393
+  - author: Belin
+    journal: J Clin Endocrinol Metab
+    year: 2004
+    vol: 89
+    page: 6077

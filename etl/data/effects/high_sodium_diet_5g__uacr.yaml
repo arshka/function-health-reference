@@ -1,0 +1,18 @@
+intervention_id: high_sodium_diet_5g
+marker_id: uacr
+direction: increase
+effect_type: pct
+effect_lo: 15
+effect_hi: 30
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 2
+time_hi_wk: 8
+citations:
+  - author: Sacks
+    journal: NEJM
+    year: 2001
+    vol: 344
+    page: 3

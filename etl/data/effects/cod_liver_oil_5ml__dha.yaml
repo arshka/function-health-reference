@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/omega_fatty_acids/DHA.md §3
+# Cod liver oil 5 mL (~350 mg DHA + 250 mg EPA + vit A/D) → RBC DHA ↑ ~0.5–0.8 pp
+intervention_id: cod_liver_oil_5ml
+marker_id: dha
+direction: increase
+effect_type: absolute
+effect_lo: 0.5
+effect_hi: 0.8
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: Brunborg
+    journal: Lipids
+    year: 2008
+    vol: 43
+    page: 559

@@ -1,0 +1,22 @@
+# Source: hs-CRP.md §1 Foods that LOWER
+# "Berries (anthocyanin-rich) | 100–150 g/d | hs-CRP −0.3 to −0.5 mg/L | 4–12 wk | [Meta]"
+
+intervention_id: berries_125g
+marker_id: hs_crp
+direction: decrease
+effect_type: absolute
+effect_lo: -0.5
+effect_hi: -0.3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: Garcia-Conesa
+    journal: Antioxidants
+    year: 2018
+  - author: Fallah
+    journal: Crit Rev Food Sci Nutr
+    year: 2020

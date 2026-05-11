@@ -1,0 +1,15 @@
+# Source: hormones_male_panel.md §LH; biomarker_interventions/male_hormones/LH.md
+# Adult male reference 1.7-8.6 mIU/mL. Elevated LH with low T suggests primary
+# hypogonadism; suppressed LH suggests secondary (pituitary/exogenous androgens).
+
+id: lh
+name: Luteinizing Hormone
+panel: male_hormones
+units: mIU/mL
+direction: in_band
+ref_lo: 1.7
+ref_hi: 8.6
+opt_lo: 2.5
+opt_hi: 7.0
+immutable: false
+demographic_modifiers: []

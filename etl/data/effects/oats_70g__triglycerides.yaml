@@ -1,0 +1,21 @@
+# Source: Triglycerides.md §1
+# "Oats / oat bran (β-glucan) | 3 g/d β-glucan | TG −5–10 mg/dL | 4–8 wk | [Meta]"
+
+intervention_id: oats_70g
+marker_id: triglycerides
+direction: decrease
+effect_type: absolute
+effect_lo: -10
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Whitehead
+    journal: AJCN
+    year: 2014
+    vol: 100
+    page: 1413

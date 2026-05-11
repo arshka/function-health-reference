@@ -1,0 +1,10 @@
+id: very_low_fat_high_carb_diet
+canonical_name: Very low-fat / high refined-carb diet
+type: behavior
+dose_amount: 15
+dose_unit: pct_kcal_fat
+dose_split: "<15% kcal fat with high refined carbohydrate intake"
+mechanisms:
+  - glycemic_load_reduction
+dietary_tags: []
+exclusions: []

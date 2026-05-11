@@ -1,0 +1,13 @@
+id: palm_oil_30g
+canonical_name: Palm oil
+type: food
+dose_amount: 30
+dose_unit: g_per_day
+dose_split: "common in ultra-processed foods"
+mechanisms:
+  - sfa_reduction
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

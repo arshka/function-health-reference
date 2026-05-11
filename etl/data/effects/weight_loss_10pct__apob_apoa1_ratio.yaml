@@ -1,0 +1,16 @@
+intervention_id: weight_loss_10pct
+marker_id: apob_apoa1_ratio
+direction: decrease
+effect_type: pct
+effect_lo: -20
+effect_hi: -15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 24
+time_hi_wk: 52
+citations:
+  - author: Dattilo
+    journal: AJCN
+    year: 1992

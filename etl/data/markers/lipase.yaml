@@ -1,0 +1,14 @@
+# Source: kidney_electrolytes_pancreas.md §Lipase, biomarker_interventions/kidney_electrolytes_pancreas/lipase.md
+# Pancreatic lipase; reference per standard clinical labs.
+
+id: lipase
+name: Lipase
+panel: kidney_electrolytes_pancreas
+units: U/L
+direction: in_band
+ref_lo: 10
+ref_hi: 60
+opt_lo: 15
+opt_hi: 50
+immutable: false
+demographic_modifiers: []

@@ -1,0 +1,12 @@
+id: alternate_day_fasting
+canonical_name: Alternate-day fasting
+type: behavior
+dose_amount: 1
+dose_unit: pattern
+mechanisms:
+  - caloric_deficit
+  - insulin_sensitization
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: eating_disorder_history

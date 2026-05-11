@@ -1,0 +1,14 @@
+# Source: nutrients_omega_fatty_acids.md §2 EPA; biomarker_interventions/omega_fatty_acids/EPA.md
+# RBC % of total fatty acids. US average ~0.5-0.8%; Japan ~2.8-3.5%; supplementation can reach 3-4%.
+
+id: epa
+name: EPA (Eicosapentaenoic Acid, 20:5n-3)
+panel: omega_fatty_acids
+units: "% of total fatty acids"
+direction: higher_is_better
+ref_lo: 0.2
+ref_hi: 5.0
+opt_lo: 2.0
+opt_hi: 5.0
+immutable: false
+demographic_modifiers: []

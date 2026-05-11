@@ -1,0 +1,25 @@
+# Source: biomarker_interventions/heavy_metals_phenoage/arsenic.md §1, §4
+# Rice cooking technique modification: rinse 4-6x until clear, cook with 6:1
+# water:rice ratio, drain excess water at end. iAs reduced 30-60% per serving.
+intervention_id: rice_rinse_drain_cooking
+marker_id: arsenic
+direction: decrease
+effect_type: pct
+effect_lo: -60
+effect_hi: -30
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: Carey
+    journal: PLOS One
+    year: 2015
+    pmid: "26252490"
+  - author: Sengupta
+    journal: Food Chem Toxicol
+    year: 2006
+    vol: 44
+    page: 1823

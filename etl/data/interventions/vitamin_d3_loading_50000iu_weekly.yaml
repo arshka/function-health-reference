@@ -1,0 +1,18 @@
+id: vitamin_d3_loading_50000iu_weekly
+canonical_name: Vitamin D3 loading dose (50,000 IU weekly × 8 wk)
+type: supplement
+dose_amount: 50000
+dose_unit: iu_per_week
+dose_split: "50,000 IU once weekly × 8 weeks (then 1500–2000 IU/day maintenance)"
+mechanisms:
+  - vitamin_d_provision
+dietary_tags:
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: condition
+    value: hypercalcemia
+  - type: condition
+    value: cyp24a1_loss_of_function
+  - type: condition
+    value: granulomatous_disease

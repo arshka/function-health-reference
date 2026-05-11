@@ -1,0 +1,22 @@
+# Source: hs-CRP.md §4 Activities & Behaviors
+# "Smoking cessation | — | hs-CRP progressively normalizes; OR 0.73 for elevated hs-CRP at ≥17 mo | 12–24 mo | [Cohort]"
+# Modeled magnitude approximated to ~−0.4 to −0.8 mg/L from prior current-smoker baseline.
+
+intervention_id: smoking_cessation
+marker_id: hs_crp
+direction: decrease
+effect_type: absolute
+effect_lo: -0.8
+effect_hi: -0.4
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.6
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 52
+time_hi_wk: 104
+citations:
+  - author: Wannamethee
+    journal: Eur Heart J
+    year: 2005
+    vol: 26
+    page: 1765

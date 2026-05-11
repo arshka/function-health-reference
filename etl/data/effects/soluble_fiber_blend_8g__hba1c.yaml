@@ -1,0 +1,20 @@
+# Source: HbA1c.md §3 — Soluble fiber (guar, glucomannan, β-glucan) 5–15 g/d; A1c −0.55%
+intervention_id: soluble_fiber_blend_8g
+marker_id: hba1c
+direction: decrease
+effect_type: absolute
+effect_lo: -0.55
+effect_hi: -0.25
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.4
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 24
+citations:
+  - author: Silva
+    journal: Nutr Rev
+    year: 2013
+  - author: Mao
+    journal: Front Nutr
+    year: 2024

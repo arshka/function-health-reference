@@ -1,0 +1,22 @@
+# Source: biomarker_interventions/liver/total_bilirubin.md §3 (RAISES table)
+# Oral 17α-alkylated anabolic steroids cause cholestatic hepatic injury,
+# raising direct (conjugated) bilirubin. Case-series evidence (Navarro 2017).
+# Magnitude not quantified in source; conservative absolute estimate from
+# DILI / cholestasis literature (typical 0.5-3.0 mg/dL elevation, but varies widely).
+intervention_id: oral_anabolic_steroid
+marker_id: total_bilirubin
+direction: increase
+effect_type: absolute
+effect_lo: 0.5
+effect_hi: 3.0
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 1.0
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: Navarro
+    journal: Hepatology
+    year: 2017
+    pmid: "27770671"

@@ -1,0 +1,18 @@
+id: psyllium_husk_10g
+canonical_name: Psyllium husk
+type: supplement
+dose_amount: 10
+dose_unit: g_per_day
+dose_split: "5g TID with water"
+mechanisms:
+  - viscous_fiber
+  - bile_acid_sequestration
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: condition
+    value: bowel_obstruction
+  - type: drug_interaction
+    value: levothyroxine_within_2h

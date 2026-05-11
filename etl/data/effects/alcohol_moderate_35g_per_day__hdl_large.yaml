@@ -1,0 +1,21 @@
+# Source: HDL_large.md §4 — Alcohol moderate (1 drink/d)
+# "HDL Large and medium HDL ↑ dose-dependently; HDL size ↑" 4–8 wk
+# CRITICAL CAVEAT: per PREVEND, alcohol-CVD association is independent of HDL parameters.
+# Do NOT increase alcohol intake to raise HDL Large.
+intervention_id: alcohol_moderate_35g_per_day
+marker_id: hdl_large
+direction: increase
+effect_type: pct
+effect_lo: 5
+effect_hi: 12
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.7
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: De Oliveira e Silva
+    journal: Circulation
+    year: 2000
+    pmid: "11067787"

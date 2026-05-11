@@ -1,0 +1,8 @@
+id: vegetarian_diet_unsupplemented
+canonical_name: Lacto-ovo vegetarian diet without B12 supplementation
+type: behavior
+dose_amount: 1
+dose_unit: pattern_adherence
+dietary_tags:
+  - vegetarian
+exclusions: []

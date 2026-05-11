@@ -1,0 +1,14 @@
+id: adenosylcobalamin_oral_1000mcg
+canonical_name: Oral adenosylcobalamin / dibencozide (vitamin B12) 1000 mcg
+type: supplement
+dose_amount: 1000
+dose_unit: mcg_per_day
+mechanisms:
+  - b12_provision
+  - methylation_support
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions: []

@@ -1,0 +1,23 @@
+# Source: mercury_blood.md §2 row "Yellowfin tuna (sushi-grade ahi, fresh poke, seared yellowfin)"
+# Yellowfin ~0.35 ppm; same MeHg burden as albacore.
+intervention_id: yellowfin_tuna_170g_wk
+marker_id: mercury_blood
+direction: increase
+effect_type: pct
+effect_lo: 30
+effect_hi: 60
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 1.0
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 8
+time_hi_wk: 16
+citations:
+  - author: FDA
+    journal: Mercury Levels in Commercial Fish and Shellfish 1990-2012
+    year: 2012
+  - author: Mahaffey
+    journal: Trans Am Clin Climatol Assoc
+    year: 2005
+    vol: 116
+    page: 127

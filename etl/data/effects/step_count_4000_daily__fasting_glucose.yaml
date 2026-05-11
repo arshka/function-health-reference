@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/metabolic/fasting_glucose.md §4 (+1000 steps/d → -1.5 to -2 mg/dL; scaled to +4000)
+intervention_id: step_count_4000_daily
+marker_id: fasting_glucose
+direction: decrease
+effect_type: absolute
+effect_lo: -8
+effect_hi: -6
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Kraus
+    journal: Med Sci Sports Exerc
+    year: 2019
+  - author: Look AHEAD step count analysis
+    journal: Diabetes Care
+    year: 2024

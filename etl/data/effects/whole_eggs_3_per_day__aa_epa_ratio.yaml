@@ -1,0 +1,21 @@
+# Source: biomarker_interventions/omega_fatty_acids/AA_EPA_ratio.md §2
+# Whole eggs 4-8/wk raises AA numerator 0.3-0.7 pp; ratio worsens at habitual high intake without fish
+# Approximated as small percent increase in ratio
+intervention_id: whole_eggs_3_per_day
+marker_id: aa_epa_ratio
+direction: increase
+effect_type: pct
+effect_lo: 3
+effect_hi: 8
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Sanders
+    journal: AJCN
+    year: 2014
+    vol: 100
+    page: "453S"

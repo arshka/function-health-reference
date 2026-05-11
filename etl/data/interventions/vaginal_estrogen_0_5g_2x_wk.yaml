@@ -1,0 +1,13 @@
+id: vaginal_estrogen_0_5g_2x_wk
+canonical_name: Vaginal estrogen cream (postmenopausal UTI prevention)
+type: supplement
+dose_amount: 1
+dose_unit: g_per_week
+dose_split: "0.5 g twice weekly"
+mechanisms: []
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: estrogen_sensitive_cancer
+  - type: condition
+    value: undiagnosed_vaginal_bleeding

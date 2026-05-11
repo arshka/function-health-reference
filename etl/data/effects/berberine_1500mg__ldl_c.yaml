@@ -1,0 +1,24 @@
+# Source: biomarker_interventions/cardiovascular/LDL-C.md §3 (Lowering)
+# "Berberine HCl | 500 mg TID with meals | LDL-C −15–19 mg/dL | 8–12 wk | [Meta]"
+
+intervention_id: berberine_1500mg
+marker_id: ldl_c
+direction: decrease
+effect_type: absolute
+effect_lo: -19
+effect_hi: -15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Kong
+    journal: J Clin Lipidol
+    year: 2013
+    vol: 7
+    page: 344
+  - author: Zamani
+    journal: Phytother Res
+    year: 2019

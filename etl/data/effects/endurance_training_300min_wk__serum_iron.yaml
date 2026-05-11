@@ -1,0 +1,24 @@
+# Source: biomarker_interventions/iron/serum_iron.md §4 (endurance training chronic)
+# >8-10 h/wk sustained → fasting serum Fe trends downward over months
+# Mechanisms: footstrike hemolysis, sweat losses, chronic post-exercise hepcidin
+# Magnitude not precisely quantified; using moderate range (-15 to -5 µg/dL)
+
+intervention_id: endurance_training_300min_wk
+marker_id: serum_iron
+direction: decrease
+effect_type: absolute
+effect_lo: -15
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Burden
+    journal: Br J Sports Med
+    year: 2015
+  - author: McClung
+    journal: Am J Clin Nutr
+    year: 2013

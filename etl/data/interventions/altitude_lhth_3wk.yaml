@@ -1,0 +1,13 @@
+id: altitude_lhth_3wk
+canonical_name: Altitude exposure - Live High Train High (≥2500 m, 3-4 wk)
+type: behavior
+dose_amount: 3
+dose_unit: weeks
+dose_split: "Live and train at ≥2500 m altitude for 3-4 weeks"
+mechanisms: []
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: erythrocytosis
+  - type: condition
+    value: pulmonary_hypertension

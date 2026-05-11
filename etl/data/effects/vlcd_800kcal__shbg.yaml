@@ -1,0 +1,18 @@
+# Source: biomarker_interventions/male_hormones/SHBG.md §1 (prolonged fasting / VLCD)
+# Caveat: large effect can overshoot into pathologic high-SHBG / low-free-T phenotype.
+intervention_id: vlcd_800kcal
+marker_id: shbg
+direction: increase
+effect_type: absolute
+effect_lo: 10
+effect_hi: 25
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 1
+time_hi_wk: 4
+citations:
+  - author: Loucks
+    journal: Journal of Clinical Endocrinology and Metabolism
+    year: 2003

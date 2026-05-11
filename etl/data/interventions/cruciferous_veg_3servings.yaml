@@ -1,0 +1,15 @@
+id: cruciferous_veg_3servings
+canonical_name: Cruciferous vegetables (broccoli, cauliflower, kale, Brussels sprouts)
+type: food
+dose_amount: 3
+dose_unit: servings_per_day
+dose_split: "≥3 servings/day"
+mechanisms:
+  - anti_inflammatory
+  - antioxidant_defense
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - mediterranean
+exclusions: []

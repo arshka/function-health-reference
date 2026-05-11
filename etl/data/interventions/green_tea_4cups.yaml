@@ -1,0 +1,15 @@
+id: green_tea_4cups
+canonical_name: Green tea (catechins, EGCG)
+type: food
+dose_amount: 4
+dose_unit: cups_per_day
+dose_split: "3–5 cups/day or 200–400 mg EGCG"
+mechanisms:
+  - polyphenol_oxldl_reduction
+  - anti_inflammatory
+  - antioxidant_defense
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

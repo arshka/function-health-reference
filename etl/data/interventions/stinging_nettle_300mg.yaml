@@ -1,0 +1,13 @@
+id: stinging_nettle_300mg
+canonical_name: Stinging nettle (Urtica dioica, freeze-dried leaf extract)
+type: supplement
+dose_amount: 300
+dose_unit: mg_per_day
+mechanisms:
+  - anti_inflammatory
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions: []

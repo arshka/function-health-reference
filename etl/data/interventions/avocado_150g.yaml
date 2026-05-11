@@ -1,0 +1,14 @@
+id: avocado_150g
+canonical_name: Avocado (whole)
+type: food
+dose_amount: 150
+dose_unit: g_per_day
+dose_split: "1 medium fruit/day, substituting SFA"
+mechanisms:
+  - mufa_substitution
+  - sfa_reduction
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

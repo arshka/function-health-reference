@@ -1,0 +1,12 @@
+id: white_rice_substitution
+canonical_name: White rice substituted for brown rice
+type: food
+dose_amount: 1
+dose_unit: substitution_per_meal
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions: []

@@ -1,0 +1,18 @@
+# Source: blood_cbc_indices.md §Hemoglobin; biomarker_interventions/cbc/hemoglobin.md
+# Sex-specific reference ranges per standard clinical labs.
+# In-band marker — low = anemia; high = polycythemia/dehydration/EPO use.
+
+id: hemoglobin
+name: Hemoglobin
+panel: cbc
+units: g/dL
+direction: in_band
+ref_lo: 13.5
+ref_hi: 17.5
+opt_lo: 14.5
+opt_hi: 16.5
+immutable: false
+demographic_modifiers:
+  - trait: female
+    opt_lo: 13.0
+    opt_hi: 14.5

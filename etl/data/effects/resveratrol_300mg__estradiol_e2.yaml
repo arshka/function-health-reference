@@ -1,0 +1,16 @@
+intervention_id: resveratrol_300mg
+marker_id: estradiol_e2
+direction: decrease
+effect_type: pct
+effect_lo: -8
+effect_hi: -2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: mechanism
+evidence_weight: 0.4
+time_lo_wk: 12
+time_hi_wk: 26
+citations:
+  - author: Wang
+    journal: Cancer Research
+    year: 2006

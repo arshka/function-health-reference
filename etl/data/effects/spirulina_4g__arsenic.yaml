@@ -1,0 +1,22 @@
+# Source: biomarker_interventions/heavy_metals_phenoage/arsenic.md §3
+# One small Bangladeshi trial (Misbahuddin 2006) reported blood As ↓ with
+# spirulina + zinc. Methodologically weak, not replicated. Some spirulina
+# products themselves contaminated with heavy metals.
+intervention_id: spirulina_4g
+marker_id: arsenic
+direction: decrease
+effect_type: pct
+effect_lo: -15
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 8
+time_hi_wk: 16
+citations:
+  - author: Misbahuddin
+    journal: Clin Toxicol
+    year: 2006
+    vol: 44
+    page: 135

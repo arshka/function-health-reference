@@ -1,0 +1,16 @@
+# Source: urinalysis_panel.md, biomarker_interventions/urinalysis/urine_ketones.md
+# Dipstick: negative ~0, trace ~5, small ~15, moderate ~40, large ~80 mg/dL.
+# Some ketonuria is benign during keto/fasting, but solver targets low/negative state.
+# Reference up to 80, optimal 0-5.
+
+id: urine_ketones
+name: Urine Ketones
+panel: urinalysis
+units: mg/dL
+direction: lower_is_better
+ref_lo: 0
+ref_hi: 80
+opt_lo: 0
+opt_hi: 5
+immutable: false
+demographic_modifiers: []

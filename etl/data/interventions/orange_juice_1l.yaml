@@ -1,0 +1,8 @@
+id: orange_juice_1l
+canonical_name: Orange juice (1 L/day)
+type: food
+dose_amount: 1000
+dose_unit: ml_per_day
+mechanisms: []
+dietary_tags: [vegan, vegetarian, gluten_free, dairy_free]
+exclusions: []

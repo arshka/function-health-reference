@@ -1,0 +1,20 @@
+id: ferrous_bisglycinate_25mg
+canonical_name: Ferrous bisglycinate (25 mg elemental iron)
+type: supplement
+dose_amount: 25
+dose_unit: mg_per_day
+dose_split: "25 mg elemental Fe daily or alternate-day, fasting, with vitamin C"
+mechanisms:
+  - heme_iron_provision
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions:
+  - type: gene
+    value: hfe_c282y_homozygous
+  - type: condition
+    value: hemochromatosis
+  - type: drug_interaction
+    value: levothyroxine_within_4h

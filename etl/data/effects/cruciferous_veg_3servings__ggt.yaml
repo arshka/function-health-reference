@@ -1,0 +1,21 @@
+intervention_id: cruciferous_veg_3servings
+marker_id: ggt
+direction: decrease
+effect_type: pct
+effect_lo: -10
+effect_hi: -3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 12
+time_hi_wk: 12
+citations:
+  - author: Kikuchi
+    journal: World J Gastroenterol
+    year: 2015
+    pmid: "26604675"
+  - author: Yang
+    journal: Mol Nutr Food Res
+    year: 2016
+    pmid: "26791476"

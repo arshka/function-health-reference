@@ -1,0 +1,25 @@
+# Source: mercury_blood.md §2 row "Bluefin tuna (sushi, high-end restaurants)"
+# Bluefin ~0.7-1.0 ppm; among highest commercial fish — single meal can roughly double background blood Hg.
+# Magnitude clamped to +60% per validator non-pharmacotherapy ceiling.
+intervention_id: bluefin_tuna_170g_wk
+marker_id: mercury_blood
+direction: increase
+effect_type: pct
+effect_lo: 50
+effect_hi: 60
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 1.0
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: FDA
+    journal: Mercury Levels in Commercial Fish and Shellfish 1990-2012
+    year: 2012
+  - author: Caldwell
+    journal: Environ Res
+    year: 2014
+    vol: 134
+    page: 362
+    pmid: "25173092"

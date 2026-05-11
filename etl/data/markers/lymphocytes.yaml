@@ -1,0 +1,15 @@
+# Source: immune_cbc_differential.md §3 (Lymphocytes), summary table.
+# Absolute count chosen over percent for clinical interpretability.
+# Conventional 1.0-4.8 ×10⁹/L; functional optimal 1.5-3.5 for young adult.
+
+id: lymphocytes
+name: Lymphocytes (absolute)
+panel: immune
+units: x10^9/L
+direction: in_band
+ref_lo: 1.0
+ref_hi: 4.8
+opt_lo: 1.5
+opt_hi: 3.5
+immutable: false
+demographic_modifiers: []

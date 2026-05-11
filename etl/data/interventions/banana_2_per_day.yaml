@@ -1,0 +1,8 @@
+id: banana_2_per_day
+canonical_name: Banana (2 per day)
+type: food
+dose_amount: 2
+dose_unit: servings_per_day
+mechanisms: []
+dietary_tags: [vegan, vegetarian, gluten_free, dairy_free]
+exclusions: []

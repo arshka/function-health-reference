@@ -1,0 +1,12 @@
+id: predator_fish_elimination
+canonical_name: Eliminating top-tier predator fish (shark, swordfish, king mackerel, tilefish, bigeye/bluefin tuna, marlin)
+type: behavior
+dose_amount: 1
+dose_unit: full_elimination
+dose_split: "Stop all consumption of EPA/FDA 'Avoid' list species"
+mechanisms: []
+dietary_tags:
+  - pescatarian
+  - mediterranean
+  - gluten_free
+exclusions: []

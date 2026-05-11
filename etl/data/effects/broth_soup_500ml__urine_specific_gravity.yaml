@@ -1,0 +1,19 @@
+intervention_id: broth_soup_500ml
+marker_id: urine_specific_gravity
+direction: decrease
+effect_type: absolute
+effect_lo: -0.007
+effect_hi: -0.003
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: mechanism
+evidence_weight: 0.4
+time_lo_wk: 1
+time_hi_wk: 2
+citations:
+  - author: Perrier
+    journal: Eur J Clin Nutr
+    year: 2013
+    vol: 67
+    page: 939
+    pmid: "23801237"

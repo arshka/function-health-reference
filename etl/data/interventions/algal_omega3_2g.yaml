@@ -1,0 +1,14 @@
+id: algal_omega3_2g
+canonical_name: Algal omega-3 (vegan EPA+DHA)
+type: supplement
+dose_amount: 2
+dose_unit: g_per_day
+dose_split: "2–3 g/day vegan EPA+DHA from algae"
+mechanisms:
+  - omega3_epa_dha
+  - anti_inflammatory
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

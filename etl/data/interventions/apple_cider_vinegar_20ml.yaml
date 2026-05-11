@@ -1,0 +1,15 @@
+id: apple_cider_vinegar_20ml
+canonical_name: Apple cider vinegar
+type: supplement
+dose_amount: 20
+dose_unit: ml_per_day
+dose_split: "15–30 mL/day before meals, diluted"
+mechanisms:
+  - glycemic_load_reduction
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: condition
+    value: gastroparesis

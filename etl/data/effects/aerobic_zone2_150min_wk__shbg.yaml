@@ -1,0 +1,19 @@
+# Source: biomarker_interventions/male_hormones/SHBG.md §4 (aerobic exercise ≥150 min/wk)
+intervention_id: aerobic_zone2_150min_wk
+marker_id: shbg
+direction: increase
+effect_type: pct
+effect_lo: 10
+effect_hi: 15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Hawkins
+    journal: Medicine and Science in Sports and Exercise
+    year: 2008
+    vol: 40
+    page: 223

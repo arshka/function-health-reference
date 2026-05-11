@@ -1,0 +1,8 @@
+id: vitamin_c_1g
+canonical_name: Vitamin C / ascorbic acid (>=1 g/day)
+type: supplement
+dose_amount: 1000
+dose_unit: mg_per_day
+mechanisms: []
+dietary_tags: [vegan, vegetarian, gluten_free, dairy_free]
+exclusions: []

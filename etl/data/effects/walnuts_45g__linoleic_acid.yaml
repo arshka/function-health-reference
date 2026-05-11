@@ -1,0 +1,28 @@
+# Source: biomarker_interventions/omega_fatty_acids/linoleic_acid.md §1
+# Source dose 28 g/d → +0.3–0.5 pp. Scaled ~1.5x for canonical 45 g/d dose.
+# Units = percentage points (pp) of RBC total fatty acids.
+
+intervention_id: walnuts_45g
+marker_id: linoleic_acid
+direction: increase
+effect_type: absolute
+effect_lo: 0.4
+effect_hi: 0.8
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: Ros
+    journal: Circulation
+    year: 2004
+    vol: 109
+    page: 1609
+    pmid: "15037535"
+  - author: Rajaram
+    journal: AJCN
+    year: 2009
+    vol: 89
+    page: "1657S"

@@ -1,0 +1,16 @@
+intervention_id: walnuts_45g
+marker_id: apob_apoa1_ratio
+direction: decrease
+effect_type: pct
+effect_lo: -7
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 8
+citations:
+  - author: Banel
+    journal: AJCN
+    year: 2009

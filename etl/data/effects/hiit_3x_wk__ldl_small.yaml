@@ -1,0 +1,16 @@
+intervention_id: hiit_3x_wk
+marker_id: ldl_small
+direction: decrease
+effect_type: pct
+effect_lo: -20
+effect_hi: -15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 12
+time_hi_wk: 12
+citations:
+  - author: Tjonna
+    journal: Circulation
+    year: 2008

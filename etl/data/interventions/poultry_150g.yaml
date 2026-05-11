@@ -1,0 +1,8 @@
+id: poultry_150g
+canonical_name: Poultry (chicken, turkey)
+type: food
+dose_amount: 150
+dose_unit: g_per_day
+mechanisms: []
+dietary_tags: []
+exclusions: []

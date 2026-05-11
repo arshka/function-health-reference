@@ -1,0 +1,11 @@
+id: protein_adequate_1_4g_kg
+canonical_name: Adequate protein intake (correcting protein-energy malnutrition)
+type: behavior
+dose_amount: 1.4
+dose_unit: g_per_kg_per_day
+dose_split: "1.2–1.6 g/kg/day spread across meals"
+mechanisms: []
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: advanced_ckd

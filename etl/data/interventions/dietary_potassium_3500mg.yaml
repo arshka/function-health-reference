@@ -1,0 +1,19 @@
+id: dietary_potassium_3500mg
+canonical_name: Adequate dietary potassium (>=3.5 g/day from food)
+type: food
+dose_amount: 3500
+dose_unit: mg_per_day
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - mediterranean
+  - dairy_free
+exclusions:
+  - type: condition
+    value: ckd_stage_4_5
+  - type: drug_interaction
+    value: ace_inhibitor
+  - type: drug_interaction
+    value: potassium_sparing_diuretic

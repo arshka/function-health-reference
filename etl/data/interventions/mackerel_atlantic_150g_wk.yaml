@@ -1,0 +1,20 @@
+id: mackerel_atlantic_150g_wk
+canonical_name: Mackerel (Atlantic, not king)
+type: food
+dose_amount: 150
+dose_unit: g_per_week
+dose_split: "1–2 servings/wk (~150 g)"
+mechanisms:
+  - omega3_epa_dha
+  - anti_inflammatory
+dietary_tags:
+  - pescatarian
+  - mediterranean
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: fish_allergy
+  - type: dietary
+    value: vegan
+  - type: dietary
+    value: vegetarian

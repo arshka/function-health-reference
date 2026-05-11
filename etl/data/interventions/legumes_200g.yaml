@@ -1,0 +1,8 @@
+id: legumes_200g
+canonical_name: Lentils, chickpeas, dried beans (cooked)
+type: food
+dose_amount: 200
+dose_unit: g_per_day
+mechanisms: []
+dietary_tags: [vegan, vegetarian, gluten_free]
+exclusions: []

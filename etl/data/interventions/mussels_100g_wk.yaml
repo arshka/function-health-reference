@@ -1,0 +1,18 @@
+id: mussels_100g_wk
+canonical_name: Mussels (steamed)
+type: food
+dose_amount: 100
+dose_unit: g_per_week
+dose_split: "100 g, 1–2 times per week"
+mechanisms:
+  - omega3_epa_dha
+dietary_tags:
+  - pescatarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: shellfish_allergy
+  - type: dietary
+    value: vegan
+  - type: dietary
+    value: vegetarian

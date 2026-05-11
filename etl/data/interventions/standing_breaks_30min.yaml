@@ -1,0 +1,9 @@
+id: standing_breaks_30min
+canonical_name: Standing breaks / replacing prolonged sitting (>=30 min replaced)
+type: behavior
+dose_amount: 30
+dose_unit: min_replaced_per_bout
+mechanisms:
+  - insulin_sensitization
+dietary_tags: []
+exclusions: []

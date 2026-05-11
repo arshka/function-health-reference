@@ -1,0 +1,25 @@
+# Source: HDL-C.md §2 Foods that LOWER HDL-C
+# "Industrial trans fat | 2% kcal iTFA |
+#  HDL-C −6.8% (~−3 mg/dL) | 4–8 wk | [RCT]"
+
+intervention_id: industrial_trans_fat_2pct_kcal
+marker_id: hdl_c
+direction: decrease
+effect_type: pct
+effect_lo: -7
+effect_hi: -6
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Mensink
+    journal: NEJM
+    year: 1990
+    vol: 323
+    page: 439
+  - author: Mozaffarian
+    journal: NEJM
+    year: 2006

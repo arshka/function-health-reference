@@ -1,0 +1,14 @@
+# Source: kidney_electrolytes_pancreas.md §Calcium, biomarker_interventions/kidney_electrolytes_pancreas/calcium_serum.md
+# Serum total calcium per standard clinical labs.
+
+id: calcium_serum
+name: Calcium (serum)
+panel: kidney_electrolytes_pancreas
+units: mg/dL
+direction: in_band
+ref_lo: 8.5
+ref_hi: 10.5
+opt_lo: 9.0
+opt_hi: 10.0
+immutable: false
+demographic_modifiers: []

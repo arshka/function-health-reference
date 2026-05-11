@@ -1,0 +1,16 @@
+# Source: urinalysis_panel.md, biomarker_interventions/urinalysis/urine_glucose.md
+# Normal urine glucose is negative (<15 mg/dL). Presence indicates hyperglycemia / SGLT2i / Fanconi.
+# Dipstick: negative ~0, trace ~100, 1+ ~250 mg/dL — we cap reference at 50 mg/dL.
+# Optimal: 0-5 (effectively negative).
+
+id: urine_glucose
+name: Urine Glucose
+panel: urinalysis
+units: mg/dL
+direction: lower_is_better
+ref_lo: 0
+ref_hi: 50
+opt_lo: 0
+opt_hi: 5
+immutable: false
+demographic_modifiers: []

@@ -1,0 +1,9 @@
+id: epa_enriched_fish_oil_1800mg
+canonical_name: EPA-enriched fish oil
+type: supplement
+dose_amount: 1800
+dose_unit: mg_per_day
+mechanisms:
+- omega3_epa_dha
+dietary_tags: []
+exclusions: []

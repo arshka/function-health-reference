@@ -1,0 +1,20 @@
+# Source: albumin_globulin_ratio.md §4 — Alcohol cessation (heavy use → stop)
+# "A/G ↑ via albumin restoration + globulin (IgA) reduction" — Largest single lever in alcohol-driven low A/G.
+
+intervention_id: alcohol_cessation
+marker_id: albumin_globulin_ratio
+direction: increase
+effect_type: pct
+effect_lo: 5
+effect_hi: 15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 8
+time_hi_wk: 26
+citations:
+  - author: Lieber
+    journal: Alcohol Health Res World
+    year: 1995
+    pmid: "8541324"

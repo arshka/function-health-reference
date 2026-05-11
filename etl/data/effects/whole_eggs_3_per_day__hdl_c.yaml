@@ -1,0 +1,25 @@
+# Source: HDL-C.md §1 Foods that RAISE HDL-C
+# "Eggs (whole) | 2–3/d | HDL-C +2–4 mg/dL in most studies; HDL particle size ↑ | 4–12 wk | [Meta]"
+# Caveat: eggs also raise LDL-C in hyper-responders; ratio effect modest.
+
+intervention_id: whole_eggs_3_per_day
+marker_id: hdl_c
+direction: increase
+effect_type: absolute
+effect_lo: 2
+effect_hi: 4
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: Vincent
+    journal: J Am Coll Nutr
+    year: 2018
+    vol: 37
+    page: 99
+  - author: Berger
+    journal: AJCN
+    year: 2015

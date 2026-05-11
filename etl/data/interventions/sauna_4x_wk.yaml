@@ -1,0 +1,14 @@
+id: sauna_4x_wk
+canonical_name: Sauna (Finnish dry)
+type: behavior
+dose_amount: 4
+dose_unit: sessions_per_week
+dose_split: "15–20 min @ 80–100°C"
+mechanisms:
+  - heat_acclimation
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: pregnancy
+  - type: condition
+    value: uncontrolled_hypotension

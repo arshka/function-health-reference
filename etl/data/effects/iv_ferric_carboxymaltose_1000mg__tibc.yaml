@@ -1,0 +1,22 @@
+# Source: biomarker_interventions/iron/TIBC.md §3 — IV ferric carboxymaltose
+# TIBC normalization noticeable within 4-8 wk as iron stores replenish; faster than oral
+
+intervention_id: iv_ferric_carboxymaltose_1000mg
+marker_id: tibc
+direction: decrease
+effect_type: absolute
+effect_lo: -120
+effect_hi: -60
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Anker
+    journal: Lancet
+    year: 2020
+    vol: 396
+    page: 1895
+    pmid: "33197395"

@@ -1,0 +1,20 @@
+# Source: HbA1c.md §1 — Barley β-glucan 3–8 g/d; A1c −0.30% in T2D meta
+intervention_id: barley_beta_glucan_5g
+marker_id: hba1c
+direction: decrease
+effect_type: absolute
+effect_lo: -0.30
+effect_hi: -0.20
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.4
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: AbuMweis
+    journal: Eur J Clin Nutr
+    year: 2010
+  - author: Tosh
+    journal: Eur J Clin Nutr
+    year: 2013

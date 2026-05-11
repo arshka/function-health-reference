@@ -1,0 +1,14 @@
+id: berries_200g
+canonical_name: Berries / whole fruit
+type: food
+dose_amount: 200
+dose_unit: g_per_day
+dose_split: "200 g/day whole fruit, replacing refined carbohydrate"
+mechanisms:
+  - glycemic_load_reduction
+  - polyphenol_oxldl_reduction
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

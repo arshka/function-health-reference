@@ -1,0 +1,17 @@
+intervention_id: blood_donation_quarterly
+marker_id: rbc_count
+direction: decrease
+effect_type: absolute
+effect_lo: -0.7
+effect_hi: -0.4
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Cable
+    journal: Transfusion
+    year: 2011
+    pmid: "21426344"

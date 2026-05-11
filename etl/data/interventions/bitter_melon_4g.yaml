@@ -1,0 +1,12 @@
+id: bitter_melon_4g
+canonical_name: Bitter melon (Momordica charantia)
+type: supplement
+dose_amount: 4
+dose_unit: g_per_day
+mechanisms:
+  - insulin_sensitization
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

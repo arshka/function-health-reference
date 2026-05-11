@@ -1,0 +1,18 @@
+# Source: HbA1c.md §2 / §4 — Heavy alcohol >30 g/d; modest direct A1c rise (RBC turnover confound)
+# Flagged uncertain: A1c unreliable in heavy drinkers
+intervention_id: heavy_alcohol_40g
+marker_id: hba1c
+direction: increase
+effect_type: absolute
+effect_lo: 0.05
+effect_hi: 0.20
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 24
+time_hi_wk: 104
+citations:
+  - author: Willi
+    journal: JAMA
+    year: 2007

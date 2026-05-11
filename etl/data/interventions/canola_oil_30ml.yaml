@@ -1,0 +1,13 @@
+id: canola_oil_30ml
+canonical_name: MUFA-rich oil (canola / high-oleic sunflower)
+type: food
+dose_amount: 30
+dose_unit: ml_per_day
+dose_split: "30 mL/d substituting refined carbohydrate"
+mechanisms:
+  - mufa_substitution
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

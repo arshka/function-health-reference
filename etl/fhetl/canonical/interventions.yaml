@@ -1,0 +1,1291 @@
+interventions:
+- id: added_sugar_reduction_25g
+  canonical_name: Added-sugar restriction
+  type: behavior
+- id: added_sweeteners_30g
+  canonical_name: Honey / agave / maple syrup (added sweeteners)
+  type: food
+- id: adenosylcobalamin_oral_1000mcg
+  canonical_name: Oral adenosylcobalamin / dibencozide (vitamin B12) 1000 mcg
+  type: supplement
+- id: aerobic_zone2_150min_wk
+  canonical_name: Aerobic exercise (zone 2)
+  type: activity
+- id: aged_garlic_1200mg
+  canonical_name: Aged garlic extract
+  type: supplement
+- id: ala_plant_sources_30g
+  canonical_name: ALA-rich plant foods (flax/chia/walnut)
+  type: food
+- id: albacore_tuna_140g_wk
+  canonical_name: Albacore (white) tuna, canned
+  type: food
+- id: alcohol_14g
+  canonical_name: "Alcohol (\u226514 g ethanol/day)"
+  type: behavior
+- id: alcohol_cessation
+  canonical_name: Alcohol cessation (from heavy drinking)
+  type: behavior
+- id: alcohol_elimination
+  canonical_name: Alcohol elimination (from moderate-to-heavy)
+  type: behavior
+- id: alcohol_excess_40g
+  canonical_name: Excess alcohol intake (heavy drinking)
+  type: behavior
+- id: alcohol_moderate_35g_per_day
+  canonical_name: Moderate alcohol intake
+  type: behavior
+- id: algal_oil_epa_500mg
+  canonical_name: Algal oil EPA
+  type: supplement
+- id: algal_omega3_2g
+  canonical_name: Algal omega-3 (vegan EPA+DHA)
+  type: supplement
+- id: allergen_avoidance
+  canonical_name: Allergen avoidance (HEPA filtration, dust-mite covers, pet relocation)
+  type: behavior
+- id: allergen_immunotherapy
+  canonical_name: Allergen immunotherapy (SCIT or SLIT, multi-year)
+  type: behavior
+- id: almonds_60g
+  canonical_name: Almonds
+  type: food
+- id: alpha_lipoic_acid_600mg
+  canonical_name: Alpha-lipoic acid (ALA)
+  type: supplement
+- id: alternate_day_fasting
+  canonical_name: Alternate-day fasting
+  type: behavior
+- id: altitude_lhth_2500m
+  canonical_name: Altitude training - Live High Train Low (2200-2500 m, 3+ wk)
+  type: behavior
+- id: altitude_lhth_3wk
+  canonical_name: "Altitude exposure - Live High Train High (\u22652500 m, 3-4 wk)"
+  type: behavior
+- id: altitude_lhtl_3wk
+  canonical_name: "Altitude exposure - Live High Train Low (2200-2500 m, \u22653 wk)"
+  type: behavior
+- id: anabolic_steroid_cessation
+  canonical_name: Anabolic-androgenic steroid cessation
+  type: behavior
+- id: anchovies_50g_3x_wk
+  canonical_name: Anchovies (canned)
+  type: food
+- id: anchovies_sardines_100g
+  canonical_name: High-purine seafood (anchovies, sardines, mussels, scallops)
+  type: food
+- id: apple_cider_vinegar_20ml
+  canonical_name: Apple cider vinegar
+  type: supplement
+- id: apples_2_per_day
+  canonical_name: Apples / pears (pectin)
+  type: food
+- id: arachidonic_acid_supp_1500mg
+  canonical_name: Arachidonic acid supplement
+  type: supplement
+- id: areds_zinc_cu_combo
+  canonical_name: AREDS-style zinc + copper combo (Zn 80 mg + Cu 2 mg)
+  type: supplement
+- id: artichoke_leaf_extract_600mg
+  canonical_name: Artichoke leaf extract
+  type: supplement
+- id: ashwagandha_600mg
+  canonical_name: Ashwagandha (KSM-66 / Shoden standardized extract)
+  type: supplement
+- id: avocado_150g
+  canonical_name: Avocado (whole)
+  type: food
+- id: avocado_1_per_day
+  canonical_name: Avocado
+  type: food
+- id: avocado_oil_30ml
+  canonical_name: Avocado oil
+  type: food
+- id: ayurvedic_rasa_shastra
+  canonical_name: Ayurvedic / rasa shastra preparations (bhasma-containing)
+  type: behavior
+- id: b12_im_1000mcg
+  canonical_name: Vitamin B12 intramuscular (cyano- or hydroxocobalamin)
+  type: supplement
+- id: b12_oral_1000mcg
+  canonical_name: Oral cyanocobalamin (vitamin B12) 1000 mcg
+  type: supplement
+- id: b12_oral_100mcg
+  canonical_name: Oral cyanocobalamin (vitamin B12) 100 mcg
+  type: supplement
+- id: b12_oral_2000mcg
+  canonical_name: High-dose oral cyanocobalamin (vitamin B12) 2000 mcg
+  type: supplement
+- id: b12_oral_250mcg
+  canonical_name: Oral cyanocobalamin (vitamin B12) 250 mcg
+  type: supplement
+- id: b12_oral_500mcg
+  canonical_name: Oral cyanocobalamin (vitamin B12) 500 mcg
+  type: supplement
+- id: baked_potato_with_skin_1_medium
+  canonical_name: Baked potato (with skin)
+  type: food
+- id: banana_1_per_day
+  canonical_name: Banana
+  type: food
+- id: banana_2_per_day
+  canonical_name: Banana (2 per day)
+  type: food
+- id: bariatric_surgery
+  canonical_name: Bariatric surgery (RYGB or sleeve gastrectomy)
+  type: behavior
+- id: barley_beta_glucan_5g
+  canonical_name: "Barley \u03B2-glucan"
+  type: food
+- id: basmati_jasmine_rice
+  canonical_name: Basmati or jasmine rice (Indian/Pakistani/Thai-grown preferred)
+  type: food
+- id: bcaa_12g
+  canonical_name: Branched-chain amino acids (BCAA)
+  type: supplement
+- id: bcaa_30g
+  canonical_name: Branched-chain / essential amino acids (20-40 g/day)
+  type: supplement
+- id: beef_liver_100g_weekly
+  canonical_name: Beef liver
+  type: food
+- id: beer_355ml
+  canonical_name: Beer (12 oz / 355 mL serving)
+  type: food
+- id: beer_heavy_4_servings
+  canonical_name: Heavy beer intake (hops 8-prenylnaringenin)
+  type: food
+- id: beets_200g
+  canonical_name: Beets (200 g/day)
+  type: food
+- id: berberine_1500mg
+  canonical_name: Berberine HCl
+  type: supplement
+- id: bergamot_polyphenol_1000mg
+  canonical_name: Bergamot polyphenol fraction (BPF)
+  type: supplement
+- id: berries_100g
+  canonical_name: Berries (mixed)
+  type: food
+- id: berries_125g
+  canonical_name: Anthocyanin-rich berries (strawberries, blueberries, blackberries)
+  type: food
+- id: berries_200g
+  canonical_name: Berries / whole fruit
+  type: food
+- id: beta_glucan_500mg
+  canonical_name: Beta-glucan (yeast or oat-derived)
+  type: supplement
+- id: bitter_melon_4g
+  canonical_name: Bitter melon (Momordica charantia)
+  type: supplement
+- id: blood_donation_quarterly
+  canonical_name: Whole blood donation (500 mL, quarterly)
+  type: behavior
+- id: bluefin_tuna_170g_wk
+  canonical_name: Bluefin tuna (sushi, high-end restaurants)
+  type: food
+- id: boron_10mg
+  canonical_name: Boron supplement
+  type: supplement
+- id: brazil_nuts_2_per_day
+  canonical_name: Brazil nuts (selenomethionine-rich)
+  type: food
+- id: broth_soup_500ml
+  canonical_name: Soup / broth (water-based)
+  type: food
+- id: brown_rice_daily_serving
+  canonical_name: Brown rice and brown rice products (cereal, cakes, pasta, flour,
+    protein powder)
+  type: food
+- id: brown_rice_syrup_products
+  canonical_name: Brown rice syrup-sweetened products (granola bars, infant formulas,
+    energy bars)
+  type: food
+- id: butter_40g
+  canonical_name: Butter
+  type: food
+- id: butterbur_75mg_bid
+  canonical_name: Butterbur (Petasites hybridus, PA-free standardized extract)
+  type: supplement
+- id: calcium_carbonate_1000mg
+  canonical_name: Calcium carbonate / citrate
+  type: supplement
+- id: calcium_citrate_750mg
+  canonical_name: Calcium citrate (vs carbonate, 500-1000 mg elemental Ca/day)
+  type: supplement
+- id: calcium_d_glucarate_2000mg
+  canonical_name: Calcium-D-glucarate
+  type: supplement
+- id: calcium_with_iron_meal
+  canonical_name: Calcium-rich dairy or supplement co-ingested with iron meal/dose
+    (300-600 mg Ca)
+  type: behavior
+- id: caloric_refeeding_red_s
+  canonical_name: Caloric refeeding for RED-S (energy availability >=45 kcal/kg LBM/day)
+  type: behavior
+- id: canned_tuna_1_can_wk
+  canonical_name: Canned light tuna (1 can/wk)
+  type: food
+- id: canola_oil_30ml
+  canonical_name: MUFA-rich oil (canola / high-oleic sunflower)
+  type: food
+- id: cast_iron_cookware_daily
+  canonical_name: Cooking acidic foods in cast iron cookware (daily)
+  type: behavior
+- id: chelation_dmsa_succimer
+  canonical_name: Succimer (DMSA) oral chelation
+  type: supplement
+- id: chelation_edta_iv
+  canonical_name: Calcium disodium EDTA (CaNa2EDTA) IV chelation
+  type: supplement
+- id: chia_seeds_25g
+  canonical_name: Chia seeds
+  type: food
+- id: cholestyramine_12g
+  canonical_name: Cholestyramine (bile acid sequestrant)
+  type: supplement
+- id: chromium_picolinate_400mcg
+  canonical_name: Chromium picolinate
+  type: supplement
+- id: chronic_dehydration
+  canonical_name: Chronic inadequate fluid intake (dehydration)
+  type: behavior
+- id: chronic_hyperventilation
+  canonical_name: Chronic hyperventilation (anxiety, mouth breathing)
+  type: behavior
+- id: cinnamon_2g
+  canonical_name: Cinnamon
+  type: supplement
+- id: citrus_lemonade_1l
+  canonical_name: Citrus / lemonade / orange juice (urinary citrate enhancement)
+  type: food
+- id: clams_mussels_85g_3x_wk
+  canonical_name: Clams / mussels (canned or steamed)
+  type: food
+- id: coconut_oil_30g
+  canonical_name: Coconut oil
+  type: food
+- id: cod_liver_oil_5ml
+  canonical_name: Cod liver oil
+  type: supplement
+- id: coffee_with_iron_meal
+  canonical_name: Coffee co-ingested with iron-containing meal (chronic habit)
+  type: behavior
+- id: cold_exposure_3min_daily
+  canonical_name: "Cold exposure (cold shower / cold-water immersion 10\u201314\xB0\
+    C)"
+  type: behavior
+- id: collagen_25g
+  canonical_name: Bone broth / collagen peptides daily
+  type: supplement
+- id: combined_aerobic_resistance
+  canonical_name: Combined aerobic + resistance training
+  type: activity
+- id: copper_bisglycinate_2mg
+  canonical_name: Copper bisglycinate (chelated)
+  type: supplement
+- id: copper_gluconate_2mg
+  canonical_name: Copper gluconate / sulfate (oral)
+  type: supplement
+- id: coq10_200mg
+  canonical_name: Coenzyme Q10 (ubiquinone / ubiquinol)
+  type: supplement
+- id: corn_oil_15ml
+  canonical_name: Corn oil
+  type: food
+- id: cottage_cheese_200g
+  canonical_name: Cottage cheese
+  type: food
+- id: cpap_osa_treatment
+  canonical_name: CPAP for obstructive sleep apnea (nightly use)
+  type: behavior
+- id: cranberry_extract_750mg
+  canonical_name: Cranberry extract (proanthocyanidins, 500-1000 mg/day)
+  type: supplement
+- id: cranberry_juice_240ml
+  canonical_name: Cranberry juice (UTI prevention)
+  type: food
+- id: cranberry_pac_36mg
+  canonical_name: Cranberry proanthocyanidin (PAC) extract
+  type: supplement
+- id: creatine_cessation
+  canonical_name: Creatine monohydrate cessation (washout >=7-14 days)
+  type: behavior
+- id: creatine_monohydrate_5g
+  canonical_name: Creatine monohydrate (maintenance dose)
+  type: supplement
+- id: cruciferous_veg_3servings
+  canonical_name: Cruciferous vegetables (broccoli, cauliflower, kale, Brussels sprouts)
+  type: food
+- id: curcumin_1000mg
+  canonical_name: Curcumin (high-bioavailability extract)
+  type: supplement
+- id: d_mannose_2g
+  canonical_name: D-mannose (recurrent UTI prevention)
+  type: supplement
+- id: dark_chocolate_75g
+  canonical_name: "Dark chocolate (high-flavanol, \u226570% cocoa)"
+  type: food
+- id: dark_cola_355ml
+  canonical_name: Dark cola (Coke, Pepsi, Dr. Pepper, RC) - phosphoric acid soda
+  type: food
+- id: dark_cola_avoidance
+  canonical_name: Dark cola avoidance (eliminate phosphoric acid sodas)
+  type: behavior
+- id: dash_diet
+  canonical_name: DASH dietary pattern
+  type: behavior
+- id: deep_fried_foods_4servings_wk
+  canonical_name: Deep-fried foods (oxidized oils, AGEs)
+  type: food
+- id: dha_enriched_eggs_5_per_wk
+  canonical_name: DHA / n-3 enriched eggs (pasture-raised)
+  type: food
+- id: dha_fish_oil_3g
+  canonical_name: DHA-only fish oil
+  type: supplement
+- id: dietary_betaine_250mg
+  canonical_name: Dietary betaine (beets, spinach, quinoa)
+  type: food
+- id: dietary_potassium_3500mg
+  canonical_name: Adequate dietary potassium (>=3.5 g/day from food)
+  type: food
+- id: dim_200mg
+  canonical_name: Diindolylmethane (DIM)
+  type: supplement
+- id: dried_fruit_60g
+  canonical_name: Dried fruit (apricots, prunes, raisins)
+  type: food
+- id: e_cigarette_daily
+  canonical_name: E-cigarette / vaping (daily use)
+  type: behavior
+- id: egg_yolks_3_per_day
+  canonical_name: Egg yolks (dietary cholesterol)
+  type: food
+- id: eggs_2_per_day
+  canonical_name: Whole eggs (B12 + choline source)
+  type: food
+- id: endurance_training_300min_wk
+  canonical_name: High-volume endurance training
+  type: activity
+- id: endurance_training_marathon
+  canonical_name: Very high volume endurance training (marathon-level)
+  type: activity
+- id: epa_enriched_fish_oil_1800mg
+  canonical_name: EPA-enriched fish oil
+  type: supplement
+- id: evoo_30ml
+  canonical_name: Extra virgin olive oil
+  type: food
+- id: excess_fructose_50g
+  canonical_name: Excess added fructose (hypercaloric)
+  type: food
+- id: exogenous_ketones_bhb_12g
+  canonical_name: Exogenous BHB ketone salts (Na/K/Ca beta-hydroxybutyrate)
+  type: supplement
+- id: fatty_fish_2servings_wk
+  canonical_name: Fatty fish (salmon, mackerel, sardines, herring)
+  type: food
+- id: fatty_fish_300g_wk
+  canonical_name: Fatty fish (salmon, mackerel, sardines, herring)
+  type: food
+- id: fatty_red_meat_150g
+  canonical_name: Fatty cuts of beef / lamb / pork
+  type: food
+- id: fenugreek_seed_15g
+  canonical_name: Fenugreek seed (Trigonella foenum-graecum)
+  type: supplement
+- id: ferric_maltol_60mg
+  canonical_name: Ferric maltol (30 mg elemental Fe BID)
+  type: supplement
+- id: ferrous_bisglycinate_25mg
+  canonical_name: Ferrous bisglycinate (25 mg elemental iron)
+  type: supplement
+- id: ferrous_gluconate_70mg
+  canonical_name: Ferrous gluconate (70 mg elemental Fe; 2 x 325 mg tabs)
+  type: supplement
+- id: ferrous_sulfate_60mg
+  canonical_name: Ferrous sulfate (60 mg elemental iron, alternate-day fasting)
+  type: supplement
+- id: ferrous_sulfate_alternate_day_60mg
+  canonical_name: Ferrous sulfate, alternate-day dosing (60 mg elemental Fe)
+  type: supplement
+- id: filter_coffee_switch
+  canonical_name: Switch from unfiltered to paper-filter coffee
+  type: behavior
+- id: filtered_coffee_3cups
+  canonical_name: Filtered coffee
+  type: food
+- id: fish_oil_3g
+  canonical_name: Fish oil (EPA + DHA)
+  type: supplement
+- id: fish_oil_epa_dha_3g
+  canonical_name: Fish oil (EPA + DHA)
+  type: supplement
+- id: folic_acid_1mg
+  canonical_name: Folic acid (1 mg, US Rx strength)
+  type: supplement
+- id: folic_acid_400mcg
+  canonical_name: Folic acid (RDA dose)
+  type: supplement
+- id: folic_acid_5mg
+  canonical_name: Folic acid (5 mg, prescription strength)
+  type: supplement
+- id: folic_acid_800mcg
+  canonical_name: Folic acid (high-end pre-conception dose)
+  type: supplement
+- id: folic_acid_fortified_grains
+  canonical_name: Folic-acid fortified breakfast cereals and breads
+  type: food
+- id: food_order_veg_protein_first
+  canonical_name: Vegetables / protein first (food order)
+  type: behavior
+- id: fructose_added_50g
+  canonical_name: Added fructose / sugar (hypercaloric)
+  type: food
+- id: fruit_juice_500ml
+  canonical_name: Fruit juice (orange, apple, grape)
+  type: food
+- id: fruits_vegetables_5servings
+  canonical_name: Fruits and vegetables (>=5 servings/day, high-antioxidant)
+  type: food
+- id: full_fat_dairy_100g
+  canonical_name: Full-fat dairy (cheese, full-fat yogurt)
+  type: food
+- id: garlic_4g
+  canonical_name: Garlic (raw or aged extract)
+  type: food
+- id: garlic_900mg
+  canonical_name: Aged garlic extract
+  type: supplement
+- id: ghee_30g
+  canonical_name: Ghee (clarified butter)
+  type: food
+- id: ginger_2g
+  canonical_name: Ginger (powdered root)
+  type: food
+- id: gla_evening_primrose_3g
+  canonical_name: Evening primrose oil (GLA)
+  type: supplement
+- id: gla_high_dose_4g
+  canonical_name: Gamma-linolenic acid (GLA, high dose)
+  type: supplement
+- id: glucosamine_chondroitin_combo
+  canonical_name: Glucosamine + chondroitin
+  type: supplement
+- id: grain_substitution_non_rice
+  canonical_name: Non-rice grain substitution (oats, quinoa, barley, millet, buckwheat,
+    wheat)
+  type: food
+- id: grass_fed_red_meat_150g
+  canonical_name: Grass-fed red meat
+  type: food
+- id: green_tea_400mg_egcg
+  canonical_name: Green tea (catechins, EGCG)
+  type: food
+- id: green_tea_4cups
+  canonical_name: Green tea (catechins, EGCG)
+  type: food
+- id: ground_flaxseed_28g
+  canonical_name: Ground flaxseed
+  type: food
+- id: hard_cheese_100g
+  canonical_name: "Hard cheese (cheddar, parmesan, gouda \u2014 full fat)"
+  type: food
+- id: hard_cheese_60g
+  canonical_name: Hard cheese (cheddar, parmesan)
+  type: food
+- id: hazelnuts_50g
+  canonical_name: Hazelnuts
+  type: food
+- id: hcg_1000iu
+  canonical_name: Human chorionic gonadotropin (HCG)
+  type: supplement
+- id: heavy_alcohol_40g
+  canonical_name: Heavy alcohol intake
+  type: behavior
+- id: heavy_coffee_6cups
+  canonical_name: "Heavy coffee intake (\u22656 cups/day)"
+  type: behavior
+- id: heavy_cream_50ml
+  canonical_name: Heavy cream
+  type: food
+- id: heme_iron_meals_3x_wk
+  canonical_name: Heme iron meals (red meat 3 oz 3-4x/wk, liver 1x/wk, oysters/clams)
+  type: food
+- id: hemp_oil_15ml
+  canonical_name: Hemp seed oil
+  type: food
+- id: herbal_tea_500ml
+  canonical_name: Herbal tea (caffeine-free)
+  type: food
+- id: herring_100g_2x_wk
+  canonical_name: Herring (Atlantic, pickled or smoked)
+  type: food
+- id: high_glycemic_load_diet
+  canonical_name: High-glycemic-load diet (GL >150/d)
+  type: behavior
+- id: high_oxalate_diet
+  canonical_name: High-oxalate food intake (spinach, rhubarb, beets, almonds, chocolate,
+    tea)
+  type: food
+- id: high_phytate_meal_pattern
+  canonical_name: High-phytate meals without enhancers (whole grain bread, bran, raw
+    legumes; phytate:Fe >10)
+  type: food
+- id: high_protein_diet_2g_kg
+  canonical_name: "High-protein diet (\u22652 g/kg/day, leucine-rich)"
+  type: behavior
+- id: high_sodium_diet_5g
+  canonical_name: High-sodium dietary intake (>5 g Na/day)
+  type: behavior
+- id: high_water_intake_5l
+  canonical_name: Sustained high water intake (>5 L/day)
+  type: behavior
+- id: high_water_vegetables_200g
+  canonical_name: High-water-content vegetables (cucumber, celery, lettuce)
+  type: food
+- id: hiit_3x_wk
+  canonical_name: High-intensity interval training
+  type: activity
+- id: hijiki_seaweed
+  canonical_name: "Hijiki seaweed (Sargassum fusiforme) \u2014 high inorganic As exception"
+  type: food
+- id: hrv_biofeedback_10min_daily
+  canonical_name: HRV biofeedback (resonance breathing)
+  type: behavior
+- id: hydration_30ml_kg
+  canonical_name: Adequate hydration (30-35 mL/kg/day water)
+  type: behavior
+- id: hydration_adequate_35ml_kg
+  canonical_name: Adequate hydration (euvolemia, 30-35 mL/kg/day water)
+  type: behavior
+- id: hypoxic_tent_8h_nightly
+  canonical_name: "Normobaric hypoxic tent (8-10 h/night, FiO\u2082 ~15%)"
+  type: behavior
+- id: hypoxic_tent_normobaric
+  canonical_name: Normobaric hypoxic tent (FiO2 ~15%, 8-10 h/night)
+  type: behavior
+- id: industrial_trans_fat_2pct_kcal
+  canonical_name: Industrial trans fat
+  type: food
+- id: industrial_trans_fat_5pct_kcal
+  canonical_name: Industrial trans fatty acids (partially hydrogenated oils)
+  type: food
+- id: injectable_testosterone_150mg_wk
+  canonical_name: Injectable testosterone (TRT, esters)
+  type: supplement
+- id: inositol_4g
+  canonical_name: Myo-inositol (with D-chiro-inositol 40:1)
+  type: supplement
+- id: iron_fortified_cereal_1serving
+  canonical_name: Iron-fortified breakfast cereal (4-18 mg fortification iron)
+  type: food
+- id: iron_oral_100mg
+  canonical_name: Oral iron (ferrous sulfate / fumarate)
+  type: supplement
+- id: iron_plus_vitamin_c_meals
+  canonical_name: Plant iron-rich foods + vitamin C co-ingestion (lentils/beans/tofu
+    with citrus/capsicum/kiwi)
+  type: food
+- id: iron_supplement_60mg
+  canonical_name: Iron supplementation (in iron-deficient subjects)
+  type: supplement
+- id: iv_ferric_carboxymaltose_1000mg
+  canonical_name: IV ferric carboxymaltose (single 750-1000 mg infusion)
+  type: supplement
+- id: iv_ferric_derisomaltose_1000mg
+  canonical_name: IV ferric derisomaltose (single 1000 mg infusion)
+  type: supplement
+- id: iv_ferumoxytol_1020mg
+  canonical_name: IV ferumoxytol (510 mg x 2 = 1020 mg)
+  type: supplement
+- id: iv_iron_sucrose_1000mg
+  canonical_name: IV iron sucrose (200 mg x 5 = 1000 mg total course)
+  type: supplement
+- id: kcl_salt_substitute_25pct
+  canonical_name: KCl-enriched salt substitute (replacing 25% NaCl)
+  type: behavior
+- id: kelp_iodine_excess_1mg
+  canonical_name: Kelp / kombu / iodine megadose (>1 mg/day total iodine)
+  type: food
+- id: ketogenic_diet
+  canonical_name: Low-carb / ketogenic diet
+  type: behavior
+- id: krill_oil_2_5g
+  canonical_name: Krill oil
+  type: supplement
+- id: krill_oil_2g
+  canonical_name: Krill oil (matched EPA+DHA)
+  type: supplement
+- id: l_carnitine_2g
+  canonical_name: L-carnitine (oral)
+  type: supplement
+- id: l_methionine_2g
+  canonical_name: L-methionine (1.5-3 g/day)
+  type: supplement
+- id: l_methylfolate_400mcg
+  canonical_name: L-methylfolate (5-MTHF, Metafolin / Quatrefolic)
+  type: supplement
+- id: lactobacillus_crispatus_vaginal_2x_wk
+  canonical_name: Vaginal Lactobacillus crispatus (CTV-05) probiotic suppository
+  type: supplement
+- id: late_night_eating
+  canonical_name: "Late-night eating (caloric intake \u226521:00)"
+  type: behavior
+- id: lead_source_elimination
+  canonical_name: Lead source identification & elimination (housing, water, hobbies,
+    supplements, cosmetics)
+  type: behavior
+- id: leafy_greens_2servings
+  canonical_name: Leafy green vegetables
+  type: food
+- id: lean_fish_150g
+  canonical_name: Fish (cod, salmon, tuna)
+  type: food
+- id: lecithin_3g
+  canonical_name: Lecithin / phosphatidylcholine
+  type: supplement
+- id: legumes_130g
+  canonical_name: Beans / legumes
+  type: food
+- id: legumes_200g
+  canonical_name: Lentils, chickpeas, dried beans (cooked)
+  type: food
+- id: legumes_4servings_wk
+  canonical_name: Legumes (beans, lentils, chickpeas)
+  type: food
+- id: lemon_juice_120ml
+  canonical_name: Lemon / lime juice therapy (4 oz in 2 L water)
+  type: food
+- id: licorice_glycyrrhizin_7g
+  canonical_name: Licorice (real, glycyrrhizin-containing)
+  type: food
+- id: licorice_root_7g
+  canonical_name: Licorice root (whole, glycyrrhizin-containing)
+  type: food
+- id: light_tuna_280g_wk
+  canonical_name: Light tuna (skipjack), canned
+  type: food
+- id: linoleic_acid_oil_30g
+  canonical_name: High linoleic-acid (LA) refined seed oils (corn, soybean, safflower)
+  type: food
+- id: low_carb_diet_50g
+  canonical_name: Low-carbohydrate / ketogenic diet
+  type: behavior
+- id: low_fat_dairy_500ml
+  canonical_name: Low-fat dairy (milk, yogurt)
+  type: food
+- id: low_protein_diet_0_8g_kg
+  canonical_name: Low-protein diet (0.8-1.0 g/kg/day)
+  type: behavior
+- id: low_sodium_diet_2g
+  canonical_name: Low-sodium diet (<2.3 g Na/d)
+  type: behavior
+- id: macadamia_nuts_65g
+  canonical_name: Macadamia nuts
+  type: food
+- id: mackerel_100g_2x_wk
+  canonical_name: Mackerel (100g 2x/wk)
+  type: food
+- id: mackerel_atlantic_150g_wk
+  canonical_name: Mackerel (Atlantic, not king)
+  type: food
+- id: magnesium_400mg
+  canonical_name: Magnesium (citrate / glycinate / malate)
+  type: supplement
+- id: magnesium_citrate_600mg
+  canonical_name: Magnesium citrate (400-800 mg/day)
+  type: supplement
+- id: marijuana_heavy_chronic
+  canonical_name: Heavy chronic marijuana use (THC daily)
+  type: behavior
+- id: mbsr_30min_daily
+  canonical_name: Mindfulness-based stress reduction (MBSR)
+  type: behavior
+- id: mct_oil_30g
+  canonical_name: MCT oil supplements
+  type: supplement
+- id: mediterranean_diet
+  canonical_name: Mediterranean dietary pattern
+  type: behavior
+- id: melon_300g
+  canonical_name: Melon (cantaloupe, honeydew, watermelon)
+  type: food
+- id: methenamine_hippurate_1g_bid
+  canonical_name: Methenamine hippurate (urinary antiseptic)
+  type: supplement
+- id: methylcobalamin_oral_1000mcg
+  canonical_name: Oral methylcobalamin (vitamin B12) 1000 mcg
+  type: supplement
+- id: mg_oxide_400mg
+  canonical_name: Magnesium oxide
+  type: supplement
+- id: mg_threonate_2g
+  canonical_name: Magnesium L-threonate
+  type: supplement
+- id: mineral_water_bicarbonate_1500ml
+  canonical_name: High-bicarbonate mineral water (Vichy, Gerolsteiner, San Pellegrino)
+  type: food
+- id: mineral_water_mg_rich_1l
+  canonical_name: Mineral water (Mg-rich)
+  type: food
+- id: mixed_nuts_30g
+  canonical_name: Mixed tree nuts
+  type: food
+- id: mixed_nuts_45g
+  canonical_name: Mixed nuts
+  type: food
+- id: mixed_seeds_30g
+  canonical_name: Mixed seeds (pumpkin/sunflower/sesame)
+  type: food
+- id: moderate_protein_diet_0_8g_kg
+  canonical_name: Moderate protein intake (0.8-1.0 g/kg/day)
+  type: behavior
+- id: modified_atkins_diet
+  canonical_name: Modified Atkins diet (carb <20 g/d induction phase)
+  type: behavior
+- id: mucuna_pruriens_5g
+  canonical_name: Mucuna pruriens (L-DOPA source)
+  type: supplement
+- id: multivitamin_folate_300mcg
+  canonical_name: "Multivitamin (with folic acid 200-400 \xB5g)"
+  type: supplement
+- id: mussels_100g_wk
+  canonical_name: Mussels (steamed)
+  type: food
+- id: myo_inositol_selenium_combo
+  canonical_name: Myo-inositol 600 mg + selenomethionine 83 mcg (twice daily)
+  type: supplement
+- id: nac_1000mg
+  canonical_name: N-acetylcysteine (NAC)
+  type: supplement
+- id: niacin_2g
+  canonical_name: Niacin (immediate or extended release)
+  type: supplement
+- id: niacin_er_2g
+  canonical_name: Niacin (extended-release nicotinic acid)
+  type: supplement
+- id: oats_70g
+  canonical_name: "Oats / oat bran (\u03B2-glucan)"
+  type: food
+- id: omega3_ep_dha_2g
+  canonical_name: Marine omega-3 (EPA+DHA) 2 g/day
+  type: supplement
+- id: omega3_ep_dha_4g
+  canonical_name: Marine omega-3 (EPA+DHA) 4 g/day (prescription)
+  type: supplement
+- id: oral_anabolic_steroid
+  canonical_name: "Oral 17\u03B1-alkylated anabolic steroid (oxandrolone, stanozolol,\
+    \ methyltestosterone)"
+  type: supplement
+- id: oral_cyanocobalamin_1000mcg
+  canonical_name: Oral cyanocobalamin (B12)
+  type: supplement
+- id: oral_kcl_40mmol
+  canonical_name: Oral potassium chloride (slow-release)
+  type: supplement
+- id: orange_juice_1l
+  canonical_name: Orange juice (1 L/day)
+  type: food
+- id: organ_meats_100g
+  canonical_name: Organ meats (liver, kidney, sweetbreads, brain)
+  type: food
+- id: oysters_6_medium
+  canonical_name: Oysters (6 medium)
+  type: food
+- id: oysters_85g_per_week
+  canonical_name: Oysters (6 medium)
+  type: food
+- id: oysters_85g_wk
+  canonical_name: Oysters (raw or steamed)
+  type: food
+- id: palm_oil_30g
+  canonical_name: Palm oil
+  type: food
+- id: pantethine_750mg
+  canonical_name: Pantethine
+  type: supplement
+- id: periodontitis_treatment
+  canonical_name: Periodontitis treatment (scaling + root planing)
+  type: behavior
+- id: phosphate_additive_avoidance
+  canonical_name: Phosphate-additive avoidance (avoid E338-E343 in processed foods)
+  type: behavior
+- id: phosphatidylserine_600mg
+  canonical_name: Phosphatidylserine (soy or sunflower-derived)
+  type: supplement
+- id: pistachios_60g
+  canonical_name: Pistachios
+  type: food
+- id: plant_based_diet
+  canonical_name: Plant-based diet pattern
+  type: behavior
+- id: plant_based_protein_reduction
+  canonical_name: Plant-based / reduced animal protein diet
+  type: behavior
+- id: plant_milk_500ml
+  canonical_name: Dairy alternatives (almond / oat milk)
+  type: food
+- id: plant_sterols_2g
+  canonical_name: Plant sterols / stanols
+  type: supplement
+- id: plums_prunes_100g
+  canonical_name: Plums / prunes
+  type: food
+- id: polyphenol_beverage_with_iron_meal
+  canonical_name: Polyphenol-rich beverages (red wine, cocoa) co-ingested with iron
+    meal
+  type: behavior
+- id: pomegranate_juice_240ml
+  canonical_name: Pomegranate juice
+  type: food
+- id: portfolio_diet
+  canonical_name: Portfolio diet (full pattern)
+  type: behavior
+- id: post_coital_voiding
+  canonical_name: Post-coital voiding (urination within 15 min after intercourse)
+  type: behavior
+- id: potassium_bicarbonate_45mmol
+  canonical_name: Potassium bicarbonate (oral)
+  type: supplement
+- id: potassium_citrate_45mmol
+  canonical_name: Potassium citrate / bicarbonate
+  type: supplement
+- id: potatoes_300g
+  canonical_name: Potatoes (with skin)
+  type: food
+- id: poultry_150g
+  canonical_name: Poultry (chicken, turkey)
+  type: food
+- id: predator_fish_elimination
+  canonical_name: Eliminating top-tier predator fish (shark, swordfish, king mackerel,
+    tilefish, bigeye/bluefin tuna, marlin)
+  type: behavior
+- id: prenatal_vitamin
+  canonical_name: Prenatal multivitamin (folic acid + Fe + I + B12 + D)
+  type: supplement
+- id: probiotics_10b_cfu
+  canonical_name: Probiotics (multi-strain Lactobacillus / Bifidobacterium)
+  type: supplement
+- id: processed_meat_100g
+  canonical_name: Processed meats (bacon, sausage, deli)
+  type: food
+- id: processed_red_meat_75g
+  canonical_name: Processed red meat (sausage, bacon, salami, hot dogs)
+  type: food
+- id: protein_adequate_1_4g_kg
+  canonical_name: Adequate protein intake (correcting protein-energy malnutrition)
+  type: behavior
+- id: psyllium_husk_10g
+  canonical_name: Psyllium husk
+  type: supplement
+- id: pumpkin_seeds_30g
+  canonical_name: Pumpkin seeds (non-heme iron + zinc source)
+  type: food
+- id: purified_dpa_n3_1g
+  canonical_name: Purified DPA n-3 (Croda Algatrium / EPAX DPA)
+  type: supplement
+- id: quercetin_750mg
+  canonical_name: Quercetin
+  type: supplement
+- id: quinoa_185g
+  canonical_name: Quinoa (cooked, ~1 cup daily)
+  type: food
+- id: red_meat_100g
+  canonical_name: Red meat (beef, pork, lamb)
+  type: food
+- id: red_meat_heme_3x_wk
+  canonical_name: "Red meat / liver / oysters (heme iron source) 3-4\xD7 per week"
+  type: food
+- id: red_yeast_rice_10mg
+  canonical_name: Red yeast rice (standardized monacolin K)
+  type: supplement
+- id: reduced_animal_protein_0_8g_kg
+  canonical_name: Reduced animal protein intake (<1.0 g/kg/day)
+  type: behavior
+- id: refined_baked_goods_daily
+  canonical_name: Refined baked goods (croissants, pastries, muffins, doughnuts, cookies)
+  type: food
+- id: refined_carb_55pct_kcal
+  canonical_name: High refined carbohydrate intake
+  type: food
+- id: refined_grains_daily
+  canonical_name: Refined grains (white rice, white bread, refined pasta)
+  type: food
+- id: refined_la_oils_30g
+  canonical_name: High linoleic-acid (LA) refined seed oils
+  type: food
+- id: refined_seed_oils_15ml
+  canonical_name: Refined seed oils (soybean, corn, sunflower, safflower, cottonseed,
+    grapeseed)
+  type: food
+- id: refined_seed_oils_30ml
+  canonical_name: Refined seed oils (soy/corn/sunflower)
+  type: food
+- id: resistance_training_3x_wk
+  canonical_name: Resistance training (full-body)
+  type: activity
+- id: resveratrol_300mg
+  canonical_name: Resveratrol
+  type: supplement
+- id: rhodiola_rosea_400mg
+  canonical_name: Rhodiola rosea (standardized extract)
+  type: supplement
+- id: rice_based_gluten_free_products
+  canonical_name: Rice-based gluten-free staples (rice pasta, rice flour bread, rice
+    cakes, rice crackers)
+  type: food
+- id: rice_milk_daily
+  canonical_name: Rice milk (vs almond / oat / soy / dairy milk)
+  type: food
+- id: rice_rinse_drain_cooking
+  canonical_name: Rice cooking with rinse 4-6x + 6:1 water:rice ratio + drain excess
+  type: behavior
+- id: safflower_oil_high_la_15ml
+  canonical_name: Safflower oil (high-LA cultivar)
+  type: food
+- id: saffron_60mg
+  canonical_name: Saffron extract
+  type: supplement
+- id: sardines_canned_200g_wk
+  canonical_name: Sardines (canned, in water or olive oil)
+  type: food
+- id: saturated_fat_high_intake
+  canonical_name: Saturated fat (high intake displacing PUFA)
+  type: behavior
+- id: sauna_4x_wk
+  canonical_name: Sauna (Finnish dry)
+  type: behavior
+- id: sauna_5x_wk
+  canonical_name: Finnish dry sauna
+  type: activity
+- id: sda_echium_oil_2g
+  canonical_name: Stearidonic-acid (SDA) oil (echium)
+  type: supplement
+- id: sda_oil_2g
+  canonical_name: SDA-enriched oil (echium)
+  type: supplement
+- id: seal_oil_10ml
+  canonical_name: Seal oil (marine mammal n-3, ~5% DPA)
+  type: supplement
+- id: selenium_200mcg
+  canonical_name: Selenomethionine 200 mcg
+  type: supplement
+- id: selenium_yeast_200mcg
+  canonical_name: Selenium-enriched yeast
+  type: supplement
+- id: selenomethionine_100mcg
+  canonical_name: Selenomethionine (organic Se)
+  type: supplement
+- id: sfa_reduction_low_sfa_diet
+  canonical_name: Saturated fat reduction (low-SFA diet, DASH-style)
+  type: behavior
+- id: sglt2_inhibitor
+  canonical_name: SGLT2 inhibitor (empagliflozin, dapagliflozin)
+  type: supplement
+- id: shilajit_500mg
+  canonical_name: Shilajit (purified, e.g., Primavie)
+  type: supplement
+- id: shooting_range_cessation
+  canonical_name: Cessation of indoor shooting-range exposure (occupational / hobby)
+  type: behavior
+- id: shrimp_300g
+  canonical_name: High-cholesterol shellfish (shrimp)
+  type: food
+- id: skin_lightening_creams_topical
+  canonical_name: Mercury-containing skin-lightening creams (informal-supply imported,
+    calomel-containing)
+  type: behavior
+- id: sleep_7_9h
+  canonical_name: "Sleep duration optimization (7\u20139 h)"
+  type: behavior
+- id: sleep_regularity_high
+  canonical_name: Sleep regularity (SRI > 75)
+  type: behavior
+- id: sleep_restriction_5h
+  canonical_name: Sleep restriction (<6 hr/night)
+  type: behavior
+- id: smoking_active
+  canonical_name: Active tobacco smoking
+  type: behavior
+- id: smoking_cessation
+  canonical_name: Smoking cessation
+  type: behavior
+- id: sodium_bicarbonate_2g
+  canonical_name: Sodium bicarbonate (oral, 1-4 g/day)
+  type: supplement
+- id: sodium_bicarbonate_750mg
+  canonical_name: Oral sodium bicarbonate (chronic, CKD acidosis dose)
+  type: supplement
+- id: sodium_reduction_2300mg
+  canonical_name: Sodium reduction (<2.3 g/day)
+  type: behavior
+- id: sodium_selenite_200mcg
+  canonical_name: Sodium selenite (inorganic Se)
+  type: supplement
+- id: soluble_fiber_blend_8g
+  canonical_name: Soluble fiber blends (acacia, glucomannan, guar)
+  type: supplement
+- id: soy_isoflavones_100mg
+  canonical_name: Soy isoflavones (high-dose supplement)
+  type: supplement
+- id: soy_protein_25g
+  canonical_name: Soy protein (whole soy)
+  type: food
+- id: soybean_oil_15ml
+  canonical_name: Soybean oil
+  type: food
+- id: spinach_chard_200g
+  canonical_name: Spinach, chard, beet greens (cooked)
+  type: food
+- id: spinach_cooked_1cup
+  canonical_name: Spinach (cooked)
+  type: food
+- id: spirulina_4g
+  canonical_name: Spirulina
+  type: supplement
+- id: standing_breaks_30min
+  canonical_name: Standing breaks / replacing prolonged sitting (>=30 min replaced)
+  type: behavior
+- id: stearidonic_acid_2g
+  canonical_name: Stearidonic acid (echium oil)
+  type: supplement
+- id: step_count_4000_above_sedentary
+  canonical_name: Increased step count (NEAT)
+  type: activity
+- id: step_count_4000_daily
+  canonical_name: Increased NEAT / step count (+4000 steps/d)
+  type: activity
+- id: step_count_increase_4000
+  canonical_name: Step count increase (NEAT)
+  type: activity
+- id: step_count_plus4000
+  canonical_name: NEAT / step count increase
+  type: activity
+- id: stinging_nettle_300mg
+  canonical_name: Stinging nettle (Urtica dioica, freeze-dried leaf extract)
+  type: supplement
+- id: stop_chronic_zinc_supplementation
+  canonical_name: Discontinue chronic excess zinc supplementation (>25 mg/day)
+  type: behavior
+- id: sugar_sweetened_beverages_1l
+  canonical_name: Soda / sugar-sweetened beverages (1 L/day)
+  type: food
+- id: sugar_sweetened_beverages_600ml
+  canonical_name: Sugar-sweetened beverages
+  type: food
+- id: sun_exposure_midday_summer
+  canonical_name: "Midday summer sun exposure (UV index 6\u20138)"
+  type: behavior
+- id: sunflower_oil_high_la_15ml
+  canonical_name: Sunflower oil (high-LA, regular cultivar)
+  type: food
+- id: sunflower_seeds_30g
+  canonical_name: Sunflower seeds / pistachios (B6 source)
+  type: food
+- id: sweet_potato_1_medium
+  canonical_name: Sweet potato (baked, with skin)
+  type: food
+- id: sweet_potatoes_300g
+  canonical_name: Sweet potatoes (300 g/day)
+  type: food
+- id: tanning_bed_uvb_3x_wk
+  canonical_name: Tanning bed (UVB-enriched, low-pressure)
+  type: behavior
+- id: tart_cherry_240ml
+  canonical_name: Tart cherry juice / cherries
+  type: food
+- id: tea_with_iron_meal
+  canonical_name: Tea co-ingested with iron-containing meal (chronic habit)
+  type: behavior
+- id: time_restricted_eating_16_8
+  canonical_name: Time-restricted eating (16:8)
+  type: behavior
+- id: tofu_tempeh_150g
+  canonical_name: Tofu / tempeh (fermented soy, non-heme iron source)
+  type: food
+- id: tomato_paste_60g
+  canonical_name: Tomato (paste / sauce / dried, concentrated forms)
+  type: food
+- id: tomatoes_400g
+  canonical_name: Tomatoes / tomato juice
+  type: food
+- id: tongkat_ali_200mg
+  canonical_name: Tongkat ali (Eurycoma longifolia, standardized extract)
+  type: supplement
+- id: tre_16_8
+  canonical_name: Time-restricted eating (16:8)
+  type: behavior
+- id: trout_150g_2x_wk
+  canonical_name: Rainbow trout (150g 2x/wk)
+  type: food
+- id: trout_rainbow_300g_wk
+  canonical_name: Rainbow trout (farmed)
+  type: food
+- id: turmeric_food_200mg
+  canonical_name: Turmeric (culinary, ~1 tsp/d with black pepper / fat carrier)
+  type: food
+- id: ultra_processed_food_50pct_kcal
+  canonical_name: Ultra-processed foods (NOVA-4) >50% energy
+  type: food
+- id: unfiltered_coffee_3cups
+  canonical_name: Unfiltered (boiled/French press/espresso) coffee
+  type: food
+- id: unfiltered_coffee_5cups
+  canonical_name: Unfiltered coffee (cafestol / kahweol)
+  type: food
+- id: uv_protection_spf30
+  canonical_name: UV protection (SPF >=30 broad-spectrum sunscreen + UV-protective
+    clothing, peak-hour avoidance)
+  type: behavior
+- id: vaginal_estrogen_0_5g_2x_wk
+  canonical_name: Vaginal estrogen cream (postmenopausal UTI prevention)
+  type: supplement
+- id: vaping_daily
+  canonical_name: Daily e-cigarette / vaping use
+  type: behavior
+- id: vegan_diet
+  canonical_name: Vegan / fully plant-based diet
+  type: behavior
+- id: vegetarian_diet_unsupplemented
+  canonical_name: Lacto-ovo vegetarian diet without B12 supplementation
+  type: behavior
+- id: very_low_fat_diet_15pct
+  canonical_name: Very low-fat diet (<15% kcal fat)
+  type: behavior
+- id: very_low_fat_high_carb_diet
+  canonical_name: Very low-fat / high refined-carb diet
+  type: behavior
+- id: vitamin_b12_1000mcg
+  canonical_name: Vitamin B12 (cyanocobalamin / methylcobalamin)
+  type: supplement
+- id: vitamin_b6_200mg
+  canonical_name: Vitamin B6 (pyridoxine)
+  type: supplement
+- id: vitamin_c_1g
+  canonical_name: Vitamin C / ascorbic acid (>=1 g/day)
+  type: supplement
+- id: vitamin_c_500mg
+  canonical_name: Vitamin C (ascorbate)
+  type: supplement
+- id: vitamin_c_high_dose_1000mg
+  canonical_name: High-dose vitamin C (>1 g/day, oxalate-precursor)
+  type: supplement
+- id: vitamin_c_with_iron_supplement_200mg
+  canonical_name: Vitamin C co-ingested with oral iron supplement (100-250 mg)
+  type: behavior
+- id: vitamin_d3_1000iu
+  canonical_name: Vitamin D3 (cholecalciferol) 1000 IU
+  type: supplement
+- id: vitamin_d3_3000iu
+  canonical_name: Vitamin D3 (cholecalciferol)
+  type: supplement
+- id: vitamin_d3_loading_50000iu_weekly
+  canonical_name: "Vitamin D3 loading dose (50,000 IU weekly \xD7 8 wk)"
+  type: supplement
+- id: vitamin_d_fortified_milk_750ml
+  canonical_name: Vitamin D-fortified milk
+  type: food
+- id: vlcd_800kcal
+  canonical_name: Sustained very-low-calorie diet (<800 kcal/day)
+  type: behavior
+- id: walking_after_meals_15min
+  canonical_name: Walking after meals (post-prandial)
+  type: activity
+- id: walnuts_45g
+  canonical_name: Walnuts
+  type: food
+- id: water_2_5l
+  canonical_name: Sustained high water intake (>=2.5 L/day) for stone prevention
+  type: behavior
+- id: water_filter_nsf53
+  canonical_name: NSF/ANSI 53- or 58-certified lead-removing water filter (point-of-use)
+  type: behavior
+- id: watermelon_500g
+  canonical_name: Watermelon / melon (high water content fruit)
+  type: food
+- id: weight_gain_10kg
+  canonical_name: Weight gain (sustained caloric surplus)
+  type: behavior
+- id: weight_loss_10kg
+  canonical_name: Weight loss (lifestyle)
+  type: behavior
+- id: weight_loss_10pct
+  canonical_name: Weight loss (10% body mass, sustained)
+  type: behavior
+- id: weight_loss_5kg
+  canonical_name: Lifestyle weight loss
+  type: behavior
+- id: well_water_arsenic_contaminated
+  canonical_name: Drinking and cooking with private well water from arsenic-contaminated
+    regions
+  type: behavior
+- id: whey_protein_50g
+  canonical_name: Whey protein (chronic supplementation)
+  type: supplement
+- id: whey_protein_75g
+  canonical_name: Whey / casein / soy protein supplement (50-100 g/day)
+  type: supplement
+- id: white_button_mushroom_100g
+  canonical_name: White button / portobello mushrooms
+  type: food
+- id: white_fish_300g_per_week
+  canonical_name: White fish (cod, pollock, haddock)
+  type: food
+- id: white_rice_substitution
+  canonical_name: White rice substituted for brown rice
+  type: food
+- id: whole_eggs_3_per_day
+  canonical_name: Whole eggs
+  type: food
+- id: whole_fat_dairy_100g
+  canonical_name: "Whole-fat dairy (cream, butter) \u2014 large amounts"
+  type: food
+- id: whole_grains_200g
+  canonical_name: Whole grains (wheat, oats, brown rice) 200g cooked
+  type: food
+- id: whole_grains_3_servings
+  canonical_name: Whole grains (intact)
+  type: food
+- id: wild_freshwater_predator_fish
+  canonical_name: Wild freshwater predator fish (largemouth/smallmouth bass, walleye,
+    pike, muskellunge, large lake trout)
+  type: food
+- id: winter_squash_1cup
+  canonical_name: Winter squash / pumpkin (cooked)
+  type: food
+- id: yellowfin_tuna_170g_wk
+  canonical_name: Yellowfin tuna (sushi-grade ahi, fresh poke, seared)
+  type: food
+- id: yoga_3x_wk
+  canonical_name: Yoga (regular practice)
+  type: activity
+- id: yogurt_150g
+  canonical_name: Fermented dairy yogurt (low-sugar)
+  type: food
+- id: zinc_25mg
+  canonical_name: Zinc (oral, any well-absorbed form)
+  type: supplement
+- id: zinc_bisglycinate_25mg
+  canonical_name: Zinc bisglycinate
+  type: supplement
+- id: zinc_citrate_25mg
+  canonical_name: Zinc citrate
+  type: supplement
+- id: zinc_gluconate_25mg
+  canonical_name: Zinc gluconate
+  type: supplement
+- id: zinc_high_dose_50mg
+  canonical_name: Chronic high-dose zinc supplementation (>40 mg/day)
+  type: supplement
+- id: zinc_oxide_25mg
+  canonical_name: Zinc oxide (lower bioavailability)
+  type: supplement
+- id: zinc_picolinate_25mg
+  canonical_name: Zinc picolinate
+  type: supplement
+- id: zinc_sulfate_25mg
+  canonical_name: Zinc sulfate
+  type: supplement

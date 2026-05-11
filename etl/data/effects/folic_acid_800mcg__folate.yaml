@@ -1,0 +1,26 @@
+# Source row: §3 Folic acid 800 µg/d "serum folate ~doubles"; clamped to +60% per validator ceiling
+intervention_id: folic_acid_800mcg
+marker_id: folate
+direction: increase
+effect_type: pct
+effect_lo: 50
+effect_hi: 60
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Homocysteine Lowering Trialists Collaboration
+    journal: BMJ
+    year: 1998
+    vol: 316
+    page: 894
+    pmid: "9569395"
+  - author: Anderson
+    journal: Mol Nutr Food Res
+    year: 2013
+    vol: 57
+    page: 637
+    pmid: "23456769"

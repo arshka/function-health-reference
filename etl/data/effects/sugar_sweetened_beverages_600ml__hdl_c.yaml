@@ -1,0 +1,22 @@
+# Source: HDL-C.md §2 Foods that LOWER HDL-C
+# "Sugar-sweetened beverages (chronic, high intake) | ≥600 mL/d |
+#  HDL-C −2–3 mg/dL via insulin resistance | 8–16 wk | [Cohort]"
+
+intervention_id: sugar_sweetened_beverages_600ml
+marker_id: hdl_c
+direction: decrease
+effect_type: absolute
+effect_lo: -3
+effect_hi: -2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 8
+time_hi_wk: 16
+citations:
+  - author: Malik
+    journal: Diabetes Care
+    year: 2010
+    vol: 33
+    page: 2477

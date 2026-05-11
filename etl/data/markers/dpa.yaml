@@ -1,0 +1,14 @@
+# Source: nutrients_omega_fatty_acids.md §4 DPA; biomarker_interventions/omega_fatty_acids/DPA.md
+# DPA (22:5n-3) — intermediate between EPA and DHA. RBC % of total fatty acids.
+
+id: dpa
+name: DPA (Docosapentaenoic Acid, 22:5n-3)
+panel: omega_fatty_acids
+units: "% of total fatty acids"
+direction: higher_is_better
+ref_lo: 0.5
+ref_hi: 4.0
+opt_lo: 2.0
+opt_hi: 4.0
+immutable: false
+demographic_modifiers: []

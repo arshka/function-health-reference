@@ -1,0 +1,17 @@
+intervention_id: coconut_oil_30g
+marker_id: alt
+direction: increase
+effect_type: pct
+effect_lo: 3
+effect_hi: 15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 8
+time_hi_wk: 16
+citations:
+  - author: Eyres
+    journal: Nutr Rev
+    year: 2016
+    pmid: "26946252"

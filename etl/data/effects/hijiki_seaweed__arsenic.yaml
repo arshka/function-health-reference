@@ -1,0 +1,22 @@
+# Source: biomarker_interventions/heavy_metals_phenoage/arsenic.md §2
+# Hijiki seaweed is unusual among seaweeds in containing significant iAs
+# (not just organic). UK FSA / FSANZ recommend avoiding hijiki.
+intervention_id: hijiki_seaweed
+marker_id: arsenic
+direction: increase
+effect_type: pct
+effect_lo: 15
+effect_hi: 40
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 1.0
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 1
+time_hi_wk: 4
+citations:
+  - author: UK FSA
+    journal: Hijiki Seaweed Consumer Advisory
+    year: 2004
+  - author: FSANZ
+    journal: Survey of Inorganic Arsenic in Seaweed
+    year: 2010

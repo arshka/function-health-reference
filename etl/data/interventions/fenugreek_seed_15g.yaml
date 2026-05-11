@@ -1,0 +1,13 @@
+id: fenugreek_seed_15g
+canonical_name: Fenugreek seed (Trigonella foenum-graecum)
+type: supplement
+dose_amount: 15
+dose_unit: g_per_day
+mechanisms:
+  - viscous_fiber
+  - glycemic_load_reduction
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

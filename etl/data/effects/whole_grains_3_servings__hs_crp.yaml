@@ -1,0 +1,24 @@
+# Source: hs-CRP.md §1 Foods that LOWER
+# "Whole grains (intact) | ≥3 servings/d | hs-CRP −0.4 mg/L | 8–24 wk | [Meta]"
+
+intervention_id: whole_grains_3_servings
+marker_id: hs_crp
+direction: decrease
+effect_type: absolute
+effect_lo: -0.5
+effect_hi: -0.3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 24
+citations:
+  - author: Lefevre
+    journal: Nutr Rev
+    year: 2012
+    vol: 70
+    page: 387
+  - author: Hou
+    journal: Crit Rev Food Sci Nutr
+    year: 2015

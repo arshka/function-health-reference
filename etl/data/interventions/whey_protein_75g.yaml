@@ -1,0 +1,14 @@
+id: whey_protein_75g
+canonical_name: Whey / casein / soy protein supplement (50-100 g/day)
+type: supplement
+dose_amount: 75
+dose_unit: g_per_day
+mechanisms: []
+dietary_tags:
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: condition
+    value: ckd_stage_3b_or_worse
+  - type: dietary
+    value: dairy_allergy

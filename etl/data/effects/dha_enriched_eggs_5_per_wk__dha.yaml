@@ -1,0 +1,18 @@
+# Source: biomarker_interventions/omega_fatty_acids/DHA.md §1
+# DHA-enriched eggs 4–6/wk → RBC DHA ↑ ~0.4–0.7 pp
+intervention_id: dha_enriched_eggs_5_per_wk
+marker_id: dha
+direction: increase
+effect_type: absolute
+effect_lo: 0.4
+effect_hi: 0.7
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: Kovacs-Nolan
+    journal: Lipids
+    year: 2013

@@ -1,0 +1,15 @@
+id: plant_sterols_2g
+canonical_name: Plant sterols / stanols
+type: supplement
+dose_amount: 2
+dose_unit: g_per_day
+dose_split: "with largest fat-containing meal"
+mechanisms:
+  - cholesterol_absorption_inhibition
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: drug_interaction
+    value: ezetimibe  # same mechanism, redundant

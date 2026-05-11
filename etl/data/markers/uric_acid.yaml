@@ -1,0 +1,21 @@
+# Source: metabolic_panel.md §Uric Acid; biomarker_interventions/metabolic/uric_acid.md.
+# Sex-specific reference (men higher due to estrogen's uricosuric effect in premenopausal women).
+# Serum urate >7 mg/dL → supersaturation / gout risk; elevated UA also linked to HTN, CKD, MetS.
+
+id: uric_acid
+name: Uric Acid
+panel: metabolic
+units: mg/dL
+direction: lower_is_better
+ref_lo: 2.6
+ref_hi: 7.2
+opt_lo: 2.6
+opt_hi: 5.5
+immutable: false
+demographic_modifiers:
+  - trait: male
+    opt_lo: 3.5
+    opt_hi: 5.5
+  - trait: female
+    opt_lo: 2.6
+    opt_hi: 5.0

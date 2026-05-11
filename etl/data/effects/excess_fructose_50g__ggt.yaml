@@ -1,0 +1,21 @@
+intervention_id: excess_fructose_50g
+marker_id: ggt
+direction: increase
+effect_type: pct
+effect_lo: 10
+effect_hi: 30
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 10
+time_hi_wk: 10
+citations:
+  - author: Stanhope
+    journal: J Clin Invest
+    year: 2009
+    pmid: "19381015"
+  - author: Hieronimus
+    journal: Am J Clin Nutr
+    year: 2020
+    pmid: "32945831"

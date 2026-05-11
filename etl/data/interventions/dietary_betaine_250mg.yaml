@@ -1,0 +1,13 @@
+id: dietary_betaine_250mg
+canonical_name: Dietary betaine (beets, spinach, quinoa)
+type: food
+dose_amount: 250
+dose_unit: mg_per_day
+dose_split: "≈1 cup beets/spinach/quinoa daily"
+mechanisms:
+  - methylation_support
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

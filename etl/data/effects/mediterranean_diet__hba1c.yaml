@@ -1,0 +1,23 @@
+# Source: HbA1c.md §1 — Mediterranean diet (PREDIMED-style); A1c −0.30 to −0.47%
+intervention_id: mediterranean_diet
+marker_id: hba1c
+direction: decrease
+effect_type: absolute
+effect_lo: -0.47
+effect_hi: -0.30
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.4
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Esposito
+    journal: BMJ Open
+    year: 2014
+  - author: Huo
+    journal: Eur J Clin Nutr
+    year: 2015
+  - author: Sleiman
+    journal: Front Public Health
+    year: 2015

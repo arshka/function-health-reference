@@ -1,0 +1,19 @@
+# Source: DPA.md §3 — Seal oil 10 mL/d → RBC DPA ↑ ~0.7–1 pp
+# Seal oil ~5% DPA vs ~2% in fish oil; ethical/regulatory restrictions in many jurisdictions
+
+intervention_id: seal_oil_10ml
+marker_id: dpa
+direction: increase
+effect_type: absolute
+effect_lo: 0.7
+effect_hi: 1.0
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: Conquer
+    journal: Lipids
+    year: 1996

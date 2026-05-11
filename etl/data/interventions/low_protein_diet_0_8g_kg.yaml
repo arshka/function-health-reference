@@ -1,0 +1,15 @@
+id: low_protein_diet_0_8g_kg
+canonical_name: Low-protein diet (0.8-1.0 g/kg/day)
+type: behavior
+dose_amount: 0.8
+dose_unit: g_per_kg_per_day
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: condition
+    value: protein_energy_malnutrition
+  - type: condition
+    value: pregnancy

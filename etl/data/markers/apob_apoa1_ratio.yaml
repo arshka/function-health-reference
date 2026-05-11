@@ -1,0 +1,25 @@
+# Source: biomarker_interventions/advanced_lipids/ApoB_ApoA1_ratio.md §Reference: typical baseline ratios
+# Walldius & Jungner J Intern Med 2006; INTERHEART (Yusuf 2004) cutoffs.
+# Optimal: men <0.6, women <0.5; moderate risk 0.6-0.8 (m) / 0.5-0.7 (w); high >0.8 / >0.7.
+# Sex-specific cutoffs encoded via demographic_modifiers. South Asian: lower target.
+
+id: apob_apoa1_ratio
+name: ApoB / ApoA1 Ratio
+panel: advanced_lipids
+units: ratio
+direction: lower_is_better
+ref_lo: 0
+ref_hi: 1.2
+opt_lo: 0
+opt_hi: 0.7
+immutable: false
+demographic_modifiers:
+  - trait: male
+    opt_lo: 0
+    opt_hi: 0.6
+  - trait: female
+    opt_lo: 0
+    opt_hi: 0.5
+  - trait: south_asian
+    opt_lo: 0
+    opt_hi: 0.6

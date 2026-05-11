@@ -1,0 +1,14 @@
+id: mediterranean_diet
+canonical_name: Mediterranean dietary pattern
+type: behavior
+dose_amount: 1
+dose_unit: pattern_adherence
+dose_split: "Olive oil + fish + nuts + legumes + whole grains + low red meat"
+mechanisms:
+  - sfa_reduction
+  - mufa_substitution
+  - polyphenol_oxldl_reduction
+  - viscous_fiber
+dietary_tags:
+  - vegetarian
+exclusions: []

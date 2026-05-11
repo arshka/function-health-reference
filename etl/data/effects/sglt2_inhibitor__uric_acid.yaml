@@ -1,0 +1,19 @@
+# Source: biomarker_interventions/metabolic/uric_acid.md §3 (SGLT2 inhibitors)
+# Empagliflozin/dapagliflozin → UA −0.5 to −0.7 mg/dL via glucosuria reducing URAT1 reabsorption.
+
+intervention_id: sglt2_inhibitor
+marker_id: uric_acid
+direction: decrease
+effect_type: absolute
+effect_lo: -0.7
+effect_hi: -0.5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: Zhao
+    journal: Front Pharmacol
+    year: 2025

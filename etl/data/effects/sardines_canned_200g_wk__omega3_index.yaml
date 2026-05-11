@@ -1,0 +1,19 @@
+intervention_id: sardines_canned_200g_wk
+marker_id: omega3_index
+direction: increase
+effect_type: absolute
+effect_lo: 1.5
+effect_hi: 2.0
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: Mozaffarian
+    journal: JACC
+    year: 2011
+    vol: 58
+    page: 2047
+    pmid: "22051327"

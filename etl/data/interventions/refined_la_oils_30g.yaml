@@ -1,0 +1,13 @@
+id: refined_la_oils_30g
+canonical_name: High linoleic-acid (LA) refined seed oils
+type: food
+dose_amount: 30
+dose_unit: g_per_day
+dose_split: "≥30 g/day refined high-LA oils (corn, soybean, safflower, sunflower)"
+mechanisms:
+  - omega6_3_balance
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

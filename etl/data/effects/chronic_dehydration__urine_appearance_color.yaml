@@ -1,0 +1,29 @@
+# Source: biomarker_interventions/urinalysis/urine_appearance_color.md §4
+# Sustained inadequate fluid intake shifts urine color toward dark amber
+# (Armstrong 4-5) from typical 2-3. Marker 1-5 scale; darkening = increase.
+
+intervention_id: chronic_dehydration
+marker_id: urine_appearance_color
+direction: increase
+effect_type: absolute
+effect_lo: 1
+effect_hi: 2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 1
+time_hi_wk: 2
+citations:
+  - author: Armstrong
+    journal: Int J Sport Nutr
+    year: 1994
+    vol: 4
+    page: 265
+    pmid: "7987361"
+  - author: Perrier
+    journal: Eur J Clin Nutr
+    year: 2013
+    vol: 67
+    page: 939
+    pmid: "23801237"

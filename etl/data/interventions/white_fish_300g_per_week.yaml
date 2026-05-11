@@ -1,0 +1,18 @@
+id: white_fish_300g_per_week
+canonical_name: White fish (cod, pollock, haddock)
+type: food
+dose_amount: 300
+dose_unit: g_per_week
+dose_split: "150 g portion, 2 servings/week"
+mechanisms:
+  - omega3_epa_dha
+dietary_tags:
+  - pescatarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: vegan
+  - type: dietary
+    value: vegetarian
+  - type: dietary
+    value: fish_allergy

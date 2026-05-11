@@ -1,0 +1,16 @@
+intervention_id: leafy_greens_2servings
+marker_id: phenoage
+direction: decrease
+effect_type: absolute
+effect_lo: -0.4
+effect_hi: -0.1
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Aune
+    journal: Int J Epidemiol
+    year: 2017

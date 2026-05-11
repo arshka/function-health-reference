@@ -1,0 +1,18 @@
+# Source: blood_cbc_indices.md §Hematocrit; biomarker_interventions/cbc/hematocrit.md
+# Sex-specific reference ranges per standard clinical labs (Quest/LabCorp).
+# In-band marker — both anemia (low) and erythrocytosis (high) carry risk.
+
+id: hematocrit
+name: Hematocrit
+panel: cbc
+units: '%'
+direction: in_band
+ref_lo: 41
+ref_hi: 50
+opt_lo: 43
+opt_hi: 48
+immutable: false
+demographic_modifiers:
+  - trait: female
+    opt_lo: 38
+    opt_hi: 42

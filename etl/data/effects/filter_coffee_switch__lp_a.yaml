@@ -1,0 +1,25 @@
+# Source: Lp(a).md §1 Foods that LOWER
+# "Filter-brewed coffee (substituted for boiled/unfiltered) | Switch from ≥3 cups/d boiled
+#  to filter | Lp(a) ~ −5–11 mg/dL; ~−20–30% in heavy boiled-coffee drinkers | 4–8 wk | [1-Trial]"
+# Mechanism: removes diterpenes cafestol/kahweol that raise Lp(a).
+
+intervention_id: filter_coffee_switch
+marker_id: lp_a
+direction: decrease
+effect_type: pct
+effect_lo: -30
+effect_hi: -20
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Urgert
+    journal: Eur J Clin Nutr
+    year: 1997
+  - author: Stensvold
+    journal: Atherosclerosis
+    year: 1996
+    pmid: "9010383"

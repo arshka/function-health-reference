@@ -1,0 +1,14 @@
+id: cranberry_juice_240ml
+canonical_name: Cranberry juice (UTI prevention)
+type: food
+dose_amount: 240
+dose_unit: ml_per_day
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions:
+  - type: drug_interaction
+    value: warfarin

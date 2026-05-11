@@ -1,0 +1,14 @@
+# Source: thyroid_panel.md §5 (autoantibodies); biomarker_interventions/thyroid/TPO_Ab.md.
+# Reference 0-35 IU/mL; optimal 0-15 IU/mL. Elevated TPO antibodies indicate Hashimoto's
+# autoimmunity risk; mutable but harder (selenium 200 mcg/d, gluten elimination, vitamin D).
+
+id: tpo_ab
+name: Thyroid Peroxidase Antibody
+panel: thyroid
+units: IU/mL
+direction: lower_is_better
+ref_lo: 0
+ref_hi: 35
+opt_lo: 0
+opt_hi: 15
+immutable: false

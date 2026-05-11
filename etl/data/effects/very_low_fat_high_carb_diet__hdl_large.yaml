@@ -1,0 +1,18 @@
+# Source: HDL_large.md §2 — Very-low-fat / high-CHO diets (<20% fat, >65% CHO)
+# "HDL Large ↓; HDL-C ↓" 6–12 wk
+intervention_id: very_low_fat_high_carb_diet
+marker_id: hdl_large
+direction: decrease
+effect_type: pct
+effect_lo: -15
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 6
+time_hi_wk: 12
+citations:
+  - author: Krauss
+    journal: AJCN
+    year: 2006

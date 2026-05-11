@@ -1,0 +1,14 @@
+id: hiit_3x_wk
+canonical_name: High-intensity interval training
+type: activity
+dose_amount: 3
+dose_unit: sessions_per_week
+dose_split: "3 sessions/wk, 4×4 min @ 85–95% VO₂max with 3 min active recovery"
+mechanisms:
+  - hiit
+  - aerobic_capacity
+  - anti_inflammatory
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: unstable_cardiovascular_disease

@@ -1,0 +1,16 @@
+intervention_id: tre_16_8
+marker_id: urine_specific_gravity
+direction: increase
+effect_type: absolute
+effect_lo: 0.003
+effect_hi: 0.007
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 1
+time_hi_wk: 4
+citations:
+  - author: Anson
+    journal: PNAS
+    year: 2003

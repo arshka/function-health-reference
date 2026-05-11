@@ -1,0 +1,12 @@
+id: dark_chocolate_75g
+canonical_name: Dark chocolate (high-flavanol, ≥70% cocoa)
+type: food
+dose_amount: 75
+dose_unit: g_per_day
+dose_split: "50–100 g 70%+ dark chocolate/day, or 200–500 mg flavanols/d"
+mechanisms:
+  - polyphenol_oxldl_reduction
+dietary_tags:
+  - vegetarian
+  - gluten_free
+exclusions: []

@@ -1,0 +1,26 @@
+# Source: biomarker_interventions/omega_fatty_acids/AA_EPA_ratio.md §3 (Ineffective section)
+# DHA-only algal oil 600-1000 mg DHA/d: AA:EPA modestly down via small DHA->EPA retro-conversion (~10-12%)
+# Less efficient than EPA-containing products
+intervention_id: dha_fish_oil_3g
+marker_id: aa_epa_ratio
+direction: decrease
+effect_type: pct
+effect_lo: -20
+effect_hi: -10
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: Conquer
+    journal: Lipids
+    year: 1997
+    vol: 32
+    page: 341
+  - author: Arterburn
+    journal: AJCN
+    year: 2008
+    vol: 88
+    page: "1167S"

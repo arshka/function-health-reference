@@ -1,0 +1,21 @@
+# Source: biomarker_interventions/heavy_metals_phenoage/arsenic.md §2, §3
+# Brown rice syrup as sweetener in granola bars, infant formulas, energy bars.
+# Dartmouth study: organic baby formulas sweetened with brown rice syrup had
+# iAs 6x higher than non-rice formulas (Jackson 2012 EHP).
+intervention_id: brown_rice_syrup_products
+marker_id: arsenic
+direction: increase
+effect_type: pct
+effect_lo: 20
+effect_hi: 60
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 1.0
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 8
+time_hi_wk: 26
+citations:
+  - author: Jackson
+    journal: Environ Health Perspect
+    year: 2012
+    pmid: "22418295"

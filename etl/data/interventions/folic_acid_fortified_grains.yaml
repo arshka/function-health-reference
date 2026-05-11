@@ -1,0 +1,13 @@
+id: folic_acid_fortified_grains
+canonical_name: Folic-acid fortified breakfast cereals and breads
+type: food
+dose_amount: 150
+dose_unit: mcg_per_day
+dose_split: "≈100–200 µg folic acid/day from US fortification"
+mechanisms:
+  - folate_provision
+  - methylation_support
+dietary_tags:
+  - vegetarian
+  - vegan
+exclusions: []

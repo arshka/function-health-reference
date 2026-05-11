@@ -1,0 +1,21 @@
+intervention_id: vitamin_d3_3000iu
+marker_id: alp
+direction: decrease
+effect_type: absolute
+effect_lo: -20
+effect_hi: -10
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.2
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Holick
+    journal: NEJM
+    year: 2007
+    pmid: "17634462"
+  - author: Bouillon
+    journal: J Bone Miner Res
+    year: 2018
+    pmid: "30187521"

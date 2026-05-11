@@ -1,0 +1,13 @@
+id: vlcd_800kcal
+canonical_name: Sustained very-low-calorie diet (<800 kcal/day)
+type: behavior
+dose_amount: 800
+dose_unit: kcal_per_day
+mechanisms:
+  - caloric_deficit
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: anorexia_nervosa
+  - type: condition
+    value: pregnancy

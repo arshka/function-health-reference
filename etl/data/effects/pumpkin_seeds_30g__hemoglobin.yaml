@@ -1,0 +1,16 @@
+intervention_id: pumpkin_seeds_30g
+marker_id: hemoglobin
+direction: increase
+effect_type: absolute
+effect_lo: 0.1
+effect_hi: 0.3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: mechanism
+evidence_weight: 0.4
+time_lo_wk: 12
+time_hi_wk: 12
+citations:
+  - author: INACG
+    journal: INACG Monograph
+    year: 1981

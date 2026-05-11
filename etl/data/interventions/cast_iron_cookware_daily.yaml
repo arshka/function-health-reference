@@ -1,0 +1,15 @@
+id: cast_iron_cookware_daily
+canonical_name: Cooking acidic foods in cast iron cookware (daily)
+type: behavior
+dose_amount: 1
+dose_unit: sessions_per_day
+mechanisms:
+  - non_heme_iron_provision
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions:
+  - type: gene
+    value: hfe_c282y_homozygous

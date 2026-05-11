@@ -1,0 +1,10 @@
+id: periodontitis_treatment
+canonical_name: Periodontitis treatment (scaling + root planing)
+type: behavior
+dose_amount: 1
+dose_unit: full_course
+dose_split: "Professional dental cleaning + scaling/root planing; +/- systemic antibiotics"
+mechanisms:
+  - anti_inflammatory
+dietary_tags: []
+exclusions: []

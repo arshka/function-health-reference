@@ -1,0 +1,14 @@
+# Source: nutrients_omega_fatty_acids.md §7 Omega-6 Total; biomarker_interventions/omega_fatty_acids/omega6_total.md
+# Sum of LA + AA + DGLA + GLA + DPA n-6 as % of total RBC fatty acids. RBC ~30-38% typical.
+
+id: omega6_total
+name: Omega-6 Total
+panel: omega_fatty_acids
+units: "% of total fatty acids"
+direction: in_band
+ref_lo: 25
+ref_hi: 45
+opt_lo: 30
+opt_hi: 38
+immutable: false
+demographic_modifiers: []

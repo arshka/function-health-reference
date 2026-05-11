@@ -1,0 +1,18 @@
+# Source: HDL_large.md §4 — Smoking cessation
+# "HDL-C ↑ ~4–5 mg/dL; HDL Large ↑ +10–15%; HDL function ↑" 8–12 wk after cessation
+intervention_id: smoking_cessation
+marker_id: hdl_large
+direction: increase
+effect_type: pct
+effect_lo: 10
+effect_hi: 15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 1.0
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Maeda
+    journal: Prev Med
+    year: 2003

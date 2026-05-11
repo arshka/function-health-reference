@@ -1,0 +1,23 @@
+# Source: biomarker_interventions/vitamins_minerals/MMA.md §3
+# Oral cyanocobalamin 1000 µg/d: MMA ↓ ~33% from baseline; full normalization in
+# most non-PA patients within 4–8 wk (Eussen 2005 dose-finding trial).
+
+intervention_id: b12_oral_1000mcg
+marker_id: mma
+direction: decrease
+effect_type: pct
+effect_lo: -40
+effect_hi: -25
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Eussen
+    journal: Arch Intern Med
+    year: 2005
+    vol: 165
+    page: 1167
+    pmid: "15911731"

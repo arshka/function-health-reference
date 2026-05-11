@@ -1,0 +1,18 @@
+# Source: HDL_large.md §1 — Fatty fish / EPA + DHA, 2–3 servings/wk
+# "HDL Large ↑ ~5–15%; HDL2-P ↑" at 8–12 wk
+intervention_id: fatty_fish_2servings_wk
+marker_id: hdl_large
+direction: increase
+effect_type: pct
+effect_lo: 5
+effect_hi: 15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Bernstein
+    journal: J Nutr
+    year: 2012

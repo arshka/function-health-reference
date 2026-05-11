@@ -1,0 +1,12 @@
+id: heavy_coffee_6cups
+canonical_name: Heavy coffee intake (≥6 cups/day)
+type: behavior
+dose_amount: 6
+dose_unit: cups_per_day
+dose_split: "≥6 cups/day, especially unfiltered"
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

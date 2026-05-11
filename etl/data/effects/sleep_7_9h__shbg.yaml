@@ -1,0 +1,19 @@
+# Source: biomarker_interventions/male_hormones/SHBG.md §4 (sleep extension 8 h vs <6 h)
+intervention_id: sleep_7_9h
+marker_id: shbg
+direction: increase
+effect_type: pct
+effect_lo: 3
+effect_hi: 8
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: Spiegel
+    journal: Lancet
+    year: 1999
+    vol: 354
+    page: 1435

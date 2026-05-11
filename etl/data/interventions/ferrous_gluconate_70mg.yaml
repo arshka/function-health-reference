@@ -1,0 +1,22 @@
+id: ferrous_gluconate_70mg
+canonical_name: Ferrous gluconate (70 mg elemental Fe; 2 x 325 mg tabs)
+type: supplement
+dose_amount: 70
+dose_unit: mg_per_day
+dose_split: "35 mg elemental Fe per 325 mg tab; 1-2 tabs daily, fasting, with vitamin C"
+mechanisms:
+  - heme_iron_provision
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions:
+  - type: gene
+    value: hfe_c282y_homozygous
+  - type: condition
+    value: hemochromatosis
+  - type: drug_interaction
+    value: levothyroxine_within_4h
+  - type: drug_interaction
+    value: tetracycline_within_2h

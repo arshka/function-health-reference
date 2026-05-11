@@ -1,0 +1,22 @@
+# Source: Triglycerides.md §3 (Raising)
+# "Coconut oil / MCT supplements | 15–30 g/d | TG ±0–small ↑; less effect than expected | 4–8 wk | [Meta]"
+# Effect is "±0 to small ↑" — capturing minimal positive range 0 to +5 mg/dL as best inference.
+
+intervention_id: coconut_oil_30g
+marker_id: triglycerides
+direction: increase
+effect_type: absolute
+effect_lo: 0
+effect_hi: 5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Neelakantan
+    journal: Circulation
+    year: 2020
+    vol: 141
+    page: 803

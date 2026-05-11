@@ -1,0 +1,24 @@
+# Source: biomarker_interventions/male_hormones/FSH.md §1 & §4
+# "Heavy alcohol cessation | Stop chronic intake | FSH recovers from alcohol-suppressed
+# levels | Weeks–months | [Meta] Santi 2024 (chronic alcohol → low FSH)"
+# Direction: removing chronic heavy alcohol numerically restores FSH from suppression
+# (in_band marker; rising suppressed FSH back toward mid-normal is desirable).
+
+intervention_id: alcohol_cessation
+marker_id: fsh
+direction: increase
+effect_type: pct
+effect_lo: 10
+effect_hi: 25
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 16
+citations:
+  - author: Santi
+    journal: Andrology
+    year: 2024
+    vol: 12
+    page: 626

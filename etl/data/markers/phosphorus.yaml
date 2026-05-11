@@ -1,0 +1,14 @@
+# Source: kidney_electrolytes_pancreas.md §Phosphorus, biomarker_interventions/kidney_electrolytes_pancreas/phosphorus.md
+# Reference per standard clinical labs.
+
+id: phosphorus
+name: Phosphorus
+panel: kidney_electrolytes_pancreas
+units: mg/dL
+direction: in_band
+ref_lo: 2.5
+ref_hi: 4.5
+opt_lo: 3.0
+opt_hi: 4.0
+immutable: false
+demographic_modifiers: []

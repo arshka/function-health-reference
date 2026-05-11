@@ -1,0 +1,23 @@
+# Source: biomarker_interventions/autoimmunity_psa/anti_dsDNA.md §4 (activities)
+# UV protection (SPF >=30 broad spectrum + UV-protective clothing): UV
+# exposure -> keratinocyte apoptosis -> exposure of nuclear antigens ->
+# flares of cutaneous and systemic SLE; 40-70% of SLE patients are
+# photosensitive. Prevents flares and new anti-dsDNA generation in active
+# disease. Foundational SLE intervention but no RCT with titer as primary
+# endpoint -- effect is via flare prevention so bounds are conservative.
+intervention_id: uv_protection_spf30
+marker_id: anti_dsdna
+direction: decrease
+effect_type: pct
+effect_lo: -10
+effect_hi: -2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 12
+time_hi_wk: 52
+citations:
+  - author: Kuhn
+    journal: J Am Acad Dermatol
+    year: 2011

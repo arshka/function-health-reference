@@ -1,0 +1,16 @@
+id: macadamia_nuts_65g
+canonical_name: Macadamia nuts
+type: food
+dose_amount: 65
+dose_unit: g_per_day
+dose_split: "40–90 g/day"
+mechanisms:
+  - mufa_substitution
+  - sfa_reduction
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: tree_nut_allergy

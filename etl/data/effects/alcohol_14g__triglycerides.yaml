@@ -1,0 +1,23 @@
+# Source: Triglycerides.md §2
+# "Alcohol | ≥14 g/d ethanol | TG +20–50 mg/dL acutely; chronic heavy drinking +100–500 mg/dL | Acute / chronic | [Cohort]"
+# Using the lower acute/moderate range +20 to +50 mg/dL for the standard ≥14 g/d threshold.
+
+intervention_id: alcohol_14g
+marker_id: triglycerides
+direction: increase
+effect_type: absolute
+effect_lo: 20
+effect_hi: 50
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 1
+time_hi_wk: 12
+citations:
+  - author: Van de Wiel
+    journal: Int J Vasc Med
+    year: 2012
+  - author: Whitfield
+    journal: Alcohol Clin Exp Res
+    year: 2013

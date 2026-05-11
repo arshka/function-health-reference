@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/cardiovascular/non-HDL-C.md §1
+# "Berries / fruit (replacing refined carb) | 200 g/d | Non-HDL-C −5–10 mg/dL
+#  via TG/refined carb displacement | 4–8 wk | [1-Trial]"
+
+intervention_id: berries_200g
+marker_id: non_hdl_c
+direction: decrease
+effect_type: absolute
+effect_lo: -10
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Luís
+    journal: Antioxidants
+    year: 2018

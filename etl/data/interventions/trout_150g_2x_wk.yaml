@@ -1,0 +1,9 @@
+id: trout_150g_2x_wk
+canonical_name: Rainbow trout (150g 2x/wk)
+type: food
+dose_amount: 150
+dose_unit: g_per_serving
+mechanisms:
+- omega3_epa_dha
+dietary_tags: []
+exclusions: []

@@ -1,0 +1,17 @@
+id: methenamine_hippurate_1g_bid
+canonical_name: Methenamine hippurate (urinary antiseptic)
+type: supplement
+dose_amount: 2
+dose_unit: g_per_day
+dose_split: "1 g BID"
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions:
+  - type: condition
+    value: severe_renal_impairment
+  - type: condition
+    value: hepatic_insufficiency

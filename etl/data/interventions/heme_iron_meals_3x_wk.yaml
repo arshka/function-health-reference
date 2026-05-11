@@ -1,0 +1,11 @@
+id: heme_iron_meals_3x_wk
+canonical_name: Heme iron meals (red meat 3 oz 3-4x/wk, liver 1x/wk, oysters/clams)
+type: food
+dose_amount: 3
+dose_unit: servings_per_week
+mechanisms:
+  - heme_iron_provision
+dietary_tags: []
+exclusions:
+  - type: gene
+    value: hfe_c282y_homozygous

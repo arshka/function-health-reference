@@ -1,0 +1,17 @@
+intervention_id: berries_125g
+marker_id: ast
+direction: decrease
+effect_type: pct
+effect_lo: -8
+effect_hi: -2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Banihani
+    journal: Nutrients
+    year: 2014
+    pmid: "25196239"

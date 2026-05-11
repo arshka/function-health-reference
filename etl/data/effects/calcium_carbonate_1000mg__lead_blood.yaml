@@ -1,0 +1,22 @@
+intervention_id: calcium_carbonate_1000mg
+marker_id: lead_blood
+direction: decrease
+effect_type: pct
+effect_lo: -30
+effect_hi: -10
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 8
+time_hi_wk: 24
+citations:
+  - author: Markowitz
+    journal: Pediatrics
+    year: 2004
+    vol: 113
+    page: "e34"
+    pmid: "15466068"
+  - author: Mahaffey
+    journal: Environ Res
+    year: 1986

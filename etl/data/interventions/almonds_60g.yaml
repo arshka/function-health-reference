@@ -1,0 +1,16 @@
+id: almonds_60g
+canonical_name: Almonds
+type: food
+dose_amount: 60
+dose_unit: g_per_day
+dose_split: "45–85 g/day; substituting snacks"
+mechanisms:
+  - mufa_substitution
+  - sfa_reduction
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: tree_nut_allergy

@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/advanced_lipids/LDL_peak_size.md §1 row 9
+# Soluble fiber (β-glucan / psyllium) 10–15 g/d: peak size modestly ↑ (+0.1 nm)
+# via overall LDL distribution shift
+
+intervention_id: psyllium_husk_10g
+marker_id: ldl_peak_size
+direction: increase
+effect_type: absolute
+effect_lo: 0.05
+effect_hi: 0.15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Soluble fiber lipid meta
+    journal: Adv Nutr
+    year: 2023

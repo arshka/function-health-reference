@@ -1,0 +1,11 @@
+id: walking_after_meals_15min
+canonical_name: Walking after meals (post-prandial)
+type: activity
+dose_amount: 15
+dose_unit: min_per_meal
+dose_split: "10-30 min walk within 30 min after each main meal"
+mechanisms:
+  - aerobic_capacity
+  - glycemic_load_reduction
+dietary_tags: []
+exclusions: []

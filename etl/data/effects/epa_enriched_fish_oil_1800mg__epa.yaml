@@ -1,0 +1,22 @@
+# Source: biomarker_interventions/omega_fatty_acids/EPA.md §3 - EPA-enriched fish oil 1500-2000 mg EPA/d
+intervention_id: epa_enriched_fish_oil_1800mg
+marker_id: epa
+direction: increase
+effect_type: absolute
+effect_lo: 1.5
+effect_hi: 2.5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: Rondanelli
+    journal: Geriatr Gerontol Int
+    year: 2012
+  - author: Davidson
+    journal: Clin Ther
+    year: 2007
+    vol: 29
+    page: 1354

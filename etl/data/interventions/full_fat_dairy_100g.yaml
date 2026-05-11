@@ -1,0 +1,15 @@
+id: full_fat_dairy_100g
+canonical_name: Full-fat dairy (cheese, full-fat yogurt)
+type: food
+dose_amount: 100
+dose_unit: g_per_day
+dose_split: "moderate; cheese or full-fat yogurt with meals"
+mechanisms: []
+dietary_tags:
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: vegan
+  - type: dietary
+    value: lactose_intolerance

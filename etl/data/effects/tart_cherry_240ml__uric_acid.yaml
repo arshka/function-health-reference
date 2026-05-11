@@ -1,0 +1,23 @@
+# Source: biomarker_interventions/metabolic/uric_acid.md §1 (Cherries / tart cherry juice)
+# 8–10 oz/d tart cherry juice → UA −0.3 to −0.5 mg/dL; gout flare risk ↓ 35% in observational.
+
+intervention_id: tart_cherry_240ml
+marker_id: uric_acid
+direction: decrease
+effect_type: absolute
+effect_lo: -0.5
+effect_hi: -0.3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Zhang
+    journal: Arthritis Rheum
+    year: 2012
+    pmid: "22941940"
+  - author: Schlesinger
+    journal: J Funct Foods
+    year: 2012

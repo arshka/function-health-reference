@@ -1,0 +1,16 @@
+intervention_id: niacin_2g
+marker_id: ldl_small
+direction: decrease
+effect_type: pct
+effect_lo: -25
+effect_hi: -15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: Bruckert
+    journal: Atherosclerosis
+    year: 2010

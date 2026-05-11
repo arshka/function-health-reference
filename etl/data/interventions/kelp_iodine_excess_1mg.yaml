@@ -1,0 +1,16 @@
+id: kelp_iodine_excess_1mg
+canonical_name: Kelp / kombu / iodine megadose (>1 mg/day total iodine)
+type: food
+dose_amount: 1
+dose_unit: mg_per_day
+mechanisms:
+  - thyroid_iodine_substrate
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: condition
+    value: hashimoto_thyroiditis
+  - type: condition
+    value: graves_disease

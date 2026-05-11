@@ -1,0 +1,8 @@
+id: mineral_water_bicarbonate_1500ml
+canonical_name: High-bicarbonate mineral water (Vichy, Gerolsteiner, San Pellegrino)
+type: food
+dose_amount: 1500
+dose_unit: ml_per_day
+mechanisms: [renal_clearance]
+dietary_tags: [vegan, vegetarian, gluten_free, dairy_free]
+exclusions: []

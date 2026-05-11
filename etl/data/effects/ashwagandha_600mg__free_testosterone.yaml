@@ -1,0 +1,24 @@
+# Source: biomarker_interventions/male_hormones/free_testosterone.md §3
+# Ashwagandha 300-600 mg/d; total T +14-17%; free T proportional or slightly more
+intervention_id: ashwagandha_600mg
+marker_id: free_testosterone
+direction: increase
+effect_type: pct
+effect_lo: 12
+effect_hi: 20
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 8
+time_hi_wk: 16
+citations:
+  - author: Lopresti
+    journal: Am J Mens Health
+    year: 2019
+    pmid: "30854916"
+  - author: Wankhede
+    journal: J Int Soc Sports Nutr
+    year: 2015
+    vol: 12
+    page: 43

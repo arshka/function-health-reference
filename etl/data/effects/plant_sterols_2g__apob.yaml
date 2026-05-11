@@ -1,0 +1,25 @@
+# Source: ApoB.md §3 Supplements
+# "Plant sterols / stanols (Benecol, CardioWise, generic) | 2 g/d, taken with the
+#  largest fat-containing meal | ApoB −7–10%; LDL-C −10% | 3–4 wk | [Meta]"
+
+intervention_id: plant_sterols_2g
+marker_id: apob
+direction: decrease
+effect_type: pct
+effect_lo: -10
+effect_hi: -7
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 3
+time_hi_wk: 4
+citations:
+  - author: Ras
+    journal: Eur J Nutr
+    year: 2014
+    vol: 53
+    page: 1557
+  - author: Musa-Veloso
+    journal: Lipids
+    year: 2011

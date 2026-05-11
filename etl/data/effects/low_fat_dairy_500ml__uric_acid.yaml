@@ -1,0 +1,23 @@
+# Source: biomarker_interventions/metabolic/uric_acid.md §1 (Low-fat dairy)
+# 2+ servings/d low-fat dairy → UA −0.25 to −0.45 mg/dL via casein/lactalbumin uricosuric mechanism.
+
+intervention_id: low_fat_dairy_500ml
+marker_id: uric_acid
+direction: decrease
+effect_type: absolute
+effect_lo: -0.45
+effect_hi: -0.25
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Choi
+    journal: NEJM
+    year: 2004
+    pmid: "15014182"
+  - author: Dalbeth
+    journal: Arthritis Rheum
+    year: 2010

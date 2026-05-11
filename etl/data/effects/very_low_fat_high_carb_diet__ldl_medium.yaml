@@ -1,0 +1,17 @@
+intervention_id: very_low_fat_high_carb_diet
+marker_id: ldl_medium
+direction: increase
+effect_type: pct
+effect_lo: 5
+effect_hi: 15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 6
+time_hi_wk: 12
+citations:
+  - author: Krauss
+    journal: AJCN
+    year: 2006
+    pmid: "16685045"

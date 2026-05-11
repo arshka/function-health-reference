@@ -1,0 +1,12 @@
+id: spinach_cooked_1cup
+canonical_name: Spinach (cooked)
+type: food
+dose_amount: 1
+dose_unit: cups_per_day
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+  - mediterranean
+exclusions: []

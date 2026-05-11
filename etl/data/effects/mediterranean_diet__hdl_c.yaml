@@ -1,0 +1,21 @@
+# Source: HDL-C.md §1 Foods (and reaffirmed in §4 Activities & Behaviors)
+# "Mediterranean diet (full pattern) | Olive oil + fish + nuts + legumes + low refined carb |
+#  HDL-C ±0–small ↑ (1–2 mg/dL) | 12–24 wk | [Meta]"
+# Note: HDL-C is NOT a primary target of Mediterranean diet; effect is modest/inconsistent.
+
+intervention_id: mediterranean_diet
+marker_id: hdl_c
+direction: increase
+effect_type: absolute
+effect_lo: 0
+effect_hi: 2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Liyanage
+    journal: PLOS One
+    year: 2016

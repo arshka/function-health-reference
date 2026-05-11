@@ -1,0 +1,23 @@
+# Source: HDL-C.md §1 Foods (and reaffirmed in §4)
+# "Low-carb / ketogenic diet | <50 g carb/d |
+#  HDL-C +2.9 mg/dL (mean); larger in insulin-resistant | 12–24 wk | [Meta]"
+
+intervention_id: ketogenic_diet
+marker_id: hdl_c
+direction: increase
+effect_type: absolute
+effect_lo: 2
+effect_hi: 4
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Bueno
+    journal: PLOS One
+    year: 2020
+  - author: Choi
+    journal: AJCN
+    year: 2024

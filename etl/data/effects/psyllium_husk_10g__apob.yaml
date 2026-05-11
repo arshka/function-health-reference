@@ -1,0 +1,26 @@
+# Source: biomarker_interventions/cardiovascular/ApoB.md §1 (foods that LOWER) and §3 (supplements)
+# Hand-extracted as ground-truth for the 3-agent ensemble pilot.
+
+intervention_id: psyllium_husk_10g
+marker_id: apob
+direction: decrease
+effect_type: pct
+effect_lo: -10
+effect_hi: -7
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Jovanovski
+    journal: AJCN
+    year: 2018
+    vol: 108
+    page: 922
+  - author: Gibb
+    journal: AJCN
+    year: 2015
+    vol: 102
+    page: 1604

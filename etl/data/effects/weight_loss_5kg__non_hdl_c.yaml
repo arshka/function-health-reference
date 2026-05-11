@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/cardiovascular/non-HDL-C.md §4
+# "Weight loss (lifestyle) | Per 1 kg lost | Non-HDL-C ~−1.7 mg/dL per kg | Ongoing | [Meta]"
+# 5 kg loss → ~−8.5 mg/dL non-HDL-C. Bounds bracket point estimate.
+
+intervention_id: weight_loss_5kg
+marker_id: non_hdl_c
+direction: decrease
+effect_type: absolute
+effect_lo: -9
+effect_hi: -8
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 52
+citations:
+  - author: Liu
+    journal: Obes Rev
+    year: 2020

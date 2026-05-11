@@ -1,0 +1,17 @@
+# Source: biomarker_interventions/male_hormones/prolactin.md §3 (supplements lowering)
+intervention_id: vitamin_b6_200mg
+marker_id: prolactin
+direction: decrease
+effect_type: pct
+effect_lo: -20
+effect_hi: -10
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Krieger
+    journal: Acta Endocrinol
+    year: 1981

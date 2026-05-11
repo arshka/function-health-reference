@@ -1,0 +1,20 @@
+# Source: albumin_globulin_ratio.md §3 — Vitamin D3 2000–4000 IU/d (if deficient)
+# "A/G ↑ modestly via immune modulation" — RCT, indirect; effect concentrated in deficient.
+
+intervention_id: vitamin_d3_3000iu
+marker_id: albumin_globulin_ratio
+direction: increase
+effect_type: pct
+effect_lo: 1
+effect_hi: 3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.2
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 26
+citations:
+  - author: Aranow
+    journal: J Investig Med
+    year: 2011
+    pmid: "21527855"

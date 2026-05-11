@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/immune/lymphocytes.md §4 — Smoking (current)
+intervention_id: smoking_active
+marker_id: lymphocytes
+direction: increase
+effect_type: absolute
+effect_lo: 0.2
+effect_hi: 0.5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 1.0
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 4
+time_hi_wk: 24
+citations:
+  - author: Higuchi
+    journal: Atherosclerosis
+    year: 2016
+  - author: Schwartz
+    journal: Am J Epidemiol
+    year: 1991

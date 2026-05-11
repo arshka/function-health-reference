@@ -1,0 +1,16 @@
+id: hazelnuts_50g
+canonical_name: Hazelnuts
+type: food
+dose_amount: 50
+dose_unit: g_per_day
+dose_split: "30–70 g/day"
+mechanisms:
+  - mufa_substitution
+  - sfa_reduction
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: tree_nut_allergy

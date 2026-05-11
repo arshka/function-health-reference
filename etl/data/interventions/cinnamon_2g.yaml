@@ -1,0 +1,14 @@
+id: cinnamon_2g
+canonical_name: Cinnamon
+type: supplement
+dose_amount: 2
+dose_unit: g_per_day
+dose_split: "1–3 g/day Ceylon or cassia"
+mechanisms:
+  - insulin_sensitization
+  - glycemic_load_reduction
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

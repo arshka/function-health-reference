@@ -1,0 +1,17 @@
+intervention_id: yogurt_150g
+marker_id: wbc_count
+direction: decrease
+effect_type: absolute
+effect_lo: -0.2
+effect_hi: -0.1
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: Pei
+    journal: Br J Nutr
+    year: 2017
+    pmid: "28091333"

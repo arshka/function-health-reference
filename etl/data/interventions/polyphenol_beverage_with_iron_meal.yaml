@@ -1,0 +1,8 @@
+id: polyphenol_beverage_with_iron_meal
+canonical_name: Polyphenol-rich beverages (red wine, cocoa) co-ingested with iron meal
+type: behavior
+dose_amount: 1
+dose_unit: servings_per_meal
+mechanisms: []
+dietary_tags: []
+exclusions: []

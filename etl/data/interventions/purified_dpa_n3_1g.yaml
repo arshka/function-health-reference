@@ -1,0 +1,16 @@
+id: purified_dpa_n3_1g
+canonical_name: Purified DPA n-3 (Croda Algatrium / EPAX DPA)
+type: supplement
+dose_amount: 1
+dose_unit: g_per_day
+dose_split: "0.5–1 g DPA/day; niche specialty supplement"
+mechanisms:
+  - omega3_epa_dha
+dietary_tags:
+  - pescatarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: vegan
+  - type: dietary
+    value: vegetarian

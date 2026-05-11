@@ -1,0 +1,17 @@
+intervention_id: cast_iron_cookware_daily
+marker_id: ferritin
+direction: increase
+effect_type: absolute
+effect_lo: 3
+effect_hi: 10
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: mechanism
+evidence_weight: 0.4
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Gibson
+    journal: Nutr Rev
+    year: 2018
+    pmid: "30010865"

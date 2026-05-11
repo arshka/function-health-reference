@@ -1,0 +1,17 @@
+intervention_id: garlic_900mg
+marker_id: ggt
+direction: decrease
+effect_type: pct
+effect_lo: -10
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 12
+time_hi_wk: 12
+citations:
+  - author: Sangouni
+    journal: Phytother Res
+    year: 2020
+    pmid: "32638463"

@@ -1,0 +1,16 @@
+intervention_id: smoking_active
+marker_id: ldl_small
+direction: increase
+effect_type: pct
+effect_lo: 5
+effect_hi: 20
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Craig
+    journal: BMJ
+    year: 1989

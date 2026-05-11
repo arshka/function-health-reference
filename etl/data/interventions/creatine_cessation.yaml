@@ -1,0 +1,12 @@
+id: creatine_cessation
+canonical_name: Creatine monohydrate cessation (washout >=7-14 days)
+type: behavior
+dose_amount: 0
+dose_unit: g_per_day
+dose_split: "Stop creatine supplementation 7-14 days pre-draw to reveal true serum creatinine baseline"
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

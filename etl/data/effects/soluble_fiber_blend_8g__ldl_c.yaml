@@ -1,0 +1,26 @@
+# Source: biomarker_interventions/cardiovascular/LDL-C.md §3 (Lowering)
+# "Soluble fiber blends | 5–10 g/d | LDL-C −5 mg/dL per 5 g/d soluble fiber | 4–8 wk | [Meta]"
+
+intervention_id: soluble_fiber_blend_8g
+marker_id: ldl_c
+direction: decrease
+effect_type: absolute
+effect_lo: -5
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Brown
+    journal: AJCN
+    year: 1999
+    vol: 69
+    page: 30
+  - author: Soliman
+    journal: Nutrients
+    year: 2019
+    vol: 11
+    page: 1155

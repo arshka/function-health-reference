@@ -1,0 +1,21 @@
+intervention_id: lead_source_elimination
+marker_id: lead_blood
+direction: decrease
+effect_type: pct
+effect_lo: -60
+effect_hi: -40
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.2
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: CDC
+    journal: MMWR
+    year: 2021
+    vol: 70
+    page: 1509
+  - author: ATSDR
+    journal: Toxicological Profile for Lead
+    year: 2020

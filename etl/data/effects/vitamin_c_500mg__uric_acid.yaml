@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/metabolic/uric_acid.md §1 (vit C foods) and §3 (vitamin C supplementation)
+# 500 mg/d vitamin C → UA −0.5 mg/dL via reduced renal urate reabsorption.
+
+intervention_id: vitamin_c_500mg
+marker_id: uric_acid
+direction: decrease
+effect_type: absolute
+effect_lo: -0.6
+effect_hi: -0.3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Juraschek
+    journal: Arthritis Rheum
+    year: 2011
+    pmid: "21671418"

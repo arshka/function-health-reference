@@ -1,0 +1,22 @@
+# Source: biomarker_interventions/advanced_lipids/LDL_particle_number.md §1
+# Almonds: ApoB −3–4%, LDL-P modestly reduced
+
+intervention_id: almonds_60g
+marker_id: ldl_particle_number
+direction: decrease
+effect_type: pct
+effect_lo: -4
+effect_hi: -3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 24
+citations:
+  - author: Berryman
+    journal: J Nutr
+    year: 2017
+  - author: Musa-Veloso
+    journal: J Am Coll Nutr
+    year: 2016

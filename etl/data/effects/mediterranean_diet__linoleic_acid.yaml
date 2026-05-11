@@ -1,0 +1,23 @@
+# Source: biomarker_interventions/omega_fatty_acids/linoleic_acid.md §4
+# Replacing seed oils with olive oil → RBC LA ↓ ~0.5–1 pp.
+# Units = percentage points (pp) of RBC total fatty acids.
+
+intervention_id: mediterranean_diet
+marker_id: linoleic_acid
+direction: decrease
+effect_type: absolute
+effect_lo: -1.0
+effect_hi: -0.5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: Estruch
+    journal: NEJM
+    year: 2018
+  - author: de Lorgeril
+    journal: Circulation
+    year: 1999

@@ -1,0 +1,18 @@
+id: vitamin_d_fortified_milk_750ml
+canonical_name: Vitamin D-fortified milk
+type: food
+dose_amount: 750
+dose_unit: ml_per_day
+dose_split: "250 mL × 3/day (≈300 IU D3 total)"
+mechanisms:
+  - vitamin_d_provision
+dietary_tags:
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: vegan
+  - type: dietary
+    value: dairy_free
+  - type: condition
+    value: lactose_intolerance

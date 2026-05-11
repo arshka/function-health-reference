@@ -1,0 +1,17 @@
+intervention_id: heavy_alcohol_40g
+marker_id: homocysteine
+direction: increase
+effect_type: absolute
+effect_lo: 2.0
+effect_hi: 4.0
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 8
+time_hi_wk: 24
+citations:
+  - author: Halsted
+    journal: Semin Liver Dis
+    year: 2003
+    pmid: "12796779"

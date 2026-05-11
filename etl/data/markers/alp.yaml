@@ -1,0 +1,15 @@
+# Source: liver_panel.md §3 ALP; biomarker_interventions/liver/ALP.md.
+# Reference range per standard clinical labs. In-band marker: low ALP can indicate
+# zinc deficiency, hypophosphatasia, or hypothyroidism; high ALP indicates
+# cholestasis or bone turnover. Optimal narrow band 45-100 U/L.
+
+id: alp
+name: Alkaline Phosphatase (ALP)
+panel: liver
+units: U/L
+direction: in_band
+ref_lo: 40
+ref_hi: 130
+opt_lo: 45
+opt_hi: 100
+immutable: false

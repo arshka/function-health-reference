@@ -1,0 +1,15 @@
+id: leafy_greens_2servings
+canonical_name: Leafy green vegetables
+type: food
+dose_amount: 2
+dose_unit: servings_per_day
+dose_split: "≥2 servings/day"
+mechanisms:
+  - anti_inflammatory
+  - folate_provision
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - mediterranean
+exclusions: []

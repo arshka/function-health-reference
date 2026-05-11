@@ -1,0 +1,10 @@
+id: saturated_fat_high_intake
+canonical_name: Saturated fat (high intake displacing PUFA)
+type: behavior
+dose_amount: 1
+dose_unit: pct_kcal_per_day
+dose_split: "Each +1% kcal SFA displacing PUFA"
+mechanisms:
+  - sfa_reduction
+dietary_tags: []
+exclusions: []

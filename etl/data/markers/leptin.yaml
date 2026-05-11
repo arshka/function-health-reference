@@ -1,0 +1,21 @@
+# Source: metabolic_panel.md §Leptin; biomarker_interventions/metabolic/leptin.md.
+# Leptin scales with adipose mass and is sex-dimorphic (women ~2-3x men at equal BMI).
+# In-band marker: very low → energy deficit/HPG suppression; very high → leptin resistance/obesity.
+
+id: leptin
+name: Leptin
+panel: metabolic
+units: ng/mL
+direction: in_band
+ref_lo: 0.5
+ref_hi: 27.5
+opt_lo: 3.0
+opt_hi: 8.0
+immutable: false
+demographic_modifiers:
+  - trait: male
+    opt_lo: 3.0
+    opt_hi: 8.0
+  - trait: female
+    opt_lo: 5.0
+    opt_hi: 15.0

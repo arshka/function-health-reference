@@ -1,0 +1,22 @@
+# Source: Triglycerides.md §1
+# "Low-carb / ketogenic diet | <50–100 g carb/d | TG −15–30 mg/dL (modest baseline) to −50–100 mg/dL (TG >200 baseline) | 4–12 wk | [Meta]"
+# Using lower-baseline range −15 to −30 mg/dL as primary; elevated baseline captured via baseline_mod_elevated scaling.
+
+intervention_id: low_carb_diet_50g
+marker_id: triglycerides
+direction: decrease
+effect_type: absolute
+effect_lo: -30
+effect_hi: -15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: Boden
+    journal: Ann Intern Med
+    year: 2005
+    vol: 142
+    page: 403

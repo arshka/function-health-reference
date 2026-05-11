@@ -1,0 +1,24 @@
+# Source: biomarker_interventions/male_hormones/FSH.md §2
+# "Alcohol (chronic heavy) | ≥3 drinks/d | FSH suppressed along with LH | Weeks–months
+# | [Meta] Santi 2024 Andrology 12:626"
+# Direction: chronic heavy alcohol numerically suppresses FSH. In_band marker; both
+# directions clinically relevant.
+
+intervention_id: heavy_alcohol_40g
+marker_id: fsh
+direction: decrease
+effect_type: pct
+effect_lo: -25
+effect_hi: -10
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 16
+citations:
+  - author: Santi
+    journal: Andrology
+    year: 2024
+    vol: 12
+    page: 626

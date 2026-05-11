@@ -1,0 +1,20 @@
+intervention_id: iv_ferric_carboxymaltose_1000mg
+marker_id: ferritin
+direction: increase
+effect_type: absolute
+effect_lo: 95
+effect_hi: 185
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 6
+citations:
+  - author: Anker
+    journal: Lancet
+    year: 2020
+    pmid: "33197395"
+  - author: Avni
+    journal: Mayo Clin Proc
+    year: 2015

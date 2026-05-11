@@ -1,0 +1,15 @@
+# Source: urinalysis_panel.md, biomarker_interventions/urinalysis/urine_pH.md
+# Reference pH 5.0-8.0 (typical dipstick range). Optimal 6.0-7.0 (near-neutral, balanced diet).
+# Persistently low pH associated with uric acid stones; high pH with infection / struvite stones.
+
+id: urine_ph
+name: Urine pH
+panel: urinalysis
+units: pH
+direction: in_band
+ref_lo: 5.0
+ref_hi: 8.0
+opt_lo: 6.0
+opt_hi: 7.0
+immutable: false
+demographic_modifiers: []

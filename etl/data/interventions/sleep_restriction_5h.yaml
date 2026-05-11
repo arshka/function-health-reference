@@ -1,0 +1,9 @@
+id: sleep_restriction_5h
+canonical_name: Sleep restriction (<6 hr/night)
+type: behavior
+dose_amount: 5
+dose_unit: hours_per_night
+mechanisms:
+  - sleep_consolidation
+dietary_tags: []
+exclusions: []

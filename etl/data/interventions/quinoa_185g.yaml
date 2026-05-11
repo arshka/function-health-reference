@@ -1,0 +1,12 @@
+id: quinoa_185g
+canonical_name: Quinoa (cooked, ~1 cup daily)
+type: food
+dose_amount: 185
+dose_unit: g_per_day
+mechanisms:
+  - non_heme_iron_provision
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

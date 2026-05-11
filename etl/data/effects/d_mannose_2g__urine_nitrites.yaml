@@ -1,0 +1,24 @@
+# Source: biomarker_interventions/urinalysis/urine_nitrites.md §3
+# Kranjcec 2014: D-mannose 2 g/d → UTI recurrence ↓ ~45-55% (similar to
+# nitrofurantoin in one trial). Cochrane 2022 found insufficient evidence
+# overall — single-trial weight applied.
+
+intervention_id: d_mannose_2g
+marker_id: urine_nitrites
+direction: decrease
+effect_type: pct
+effect_lo: -55
+effect_hi: -45
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 24
+time_hi_wk: 26
+citations:
+  - author: Kranjcec
+    journal: World J Urol
+    year: 2014
+    vol: 32
+    page: 79
+    pmid: "23633128"

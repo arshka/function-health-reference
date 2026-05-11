@@ -1,0 +1,21 @@
+# Source: hormones_male_panel.md §Free Testosterone; biomarker_interventions/male_hormones/free_testosterone.md
+# Reference per Quest/LabCorp adult male equilibrium dialysis (9-30 pg/mL).
+# Optimal >=15 pg/mL for tissue-level androgen sufficiency.
+# Female ranges are an order of magnitude lower — skip for females.
+
+id: free_testosterone
+name: Free Testosterone
+panel: male_hormones
+units: pg/mL
+direction: higher_is_better
+ref_lo: 9
+ref_hi: 30
+opt_lo: 15
+opt_hi: 30
+immutable: false
+demographic_modifiers:
+  - trait: female
+    skip: true
+  - trait: age_65_plus
+    opt_lo: 12
+    opt_hi: 30

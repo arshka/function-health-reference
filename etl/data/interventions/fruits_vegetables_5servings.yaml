@@ -1,0 +1,15 @@
+id: fruits_vegetables_5servings
+canonical_name: Fruits and vegetables (>=5 servings/day, high-antioxidant)
+type: food
+dose_amount: 5
+dose_unit: servings_per_day
+mechanisms:
+  - antioxidant_defense
+  - anti_inflammatory
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - mediterranean
+  - dairy_free
+exclusions: []

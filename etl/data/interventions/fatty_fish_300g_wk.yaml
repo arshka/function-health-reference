@@ -1,0 +1,19 @@
+id: fatty_fish_300g_wk
+canonical_name: Fatty fish (salmon, mackerel, sardines, herring)
+type: food
+dose_amount: 300
+dose_unit: g_per_week
+dose_split: "2–4 servings/week (~250–400 g total)"
+mechanisms:
+  - omega3_epa_dha
+  - pufa_substitution
+dietary_tags:
+  - pescatarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: fish_allergy
+  - type: dietary
+    value: vegan
+  - type: dietary
+    value: vegetarian

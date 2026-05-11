@@ -1,0 +1,19 @@
+# Source: biomarker_interventions/cardiovascular/non-HDL-C.md §1
+# "Green tea | 3–5 cups/d | Non-HDL-C −5–8 mg/dL | 8–12 wk | [Meta]"
+
+intervention_id: green_tea_4cups
+marker_id: non_hdl_c
+direction: decrease
+effect_type: absolute
+effect_lo: -8
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Zheng
+    journal: AJCN
+    year: 2011

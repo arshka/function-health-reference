@@ -1,0 +1,18 @@
+id: yellowfin_tuna_170g_wk
+canonical_name: Yellowfin tuna (sushi-grade ahi, fresh poke, seared)
+type: food
+dose_amount: 170
+dose_unit: g_per_week
+dose_split: ">1 serving (~170 g) per week"
+mechanisms:
+  - omega3_epa_dha
+dietary_tags:
+  - pescatarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: fish_allergy
+  - type: dietary
+    value: vegan
+  - type: dietary
+    value: vegetarian

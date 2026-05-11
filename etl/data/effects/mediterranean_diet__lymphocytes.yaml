@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/immune/lymphocytes.md §2 — Mediterranean diet
+intervention_id: mediterranean_diet
+marker_id: lymphocytes
+direction: increase
+effect_type: absolute
+effect_lo: 0.05
+effect_hi: 0.15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 12
+time_hi_wk: 12
+citations:
+  - author: Casas
+    journal: PLOS One
+    year: 2014
+  - author: Davis
+    journal: Mech Ageing Dev
+    year: 2017

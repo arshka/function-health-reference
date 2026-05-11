@@ -1,0 +1,15 @@
+id: folic_acid_400mcg
+canonical_name: Folic acid (RDA dose)
+type: supplement
+dose_amount: 400
+dose_unit: mcg_per_day
+mechanisms:
+  - folate_provision
+  - methylation_support
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: condition
+    value: untreated_b12_deficiency

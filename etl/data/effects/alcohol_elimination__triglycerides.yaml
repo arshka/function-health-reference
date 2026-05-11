@@ -1,0 +1,19 @@
+# Source: Triglycerides.md §4
+# "Alcohol elimination | From moderate-to-heavy drinking (>14 g/d) | TG −30–50 mg/dL | 4–6 wk | [Cohort]"
+
+intervention_id: alcohol_elimination
+marker_id: triglycerides
+direction: decrease
+effect_type: absolute
+effect_lo: -50
+effect_hi: -30
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 4
+time_hi_wk: 6
+citations:
+  - author: Van de Wiel
+    journal: Int J Vasc Med
+    year: 2012

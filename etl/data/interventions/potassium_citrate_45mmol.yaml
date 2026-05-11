@@ -1,0 +1,18 @@
+id: potassium_citrate_45mmol
+canonical_name: Potassium citrate / bicarbonate
+type: supplement
+dose_amount: 45
+dose_unit: mmol_per_day
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions:
+  - type: condition
+    value: ckd
+  - type: drug_interaction
+    value: raas_blocker
+  - type: drug_interaction
+    value: potassium_sparing_diuretic

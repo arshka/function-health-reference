@@ -1,0 +1,13 @@
+id: hard_cheese_100g
+canonical_name: Hard cheese (cheddar, parmesan, gouda — full fat)
+type: food
+dose_amount: 100
+dose_unit: g_per_day
+mechanisms:
+  - sfa_reduction
+dietary_tags:
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: dairy_allergy

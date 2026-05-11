@@ -1,0 +1,8 @@
+id: caloric_refeeding_red_s
+canonical_name: Caloric refeeding for RED-S (energy availability >=45 kcal/kg LBM/day)
+type: behavior
+dose_amount: 45
+dose_unit: kcal_per_kg_lbm_per_day
+mechanisms: []
+dietary_tags: []
+exclusions: []

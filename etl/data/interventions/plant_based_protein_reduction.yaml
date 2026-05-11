@@ -1,0 +1,11 @@
+id: plant_based_protein_reduction
+canonical_name: Plant-based / reduced animal protein diet
+type: behavior
+dose_amount: 1
+dose_unit: pattern_adherence
+dose_split: "Sustained substitution of animal protein with plant protein (>=4 wk)"
+mechanisms: []
+dietary_tags:
+  - vegetarian
+  - vegan
+exclusions: []

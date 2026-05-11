@@ -1,0 +1,21 @@
+# Source: biomarker_interventions/metabolic/fasting_glucose.md §4
+intervention_id: aerobic_zone2_150min_wk
+marker_id: fasting_glucose
+direction: decrease
+effect_type: absolute
+effect_lo: -10
+effect_hi: -6
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 16
+citations:
+  - author: Boulé
+    journal: JAMA
+    year: 2001
+  - author: Diabetes Care optimal-dose meta
+    journal: Diabetes Care
+    year: 2024
+    pmid: "38241499"

@@ -1,0 +1,17 @@
+intervention_id: iv_ferric_carboxymaltose_1000mg
+marker_id: rbc_count
+direction: increase
+effect_type: absolute
+effect_lo: 0.4
+effect_hi: 0.9
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 3
+time_hi_wk: 4
+citations:
+  - author: Onken
+    journal: Transfusion
+    year: 2014
+    pmid: "24117770"

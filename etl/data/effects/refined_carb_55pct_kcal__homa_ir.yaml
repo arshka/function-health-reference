@@ -1,0 +1,19 @@
+intervention_id: refined_carb_55pct_kcal
+marker_id: homa_ir
+direction: increase
+effect_type: absolute
+effect_lo: 0.3
+effect_hi: 1.0
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 26
+time_hi_wk: 260
+citations:
+  - author: Hu
+    journal: BMJ
+    year: 2012
+  - author: de Munter
+    journal: PLoS Med
+    year: 2007

@@ -1,0 +1,20 @@
+# Source: HbA1c.md §1 — Greek yogurt / fermented dairy 100–200 g/d; A1c modest in RCT (~−0.05%)
+intervention_id: yogurt_150g
+marker_id: hba1c
+direction: decrease
+effect_type: absolute
+effect_lo: -0.10
+effect_hi: -0.02
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.4
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 12
+time_hi_wk: 52
+citations:
+  - author: Aune
+    journal: Am J Clin Nutr
+    year: 2013
+  - author: Chen
+    journal: BMC Med
+    year: 2014

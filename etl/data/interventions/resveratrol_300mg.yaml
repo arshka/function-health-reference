@@ -1,0 +1,14 @@
+id: resveratrol_300mg
+canonical_name: Resveratrol
+type: supplement
+dose_amount: 300
+dose_unit: mg_per_day
+dose_split: "150–500 mg/day"
+mechanisms:
+  - polyphenol_oxldl_reduction
+  - anti_inflammatory
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

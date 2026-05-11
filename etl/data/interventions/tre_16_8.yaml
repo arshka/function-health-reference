@@ -1,0 +1,16 @@
+id: tre_16_8
+canonical_name: Time-restricted eating (16:8)
+type: behavior
+dose_amount: 8
+dose_unit: hour_feeding_window
+dose_split: "8-hour feeding window, 16-hour daily fast"
+mechanisms:
+  - caloric_deficit
+  - insulin_sensitization
+  - glycemic_load_reduction
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: eating_disorder_history
+  - type: condition
+    value: pregnancy

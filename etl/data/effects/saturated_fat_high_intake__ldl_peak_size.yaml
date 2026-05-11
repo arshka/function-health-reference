@@ -1,0 +1,23 @@
+# Source: biomarker_interventions/advanced_lipids/LDL_peak_size.md §1 row 8
+# High SFA in low-CHO context: paradoxical "favorable" peak size shift up
+# even as LDL-C rises. Direction follows numerical effect (size up = increase).
+
+intervention_id: saturated_fat_high_intake
+marker_id: ldl_peak_size
+direction: increase
+effect_type: absolute
+effect_lo: 0.1
+effect_hi: 0.3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 3
+time_hi_wk: 12
+citations:
+  - author: Krauss
+    journal: PLOS One
+    year: 2017
+  - author: Krauss
+    journal: AJCN
+    year: 2006

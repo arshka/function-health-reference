@@ -1,0 +1,23 @@
+intervention_id: sugar_sweetened_beverages_600ml
+marker_id: uacr
+direction: increase
+effect_type: pct
+effect_lo: 5
+effect_hi: 20
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 52
+time_hi_wk: 208
+citations:
+  - author: Cheungpasitporn
+    journal: Nephrology
+    year: 2014
+    vol: 19
+    page: 791
+  - author: Yuzbashian
+    journal: J Ren Nutr
+    year: 2016
+    vol: 26
+    page: 50

@@ -1,0 +1,17 @@
+id: copper_gluconate_2mg
+canonical_name: Copper gluconate / sulfate (oral)
+type: supplement
+dose_amount: 2
+dose_unit: mg_per_day
+dose_split: "1-3 mg elemental Cu/day with food"
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions:
+  - type: condition
+    value: wilsons_disease
+  - type: drug_interaction
+    value: zinc_supplement_within_2h

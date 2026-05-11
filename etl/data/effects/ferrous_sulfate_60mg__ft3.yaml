@@ -1,0 +1,21 @@
+# Source: biomarker_interventions/thyroid/FT3.md §3 — iron (ferrous sulfate), if iron-deficient
+# Effect: TPO is iron-dependent (heme cofactor); FT3 ↑ modestly with repletion in iron-deficient subjects.
+intervention_id: ferrous_sulfate_60mg
+marker_id: ft3
+direction: increase
+effect_type: pct
+effect_lo: 5
+effect_hi: 15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Zimmermann
+    journal: Am J Clin Nutr
+    year: 2002
+  - author: Eftekhari
+    journal: Public Health Nutr
+    year: 2006

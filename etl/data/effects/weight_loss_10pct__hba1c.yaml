@@ -1,0 +1,20 @@
+# Source: HbA1c.md §6 / §1 synthesis — Sustained 5–10% weight loss; A1c −0.5 to −1.0%
+intervention_id: weight_loss_10pct
+marker_id: hba1c
+direction: decrease
+effect_type: absolute
+effect_lo: -1.00
+effect_hi: -0.50
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Lean
+    journal: Lancet
+    year: 2018
+  - author: Wing
+    journal: Diabetes Care
+    year: 2011

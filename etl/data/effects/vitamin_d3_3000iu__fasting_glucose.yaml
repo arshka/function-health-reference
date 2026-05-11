@@ -1,0 +1,22 @@
+# Source: biomarker_interventions/metabolic/fasting_glucose.md §3
+# Effect only in vitamin D-deficient (<30 ng/mL); null in replete adults
+intervention_id: vitamin_d3_3000iu
+marker_id: fasting_glucose
+direction: decrease
+effect_type: absolute
+effect_lo: -3
+effect_hi: -2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Pittas
+    journal: NEJM
+    year: 2019
+    pmid: "31173679"
+  - author: Mirhosseini
+    journal: J Endocr Soc
+    year: 2018

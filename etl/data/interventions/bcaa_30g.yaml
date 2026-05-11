@@ -1,0 +1,11 @@
+id: bcaa_30g
+canonical_name: Branched-chain / essential amino acids (20-40 g/day)
+type: supplement
+dose_amount: 30
+dose_unit: g_per_day
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

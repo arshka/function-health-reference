@@ -1,0 +1,8 @@
+id: anabolic_steroid_cessation
+canonical_name: Anabolic-androgenic steroid cessation
+type: behavior
+dose_amount: 0
+dose_unit: cessation
+mechanisms: []
+dietary_tags: []
+exclusions: []

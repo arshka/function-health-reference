@@ -1,0 +1,11 @@
+id: ketogenic_diet
+canonical_name: Low-carb / ketogenic diet
+type: behavior
+dose_amount: 50
+dose_unit: g_carb_per_day
+dose_split: "<50 g carbohydrate/day"
+mechanisms:
+  - sfa_reduction
+  - glycemic_load_reduction
+dietary_tags: []
+exclusions: []

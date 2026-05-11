@@ -1,0 +1,14 @@
+# Source: nutrients_omega_fatty_acids.md §5 AA; biomarker_interventions/omega_fatty_acids/arachidonic_acid.md
+# RBC % of total fatty acids. Both too-low and too-high have downsides; band-targeted.
+
+id: arachidonic_acid
+name: Arachidonic Acid (AA, 20:4n-6)
+panel: omega_fatty_acids
+units: "% of total fatty acids"
+direction: in_band
+ref_lo: 8
+ref_hi: 18
+opt_lo: 10
+opt_hi: 14
+immutable: false
+demographic_modifiers: []

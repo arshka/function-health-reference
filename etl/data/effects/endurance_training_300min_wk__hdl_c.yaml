@@ -1,0 +1,22 @@
+# Source: HDL-C.md §4 Activities & Behaviors
+# "Endurance training (high-volume) | ≥300 min/wk; e.g., long-distance running, cycling |
+#  HDL-C +5–10 mg/dL | 12–24 wk | [Cohort]"
+
+intervention_id: endurance_training_300min_wk
+marker_id: hdl_c
+direction: increase
+effect_type: absolute
+effect_lo: 5
+effect_hi: 10
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Kokkinos
+    journal: Sports Med
+    year: 2009
+    vol: 39
+    page: 377

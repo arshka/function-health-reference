@@ -1,0 +1,18 @@
+intervention_id: algal_omega3_2g
+marker_id: omega6_3_ratio
+direction: decrease
+effect_type: absolute
+effect_lo: -12.0
+effect_hi: -10.0
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: Arterburn
+    journal: AJCN
+    year: 2008
+    vol: 88
+    page: "1167S"

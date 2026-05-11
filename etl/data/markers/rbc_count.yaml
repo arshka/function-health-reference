@@ -1,0 +1,18 @@
+# Source: blood_cbc_indices.md §RBC count; biomarker_interventions/cbc/RBC_count.md
+# Sex-specific reference ranges per standard clinical labs. In-band marker.
+# Base values reflect male population; female modifier below.
+
+id: rbc_count
+name: Red Blood Cell Count
+panel: cbc
+units: x10^12/L
+direction: in_band
+ref_lo: 4.5
+ref_hi: 5.9
+opt_lo: 4.8
+opt_hi: 5.5
+immutable: false
+demographic_modifiers:
+  - trait: female
+    opt_lo: 4.3
+    opt_hi: 4.9

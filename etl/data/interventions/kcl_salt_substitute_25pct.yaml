@@ -1,0 +1,17 @@
+id: kcl_salt_substitute_25pct
+canonical_name: KCl-enriched salt substitute (replacing 25% NaCl)
+type: behavior
+dose_amount: 25
+dose_unit: pct_nacl_replaced
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions:
+  - type: condition
+    value: ckd
+  - type: drug_interaction
+    value: raas_blocker
+  - type: drug_interaction
+    value: potassium_sparing_diuretic

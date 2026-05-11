@@ -1,0 +1,27 @@
+# Source: biomarker_interventions/autoimmunity_psa/PSA_total.md §1
+# Cooked tomato products / lycopene. Pre-prostatectomy 3-wk RCT (Kucuk 2001):
+# PSA -18% in tomato extract arm. Italian RCT in PCa: median -1% in highest plasma
+# lycopene rise quartile vs +8.5% in lowest. Single-trial level evidence; effects
+# strongest in elevated baselines (PCa) and likely much smaller / floor-limited in
+# healthy young men with low baseline PSA.
+
+intervention_id: tomato_paste_60g
+marker_id: psa_total
+direction: decrease
+effect_type: pct
+effect_lo: -18
+effect_hi: -1
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 3
+time_hi_wk: 12
+citations:
+  - author: Kucuk
+    journal: Cancer Epidemiol Biomarkers Prev
+    year: 2001
+    pmid: "11588146"
+  - author: Bunker
+    journal: Br J Cancer
+    year: 1998

@@ -1,0 +1,19 @@
+# Source: HDL_large.md §3 — Niacin (extended-release) 1.5–2 g/d
+# "HDL-C ↑ ~25%; HDL Large ↑ ~30%; HDL-P ↑" 12–16 wk
+# Caveat: outcome trials NEGATIVE (AIM-HIGH, HPS2-THRIVE) on top of statin.
+intervention_id: niacin_er_2g
+marker_id: hdl_large
+direction: increase
+effect_type: pct
+effect_lo: 25
+effect_hi: 35
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: Boden
+    journal: NEJM
+    year: 2011

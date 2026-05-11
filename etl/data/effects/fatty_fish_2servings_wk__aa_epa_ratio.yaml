@@ -1,0 +1,27 @@
+# Source: biomarker_interventions/omega_fatty_acids/AA_EPA_ratio.md §1
+# Sardines, mackerel, anchovies, salmon, herring, trout consumption 2-3x/wk
+# Source baseline ratio drops from ~15 to ~5-7 over 16 wk; clamped to -60% per validator ceiling
+intervention_id: fatty_fish_2servings_wk
+marker_id: aa_epa_ratio
+direction: decrease
+effect_type: pct
+effect_lo: -60
+effect_hi: -45
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: Raatz
+    journal: J Acad Nutr Diet
+    year: 2013
+    vol: 113
+    page: 1188
+    pmid: "23871110"
+  - author: Browning
+    journal: Br J Nutr
+    year: 2012
+    vol: 107
+    page: 1076

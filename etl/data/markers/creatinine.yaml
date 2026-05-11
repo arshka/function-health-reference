@@ -1,0 +1,17 @@
+# Source: kidney_electrolytes_pancreas.md §Creatinine, biomarker_interventions/kidney_electrolytes_pancreas/creatinine.md
+# Sex-specific: male reference [0.7, 1.3] mg/dL base; female narrower per NKF/KDIGO labs.
+
+id: creatinine
+name: Creatinine
+panel: kidney_electrolytes_pancreas
+units: mg/dL
+direction: in_band
+ref_lo: 0.7
+ref_hi: 1.3
+opt_lo: 0.8
+opt_hi: 1.1
+immutable: false
+demographic_modifiers:
+  - trait: female
+    opt_lo: 0.7
+    opt_hi: 1.0

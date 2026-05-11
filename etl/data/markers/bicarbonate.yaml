@@ -1,0 +1,14 @@
+# Source: kidney_electrolytes_pancreas.md §Bicarbonate (CO2), biomarker_interventions/kidney_electrolytes_pancreas/bicarbonate.md
+# Total CO2 (bicarbonate) per standard clinical labs.
+
+id: bicarbonate
+name: Bicarbonate (CO2)
+panel: kidney_electrolytes_pancreas
+units: mmol/L
+direction: in_band
+ref_lo: 22
+ref_hi: 29
+opt_lo: 24
+opt_hi: 28
+immutable: false
+demographic_modifiers: []

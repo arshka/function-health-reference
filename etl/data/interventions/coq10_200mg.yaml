@@ -1,0 +1,13 @@
+id: coq10_200mg
+canonical_name: Coenzyme Q10 (ubiquinone / ubiquinol)
+type: supplement
+dose_amount: 200
+dose_unit: mg_per_day
+dose_split: "100–300 mg/day, with fat-containing meal"
+mechanisms:
+  - antioxidant_defense
+  - anti_inflammatory
+dietary_tags:
+  - vegetarian
+  - gluten_free
+exclusions: []

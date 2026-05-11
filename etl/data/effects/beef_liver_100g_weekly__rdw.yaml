@@ -1,0 +1,16 @@
+intervention_id: beef_liver_100g_weekly
+marker_id: rdw
+direction: decrease
+effect_type: absolute
+effect_lo: -2.0
+effect_hi: -0.5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Combs
+    journal: Adv Nutr
+    year: 2017

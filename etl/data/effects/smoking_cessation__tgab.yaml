@@ -1,0 +1,27 @@
+# NHANES III (Belin 2004): current smokers had ~11% LOWER TPO/TgAb positivity.
+# Therefore smoking cessation NUMERICALLY raises TgAb.
+# Direction set per template rule: numerical effect, not clinical good/bad.
+# (Smoking still strongly recommended against — raises Graves' incidence + ophthalmopathy.)
+intervention_id: smoking_cessation
+marker_id: tgab
+direction: increase
+effect_type: pct
+effect_lo: 5
+effect_hi: 15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 26
+time_hi_wk: 104
+citations:
+  - author: Belin
+    journal: J Clin Endocrinol Metab
+    year: 2004
+    vol: 89
+    page: 6077
+  - author: Strieder
+    journal: Eur J Endocrinol
+    year: 2003
+    vol: 149
+    page: 393

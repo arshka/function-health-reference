@@ -1,0 +1,19 @@
+# Source: Triglycerides.md §4
+# "Aerobic exercise (continuous) | ≥150 min/wk moderate | TG −8 mg/dL average | 12–26 wk | [Meta]"
+
+intervention_id: aerobic_zone2_150min_wk
+marker_id: triglycerides
+direction: decrease
+effect_type: absolute
+effect_lo: -8
+effect_hi: -8
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 26
+citations:
+  - author: Kelley
+    journal: Sports Med
+    year: 2024

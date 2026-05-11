@@ -1,0 +1,11 @@
+id: exogenous_ketones_bhb_12g
+canonical_name: Exogenous BHB ketone salts (Na/K/Ca beta-hydroxybutyrate)
+type: supplement
+dose_amount: 12
+dose_unit: g_per_day
+mechanisms: []
+dietary_tags:
+  - gluten_free
+exclusions:
+  - type: condition
+    value: hypertension_high_sodium_load

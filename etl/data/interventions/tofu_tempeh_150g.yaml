@@ -1,0 +1,12 @@
+id: tofu_tempeh_150g
+canonical_name: Tofu / tempeh (fermented soy, non-heme iron source)
+type: food
+dose_amount: 150
+dose_unit: g_per_day
+mechanisms:
+  - non_heme_iron_provision
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

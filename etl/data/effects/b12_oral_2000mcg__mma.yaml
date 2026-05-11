@@ -1,0 +1,23 @@
+# Source: biomarker_interventions/vitamins_minerals/MMA.md §3
+# Oral high-dose 2000 µg/d cyanocobalamin in pernicious anemia: MMA normalizes
+# equivalently to IM at ≥3 months (Vidal-Alaball Cochrane 2005). At this dose
+# ~40 µg absorbed via passive diffusion — adequate even without intrinsic factor.
+# Bounds match IM equivalence (50-60%, clamped to -60% validator cap).
+
+intervention_id: b12_oral_2000mcg
+marker_id: mma
+direction: decrease
+effect_type: pct
+effect_lo: -60
+effect_hi: -45
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Vidal-Alaball
+    journal: Cochrane Database Syst Rev
+    year: 2005
+    pmid: "16235338"

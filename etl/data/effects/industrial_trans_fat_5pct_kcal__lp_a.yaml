@@ -1,0 +1,23 @@
+# Source: Lp(a).md §2 Foods that RAISE
+# "Trans fatty acids (industrial) | ~3–8% energy | Lp(a) ↑ ~5–15% vs cis-MUFA control | 3–6 wk | [RCT]"
+
+intervention_id: industrial_trans_fat_5pct_kcal
+marker_id: lp_a
+direction: increase
+effect_type: pct
+effect_lo: 5
+effect_hi: 15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 3
+time_hi_wk: 6
+citations:
+  - author: Mensink
+    journal: NEJM
+    year: 1990
+    pmid: "2374566"
+  - author: Nestel
+    journal: J Lipid Res
+    year: 1992

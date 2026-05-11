@@ -1,0 +1,20 @@
+intervention_id: mediterranean_diet
+marker_id: monocytes
+direction: decrease
+effect_type: absolute
+effect_lo: -0.07
+effect_hi: -0.03
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 52
+citations:
+  - author: Casas
+    journal: PLOS One
+    year: 2014
+  - author: Estruch
+    journal: Ann Intern Med
+    year: 2006
+    pmid: "16818865"

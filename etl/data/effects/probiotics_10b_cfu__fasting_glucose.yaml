@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/metabolic/fasting_glucose.md §3
+intervention_id: probiotics_10b_cfu
+marker_id: fasting_glucose
+direction: decrease
+effect_type: absolute
+effect_lo: -7
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Kasińska
+    journal: Pol Arch Med Wewn
+    year: 2015
+  - author: Hu
+    journal: Med Sci Monit
+    year: 2017

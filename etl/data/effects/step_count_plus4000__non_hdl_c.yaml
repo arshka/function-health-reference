@@ -1,0 +1,19 @@
+# Source: biomarker_interventions/cardiovascular/non-HDL-C.md §4
+# "Step count / NEAT | +4000 steps/d | Non-HDL-C −5–8 mg/dL with weight loss | 12–24 wk | [Cohort]"
+
+intervention_id: step_count_plus4000
+marker_id: non_hdl_c
+direction: decrease
+effect_type: absolute
+effect_lo: -8
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Bassett
+    journal: Med Sci Sports Exerc
+    year: 2010

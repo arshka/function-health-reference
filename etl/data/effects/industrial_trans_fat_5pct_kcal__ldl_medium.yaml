@@ -1,0 +1,16 @@
+intervention_id: industrial_trans_fat_5pct_kcal
+marker_id: ldl_medium
+direction: increase
+effect_type: pct
+effect_lo: 5
+effect_hi: 15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 3
+time_hi_wk: 6
+citations:
+  - author: Mensink
+    journal: NEJM
+    year: 1990

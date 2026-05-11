@@ -1,0 +1,21 @@
+# Source: Triglycerides.md §4
+# "Step count / NEAT | +4000 steps/d above sedentary | TG −5–10 mg/dL | 12–24 wk | [Cohort]"
+
+intervention_id: step_count_4000_above_sedentary
+marker_id: triglycerides
+direction: decrease
+effect_type: absolute
+effect_lo: -10
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Bassett
+    journal: Med Sci Sports Exerc
+    year: 2010
+    vol: 42
+    page: S20

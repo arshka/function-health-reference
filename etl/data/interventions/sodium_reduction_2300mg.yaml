@@ -1,0 +1,13 @@
+id: sodium_reduction_2300mg
+canonical_name: Sodium reduction (<2.3 g/day)
+type: behavior
+dose_amount: 2300
+dose_unit: mg_per_day
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - mediterranean
+  - dairy_free
+exclusions: []

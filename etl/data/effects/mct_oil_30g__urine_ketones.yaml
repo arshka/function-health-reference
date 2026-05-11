@@ -1,0 +1,25 @@
+# Source: biomarker_interventions/urinalysis/urine_ketones.md §2 / §3
+# MCT oil 30 mL/d sustained → mild urine ketones (β-OHB peak ~0.5-0.8 mmol/L);
+# dipstick ~5-15 mg/dL when used daily
+
+intervention_id: mct_oil_30g
+marker_id: urine_ketones
+direction: increase
+effect_type: absolute
+effect_lo: 5
+effect_hi: 15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 1
+time_hi_wk: 4
+citations:
+  - author: Norgren
+    journal: Front Nutr
+    year: 2020
+    pmid: "32850983"
+  - author: St-Onge
+    journal: Eur J Clin Nutr
+    year: 2003
+    pmid: "12792658"

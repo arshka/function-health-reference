@@ -1,0 +1,15 @@
+# Source: hormones_male_panel.md §Prolactin; biomarker_interventions/male_hormones/prolactin.md
+# Adult male reference 4-15 ng/mL. Elevated prolactin suppresses GnRH/LH and can
+# indicate prolactinoma, hypothyroidism, or dopamine antagonist medication effect.
+
+id: prolactin
+name: Prolactin
+panel: male_hormones
+units: ng/mL
+direction: lower_is_better
+ref_lo: 4
+ref_hi: 15
+opt_lo: 4
+opt_hi: 12
+immutable: false
+demographic_modifiers: []

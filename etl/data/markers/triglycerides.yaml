@@ -1,0 +1,15 @@
+# Source: heart_lipids_basic.md §Triglycerides, NCEP ATP-III.
+# Reference: <150 mg/dL fasting (normal); 150-199 borderline; 200-499 high.
+# Optimal: <100 mg/dL (some lipidologists target <80).
+
+id: triglycerides
+name: Triglycerides
+panel: cardiovascular
+units: mg/dL
+direction: lower_is_better
+ref_lo: 30
+ref_hi: 200
+opt_lo: 30
+opt_hi: 100
+immutable: false
+demographic_modifiers: []

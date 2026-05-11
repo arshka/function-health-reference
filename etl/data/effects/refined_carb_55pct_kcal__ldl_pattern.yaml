@@ -1,0 +1,25 @@
+# Source: LDL_pattern.md §2 — Refined carbohydrates / sugar >25% E from refined CHO
+# "Pattern A → B conversion in many; small LDL ↑↑"
+# Strongest food-related Pattern-B driver. Encoded as large positive absolute shift.
+
+intervention_id: refined_carb_55pct_kcal
+marker_id: ldl_pattern
+direction: increase
+effect_type: absolute
+effect_lo: 0.5
+effect_hi: 1.0
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: Krauss
+    journal: AJCN
+    year: 1997
+    pmid: "9382748"
+  - author: Krauss
+    journal: AJCN
+    year: 2006
+    pmid: "16685045"

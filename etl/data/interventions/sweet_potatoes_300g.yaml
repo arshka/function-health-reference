@@ -1,0 +1,8 @@
+id: sweet_potatoes_300g
+canonical_name: Sweet potatoes (300 g/day)
+type: food
+dose_amount: 300
+dose_unit: g_per_day
+mechanisms: []
+dietary_tags: [vegan, vegetarian, gluten_free, dairy_free]
+exclusions: []

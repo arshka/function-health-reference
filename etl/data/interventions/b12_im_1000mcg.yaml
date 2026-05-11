@@ -1,0 +1,17 @@
+id: b12_im_1000mcg
+canonical_name: Vitamin B12 intramuscular (cyano- or hydroxocobalamin)
+type: supplement
+dose_amount: 1000
+dose_unit: mcg_per_injection
+dose_split: "Loading: daily x 1 wk -> weekly x 4 -> monthly maintenance"
+mechanisms:
+  - b12_provision
+  - methylation_support
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions:
+  - type: condition
+    value: cobalt_allergy

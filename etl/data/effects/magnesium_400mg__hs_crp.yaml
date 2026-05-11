@@ -1,0 +1,21 @@
+# Source: hs-CRP.md §3 Supplements (lowering)
+# "Magnesium | 300–500 mg elemental Mg/d | hs-CRP −0.3 mg/L | 12–24 wk | [Meta]"
+
+intervention_id: magnesium_400mg
+marker_id: hs_crp
+direction: decrease
+effect_type: absolute
+effect_lo: -0.4
+effect_hi: -0.2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Simental-Mendia
+    journal: Curr Pharm Des
+    year: 2017
+    vol: 23
+    page: 4678

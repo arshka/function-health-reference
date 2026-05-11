@@ -1,0 +1,21 @@
+# Source: albumin_globulin_ratio.md §1 — Mediterranean diet, high adherence
+# "A/G ↑ modestly via reduced chronic inflammation (globulin ↓) and preserved albumin"
+# Indirect effect — no direct A/G RCT. Modest %-bounds for derived ratio.
+
+intervention_id: mediterranean_diet
+marker_id: albumin_globulin_ratio
+direction: increase
+effect_type: pct
+effect_lo: 1
+effect_hi: 4
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Estruch
+    journal: NEJM
+    year: 2013
+    pmid: "23432189"

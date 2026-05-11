@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/metabolic/fasting_insulin.md §4
+intervention_id: combined_aerobic_resistance
+marker_id: fasting_insulin
+direction: decrease
+effect_type: absolute
+effect_lo: -4
+effect_hi: -2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Sigal
+    journal: Ann Intern Med
+    year: 2007
+  - author: Church
+    journal: JAMA
+    year: 2010

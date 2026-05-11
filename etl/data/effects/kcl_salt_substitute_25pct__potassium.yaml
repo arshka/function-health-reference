@@ -1,0 +1,18 @@
+intervention_id: kcl_salt_substitute_25pct
+marker_id: potassium
+direction: increase
+effect_type: absolute
+effect_lo: 0.1
+effect_hi: 0.3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 8
+time_hi_wk: 24
+citations:
+  - author: Neal
+    journal: NEJM
+    year: 2021
+    vol: 385
+    page: 1067

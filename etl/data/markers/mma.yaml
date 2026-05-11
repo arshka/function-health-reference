@@ -1,0 +1,15 @@
+# Source: nutrients_vitamins_minerals.md §MMA, biomarker_interventions/vitamins_minerals/MMA.md.
+# Methylmalonic acid is a sensitive functional B12 marker. Lab ref 0-400 nmol/L;
+# functional B12 sufficiency typically corresponds to MMA <200 nmol/L.
+
+id: mma
+name: Methylmalonic acid
+panel: vitamins_minerals
+units: nmol/L
+direction: lower_is_better
+ref_lo: 0
+ref_hi: 400
+opt_lo: 0
+opt_hi: 200
+immutable: false
+demographic_modifiers: []

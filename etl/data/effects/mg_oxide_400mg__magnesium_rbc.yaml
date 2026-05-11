@@ -1,0 +1,28 @@
+# Source: biomarker_interventions/vitamins_minerals/magnesium_RBC.md §3
+# Mg oxide bioavailability ~4-5% (vs ~30-40% for chelates); serum Mg response
+# small; functions mainly as osmotic laxative. Per the source, ~10× lower
+# absorption than chelated forms — small but non-zero RBC Mg effect.
+intervention_id: mg_oxide_400mg
+marker_id: magnesium_rbc
+direction: increase
+effect_type: pct
+effect_lo: 1
+effect_hi: 3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Walker
+    journal: Magnes Res
+    year: 2003
+    vol: 16
+    page: 183
+    pmid: "14596323"
+  - author: Coudray
+    journal: Magnes Res
+    year: 2005
+    vol: 18
+    page: 215

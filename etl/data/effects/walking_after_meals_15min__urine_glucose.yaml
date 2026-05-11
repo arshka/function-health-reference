@@ -1,0 +1,21 @@
+# Source: biomarker_interventions/urinalysis/urine_glucose.md §4
+# Post-meal walking 10-15 min reduces PP glucose 12-22%, directly reducing
+# probability of crossing 180 mg/dL renal threshold. Habitual practice; not
+# a single rebounding bout.
+intervention_id: walking_after_meals_15min
+marker_id: urine_glucose
+direction: decrease
+effect_type: pct
+effect_lo: -22
+effect_hi: -12
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 1
+time_hi_wk: 4
+citations:
+  - author: DiPietro
+    journal: Diabetes Care
+    year: 2013
+    pmid: "23761137"

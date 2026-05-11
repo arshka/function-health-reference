@@ -1,0 +1,19 @@
+# Source: biomarker_interventions/cardiovascular/non-HDL-C.md §4
+# "Resistance training | 3 sessions/wk | Non-HDL-C −5–8 mg/dL | 12–24 wk | [Meta]"
+
+intervention_id: resistance_training_3x_wk
+marker_id: non_hdl_c
+direction: decrease
+effect_type: absolute
+effect_lo: -8
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Costa
+    journal: Sports Med
+    year: 2019

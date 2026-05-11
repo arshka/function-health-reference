@@ -1,0 +1,18 @@
+# Source: HbA1c.md §1 — Dark leafy greens 1+ serving/d; T2D incidence ↓ 13% per 1.35 serving/d
+intervention_id: leafy_greens_2servings
+marker_id: hba1c
+direction: decrease
+effect_type: absolute
+effect_lo: -0.10
+effect_hi: -0.02
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.4
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 24
+time_hi_wk: 52
+citations:
+  - author: Carter
+    journal: BMJ
+    year: 2010
+    pmid: "20724400"

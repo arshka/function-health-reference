@@ -1,0 +1,9 @@
+id: sleep_regularity_high
+canonical_name: Sleep regularity (SRI > 75)
+type: behavior
+dose_amount: 75
+dose_unit: sri_score
+mechanisms:
+  - sleep_consolidation
+dietary_tags: []
+exclusions: []

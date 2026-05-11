@@ -1,0 +1,14 @@
+# Source: kidney_electrolytes_pancreas.md §Amylase, biomarker_interventions/kidney_electrolytes_pancreas/amylase.md
+# Pancreatic + salivary amylase; reference per standard clinical labs.
+
+id: amylase
+name: Amylase
+panel: kidney_electrolytes_pancreas
+units: U/L
+direction: in_band
+ref_lo: 25
+ref_hi: 125
+opt_lo: 30
+opt_hi: 100
+immutable: false
+demographic_modifiers: []

@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/metabolic/fasting_insulin.md §1
+intervention_id: mediterranean_diet
+marker_id: fasting_insulin
+direction: decrease
+effect_type: absolute
+effect_lo: -4
+effect_hi: -2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Esposito
+    journal: BMJ Open
+    year: 2014
+  - author: Garcia
+    journal: J Acad Nutr Diet
+    year: 2016

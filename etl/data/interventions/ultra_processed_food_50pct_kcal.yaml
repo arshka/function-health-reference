@@ -1,0 +1,10 @@
+id: ultra_processed_food_50pct_kcal
+canonical_name: Ultra-processed foods (NOVA-4) >50% energy
+type: food
+dose_amount: 50
+dose_unit: pct_kcal
+dose_split: ">50% of daily energy from NOVA-4 ultra-processed foods"
+mechanisms:
+  - glycemic_load_reduction
+dietary_tags: []
+exclusions: []

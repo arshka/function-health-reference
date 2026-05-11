@@ -1,0 +1,22 @@
+# Source: HbA1c.md §1 / §3 — Psyllium 7–15 g/d soluble fiber pre-meal; A1c −0.75% (WMD)
+# Effect proportional to baseline A1c (Jenkins: minimal benefit if A1c <6.0%); pre-meal essential
+intervention_id: psyllium_husk_10g
+marker_id: hba1c
+direction: decrease
+effect_type: absolute
+effect_lo: -0.75
+effect_hi: -0.40
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 24
+citations:
+  - author: Jovanovski
+    journal: Am J Clin Nutr
+    year: 2024
+    pmid: "38844885"
+  - author: Jenkins
+    journal: Diabetes Care
+    year: 2002

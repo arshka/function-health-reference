@@ -1,0 +1,15 @@
+# Source: nutrients_vitamins_minerals.md §Folate, biomarker_interventions/vitamins_minerals/folate.md.
+# Serum folate reference 3-20 ng/mL; optimal 10-20. Note: very high serum folate
+# from synthetic folic acid supplementation can mask B12 deficiency — always pair with B12/MMA.
+
+id: folate
+name: Folate, serum
+panel: vitamins_minerals
+units: ng/mL
+direction: higher_is_better
+ref_lo: 3
+ref_hi: 20
+opt_lo: 10
+opt_hi: 20
+immutable: false
+demographic_modifiers: []

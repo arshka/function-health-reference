@@ -1,0 +1,20 @@
+# Source: prostate_psa.md §1, §4, §10; biomarker_interventions/autoimmunity_psa/PSA_free_percent.md
+# %Free PSA = fPSA / tPSA × 100. HIGHER = more benign-pattern; LOWER = more cancer-associated.
+# Catalona 1998 JAMA thresholds (derived in screening-age men with tPSA 4-10 ng/mL):
+#   <10% → 56% PCa probability; >25% → 8%.
+# Optimal >25%; ref [10, 50] (population physiologic range).
+# Sex: skip if female (no prostate tissue).
+
+id: psa_free_percent
+name: PSA % Free
+panel: autoimmunity_psa
+units: "%"
+direction: higher_is_better
+ref_lo: 10
+ref_hi: 50
+opt_lo: 25
+opt_hi: 50
+immutable: false
+demographic_modifiers:
+  - trait: female
+    skip: true

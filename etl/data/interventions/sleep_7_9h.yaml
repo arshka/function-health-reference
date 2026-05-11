@@ -1,0 +1,11 @@
+id: sleep_7_9h
+canonical_name: Sleep duration optimization (7–9 h)
+type: behavior
+dose_amount: 8
+dose_unit: hours_per_night
+dose_split: "7–9 h/night habitual sleep"
+mechanisms:
+  - sleep_consolidation
+  - anti_inflammatory
+dietary_tags: []
+exclusions: []

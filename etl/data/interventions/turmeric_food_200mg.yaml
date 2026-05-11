@@ -1,0 +1,13 @@
+id: turmeric_food_200mg
+canonical_name: Turmeric (culinary, ~1 tsp/d with black pepper / fat carrier)
+type: food
+dose_amount: 200
+dose_unit: mg_per_day
+mechanisms:
+  - anti_inflammatory
+  - antioxidant_defense
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

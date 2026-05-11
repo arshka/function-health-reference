@@ -1,0 +1,24 @@
+# Source: biomarker_interventions/vitamins_minerals/magnesium_RBC.md §4
+# Resistance training increases Mg requirement modestly; supplementation may
+# improve strength gains in deficient subjects. Direct effect of training
+# alone on RBC Mg is small (slight ↓ with sweat losses if intake unchanged,
+# or near-neutral with adequate diet). Modeled as small decrease in Mg
+# status when dietary intake is not increased.
+intervention_id: resistance_training_3x_wk
+marker_id: magnesium_rbc
+direction: decrease
+effect_type: pct
+effect_lo: -3
+effect_hi: 0
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 6
+time_hi_wk: 12
+citations:
+  - author: Brilla
+    journal: Sports Med Train Rehab
+    year: 2000
+    vol: 3
+    page: 26

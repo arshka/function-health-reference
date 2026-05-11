@@ -1,0 +1,13 @@
+id: gla_high_dose_4g
+canonical_name: Gamma-linolenic acid (GLA, high dose)
+type: supplement
+dose_amount: 4
+dose_unit: g_per_day
+dose_split: "3–6 g/day GLA from evening primrose or borage oil"
+mechanisms:
+  - omega6_3_balance
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

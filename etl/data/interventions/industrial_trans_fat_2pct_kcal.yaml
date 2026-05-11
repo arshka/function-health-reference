@@ -1,0 +1,10 @@
+id: industrial_trans_fat_2pct_kcal
+canonical_name: Industrial trans fat
+type: food
+dose_amount: 2
+dose_unit: pct_kcal
+dose_split: "2% of daily kcal from industrial trans fat (partially hydrogenated oils)"
+mechanisms:
+  - sfa_reduction
+dietary_tags: []
+exclusions: []

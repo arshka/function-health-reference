@@ -1,0 +1,16 @@
+intervention_id: beef_liver_100g_weekly
+marker_id: hemoglobin
+direction: increase
+effect_type: absolute
+effect_lo: 0.3
+effect_hi: 0.6
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Combs
+    journal: Adv Nutr
+    year: 2017

@@ -1,0 +1,21 @@
+# Source: biomarker_interventions/cardiovascular/LDL-C.md §3 (Raising / worsening)
+# "DHA-only fish oil (no EPA) | 2–4 g/d DHA | LDL-C +3–5 mg/dL | 8–12 wk | [Meta]"
+
+intervention_id: dha_fish_oil_3g
+marker_id: ldl_c
+direction: increase
+effect_type: absolute
+effect_lo: 3
+effect_hi: 5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Wei
+    journal: Curr Atheroscler Rep
+    year: 2011
+    vol: 13
+    page: 474

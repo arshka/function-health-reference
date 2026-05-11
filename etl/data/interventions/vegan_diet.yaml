@@ -1,0 +1,14 @@
+id: vegan_diet
+canonical_name: Vegan / fully plant-based diet
+type: behavior
+dose_amount: 1
+dose_unit: pattern_adherence
+dose_split: "Full elimination of animal products"
+mechanisms:
+  - sfa_reduction
+  - pufa_substitution
+  - viscous_fiber
+dietary_tags:
+  - vegan
+  - vegetarian
+exclusions: []

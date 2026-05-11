@@ -1,0 +1,11 @@
+id: bcaa_12g
+canonical_name: Branched-chain amino acids (BCAA)
+type: supplement
+dose_amount: 12
+dose_unit: g_per_day
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

@@ -1,0 +1,16 @@
+intervention_id: hcg_1000iu
+marker_id: estradiol_e2
+direction: increase
+effect_type: pct
+effect_lo: 15
+effect_hi: 40
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: mechanism
+evidence_weight: 0.4
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: HCG TRT pharmacology
+    journal: aggregate
+    year: 2015

@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/advanced_lipids/LDL_particle_number.md §6 Synthesis;
+# heart_lipids_advanced.md §2. NMR LipoProfile (LabCorp/Function Health), nmol/L.
+# Cutpoints (Otvos/NMR): optimal <1000; borderline 1000-1299; high 1300-1599;
+# very high >1600. Used <1000 = opt_hi, 2000 = ref_hi.
+# South Asian: lower threshold appropriate given TOFI / insulin-resistance phenotype.
+
+id: ldl_particle_number
+name: LDL Particle Number (LDL-P)
+panel: advanced_lipids
+units: nmol/L
+direction: lower_is_better
+ref_lo: 200
+ref_hi: 2000
+opt_lo: 200
+opt_hi: 1000
+immutable: false
+demographic_modifiers:
+  - trait: south_asian
+    opt_lo: 200
+    opt_hi: 900

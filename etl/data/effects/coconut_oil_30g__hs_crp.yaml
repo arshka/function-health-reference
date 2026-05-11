@@ -1,0 +1,22 @@
+# Source: hs-CRP.md §3 Supplements (no effect or worsening)
+# "Coconut oil capsules / MCT supplements | 15–30 g/d | hs-CRP ±0–small ↑ (SFA-driven inflammatory) | [Mechanism]"
+# Direction: INCREASE — small mechanism-inferred rise; solver should not pick to lower hs-CRP.
+
+intervention_id: coconut_oil_30g
+marker_id: hs_crp
+direction: increase
+effect_type: absolute
+effect_lo: 0.0
+effect_hi: 0.3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.6
+evidence_tag: mechanism
+evidence_weight: 0.4
+time_lo_wk: 8
+time_hi_wk: 24
+citations:
+  - author: Neelakantan
+    journal: Circulation
+    year: 2020
+    vol: 141
+    page: 803

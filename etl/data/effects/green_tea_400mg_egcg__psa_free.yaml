@@ -1,0 +1,24 @@
+# Source: biomarker_interventions/autoimmunity_psa/PSA_free.md §1
+# NOTE: Free PSA effect inferred from Kumar 2015 Polyphenon E HGPIN trial
+# (total PSA fell −0.87 ng/mL at 1 yr). Free PSA not specifically reported;
+# inference assumes proportional movement. Magnitude bounds reflect modest
+# proportional reductions (~5-15%) consistent with tPSA delta over baselines
+# typically 2–6 ng/mL in HGPIN cohort.
+
+intervention_id: green_tea_400mg_egcg
+marker_id: psa_free
+direction: decrease
+effect_type: pct
+effect_lo: -15
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 24
+time_hi_wk: 52
+citations:
+  - author: Kumar
+    journal: Cancer Prev Res
+    year: 2015
+    pmid: "25873370"

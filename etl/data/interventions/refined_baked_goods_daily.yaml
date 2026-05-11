@@ -1,0 +1,11 @@
+id: refined_baked_goods_daily
+canonical_name: Refined baked goods (croissants, pastries, muffins, doughnuts, cookies)
+type: food
+dose_amount: 1
+dose_unit: servings_per_day
+mechanisms:
+  - sfa_reduction
+  - glycemic_load_reduction
+dietary_tags:
+  - vegetarian
+exclusions: []

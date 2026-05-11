@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/advanced_lipids/LDL_peak_size.md §3 row 4
+# Berberine 500 mg TID: peak size modestly ↑ via insulin sensitivity + ApoB drop
+# Magnitude not directly quantified - inferred small
+
+intervention_id: berberine_1500mg
+marker_id: ldl_peak_size
+direction: increase
+effect_type: absolute
+effect_lo: 0.05
+effect_hi: 0.15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 12
+citations:
+  - author: Lan
+    journal: J Ethnopharmacol
+    year: 2015

@@ -1,0 +1,22 @@
+# Source: biomarker_interventions/advanced_lipids/LDL_particle_number.md §4
+# Time-restricted eating 16:8 for 12 wk: LDL-P modestly ↓ (~5%)
+
+intervention_id: tre_16_8
+marker_id: ldl_particle_number
+direction: decrease
+effect_type: pct
+effect_lo: -7
+effect_hi: -3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 12
+citations:
+  - author: Sutton
+    journal: Cell Metab
+    year: 2018
+  - author: Cienfuegos
+    journal: Cell Metab
+    year: 2020

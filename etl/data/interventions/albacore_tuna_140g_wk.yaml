@@ -1,0 +1,18 @@
+id: albacore_tuna_140g_wk
+canonical_name: Albacore (white) tuna, canned
+type: food
+dose_amount: 140
+dose_unit: g_per_week
+dose_split: "1 can/wk (~140 g)"
+mechanisms:
+  - omega3_epa_dha
+dietary_tags:
+  - pescatarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: fish_allergy
+  - type: dietary
+    value: vegan
+  - type: dietary
+    value: vegetarian

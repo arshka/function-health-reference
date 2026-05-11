@@ -1,0 +1,16 @@
+id: low_fat_dairy_500ml
+canonical_name: Low-fat dairy (milk, yogurt)
+type: food
+dose_amount: 500
+dose_unit: ml_per_day
+dose_split: "2+ servings/day low-fat milk or yogurt"
+mechanisms:
+  - renal_clearance
+dietary_tags:
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: lactose_intolerance
+  - type: dietary
+    value: dairy_allergy

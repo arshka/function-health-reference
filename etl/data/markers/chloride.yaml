@@ -1,0 +1,14 @@
+# Source: kidney_electrolytes_pancreas.md §Chloride, biomarker_interventions/kidney_electrolytes_pancreas/chloride.md
+# Reference per standard clinical labs (Quest/LabCorp).
+
+id: chloride
+name: Chloride
+panel: kidney_electrolytes_pancreas
+units: mmol/L
+direction: in_band
+ref_lo: 98
+ref_hi: 107
+opt_lo: 100
+opt_hi: 105
+immutable: false
+demographic_modifiers: []

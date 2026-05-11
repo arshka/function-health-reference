@@ -1,0 +1,16 @@
+intervention_id: beef_liver_100g_weekly
+marker_id: hematocrit
+direction: increase
+effect_type: pct
+effect_lo: 0.9
+effect_hi: 1.8
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Combs
+    journal: Adv Nutr
+    year: 2017

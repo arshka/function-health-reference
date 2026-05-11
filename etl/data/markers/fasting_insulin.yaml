@@ -1,0 +1,15 @@
+# Source: metabolic_panel.md §Fasting Insulin; biomarker_interventions/metabolic/fasting_insulin.md.
+# Standard lab ref ~2.6-24.9 μIU/mL is broad. Optimal <=8 μIU/mL indicates good insulin sensitivity;
+# levels 10-25 within "normal" already predict insulin resistance and metabolic syndrome.
+
+id: fasting_insulin
+name: Fasting Insulin
+panel: metabolic
+units: μIU/mL
+direction: lower_is_better
+ref_lo: 2.6
+ref_hi: 24.9
+opt_lo: 2.6
+opt_hi: 8.0
+immutable: false
+demographic_modifiers: []

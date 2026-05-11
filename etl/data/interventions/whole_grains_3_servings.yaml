@@ -1,0 +1,15 @@
+id: whole_grains_3_servings
+canonical_name: Whole grains (intact)
+type: food
+dose_amount: 3
+dose_unit: servings_per_day
+dose_split: "≥3 servings/day intact whole grains, displacing refined grains"
+mechanisms:
+  - viscous_fiber
+  - glycemic_load_reduction
+dietary_tags:
+  - vegan
+  - vegetarian
+exclusions:
+  - type: dietary
+    value: gluten_sensitive

@@ -1,0 +1,19 @@
+# Source: biomarker_interventions/advanced_lipids/LDL_peak_size.md §4 row 8
+# Time-restricted eating (16:8) for 12 wk: peak size modestly ↑ (+0.1–0.2 nm); largely weight-mediated
+
+intervention_id: tre_16_8
+marker_id: ldl_peak_size
+direction: increase
+effect_type: absolute
+effect_lo: 0.1
+effect_hi: 0.2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 12
+citations:
+  - author: Sutton
+    journal: Cell Metab
+    year: 2018

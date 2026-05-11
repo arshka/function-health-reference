@@ -1,0 +1,16 @@
+id: vitamin_d3_1000iu
+canonical_name: Vitamin D3 (cholecalciferol) 1000 IU
+type: supplement
+dose_amount: 1000
+dose_unit: iu_per_day
+dose_split: "1000 IU/day with fat-containing meal"
+mechanisms:
+  - vitamin_d_provision
+dietary_tags:
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: condition
+    value: hypercalcemia
+  - type: condition
+    value: cyp24a1_loss_of_function

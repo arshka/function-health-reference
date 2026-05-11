@@ -1,0 +1,14 @@
+id: ferric_maltol_60mg
+canonical_name: Ferric maltol (30 mg elemental Fe BID)
+type: supplement
+dose_amount: 60
+dose_unit: mg_elemental_fe_per_day
+mechanisms:
+  - non_heme_iron_provision
+dietary_tags:
+  - vegetarian
+exclusions:
+  - type: gene
+    value: hfe_c282y_homozygous
+  - type: condition
+    value: iron_overload

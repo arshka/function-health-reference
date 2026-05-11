@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/advanced_lipids/LDL_peak_size.md §6 Synthesis;
+# heart_lipids_advanced.md §3. NMR LipoProfile / GGE, units = nm.
+# Pattern A threshold: peak size ≥ 20.5 nm; optimal target >21.0 nm (file §6).
+# Reference range typically 19.0–23.0 nm. higher_is_better (larger = better).
+# South Asian: tighter target (>21.2 nm) per §7 of source.
+
+id: ldl_peak_size
+name: LDL Peak Particle Size
+panel: advanced_lipids
+units: nm
+direction: higher_is_better
+ref_lo: 19.0
+ref_hi: 23.0
+opt_lo: 20.5
+opt_hi: 23.0
+immutable: false
+demographic_modifiers:
+  - trait: south_asian
+    opt_lo: 21.2
+    opt_hi: 23.0

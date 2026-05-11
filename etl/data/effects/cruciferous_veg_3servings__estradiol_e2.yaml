@@ -1,0 +1,21 @@
+intervention_id: cruciferous_veg_3servings
+marker_id: estradiol_e2
+direction: decrease
+effect_type: pct
+effect_lo: -15
+effect_hi: -10
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: mechanism
+evidence_weight: 0.4
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: Bradlow
+    journal: Carcinogenesis
+    year: 1995
+    vol: 16
+    page: 899
+  - author: Michnovicz
+    journal: Nutrition and Cancer
+    year: 1991

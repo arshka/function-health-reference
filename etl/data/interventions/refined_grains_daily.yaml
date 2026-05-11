@@ -1,0 +1,10 @@
+id: refined_grains_daily
+canonical_name: Refined grains (white rice, white bread, refined pasta)
+type: food
+dose_amount: 3
+dose_unit: servings_per_day
+dose_split: "multiple servings/day of white rice, white bread, refined pasta"
+mechanisms:
+  - glycemic_load_reduction
+dietary_tags: []
+exclusions: []

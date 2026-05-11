@@ -1,0 +1,17 @@
+id: alcohol_moderate_35g_per_day
+canonical_name: Moderate alcohol intake
+type: behavior
+dose_amount: 35
+dose_unit: g_ethanol_per_day
+dose_split: "~30–40 g/d ethanol (~2.5–3 standard drinks)"
+mechanisms: []
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: hepatic_impairment
+  - type: condition
+    value: hypertriglyceridemia
+  - type: condition
+    value: pregnancy
+  - type: condition
+    value: alcohol_use_disorder

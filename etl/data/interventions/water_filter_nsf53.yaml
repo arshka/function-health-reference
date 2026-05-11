@@ -1,0 +1,8 @@
+id: water_filter_nsf53
+canonical_name: NSF/ANSI 53- or 58-certified lead-removing water filter (point-of-use)
+type: behavior
+dose_amount: 1
+dose_unit: filter_install
+mechanisms: []
+dietary_tags: []
+exclusions: []

@@ -1,0 +1,20 @@
+id: oysters_85g_wk
+canonical_name: Oysters (raw or steamed)
+type: food
+dose_amount: 85
+dose_unit: g_per_week
+dose_split: "6 medium (~85 g) per week"
+mechanisms:
+  - omega3_epa_dha
+  - zinc_provision
+  - b12_provision
+dietary_tags:
+  - pescatarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: shellfish_allergy
+  - type: dietary
+    value: vegan
+  - type: dietary
+    value: vegetarian

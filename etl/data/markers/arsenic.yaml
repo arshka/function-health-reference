@@ -1,0 +1,18 @@
+# Source: biomarker_interventions/heavy_metals_phenoage/arsenic.md preamble + §3
+# Background US adult urine total As geometric mean ~7 µg/L; iAs typically <5 µg/L.
+# EPA/WHO drinking water MCL 10 µg/L; speciation (iAs+MMA+DMA) distinguishes toxic
+# inorganic As from non-toxic organic seafood arsenic. Reference upper bound 50 µg/L
+# (LabCorp/Quest "normal"); optimal urine iAs ≤10 µg/L. Mutable via source removal
+# (well water RO filter, rice substitution, cooking technique, B12/folate).
+
+id: arsenic
+name: Arsenic (urine total)
+panel: heavy_metals_phenoage
+units: µg/L
+direction: lower_is_better
+ref_lo: 0
+ref_hi: 50
+opt_lo: 0
+opt_hi: 10
+immutable: false
+demographic_modifiers: []

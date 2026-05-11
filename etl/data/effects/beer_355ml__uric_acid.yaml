@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/metabolic/uric_acid.md §2 (Beer)
+# 12 oz/d (1 bottle) beer → UA ↑ ~0.5 mg/dL per serving; guanosine-rich purine + ethanol both raise UA.
+
+intervention_id: beer_355ml
+marker_id: uric_acid
+direction: increase
+effect_type: absolute
+effect_lo: 0.3
+effect_hi: 0.8
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 1
+time_hi_wk: 4
+citations:
+  - author: Choi
+    journal: Lancet
+    year: 2004
+    pmid: "15094272"

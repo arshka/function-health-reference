@@ -1,0 +1,13 @@
+id: watermelon_500g
+canonical_name: Watermelon / melon (high water content fruit)
+type: food
+dose_amount: 500
+dose_unit: g_per_day
+mechanisms:
+  - renal_clearance
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions: []

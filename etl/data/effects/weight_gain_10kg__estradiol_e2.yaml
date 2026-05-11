@@ -1,0 +1,16 @@
+intervention_id: weight_gain_10kg
+marker_id: estradiol_e2
+direction: increase
+effect_type: pct
+effect_lo: 10
+effect_hi: 20
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 26
+time_hi_wk: 104
+citations:
+  - author: Weight-gain cohorts (inverse of weight-loss trials)
+    journal: aggregate
+    year: 2015

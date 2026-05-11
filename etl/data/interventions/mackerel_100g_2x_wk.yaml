@@ -1,0 +1,9 @@
+id: mackerel_100g_2x_wk
+canonical_name: Mackerel (100g 2x/wk)
+type: food
+dose_amount: 100
+dose_unit: g_per_serving
+mechanisms:
+- omega3_epa_dha
+dietary_tags: []
+exclusions: []

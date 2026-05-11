@@ -1,0 +1,19 @@
+intervention_id: calcium_d_glucarate_2000mg
+marker_id: estradiol_e2
+direction: decrease
+effect_type: pct
+effect_lo: -8
+effect_hi: -2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: mechanism
+evidence_weight: 0.4
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: Walaszek
+    journal: Cancer Letters
+    year: 1990
+  - author: Heerdt
+    journal: Israel Journal of Medical Sciences
+    year: 1995

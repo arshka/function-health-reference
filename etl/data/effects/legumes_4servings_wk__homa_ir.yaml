@@ -1,0 +1,19 @@
+intervention_id: legumes_4servings_wk
+marker_id: homa_ir
+direction: decrease
+effect_type: absolute
+effect_lo: -0.6
+effect_hi: -0.2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 16
+citations:
+  - author: Jenkins
+    journal: Arch Intern Med
+    year: 2012
+  - author: Sievenpiper
+    journal: Diabetologia
+    year: 2009

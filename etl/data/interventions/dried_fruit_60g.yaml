@@ -1,0 +1,11 @@
+id: dried_fruit_60g
+canonical_name: Dried fruit (apricots, prunes, raisins)
+type: food
+dose_amount: 60
+dose_unit: g_per_day
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions: []

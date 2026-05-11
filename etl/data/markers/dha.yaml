@@ -1,0 +1,14 @@
+# Source: nutrients_omega_fatty_acids.md §3 DHA; biomarker_interventions/omega_fatty_acids/DHA.md
+# RBC % of total fatty acids. Mozaffarian 2013 — DHA showed strongest individual association with reduced CHD death (~40% lower).
+
+id: dha
+name: DHA (Docosahexaenoic Acid, 22:6n-3)
+panel: omega_fatty_acids
+units: "% of total fatty acids"
+direction: higher_is_better
+ref_lo: 2.0
+ref_hi: 8.0
+opt_lo: 5.0
+opt_hi: 8.0
+immutable: false
+demographic_modifiers: []

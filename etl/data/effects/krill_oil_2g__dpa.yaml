@@ -1,0 +1,21 @@
+# Source: DPA.md §3 — Krill oil 1–2 g → DPA ↑ proportional to EPA loading
+# Standard EPA-via-krill effect; no direct-DPA advantage
+
+intervention_id: krill_oil_2g
+marker_id: dpa
+direction: increase
+effect_type: absolute
+effect_lo: 0.3
+effect_hi: 0.5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: Ulven
+    journal: Lipids
+    year: 2011
+    vol: 46
+    page: 37

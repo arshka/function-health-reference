@@ -1,0 +1,13 @@
+id: herbal_tea_500ml
+canonical_name: Herbal tea (caffeine-free)
+type: food
+dose_amount: 500
+dose_unit: ml_per_day
+mechanisms:
+  - renal_clearance
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions: []

@@ -1,0 +1,21 @@
+# Source: biomarker_interventions/cbc/platelets.md §3
+# Oral iron repletion in IDA-driven reactive thrombocytosis lowers
+# platelets from >450 toward 200-350. Effect contingent on iron-deficient baseline;
+# baseline_mod_lean set very low because iron-replete individuals see no platelet effect.
+
+intervention_id: iron_oral_100mg
+marker_id: platelets
+direction: decrease
+effect_type: absolute
+effect_lo: -200
+effect_hi: -100
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.2
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Bilic
+    journal: Eur J Pediatr
+    year: 2003

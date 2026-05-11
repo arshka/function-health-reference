@@ -1,0 +1,24 @@
+# Source: biomarker_interventions/vitamins_minerals/copper.md §1 (foods that RAISE copper)
+# Oysters 100 g raw eastern ~7.6 mg Cu (massive Cu source, comparable to liver).
+# 85 g/wk delivers ~6.5 mg Cu weekly = ~0.9 mg/d on average — covers RDA from one serving.
+# Effect on serum Cu: meaningful in deficient baseline.
+
+intervention_id: oysters_85g_wk
+marker_id: copper
+direction: increase
+effect_type: pct
+effect_lo: 10
+effect_hi: 30
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: mechanism
+evidence_weight: 0.4
+time_lo_wk: 8
+time_hi_wk: 16
+citations:
+  - author: USDA FoodData Central
+    journal: USDA FDC
+    year: 2023
+  - author: Institute of Medicine
+    journal: National Academies Press
+    year: 2001

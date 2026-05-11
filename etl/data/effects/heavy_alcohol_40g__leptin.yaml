@@ -1,0 +1,19 @@
+# Source: biomarker_interventions/metabolic/leptin.md §2 (Heavy alcohol row, >30 g/d).
+# Worsener: leptin ↑ in heavy drinkers; partly via visceral fat (confounded).
+
+intervention_id: heavy_alcohol_40g
+marker_id: leptin
+direction: increase
+effect_type: pct
+effect_lo: 5
+effect_hi: 20
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 12
+time_hi_wk: 52
+citations:
+  - author: Multiple cohort
+    journal: Various
+    year: 2010

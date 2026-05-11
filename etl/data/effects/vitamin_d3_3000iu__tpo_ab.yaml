@@ -1,0 +1,23 @@
+intervention_id: vitamin_d3_3000iu
+marker_id: tpo_ab
+direction: decrease
+effect_type: pct
+effect_lo: -30
+effect_hi: -10
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.2
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 26
+citations:
+  - author: Jiang
+    journal: J Clin Pharm Ther
+    year: 2022
+    vol: 47
+    page: 767
+  - author: Mazokopakis
+    journal: Hormones
+    year: 2015
+    vol: 14
+    page: 410

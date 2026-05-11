@@ -1,0 +1,19 @@
+intervention_id: mbsr_30min_daily
+marker_id: dhea_s
+direction: increase
+effect_type: pct
+effect_lo: 5
+effect_hi: 15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: MacLean
+    journal: Behav Med
+    year: 1997
+  - author: Cruess
+    journal: Psychosom Med
+    year: 2000

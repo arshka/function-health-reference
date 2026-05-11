@@ -1,0 +1,23 @@
+# Prescription-only oral chelator. Listed as supplement type (per assignment, not pharmacotherapy)
+# but clinically indicated ONLY at BLL ≥45 µg/dL — NOT for low-level Pb (TLC trial showed no benefit).
+id: chelation_dmsa_succimer
+canonical_name: Succimer (DMSA) oral chelation
+type: supplement
+dose_amount: 30
+dose_unit: mg_per_kg_per_day
+dose_split: "10 mg/kg q8h × 5 d, then q12h × 14 d (19-day course)"
+mechanisms:
+  - heavy_metal_chelation
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: condition
+    value: bll_below_45_ug_dL
+  - type: condition
+    value: neutropenia
+  - type: condition
+    value: hepatic_impairment
+  - type: condition
+    value: pregnancy

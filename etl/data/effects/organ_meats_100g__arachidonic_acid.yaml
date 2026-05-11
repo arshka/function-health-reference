@@ -1,0 +1,19 @@
+# Source: biomarker_interventions/omega_fatty_acids/arachidonic_acid.md §2
+# Organ meats 100 g, 1–2×/wk → RBC AA ↑ ~0.3–0.6 pp at habitual intake.
+
+intervention_id: organ_meats_100g
+marker_id: arachidonic_acid
+direction: increase
+effect_type: absolute
+effect_lo: 0.3
+effect_hi: 0.6
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 12
+time_hi_wk: 52
+citations:
+  - author: USDA
+    journal: USDA FoodData Central
+    year: 2020

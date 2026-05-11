@@ -1,0 +1,21 @@
+# Source: biomarker_interventions/cardiovascular/non-HDL-C.md §1 and §3
+# "Psyllium | 10–15 g/d | Non-HDL-C −15 mg/dL | 4–8 wk | [Meta]"
+
+intervention_id: psyllium_husk_10g
+marker_id: non_hdl_c
+direction: decrease
+effect_type: absolute
+effect_lo: -15
+effect_hi: -15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Jovanovski
+    journal: AJCN
+    year: 2018
+    vol: 108
+    page: 922

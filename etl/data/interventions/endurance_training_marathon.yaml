@@ -1,0 +1,10 @@
+id: endurance_training_marathon
+canonical_name: Very high volume endurance training (marathon-level)
+type: activity
+dose_amount: 9
+dose_unit: months
+dose_split: "Long-distance running program, half-marathon training+"
+mechanisms:
+  - aerobic_capacity
+dietary_tags: []
+exclusions: []

@@ -1,0 +1,23 @@
+# Source: ApoB.md §4 Activities & Behaviors
+# "Aerobic exercise (continuous) | ≥150 min/wk moderate (zone 2; 65–75% HRmax) |
+#  ApoB −2–5 mg/dL (~−3–5%) | 12–26 wk | [Meta]"
+
+intervention_id: aerobic_zone2_150min_wk
+marker_id: apob
+direction: decrease
+effect_type: pct
+effect_lo: -5
+effect_hi: -3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.6
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 26
+citations:
+  - author: Holme
+    journal: J Intern Med
+    year: 2007
+  - author: Wang
+    journal: PMC10036419
+    year: 2023

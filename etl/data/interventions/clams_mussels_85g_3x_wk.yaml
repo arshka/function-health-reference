@@ -1,0 +1,21 @@
+id: clams_mussels_85g_3x_wk
+canonical_name: Clams / mussels (canned or steamed)
+type: food
+dose_amount: 255
+dose_unit: g_per_week
+dose_split: "85 g (~3 oz) clams or mussels, 3 times per week"
+mechanisms:
+  - heme_iron_provision
+dietary_tags:
+  - pescatarian
+  - gluten_free
+  - dairy_free
+exclusions:
+  - type: dietary
+    value: vegan
+  - type: dietary
+    value: vegetarian
+  - type: dietary
+    value: shellfish_allergy
+  - type: gene
+    value: hfe_c282y_homozygous

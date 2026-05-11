@@ -1,0 +1,20 @@
+# Source: HDL-C.md §2 Foods that LOWER HDL-C
+# "High refined carbohydrate intake | >55% kcal refined carbs |
+#  HDL-C −2–5 mg/dL | 8–16 wk | [Meta]"
+
+intervention_id: refined_carb_55pct_kcal
+marker_id: hdl_c
+direction: decrease
+effect_type: absolute
+effect_lo: -5
+effect_hi: -2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 16
+citations:
+  - author: Mensink
+    journal: WHO Systematic Review
+    year: 2016

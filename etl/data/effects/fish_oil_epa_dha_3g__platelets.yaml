@@ -1,0 +1,19 @@
+# Source: biomarker_interventions/cbc/platelets.md §3
+# High-dose marine omega-3 modestly lowers platelet count and inhibits aggregation.
+
+intervention_id: fish_oil_epa_dha_3g
+marker_id: platelets
+direction: decrease
+effect_type: pct
+effect_lo: -8
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Hartweg
+    journal: Diabetologia
+    year: 2007

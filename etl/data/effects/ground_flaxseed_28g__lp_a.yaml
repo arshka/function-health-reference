@@ -1,0 +1,26 @@
+# Source: Lp(a).md §1 Foods that LOWER
+# "Flaxseed (ground) | 30–40 g/d | Lp(a) ~ −14% (one RCT); meta-analysis: −2.06 mg/dL (~−7%);
+#  2024 GRADE meta SMD −0.34 | 8–12 wk | [Meta]"
+# Honest take: small-magnitude meta-analytic signal; mostly in dyslipidemic adults.
+
+intervention_id: ground_flaxseed_28g
+marker_id: lp_a
+direction: decrease
+effect_type: pct
+effect_lo: -14
+effect_hi: -7
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Bloedon
+    journal: J Am Coll Nutr
+    year: 2008
+    pmid: "18460483"
+  - author: Sahebkar
+    journal: Phytother Res
+    year: 2020
+    pmid: "32073724"

@@ -1,0 +1,15 @@
+id: vitamin_d3_3000iu
+canonical_name: Vitamin D3 (cholecalciferol)
+type: supplement
+dose_amount: 3000
+dose_unit: iu_per_day
+dose_split: "2000–4000 IU/day"
+mechanisms:
+  - vitamin_d_provision
+  - anti_inflammatory
+dietary_tags:
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: condition
+    value: hypercalcemia

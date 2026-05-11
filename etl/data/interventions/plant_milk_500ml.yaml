@@ -1,0 +1,8 @@
+id: plant_milk_500ml
+canonical_name: Dairy alternatives (almond / oat milk)
+type: food
+dose_amount: 500
+dose_unit: ml_per_day
+mechanisms: []
+dietary_tags: [vegan, vegetarian, gluten_free, dairy_free]
+exclusions: []

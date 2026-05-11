@@ -1,0 +1,21 @@
+# Source: hs-CRP.md §4 Activities & Behaviors
+# "Sauna (Finnish dry sauna) | 4–7 sessions/wk, 15–20 min @ 80–100°C | hs-CRP −0.3 mg/L | 8–12 wk | [1-Trial]"
+
+intervention_id: sauna_5x_wk
+marker_id: hs_crp
+direction: decrease
+effect_type: absolute
+effect_lo: -0.4
+effect_hi: -0.2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Laukkanen
+    journal: Eur J Epidemiol
+    year: 2018
+    vol: 33
+    page: 351

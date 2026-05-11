@@ -1,0 +1,15 @@
+# Source: urinalysis_panel.md, biomarker_interventions/urinalysis/urine_specific_gravity.md
+# Specific gravity measures urine concentration. Clinical reference 1.005-1.030.
+# Optimal: 1.010-1.020 indicates good hydration without being overly dilute.
+
+id: urine_specific_gravity
+name: Urine Specific Gravity
+panel: urinalysis
+units: dimensionless
+direction: in_band
+ref_lo: 1.005
+ref_hi: 1.030
+opt_lo: 1.010
+opt_hi: 1.020
+immutable: false
+demographic_modifiers: []
