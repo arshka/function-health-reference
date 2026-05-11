@@ -1,0 +1,18 @@
+intervention_id: white_button_mushroom_100g
+marker_id: estradiol_e2
+direction: decrease
+effect_type: pct
+effect_lo: -10
+effect_hi: -3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: mechanism
+evidence_weight: 0.4
+time_lo_wk: 8
+time_hi_wk: 24
+citations:
+  - author: Grube
+    journal: Journal of Nutrition
+    year: 2001
+    vol: 131
+    page: 3288

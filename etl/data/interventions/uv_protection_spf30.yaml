@@ -1,0 +1,8 @@
+id: uv_protection_spf30
+canonical_name: UV protection (SPF >=30 broad-spectrum sunscreen + UV-protective clothing, peak-hour avoidance)
+type: behavior
+dose_amount: 30
+dose_unit: spf_daily
+mechanisms: []
+dietary_tags: []
+exclusions: []

@@ -1,0 +1,12 @@
+id: hijiki_seaweed
+canonical_name: Hijiki seaweed (Sargassum fusiforme) — high inorganic As exception
+type: food
+dose_amount: 1
+dose_unit: servings_per_week
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions: []

@@ -1,0 +1,14 @@
+id: processed_meat_100g
+canonical_name: Processed meats (bacon, sausage, deli)
+type: food
+dose_amount: 100
+dose_unit: g_per_day
+dose_split: "100 g/day processed meat"
+mechanisms:
+  - sfa_reduction
+dietary_tags: []
+exclusions:
+  - type: dietary
+    value: vegan
+  - type: dietary
+    value: vegetarian

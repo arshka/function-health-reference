@@ -1,0 +1,19 @@
+# Source: liver_panel.md §4 GGT; biomarker_interventions/liver/GGT.md.
+# Reference range per standard clinical labs (sex-specific: male 0-50, female 0-35 U/L).
+# Optimal <20 U/L — GGT is the strongest single-enzyme predictor of CV mortality
+# and all-cause mortality even within the "normal" range (Kunutsor 2014 meta-analysis).
+
+id: ggt
+name: Gamma-Glutamyl Transferase (GGT)
+panel: liver
+units: U/L
+direction: lower_is_better
+ref_lo: 0
+ref_hi: 50
+opt_lo: 0
+opt_hi: 20
+immutable: false
+demographic_modifiers:
+  - trait: female
+    opt_lo: 0
+    opt_hi: 15

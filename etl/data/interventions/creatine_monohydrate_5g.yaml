@@ -1,0 +1,13 @@
+id: creatine_monohydrate_5g
+canonical_name: Creatine monohydrate (maintenance dose)
+type: supplement
+dose_amount: 5
+dose_unit: g_per_day
+dose_split: "3-5 g/day maintenance (or 20 g/day x 5-7 d loading)"
+mechanisms:
+  - lean_mass_accretion
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

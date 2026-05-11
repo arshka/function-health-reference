@@ -1,0 +1,15 @@
+# Source: nutrients_vitamins_minerals.md §Zinc, biomarker_interventions/vitamins_minerals/zinc.md.
+# Plasma zinc reference 70-120 μg/dL. Optimal in-band 80-110: low impairs immunity/
+# spermatogenesis; high (often >150) suppresses copper absorption.
+
+id: zinc
+name: Zinc, plasma
+panel: vitamins_minerals
+units: μg/dL
+direction: in_band
+ref_lo: 70
+ref_hi: 120
+opt_lo: 80
+opt_hi: 110
+immutable: false
+demographic_modifiers: []

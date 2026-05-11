@@ -1,0 +1,23 @@
+# Source: biomarker_interventions/vitamins_minerals/magnesium_RBC.md §3
+# Mg L-threonate ~144 mg elemental at 2 g compound; source notes serum/RBC Mg
+# minimally moved (designed for brain Mg). Small but non-zero increase in
+# systemic Mg; primary endpoint is cognitive, not RBC.
+intervention_id: mg_threonate_2g
+marker_id: magnesium_rbc
+direction: increase
+effect_type: pct
+effect_lo: 1
+effect_hi: 4
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 6
+time_hi_wk: 12
+citations:
+  - author: Slutsky
+    journal: Neuron
+    year: 2010
+    vol: 65
+    page: 165
+    pmid: "20152124"

@@ -1,0 +1,12 @@
+id: basmati_jasmine_rice
+canonical_name: Basmati or jasmine rice (Indian/Pakistani/Thai-grown preferred)
+type: food
+dose_amount: 1
+dose_unit: substitution_per_meal
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions: []

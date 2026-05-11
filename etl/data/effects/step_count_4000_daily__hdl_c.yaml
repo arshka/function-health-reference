@@ -1,0 +1,22 @@
+# Source: HDL-C.md §4 Activities & Behaviors
+# "Step count / NEAT | +4000 steps/d above sedentary |
+#  HDL-C +1–2 mg/dL | 12–24 wk | [Cohort]"
+
+intervention_id: step_count_4000_daily
+marker_id: hdl_c
+direction: increase
+effect_type: absolute
+effect_lo: 1
+effect_hi: 2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Bassett
+    journal: Med Sci Sports Exerc
+    year: 2010
+    vol: 42
+    page: S20

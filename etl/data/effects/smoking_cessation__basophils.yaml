@@ -1,0 +1,23 @@
+# Source: biomarker_interventions/immune/basophils.md §4 Activities & Behaviors
+# Smoking cessation lowers ABC small (inverse of smoking-induced rise);
+# magnitude inferred as inverse of smoking_active +0.01 to +0.03 × 10^9/L.
+intervention_id: smoking_cessation
+marker_id: basophils
+direction: decrease
+effect_type: absolute
+effect_lo: -0.03
+effect_hi: -0.01
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 4
+time_hi_wk: 26
+citations:
+  - author: Lavi
+    journal: Am J Med
+    year: 2020
+  - author: Saville
+    journal: Mayo Clin Proc
+    year: 2005
+    pmid: "16092581"

@@ -1,0 +1,14 @@
+id: legumes_130g
+canonical_name: Beans / legumes
+type: food
+dose_amount: 130
+dose_unit: g_per_day
+dose_split: "≥4 servings/week; cooked"
+mechanisms:
+  - viscous_fiber
+  - sfa_reduction
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

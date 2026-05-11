@@ -1,0 +1,15 @@
+# Source: hormones_male_panel.md §Cortisol; biomarker_interventions/male_hormones/cortisol.md
+# AM (8 a.m.) serum cortisol reference 6-23 μg/dL. Diurnal — assumes morning draw.
+# Both extremes problematic: low → adrenal insufficiency; high → Cushing's / chronic stress.
+
+id: cortisol
+name: Cortisol (AM)
+panel: male_hormones
+units: μg/dL
+direction: in_band
+ref_lo: 6
+ref_hi: 23
+opt_lo: 10
+opt_hi: 18
+immutable: false
+demographic_modifiers: []

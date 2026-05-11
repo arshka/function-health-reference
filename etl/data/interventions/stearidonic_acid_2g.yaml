@@ -1,0 +1,14 @@
+id: stearidonic_acid_2g
+canonical_name: Stearidonic acid (echium oil)
+type: supplement
+dose_amount: 2
+dose_unit: g_per_day
+dose_split: "1–4 g SDA/day (echium oil)"
+mechanisms:
+  - omega3_epa_dha
+  - omega6_3_balance
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

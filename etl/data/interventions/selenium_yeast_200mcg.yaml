@@ -1,0 +1,15 @@
+id: selenium_yeast_200mcg
+canonical_name: Selenium-enriched yeast
+type: supplement
+dose_amount: 200
+dose_unit: mcg_per_day
+mechanisms:
+  - antioxidant_defense
+  - selenium_deiodinase
+dietary_tags:
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions:
+  - type: condition
+    value: selenosis

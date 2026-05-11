@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/urinalysis/urine_appearance_color.md §4
+# Heavy alcohol (>40 g/d) → vasopressin suppression + rebound dehydration
+# darkens urine color by ~1-2 units on Armstrong scale; sustained pattern.
+
+intervention_id: heavy_alcohol_40g
+marker_id: urine_appearance_color
+direction: increase
+effect_type: absolute
+effect_lo: 1
+effect_hi: 2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: mechanism
+evidence_weight: 0.4
+time_lo_wk: 1
+time_hi_wk: 2
+citations:
+  - author: Hobson
+    journal: Eur J Appl Physiol
+    year: 2010

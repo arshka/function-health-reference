@@ -1,0 +1,18 @@
+# Source: biomarker_interventions/liver/globulin.md §1 row 3 (EVOO 25-40 mL/d)
+intervention_id: evoo_30ml
+marker_id: globulin
+direction: decrease
+effect_type: pct
+effect_lo: -4
+effect_hi: -1
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Schwingshackl
+    journal: Lipids Health Dis
+    year: 2014
+    pmid: "25274026"

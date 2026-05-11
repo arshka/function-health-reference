@@ -1,0 +1,22 @@
+# Source: hs-CRP.md §1 Foods that LOWER
+# "Olive oil (EVOO, high-polyphenol) | 25–50 mL/d | hs-CRP −0.3 to −0.6 mg/L | 8–24 wk | [Meta]"
+
+intervention_id: evoo_30ml
+marker_id: hs_crp
+direction: decrease
+effect_type: absolute
+effect_lo: -0.6
+effect_hi: -0.3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 24
+citations:
+  - author: Schwingshackl
+    journal: Nutrients
+    year: 2015
+  - author: Estruch
+    journal: Ann Intern Med
+    year: 2006

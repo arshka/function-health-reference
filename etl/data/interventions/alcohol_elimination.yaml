@@ -1,0 +1,10 @@
+id: alcohol_elimination
+canonical_name: Alcohol elimination (from moderate-to-heavy)
+type: behavior
+dose_amount: 0
+dose_unit: g_ethanol_per_day
+dose_split: "complete elimination from prior intake of >14 g/d ethanol"
+mechanisms:
+  - alcohol_reduction
+dietary_tags: []
+exclusions: []

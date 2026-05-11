@@ -1,0 +1,20 @@
+# Source: §4 +2 servings/d leafy greens / legumes -> serum folate +5-15 nmol/L over months
+intervention_id: leafy_greens_2servings
+marker_id: folate
+direction: increase
+effect_type: absolute
+effect_lo: 5
+effect_hi: 15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 8
+time_hi_wk: 24
+citations:
+  - author: Anderson
+    journal: Mol Nutr Food Res
+    year: 2013
+    vol: 57
+    page: 637
+    pmid: "23456769"

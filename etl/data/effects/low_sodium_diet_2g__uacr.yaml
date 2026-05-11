@@ -1,0 +1,24 @@
+intervention_id: low_sodium_diet_2g
+marker_id: uacr
+direction: decrease
+effect_type: pct
+effect_lo: -25
+effect_hi: -15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Suckling
+    journal: Cochrane Database Syst Rev
+    year: 2010
+  - author: Slagman
+    journal: BMJ
+    year: 2011
+    vol: 343
+    page: d4366
+  - author: He
+    journal: Cochrane Database Syst Rev
+    year: 2013

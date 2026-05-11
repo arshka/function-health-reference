@@ -1,0 +1,9 @@
+id: very_low_fat_diet_15pct
+canonical_name: Very low-fat diet (<15% kcal fat)
+type: behavior
+dose_amount: 15
+dose_unit: pct_kcal_fat
+dose_split: "<15% kcal from fat; often vegan low-fat pattern"
+mechanisms: []
+dietary_tags: []
+exclusions: []

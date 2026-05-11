@@ -1,0 +1,15 @@
+# Source: heart_lipids_basic.md §1 Total Cholesterol, §"Quick Reference" table (line 544).
+# Standard clinical ref [100, 240] mg/dL (desirable <200; borderline 200-239; high ≥240 per ATP-III/AHA).
+# Optimal target <180 mg/dL (AHA optimal with HDL>50, TG<100); some sources prefer <160.
+
+id: total_cholesterol
+name: Total Cholesterol
+panel: cardiovascular
+units: mg/dL
+direction: lower_is_better
+ref_lo: 100
+ref_hi: 240
+opt_lo: 100
+opt_hi: 180
+immutable: false
+demographic_modifiers: []

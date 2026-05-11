@@ -1,0 +1,14 @@
+id: butter_40g
+canonical_name: Butter
+type: food
+dose_amount: 40
+dose_unit: g_per_day
+dose_split: "30–50 g/day replacing oil"
+mechanisms:
+  - sfa_reduction
+dietary_tags:
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: dairy_allergy

@@ -1,0 +1,21 @@
+# Source: HDL-C.md §4 Activities & Behaviors
+# "Smoking cessation | HDL-C +0.100 mmol/L (~+3.9 mg/dL) | Peak 3–6 months | [Meta]"
+
+intervention_id: smoking_cessation
+marker_id: hdl_c
+direction: increase
+effect_type: absolute
+effect_lo: 3
+effect_hi: 4
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 1.0
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 26
+citations:
+  - author: Forey
+    journal: Biomark Res
+    year: 2013
+    vol: 1
+    page: 31

@@ -1,0 +1,26 @@
+# Source: biomarker_interventions/heavy_metals_phenoage/arsenic.md §1, §4
+# NSF/ANSI 58 RO or NSF 53 As-certified filter for households with well water
+# arsenic >5 µg/L. Largest single intervention in well-water households.
+# Magnitude clamped to -60% per validator ceiling (raw effect can be much larger).
+intervention_id: water_filter_nsf53
+marker_id: arsenic
+direction: decrease
+effect_type: pct
+effect_lo: -60
+effect_hi: -30
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.2
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: Argos
+    journal: Lancet
+    year: 2010
+    vol: 376
+    page: 252
+  - author: Chen
+    journal: BMJ
+    year: 2011
+    pmid: "21546419"

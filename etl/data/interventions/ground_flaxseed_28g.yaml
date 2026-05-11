@@ -1,0 +1,14 @@
+id: ground_flaxseed_28g
+canonical_name: Ground flaxseed
+type: food
+dose_amount: 28
+dose_unit: g_per_day
+dose_split: "25–30 g/day ground (whole flaxseed not absorbed)"
+mechanisms:
+  - viscous_fiber
+  - pufa_substitution
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

@@ -1,0 +1,13 @@
+id: rice_rinse_drain_cooking
+canonical_name: Rice cooking with rinse 4-6x + 6:1 water:rice ratio + drain excess
+type: behavior
+dose_amount: 1
+dose_unit: technique_per_meal
+dose_split: "Rinse until water runs clear, parboil/cook with 6:1 water:rice, drain excess"
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions: []

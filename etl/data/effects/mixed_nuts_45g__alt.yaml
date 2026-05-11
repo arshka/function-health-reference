@@ -1,0 +1,21 @@
+intervention_id: mixed_nuts_45g
+marker_id: alt
+direction: decrease
+effect_type: pct
+effect_lo: -8
+effect_hi: -2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Salas-Salvado
+    journal: Diabetes Care
+    year: 2011
+    pmid: "21285389"
+  - author: Tindall
+    journal: J Nutr
+    year: 2019
+    pmid: "31152188"

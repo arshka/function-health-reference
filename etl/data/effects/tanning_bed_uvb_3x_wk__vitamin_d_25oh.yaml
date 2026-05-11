@@ -1,0 +1,17 @@
+intervention_id: tanning_bed_uvb_3x_wk
+marker_id: vitamin_d_25oh
+direction: increase
+effect_type: absolute
+effect_lo: 5
+effect_hi: 15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.2
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Tangpricha
+    journal: Am J Clin Nutr
+    year: 2004
+    pmid: "15064233"

@@ -1,0 +1,14 @@
+id: cranberry_pac_36mg
+canonical_name: Cranberry proanthocyanidin (PAC) extract
+type: supplement
+dose_amount: 36
+dose_unit: mg_per_day
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions:
+  - type: drug_interaction
+    value: warfarin

@@ -1,0 +1,21 @@
+# Source: Triglycerides.md §3 (Lowering)
+# "Cinnamon | 1–3 g/d | TG −15 mg/dL pooled | 8–16 wk | [Meta]"
+
+intervention_id: cinnamon_2g
+marker_id: triglycerides
+direction: decrease
+effect_type: absolute
+effect_lo: -15
+effect_hi: -15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 16
+citations:
+  - author: Allen
+    journal: Ann Fam Med
+    year: 2013
+    vol: 11
+    page: 452

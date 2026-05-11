@@ -1,0 +1,23 @@
+# Source: biomarker_interventions/cardiovascular/non-HDL-C.md §3 Supplements (No effect or worsening)
+# "DHA-only fish oil | 2–4 g/d DHA | Non-HDL-C ±0 to +5 mg/dL (LDL-C rises 3–5;
+#  TG drops; net usually small ↑) | 8–12 wk | [Meta]"
+# Modeled as direction=increase with effect_lo=0; small net rise.
+
+intervention_id: dha_fish_oil_3g
+marker_id: non_hdl_c
+direction: increase
+effect_type: absolute
+effect_lo: 0
+effect_hi: 5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Wei
+    journal: Curr Atheroscler Rep
+    year: 2011
+    vol: 13
+    page: 474

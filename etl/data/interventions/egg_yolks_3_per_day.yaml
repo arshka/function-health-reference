@@ -1,0 +1,13 @@
+id: egg_yolks_3_per_day
+canonical_name: Egg yolks (dietary cholesterol)
+type: food
+dose_amount: 3
+dose_unit: yolks_per_day
+dose_split: "2–3 whole eggs/day"
+mechanisms: []
+dietary_tags:
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: egg_allergy

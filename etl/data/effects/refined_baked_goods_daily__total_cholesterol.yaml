@@ -1,0 +1,16 @@
+intervention_id: refined_baked_goods_daily
+marker_id: total_cholesterol
+direction: increase
+effect_type: absolute
+effect_lo: 10
+effect_hi: 20
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: EPIC
+    journal: Multiple cohorts
+    year: 2015

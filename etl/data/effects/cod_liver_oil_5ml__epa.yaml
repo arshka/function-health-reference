@@ -1,0 +1,19 @@
+# Source: biomarker_interventions/omega_fatty_acids/EPA.md §3 - cod liver oil 5 mL (~250 mg EPA + 350 mg DHA)
+intervention_id: cod_liver_oil_5ml
+marker_id: epa
+direction: increase
+effect_type: absolute
+effect_lo: 0.4
+effect_hi: 0.6
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: Brunborg
+    journal: Lipids
+    year: 2008
+    vol: 43
+    page: 559

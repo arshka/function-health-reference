@@ -1,0 +1,17 @@
+# Source: biomarker_interventions/metabolic/fasting_insulin.md §1 (cocoa, high flavanol)
+intervention_id: dark_chocolate_75g
+marker_id: fasting_insulin
+direction: decrease
+effect_type: absolute
+effect_lo: -1
+effect_hi: -0.3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Hooper
+    journal: Am J Clin Nutr
+    year: 2012

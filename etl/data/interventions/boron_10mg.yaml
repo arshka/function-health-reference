@@ -1,0 +1,12 @@
+id: boron_10mg
+canonical_name: Boron supplement
+type: supplement
+dose_amount: 10
+dose_unit: mg_per_day
+mechanisms:
+  - shbg_modulation
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

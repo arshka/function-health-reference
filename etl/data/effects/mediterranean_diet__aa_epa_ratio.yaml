@@ -1,0 +1,26 @@
+# Source: biomarker_interventions/omega_fatty_acids/AA_EPA_ratio.md §1, §4
+# Mediterranean dietary pattern (EVOO + fatty fish + vegetables); ratio ~15 to ~4-6 in 16 wk
+# Clamped to -60% per validator ceiling (raw delta -60% to -73%)
+intervention_id: mediterranean_diet
+marker_id: aa_epa_ratio
+direction: decrease
+effect_type: pct
+effect_lo: -60
+effect_hi: -50
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: Estruch
+    journal: NEJM
+    year: 2018
+    vol: 378
+    page: "e34"
+  - author: de Lorgeril
+    journal: Circulation
+    year: 1999
+    vol: 99
+    page: 779

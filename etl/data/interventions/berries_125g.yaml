@@ -1,0 +1,15 @@
+id: berries_125g
+canonical_name: Anthocyanin-rich berries (strawberries, blueberries, blackberries)
+type: food
+dose_amount: 125
+dose_unit: g_per_day
+dose_split: "100–150 g/day, fresh or frozen"
+mechanisms:
+  - polyphenol_oxldl_reduction
+  - anti_inflammatory
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - mediterranean
+exclusions: []

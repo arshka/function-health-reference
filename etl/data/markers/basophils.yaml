@@ -1,0 +1,15 @@
+# Source: immune_cbc_differential.md §6 (Basophils), summary table.
+# Absolute count. Conventional 0.0-0.2 ×10⁹/L; functional optimal 0.0-0.05.
+# Elevation (esp >1.0) suggests CML/MPN; very low typically not clinical.
+
+id: basophils
+name: Basophils (absolute)
+panel: immune
+units: x10^9/L
+direction: in_band
+ref_lo: 0.0
+ref_hi: 0.2
+opt_lo: 0.0
+opt_hi: 0.05
+immutable: false
+demographic_modifiers: []

@@ -1,0 +1,19 @@
+intervention_id: vegan_diet
+marker_id: monocytes
+direction: decrease
+effect_type: absolute
+effect_lo: -0.1
+effect_hi: -0.05
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Mishra
+    journal: Eur J Clin Nutr
+    year: 2013
+  - author: Haghighatdoost
+    journal: Public Health Nutr
+    year: 2017

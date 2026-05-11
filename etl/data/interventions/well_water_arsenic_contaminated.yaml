@@ -1,0 +1,12 @@
+id: well_water_arsenic_contaminated
+canonical_name: Drinking and cooking with private well water from arsenic-contaminated regions
+type: behavior
+dose_amount: 1
+dose_unit: daily_exposure
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions: []

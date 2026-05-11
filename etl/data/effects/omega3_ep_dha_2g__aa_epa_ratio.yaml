@@ -1,0 +1,25 @@
+# Source: biomarker_interventions/omega_fatty_acids/AA_EPA_ratio.md §3
+# Standard fish oil 2 g EPA+DHA/d (~1.2 g EPA): ratio ~15 to ~4-6 in 16 wk
+# Clamped to -60% per validator ceiling
+intervention_id: omega3_ep_dha_2g
+marker_id: aa_epa_ratio
+direction: decrease
+effect_type: pct
+effect_lo: -60
+effect_hi: -55
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: Harris
+    journal: AJCN
+    year: 2022
+    vol: 116
+    page: 1334
+  - author: Patani
+    journal: Postgrad Med
+    year: 2019
+    pmid: "31063407"

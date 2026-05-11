@@ -1,0 +1,16 @@
+# Source: liver_panel.md §8 A/G Ratio; biomarker_interventions/liver/albumin_globulin_ratio.md.
+# Reference range per standard clinical labs. Higher-is-better within ref: low A/G ratio
+# (<1.0-1.1) is an independent predictor of all-cause and cancer mortality (Suh 2014
+# Cancer Epidemiol Biomarkers Prev; Niedziela 2018 meta-analysis), reflecting chronic
+# inflammation and/or reduced albumin synthesis.
+
+id: albumin_globulin_ratio
+name: Albumin/Globulin Ratio
+panel: liver
+units: ratio
+direction: higher_is_better
+ref_lo: 0.8
+ref_hi: 2.5
+opt_lo: 1.5
+opt_hi: 2.5
+immutable: false

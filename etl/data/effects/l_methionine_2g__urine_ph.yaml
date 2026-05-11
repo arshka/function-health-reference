@@ -1,0 +1,19 @@
+intervention_id: l_methionine_2g
+marker_id: urine_ph
+direction: decrease
+effect_type: absolute
+effect_lo: -1.0
+effect_hi: -0.5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 1
+time_hi_wk: 1
+citations:
+  - author: Hesse
+    journal: Urol Res
+    year: 1992
+    vol: 20
+    page: 357
+    pmid: "1466154"

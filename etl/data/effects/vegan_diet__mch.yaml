@@ -1,0 +1,18 @@
+# Source: biomarker_interventions/cbc/MCH.md §2 (vegan without B12 supplementation)
+intervention_id: vegan_diet
+marker_id: mch
+direction: increase
+effect_type: absolute
+effect_lo: 2.0
+effect_hi: 5.0
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 156
+time_hi_wk: 260
+citations:
+  - author: Pawlak
+    journal: Eur J Clin Nutr
+    year: 2014
+    pmid: "24667752"

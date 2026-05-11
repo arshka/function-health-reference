@@ -1,0 +1,19 @@
+# Source: heart_lipids_basic.md §ApoB, ApoB.md §6 Synthesis & Highest-Leverage Stack
+# Reference range per standard clinical labs (e.g., Quest, LabCorp).
+# Optimal targets per ASCVD primary prevention guidelines (ApoB <80 mg/dL for general
+# population; <70 for elevated CV risk including South Asian phenotype per NLA 2021).
+
+id: apob
+name: Apolipoprotein B
+panel: cardiovascular
+units: mg/dL
+direction: lower_is_better
+ref_lo: 40
+ref_hi: 125
+opt_lo: 40
+opt_hi: 80
+immutable: false
+demographic_modifiers:
+  - trait: south_asian
+    opt_lo: 40
+    opt_hi: 70

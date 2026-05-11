@@ -1,0 +1,19 @@
+intervention_id: sleep_7_9h
+marker_id: total_testosterone
+direction: increase
+effect_type: pct
+effect_lo: 10
+effect_hi: 15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 1
+time_hi_wk: 4
+citations:
+  - author: Leproult
+    journal: JAMA
+    year: 2011
+    vol: 305
+    page: 2173
+    pmid: "21632481"

@@ -1,0 +1,26 @@
+# Source: biomarker_interventions/heavy_metals_phenoage/arsenic.md §1, §4
+# Substituting other grains (oats, quinoa, barley, millet, buckwheat, sorghum,
+# amaranth, wheat) for rice as primary starch. Non-rice grains have ~5-10x lower
+# iAs than rice; iAs intake ↓ ~80-90% if rice was the primary starch. Clamped to
+# -60% per validator magnitude ceiling.
+intervention_id: grain_substitution_non_rice
+marker_id: arsenic
+direction: decrease
+effect_type: pct
+effect_lo: -60
+effect_hi: -40
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: FDA
+    journal: Inorganic Arsenic in Rice and Rice Products Risk Assessment
+    year: 2016
+  - author: Gilbert-Diamond
+    journal: PNAS
+    year: 2011
+    vol: 108
+    page: 20656

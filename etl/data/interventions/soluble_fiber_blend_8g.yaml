@@ -1,0 +1,16 @@
+id: soluble_fiber_blend_8g
+canonical_name: Soluble fiber blends (acacia, glucomannan, guar)
+type: supplement
+dose_amount: 8
+dose_unit: g_per_day
+dose_split: "5–10 g/day soluble fiber"
+mechanisms:
+  - viscous_fiber
+  - bile_acid_sequestration
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: condition
+    value: bowel_obstruction

@@ -1,0 +1,24 @@
+# Source: biomarker_interventions/heavy_metals_phenoage/arsenic.md §1
+# Substituting white rice for brown rice — bran layer concentrates iAs
+# White rice has ~50% iAs of brown rice per serving.
+intervention_id: white_rice_substitution
+marker_id: arsenic
+direction: decrease
+effect_type: pct
+effect_lo: -50
+effect_hi: -30
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: Meharg
+    journal: Environ Sci Technol
+    year: 2008
+    vol: 42
+    page: 1051
+  - author: FDA
+    journal: Inorganic Arsenic in Rice and Rice Products Risk Assessment
+    year: 2016

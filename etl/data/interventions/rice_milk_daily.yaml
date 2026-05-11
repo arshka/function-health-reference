@@ -1,0 +1,12 @@
+id: rice_milk_daily
+canonical_name: Rice milk (vs almond / oat / soy / dairy milk)
+type: food
+dose_amount: 240
+dose_unit: ml_per_day
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions: []

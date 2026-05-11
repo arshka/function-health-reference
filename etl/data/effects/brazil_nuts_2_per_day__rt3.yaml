@@ -1,0 +1,19 @@
+intervention_id: brazil_nuts_2_per_day
+marker_id: rt3
+direction: decrease
+effect_type: pct
+effect_lo: -10
+effect_hi: -3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: mechanism
+evidence_weight: 0.4
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Bianco
+    journal: Endocr Rev
+    year: 2019
+  - author: Olivieri
+    journal: Clin Sci (Lond)
+    year: 1996

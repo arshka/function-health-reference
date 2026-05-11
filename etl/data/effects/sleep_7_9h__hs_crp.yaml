@@ -1,0 +1,21 @@
+# Source: hs-CRP.md §4 Activities & Behaviors
+# "Sleep optimization (7–9 h vs <6 h chronic) | hs-CRP modest reduction; chronic restriction raises hs-CRP d=0.76 | Chronic | [Meta]"
+
+intervention_id: sleep_7_9h
+marker_id: hs_crp
+direction: decrease
+effect_type: absolute
+effect_lo: -0.5
+effect_hi: -0.2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 24
+citations:
+  - author: Irwin
+    journal: Biol Psychiatry
+    year: 2016
+    vol: 80
+    page: 40

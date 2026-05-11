@@ -1,0 +1,23 @@
+# Source: biomarker_interventions/metabolic/leptin.md §4 (Weight loss row, 5-10% body weight).
+# Single largest predictable lever: leptin -30 to -50% with 5-10% weight loss (dose-dependent).
+
+intervention_id: weight_loss_5kg
+marker_id: leptin
+direction: decrease
+effect_type: pct
+effect_lo: -50
+effect_hi: -30
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Imayama
+    journal: Obesity
+    year: 2012
+    pmid: "22318317"
+  - author: Mars
+    journal: J Clin Endocrinol Metab
+    year: 2005

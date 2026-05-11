@@ -1,0 +1,8 @@
+id: hard_cheese_60g
+canonical_name: Hard cheese (cheddar, parmesan)
+type: food
+dose_amount: 60
+dose_unit: g_per_day
+mechanisms: []
+dietary_tags: [vegetarian]
+exclusions: []

@@ -1,0 +1,32 @@
+# Source: biomarker_interventions/heavy_metals_phenoage/cadmium.md §3
+# Iron repletion in Fe-deficient subjects reduces ongoing GI Cd absorption ~30–50%
+# via DMT1 downregulation. Effect is preventive (reduces absorption), so blood Cd
+# decreases over months as new exposure is curtailed.
+intervention_id: iron_oral_100mg
+marker_id: cadmium
+direction: decrease
+effect_type: pct
+effect_lo: -50
+effect_hi: -30
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 1.0
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: Berglund
+    journal: Environ Health Perspect
+    year: 1994
+    vol: 102
+    page: 1058
+  - author: Akesson
+    journal: Am J Public Health
+    year: 2002
+    vol: 92
+    page: 284
+  - author: Olsson
+    journal: Environ Health Perspect
+    year: 2002
+    vol: 110
+    page: 1185

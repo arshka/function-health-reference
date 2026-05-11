@@ -1,0 +1,9 @@
+id: allergen_avoidance
+canonical_name: Allergen avoidance (HEPA filtration, dust-mite covers, pet relocation)
+type: behavior
+dose_amount: 1
+dose_unit: program_per_day
+mechanisms:
+  - anti_inflammatory
+dietary_tags: []
+exclusions: []

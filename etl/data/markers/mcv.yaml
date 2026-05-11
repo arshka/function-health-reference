@@ -1,0 +1,14 @@
+# Source: blood_cbc_indices.md §MCV; biomarker_interventions/cbc/MCV.md
+# Mean corpuscular volume. In-band: microcytic (iron deficiency, thalassemia) and
+# macrocytic (B12/folate deficiency, alcohol, hypothyroidism) both pathological.
+
+id: mcv
+name: Mean Corpuscular Volume
+panel: cbc
+units: fL
+direction: in_band
+ref_lo: 80
+ref_hi: 100
+opt_lo: 85
+opt_hi: 95
+immutable: false

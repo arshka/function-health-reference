@@ -1,0 +1,16 @@
+intervention_id: plant_sterols_2g
+marker_id: apob_apoa1_ratio
+direction: decrease
+effect_type: pct
+effect_lo: -10
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: AbuMweis
+    journal: Eur J Clin Nutr
+    year: 2008

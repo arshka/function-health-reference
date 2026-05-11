@@ -1,0 +1,17 @@
+# Source: biomarker_interventions/metabolic/fasting_insulin.md §2 (>30 g/d heavy use)
+intervention_id: heavy_alcohol_40g
+marker_id: fasting_insulin
+direction: increase
+effect_type: absolute
+effect_lo: 0.5
+effect_hi: 2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 52
+time_hi_wk: 260
+citations:
+  - author: Howard
+    journal: Ann Intern Med
+    year: 2004

@@ -1,0 +1,12 @@
+id: high_protein_diet_2g_kg
+canonical_name: High-protein diet (≥2 g/kg/day, leucine-rich)
+type: behavior
+dose_amount: 2
+dose_unit: g_per_kg_per_day
+dose_split: ">2 g/kg/day total protein, leucine-rich"
+mechanisms:
+  - insulin_sensitization
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: ckd_stage_3_or_higher

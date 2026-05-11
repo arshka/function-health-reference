@@ -1,0 +1,16 @@
+intervention_id: ultra_processed_food_50pct_kcal
+marker_id: tpo_ab
+direction: increase
+effect_type: pct
+effect_lo: 5
+effect_hi: 20
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 26
+time_hi_wk: 104
+citations:
+  - author: Ulker
+    journal: Food Sci Nutr
+    year: 2024

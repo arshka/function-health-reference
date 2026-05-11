@@ -1,0 +1,21 @@
+intervention_id: vegan_diet
+marker_id: vitamin_b12
+direction: decrease
+effect_type: pct
+effect_lo: -50
+effect_hi: -25
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 104
+time_hi_wk: 260
+citations:
+  - author: Gilsing
+    journal: Eur J Clin Nutr
+    year: 2010
+    pmid: "19890501"
+  - author: Pawlak
+    journal: Nutr Rev
+    year: 2014
+    pmid: "24667752"

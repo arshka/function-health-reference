@@ -1,0 +1,14 @@
+# Source: kidney_electrolytes_pancreas.md §uACR, biomarker_interventions/kidney_electrolytes_pancreas/uACR.md
+# Urine albumin-to-creatinine ratio. >30 = microalbuminuria, >300 = macroalbuminuria (KDIGO).
+
+id: uacr
+name: Urine Albumin-to-Creatinine Ratio
+panel: kidney_electrolytes_pancreas
+units: mg/g
+direction: lower_is_better
+ref_lo: 0
+ref_hi: 30
+opt_lo: 0
+opt_hi: 10
+immutable: false
+demographic_modifiers: []

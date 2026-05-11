@@ -1,0 +1,19 @@
+id: cod_liver_oil_5ml
+canonical_name: Cod liver oil
+type: supplement
+dose_amount: 5
+dose_unit: ml_per_day
+dose_split: "1 tsp daily"
+mechanisms:
+  - vitamin_d_provision
+  - omega3_epa_dha
+dietary_tags:
+  - pescatarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: vegan
+  - type: dietary
+    value: vegetarian
+  - type: condition
+    value: vitamin_a_toxicity_risk

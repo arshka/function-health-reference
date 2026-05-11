@@ -1,0 +1,11 @@
+id: aerobic_zone2_150min_wk
+canonical_name: Aerobic exercise (zone 2)
+type: activity
+dose_amount: 150
+dose_unit: min_per_week
+dose_split: "moderate continuous, 65–75% HRmax"
+mechanisms:
+  - aerobic_capacity
+  - visceral_fat_reduction
+dietary_tags: []
+exclusions: []

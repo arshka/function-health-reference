@@ -1,0 +1,24 @@
+# Source: biomarker_interventions/vitamins_minerals/copper.md §1 (foods that RAISE copper)
+# Beef liver 100 g cooked ~14 mg Cu (1500% RDA in single serving; single highest food source).
+# 100 g/week delivers ~14 mg Cu weekly = ~2 mg/d average — well above RDA.
+# Limit weekly due to vitamin A burden. Strong effect on serum Cu in deficient baseline.
+
+intervention_id: beef_liver_100g_weekly
+marker_id: copper
+direction: increase
+effect_type: pct
+effect_lo: 15
+effect_hi: 40
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: mechanism
+evidence_weight: 0.4
+time_lo_wk: 8
+time_hi_wk: 16
+citations:
+  - author: USDA FoodData Central
+    journal: USDA FDC
+    year: 2023
+  - author: Institute of Medicine
+    journal: National Academies Press
+    year: 2001

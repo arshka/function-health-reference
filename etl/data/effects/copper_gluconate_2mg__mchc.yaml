@@ -1,0 +1,17 @@
+# Source: biomarker_interventions/cbc/MCHC.md §3 (copper repletion in copper-deficiency anemia normalizes MCHC)
+intervention_id: copper_gluconate_2mg
+marker_id: mchc
+direction: increase
+effect_type: absolute
+effect_lo: 0.5
+effect_hi: 1.5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Halfdanarson
+    journal: Eur J Haematol
+    year: 2008

@@ -1,0 +1,12 @@
+id: cold_exposure_3min_daily
+canonical_name: Cold exposure (cold shower / cold-water immersion 10–14°C)
+type: behavior
+dose_amount: 3
+dose_unit: min_per_day
+mechanisms:
+  - cold_exposure
+  - insulin_sensitization
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: cardiovascular_disease

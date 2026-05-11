@@ -1,0 +1,16 @@
+intervention_id: green_tea_400mg_egcg
+marker_id: estradiol_e2
+direction: decrease
+effect_type: pct
+effect_lo: -8
+effect_hi: -2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 12
+time_hi_wk: 26
+citations:
+  - author: Wu
+    journal: Carcinogenesis
+    year: 2003

@@ -1,0 +1,10 @@
+id: broth_soup_500ml
+canonical_name: Soup / broth (water-based)
+type: food
+dose_amount: 500
+dose_unit: ml_per_day
+mechanisms:
+  - renal_clearance
+dietary_tags:
+  - gluten_free
+exclusions: []

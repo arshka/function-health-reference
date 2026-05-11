@@ -1,0 +1,33 @@
+# Source: biomarker_interventions/urinalysis/urine_appearance_color.md §1 + §4
+# Sustained ≥2 L/d water shifts urine color toward Armstrong 1-3 (pale yellow)
+# from baseline dark amber (4-5). Marker is 1-5 hydration scale; lightening = decrease.
+
+intervention_id: hydration_adequate_35ml_kg
+marker_id: urine_appearance_color
+direction: decrease
+effect_type: absolute
+effect_lo: -3
+effect_hi: -2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 1
+time_hi_wk: 2
+citations:
+  - author: Armstrong
+    journal: Int J Sport Nutr
+    year: 1994
+    vol: 4
+    page: 265
+    pmid: "7987361"
+  - author: Perrier
+    journal: Eur J Clin Nutr
+    year: 2013
+    vol: 67
+    page: 939
+    pmid: "23801237"
+  - author: Sontrop
+    journal: Am J Nephrol
+    year: 2013
+    pmid: "23594735"

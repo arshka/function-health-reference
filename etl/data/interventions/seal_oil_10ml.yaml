@@ -1,0 +1,17 @@
+id: seal_oil_10ml
+canonical_name: Seal oil (marine mammal n-3, ~5% DPA)
+type: supplement
+dose_amount: 10
+dose_unit: ml_per_day
+dose_split: "10 mL/day; ethical/regulatory restrictions in many jurisdictions"
+mechanisms:
+  - omega3_epa_dha
+dietary_tags:
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: vegan
+  - type: dietary
+    value: vegetarian
+  - type: dietary
+    value: pescatarian

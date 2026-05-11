@@ -1,0 +1,21 @@
+# Source: DPA.md §2 — High refined LA-rich oils ≥30 g/d
+# DPA ↓ ~0.1–0.2 pp via Δ6 substrate competition + RBC PUFA pool dilution
+
+intervention_id: linoleic_acid_oil_30g
+marker_id: dpa
+direction: decrease
+effect_type: absolute
+effect_lo: -0.2
+effect_hi: -0.1
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Liou
+    journal: J Nutr
+    year: 2007
+    vol: 137
+    page: 945

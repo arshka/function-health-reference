@@ -1,0 +1,16 @@
+intervention_id: altitude_lhth_3wk
+marker_id: rbc_count
+direction: increase
+effect_type: pct
+effect_lo: 5
+effect_hi: 10
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 3
+time_hi_wk: 6
+citations:
+  - author: Sawka
+    journal: PLoS One
+    year: 2014

@@ -1,0 +1,25 @@
+# Source: biomarker_interventions/male_hormones/FSH.md §3
+# "Coenzyme Q10 | 200 mg/d | FSH modest reduction in some infertility trials (when
+# initially elevated) | 6 mo | [1-Trial] Safarinejad 2009 J Urol 182:237 (n=212
+# idiopathic infertile, FSH small reduction)"
+# Effect demonstrated only in infertile cohort with elevated baseline FSH; not
+# demonstrated in healthy eugonadal men. Lean baseline weight reduced accordingly.
+
+intervention_id: coq10_200mg
+marker_id: fsh
+direction: decrease
+effect_type: pct
+effect_lo: -15
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.2
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 16
+time_hi_wk: 26
+citations:
+  - author: Safarinejad
+    journal: J Urol
+    year: 2009
+    vol: 182
+    page: 237

@@ -1,0 +1,18 @@
+# Source: biomarker_interventions/cbc/MCHC.md §3 (oral ferrous sulfate/fumarate in IDA)
+intervention_id: iron_oral_100mg
+marker_id: mchc
+direction: increase
+effect_type: absolute
+effect_lo: 1.0
+effect_hi: 3.0
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 16
+citations:
+  - author: Stoffel
+    journal: Lancet Haematol
+    year: 2017
+    pmid: "29032957"

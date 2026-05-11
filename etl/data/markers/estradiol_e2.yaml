@@ -1,0 +1,17 @@
+# Source: hormones_male_panel.md §Estradiol; biomarker_interventions/male_hormones/estradiol_E2.md
+# Reference and optimal targets are MALE-specific (10-50 pg/mL ref, 20-35 pg/mL opt).
+# Female E2 cycles widely (30-400+ pg/mL premenopausal) — skip in this panel for females.
+
+id: estradiol_e2
+name: Estradiol (E2)
+panel: male_hormones
+units: pg/mL
+direction: in_band
+ref_lo: 10
+ref_hi: 50
+opt_lo: 20
+opt_hi: 35
+immutable: false
+demographic_modifiers:
+  - trait: female
+    skip: true

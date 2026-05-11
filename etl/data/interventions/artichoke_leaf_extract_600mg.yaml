@@ -1,0 +1,12 @@
+id: artichoke_leaf_extract_600mg
+canonical_name: Artichoke leaf extract
+type: supplement
+dose_amount: 600
+dose_unit: mg_per_day
+mechanisms:
+  - hmg_coa_inhibition
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

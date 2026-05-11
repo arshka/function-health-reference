@@ -1,0 +1,21 @@
+# Source: biomarker_interventions/thyroid/FT3.md §3 — zinc (15–30 mg/d), if deficient
+# Effect: FT3 may ↑ in zinc-deficient subjects; structural cofactor for TR-α/β; modulates D2.
+intervention_id: zinc_25mg
+marker_id: ft3
+direction: increase
+effect_type: pct
+effect_lo: 3
+effect_hi: 10
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Mahmoodianfard
+    journal: J Am Coll Nutr
+    year: 2015
+  - author: Maxwell
+    journal: Br J Med Med Res
+    year: 2007

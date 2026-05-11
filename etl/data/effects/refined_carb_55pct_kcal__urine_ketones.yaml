@@ -1,0 +1,24 @@
+# Source: biomarker_interventions/urinalysis/urine_ketones.md §1 (foods that LOWER)
+# High carbohydrate intake (>100 g/d, refined carb staples like bread/rice/pasta)
+# eliminates nutritional ketosis within 24-72 h via insulin secretion suppressing
+# ketogenesis. Magnitude assumes baseline ketonuria; lean (already-negative) baseline → no effect.
+
+intervention_id: refined_carb_55pct_kcal
+marker_id: urine_ketones
+direction: decrease
+effect_type: absolute
+effect_lo: -40
+effect_hi: -15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.2
+evidence_tag: mechanism
+evidence_weight: 0.4
+time_lo_wk: 1
+time_hi_wk: 1
+citations:
+  - author: Cahill
+    journal: NEJM
+    year: 2006
+    vol: 355
+    page: 1130
+    pmid: "16407514"

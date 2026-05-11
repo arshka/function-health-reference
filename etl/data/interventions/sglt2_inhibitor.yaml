@@ -1,0 +1,15 @@
+id: sglt2_inhibitor
+canonical_name: SGLT2 inhibitor (empagliflozin, dapagliflozin)
+type: supplement
+dose_amount: 1
+dose_unit: standard_daily_dose
+dose_split: "standard prescribing dose (e.g., empagliflozin 10–25 mg/d)"
+mechanisms:
+  - insulin_sensitization
+  - caloric_deficit
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: type_1_diabetes
+  - type: condition
+    value: recurrent_uti

@@ -1,0 +1,17 @@
+# Source: autoimmunity_panel.md §1, §3, §4, §6, §7; biomarker_interventions/autoimmunity_psa/RF.md §6
+# RF (rheumatoid factor): negative <14 IU/mL (typical nephelometry/turbidimetry).
+# Mutable=false would be wrong: smoking cessation is the strongest documented lifestyle lever for
+# RF/anti-CCP generation; treating HCV / chronic infection can also reduce RF over 6-12 mo.
+# RF prevalence rises with age (3-5% <60, 25%+ >85) — not encoded as modifier (ranges hold).
+
+id: rf
+name: Rheumatoid Factor (RF)
+panel: autoimmunity_psa
+units: IU/mL
+direction: lower_is_better
+ref_lo: 0
+ref_hi: 100
+opt_lo: 0
+opt_hi: 14
+immutable: false
+demographic_modifiers: []

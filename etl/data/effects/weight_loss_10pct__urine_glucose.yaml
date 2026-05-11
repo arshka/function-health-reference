@@ -1,0 +1,21 @@
+# Source: biomarker_interventions/urinalysis/urine_glucose.md §4
+# Sustained 5-10% weight loss (DiRECT-style) often eliminates need for T2DM
+# medications; T2DM remission typically eliminates glycosuria. Most powerful
+# lifestyle lever. Magnitude clamped to validator ceiling.
+intervention_id: weight_loss_10pct
+marker_id: urine_glucose
+direction: decrease
+effect_type: pct
+effect_lo: -60
+effect_hi: -30
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 24
+time_hi_wk: 52
+citations:
+  - author: Lean
+    journal: Lancet
+    year: 2018
+    pmid: "29221645"

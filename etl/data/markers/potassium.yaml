@@ -1,0 +1,14 @@
+# Source: kidney_electrolytes_pancreas.md §Potassium, biomarker_interventions/kidney_electrolytes_pancreas/potassium.md
+# Tightly homeostatic; reference per standard clinical labs.
+
+id: potassium
+name: Potassium
+panel: kidney_electrolytes_pancreas
+units: mmol/L
+direction: in_band
+ref_lo: 3.5
+ref_hi: 5.0
+opt_lo: 4.0
+opt_hi: 4.7
+immutable: false
+demographic_modifiers: []

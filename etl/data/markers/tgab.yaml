@@ -1,0 +1,14 @@
+# Source: thyroid_panel.md §5 (autoantibodies); biomarker_interventions/thyroid/TgAb.md.
+# Reference 0-40 IU/mL; optimal 0-20 IU/mL. Thyroglobulin antibodies — Hashimoto's marker;
+# mutable but harder (selenium, gluten elimination, vitamin D repletion may reduce titers).
+
+id: tgab
+name: Thyroglobulin Antibody
+panel: thyroid
+units: IU/mL
+direction: lower_is_better
+ref_lo: 0
+ref_hi: 40
+opt_lo: 0
+opt_hi: 20
+immutable: false

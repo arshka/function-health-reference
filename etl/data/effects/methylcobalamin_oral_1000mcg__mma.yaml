@@ -1,0 +1,21 @@
+# Source: biomarker_interventions/vitamins_minerals/MMA.md §3
+# Oral methylcobalamin 1000 µg/d: MMA response equivalent to cyanocobalamin in
+# healthy adults — both forms intracellularly inter-converted. No advantage in
+# functional MMA endpoint despite biochemistry-pathway marketing.
+
+intervention_id: methylcobalamin_oral_1000mcg
+marker_id: mma
+direction: decrease
+effect_type: pct
+effect_lo: -40
+effect_hi: -25
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Network meta-analysis B12 routes
+    journal: PMC11128391
+    year: 2024

@@ -1,0 +1,11 @@
+id: sweet_potato_1_medium
+canonical_name: Sweet potato (baked, with skin)
+type: food
+dose_amount: 1
+dose_unit: medium_per_day
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions: []

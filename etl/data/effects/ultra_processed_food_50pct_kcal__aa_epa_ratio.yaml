@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/omega_fatty_acids/AA_EPA_ratio.md §2
+# Ultra-processed/fast food in absence of fish: indirect ratio rise via LA + AA loading + crowding out fish
+intervention_id: ultra_processed_food_50pct_kcal
+marker_id: aa_epa_ratio
+direction: increase
+effect_type: pct
+effect_lo: 10
+effect_hi: 25
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 24
+time_hi_wk: 52
+citations:
+  - author: Juul
+    journal: AJCN
+    year: 2018
+    vol: 108
+    page: 730

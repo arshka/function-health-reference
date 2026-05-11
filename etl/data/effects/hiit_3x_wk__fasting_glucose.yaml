@@ -1,0 +1,21 @@
+# Source: biomarker_interventions/metabolic/fasting_glucose.md §4
+intervention_id: hiit_3x_wk
+marker_id: fasting_glucose
+direction: decrease
+effect_type: absolute
+effect_lo: -8
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Jelleyman
+    journal: Obes Rev
+    year: 2015
+    pmid: "26481115"
+  - author: Maillard
+    journal: Sports Med
+    year: 2018

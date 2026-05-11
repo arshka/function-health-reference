@@ -1,0 +1,19 @@
+intervention_id: altitude_lhtl_3wk
+marker_id: hemoglobin
+direction: increase
+effect_type: absolute
+effect_lo: 0.5
+effect_hi: 1.5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 3
+time_hi_wk: 6
+citations:
+  - author: Levine
+    journal: J Appl Physiol
+    year: 1997
+  - author: Lundby
+    journal: Br J Sports Med
+    year: 2007

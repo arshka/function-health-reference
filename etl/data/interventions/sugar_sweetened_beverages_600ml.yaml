@@ -1,0 +1,13 @@
+id: sugar_sweetened_beverages_600ml
+canonical_name: Sugar-sweetened beverages
+type: food
+dose_amount: 600
+dose_unit: ml_per_day
+dose_split: "≥600 mL/day sodas, sweetened drinks"
+mechanisms:
+  - glycemic_load_reduction
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

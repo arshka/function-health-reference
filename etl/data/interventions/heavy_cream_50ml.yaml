@@ -1,0 +1,13 @@
+id: heavy_cream_50ml
+canonical_name: Heavy cream
+type: food
+dose_amount: 50
+dose_unit: ml_per_day
+mechanisms:
+  - sfa_reduction
+dietary_tags:
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: dairy_allergy

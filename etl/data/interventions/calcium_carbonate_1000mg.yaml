@@ -1,0 +1,18 @@
+id: calcium_carbonate_1000mg
+canonical_name: Calcium carbonate / citrate
+type: supplement
+dose_amount: 1000
+dose_unit: mg_per_day
+dose_split: "500 mg twice daily with meals"
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: condition
+    value: hypercalcemia
+  - type: condition
+    value: kidney_stones_ca_oxalate
+  - type: drug_interaction
+    value: levothyroxine_within_4h

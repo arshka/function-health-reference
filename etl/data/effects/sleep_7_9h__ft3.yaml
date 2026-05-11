@@ -1,0 +1,21 @@
+# Source: biomarker_interventions/thyroid/FT3.md §4 — sleep restoration to 7–9 h
+# Effect: FT3 normalizes if previously sleep-deprived; restorative effect not enhancement.
+intervention_id: sleep_7_9h
+marker_id: ft3
+direction: increase
+effect_type: pct
+effect_lo: 2
+effect_hi: 8
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 1
+time_hi_wk: 2
+citations:
+  - author: Kessler
+    journal: J Clin Sleep Med
+    year: 2010
+  - author: Allan
+    journal: JCEM
+    year: 1994

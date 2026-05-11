@@ -1,0 +1,19 @@
+# Source: biomarker_interventions/metabolic/leptin.md §1 (Omega-3-rich foods row).
+# Modest reduction in obese; null in lean — captured via baseline_mod_lean.
+
+intervention_id: fatty_fish_2servings_wk
+marker_id: leptin
+direction: decrease
+effect_type: pct
+effect_lo: -16
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.1
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Gray
+    journal: Br J Nutr
+    year: 2013

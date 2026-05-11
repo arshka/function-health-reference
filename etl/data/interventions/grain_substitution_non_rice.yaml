@@ -1,0 +1,11 @@
+id: grain_substitution_non_rice
+canonical_name: Non-rice grain substitution (oats, quinoa, barley, millet, buckwheat, wheat)
+type: food
+dose_amount: 1
+dose_unit: substitution_per_meal
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - dairy_free
+exclusions: []

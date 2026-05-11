@@ -1,0 +1,15 @@
+# Source: immune_cbc_differential.md §1 (Total WBC), summary table.
+# Conventional range 4.0-11.0 ×10⁹/L; functional optimal 4.5-7.0 for young adult.
+# Lower WBC within normal predicts longevity (Optimal DX, Mito Health citations).
+
+id: wbc_count
+name: White blood cell count
+panel: immune
+units: x10^9/L
+direction: in_band
+ref_lo: 4.0
+ref_hi: 11.0
+opt_lo: 5.0
+opt_hi: 7.5
+immutable: false
+demographic_modifiers: []

@@ -1,0 +1,8 @@
+id: lead_source_elimination
+canonical_name: Lead source identification & elimination (housing, water, hobbies, supplements, cosmetics)
+type: behavior
+dose_amount: 1
+dose_unit: audit_per_year
+mechanisms: []
+dietary_tags: []
+exclusions: []

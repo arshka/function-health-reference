@@ -1,0 +1,15 @@
+# Source: nutrients_omega_fatty_acids.md §1 Omega-3 Index; biomarker_interventions/omega_fatty_acids/omega3_index.md
+# Harris & von Schacky 2004 (PMID 15208005); Harris et al. 2021 Nat Commun (pooled n=42,466).
+# RBC EPA+DHA as % of total fatty acids (whole-blood OmegaCheck calibrated to RBC scale).
+
+id: omega3_index
+name: Omega-3 Index (EPA + DHA, RBC)
+panel: omega_fatty_acids
+units: "% of total fatty acids"
+direction: higher_is_better
+ref_lo: 2
+ref_hi: 12
+opt_lo: 8
+opt_hi: 12
+immutable: false
+demographic_modifiers: []

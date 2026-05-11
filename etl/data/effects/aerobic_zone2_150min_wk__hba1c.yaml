@@ -1,0 +1,17 @@
+# Source: HbA1c.md §4 — Aerobic exercise 150 min/wk moderate; A1c −0.5 to −0.6% in T2D
+intervention_id: aerobic_zone2_150min_wk
+marker_id: hba1c
+direction: decrease
+effect_type: absolute
+effect_lo: -0.60
+effect_hi: -0.50
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.2
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Boulé
+    journal: JAMA
+    year: 2001

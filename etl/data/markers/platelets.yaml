@@ -1,0 +1,13 @@
+# Source: blood_cbc_indices.md §Platelets; biomarker_interventions/cbc/platelets.md
+# In-band marker — thrombocytopenia (low) and thrombocytosis (high) both confer risk.
+
+id: platelets
+name: Platelet Count
+panel: cbc
+units: x10^9/L
+direction: in_band
+ref_lo: 150
+ref_hi: 400
+opt_lo: 175
+opt_hi: 300
+immutable: false

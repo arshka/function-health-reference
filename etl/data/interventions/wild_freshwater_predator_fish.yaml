@@ -1,0 +1,17 @@
+id: wild_freshwater_predator_fish
+canonical_name: Wild freshwater predator fish (largemouth/smallmouth bass, walleye, pike, muskellunge, large lake trout)
+type: food
+dose_amount: 1
+dose_unit: servings_per_week
+dose_split: "Recreational fishing consumption (~150 g/serving)"
+mechanisms: []
+dietary_tags:
+  - pescatarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: fish_allergy
+  - type: dietary
+    value: vegan
+  - type: dietary
+    value: vegetarian

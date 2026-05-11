@@ -1,0 +1,17 @@
+# Source: urinalysis_panel.md, biomarker_interventions/urinalysis/urine_microscopy.md
+# COMPOSITE marker — placeholder encoding until per-component split is designed.
+# Score: 0 = normal sediment, 1 = mild abnormality (occasional crystals/casts/epithelial),
+#        2 = marked abnormality (pathologic casts, dysmorphic RBC, many WBC, bacteria).
+# FLAG FOR LATER REVIEW: composite needs decomposition (RBC/hpf, WBC/hpf, casts, crystals).
+
+id: urine_microscopy
+name: Urine Microscopy
+panel: urinalysis
+units: composite_score_0_2
+direction: lower_is_better
+ref_lo: 0
+ref_hi: 2
+opt_lo: 0
+opt_hi: 0.5
+immutable: false
+demographic_modifiers: []

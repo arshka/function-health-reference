@@ -1,0 +1,16 @@
+id: weight_loss_5kg
+canonical_name: Lifestyle weight loss
+type: behavior
+dose_amount: 5
+dose_unit: kg_lost
+dose_split: "≈5 kg loss via combined diet + exercise; effect scales ~−0.13 mg/L per kg"
+mechanisms:
+  - caloric_deficit
+  - visceral_fat_reduction
+  - anti_inflammatory
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: underweight
+  - type: condition
+    value: eating_disorder

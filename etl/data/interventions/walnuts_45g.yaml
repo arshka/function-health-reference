@@ -1,0 +1,16 @@
+id: walnuts_45g
+canonical_name: Walnuts
+type: food
+dose_amount: 45
+dose_unit: g_per_day
+dose_split: "30–60 g/day"
+mechanisms:
+  - pufa_substitution
+  - sfa_reduction
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: tree_nut_allergy

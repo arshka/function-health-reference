@@ -1,0 +1,12 @@
+id: blood_donation_quarterly
+canonical_name: Whole blood donation (500 mL, quarterly)
+type: behavior
+dose_amount: 4
+dose_unit: sessions_per_year
+mechanisms: []
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: iron_deficiency_anemia
+  - type: condition
+    value: pregnancy

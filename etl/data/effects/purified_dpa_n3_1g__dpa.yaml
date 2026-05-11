@@ -1,0 +1,22 @@
+# Source: DPA.md §3 — Purified DPA n-3 (Croda Algatrium / EPAX DPA) 0.5–1 g/d
+# RBC DPA ↑ ~1.0–1.5 pp; direct DPA more efficient per mg than EPA→DPA conversion
+
+intervention_id: purified_dpa_n3_1g
+marker_id: dpa
+direction: increase
+effect_type: absolute
+effect_lo: 1.0
+effect_hi: 1.5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Miller
+    journal: Br J Nutr
+    year: 2013
+    vol: 109
+    page: 1593
+    pmid: "23021005"

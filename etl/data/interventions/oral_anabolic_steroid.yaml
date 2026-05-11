@@ -1,0 +1,13 @@
+id: oral_anabolic_steroid
+canonical_name: Oral 17α-alkylated anabolic steroid (oxandrolone, stanozolol, methyltestosterone)
+type: supplement
+dose_amount: 1
+dose_unit: course_any_dose
+dose_split: "any therapeutic or non-therapeutic dose"
+mechanisms: []
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: hepatic_impairment
+  - type: drug_interaction
+    value: anticoagulant

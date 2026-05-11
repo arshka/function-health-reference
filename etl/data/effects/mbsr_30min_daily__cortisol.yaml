@@ -1,0 +1,23 @@
+intervention_id: mbsr_30min_daily
+marker_id: cortisol
+direction: decrease
+effect_type: pct
+effect_lo: -30
+effect_hi: -10
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Pace
+    journal: Psychoneuroendocrinology
+    year: 2009
+    vol: 34
+    page: 87
+  - author: Carlson
+    journal: Psychosom Med
+    year: 2003
+    vol: 65
+    page: 571

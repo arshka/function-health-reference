@@ -1,0 +1,26 @@
+# Source: ApoB.md §2 Foods that RAISE
+# "Coconut oil | 30 g/d (substituting MUFA/PUFA) | ApoB +6–10%; LDL-C +10–15 mg/dL
+#  vs PUFA control | 4–8 wk | [Meta]"
+# Direction: INCREASE — the solver should never select this when goal is ApoB reduction.
+
+intervention_id: coconut_oil_30g
+marker_id: apob
+direction: increase
+effect_type: pct
+effect_lo: 6
+effect_hi: 10
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.6
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Neelakantan
+    journal: Circulation
+    year: 2020
+    vol: 141
+    page: 803
+  - author: Eyres
+    journal: Nutr Rev
+    year: 2016

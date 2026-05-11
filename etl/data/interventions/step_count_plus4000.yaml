@@ -1,0 +1,12 @@
+id: step_count_plus4000
+canonical_name: NEAT / step count increase
+type: activity
+dose_amount: 4000
+dose_unit: steps_per_day_added
+dose_split: "+4000 steps/day above baseline; non-exercise activity thermogenesis"
+mechanisms:
+  - aerobic_capacity
+  - caloric_deficit
+  - visceral_fat_reduction
+dietary_tags: []
+exclusions: []

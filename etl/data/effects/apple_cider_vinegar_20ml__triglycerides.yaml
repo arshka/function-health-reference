@@ -1,0 +1,19 @@
+# Source: Triglycerides.md §1
+# "Apple cider vinegar | 15–30 mL/d before meals | TG −5–8 mg/dL | 8–12 wk | [Meta]"
+
+intervention_id: apple_cider_vinegar_20ml
+marker_id: triglycerides
+direction: decrease
+effect_type: absolute
+effect_lo: -8
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Jafarirad
+    journal: J Diabetes Metab Disord
+    year: 2024

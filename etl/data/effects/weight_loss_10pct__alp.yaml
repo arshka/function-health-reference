@@ -1,0 +1,17 @@
+intervention_id: weight_loss_10pct
+marker_id: alp
+direction: decrease
+effect_type: pct
+effect_lo: -10
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 8
+time_hi_wk: 24
+citations:
+  - author: Promrat
+    journal: Hepatology
+    year: 2010
+    pmid: "19937697"

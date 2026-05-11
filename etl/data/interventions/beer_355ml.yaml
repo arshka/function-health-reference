@@ -1,0 +1,19 @@
+id: beer_355ml
+canonical_name: Beer (12 oz / 355 mL serving)
+type: food
+dose_amount: 355
+dose_unit: ml_per_day
+dose_split: "12 oz (1 bottle) beer per day"
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+exclusions:
+  - type: condition
+    value: pregnancy
+  - type: condition
+    value: gout
+  - type: condition
+    value: hepatic_impairment
+  - type: dietary
+    value: alcohol_abstinence

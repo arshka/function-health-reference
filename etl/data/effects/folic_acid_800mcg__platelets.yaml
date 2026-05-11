@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/cbc/platelets.md §3
+# Folate repletion raises platelets in folate-deficient megaloblastic thrombocytopenia.
+# Effect contingent on folate-deficient baseline.
+
+intervention_id: folic_acid_800mcg
+marker_id: platelets
+direction: increase
+effect_type: absolute
+effect_lo: 30
+effect_hi: 150
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.2
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Lindenbaum
+    journal: NEJM
+    year: 1995

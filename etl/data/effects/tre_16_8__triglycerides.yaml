@@ -1,0 +1,21 @@
+# Source: Triglycerides.md §4
+# "Time-restricted eating (16:8) | 8-h feeding window | TG −10–20 mg/dL when accompanied by weight loss | 12–24 wk | [Meta]"
+
+intervention_id: tre_16_8
+marker_id: triglycerides
+direction: decrease
+effect_type: absolute
+effect_lo: -20
+effect_hi: -10
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Cienfuegos
+    journal: Cell Metab
+    year: 2020
+    vol: 32
+    page: 366

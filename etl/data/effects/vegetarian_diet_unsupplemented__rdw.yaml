@@ -1,0 +1,17 @@
+intervention_id: vegetarian_diet_unsupplemented
+marker_id: rdw
+direction: increase
+effect_type: absolute
+effect_lo: 1.0
+effect_hi: 4.0
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 156
+time_hi_wk: 520
+citations:
+  - author: Pawlak
+    journal: Eur J Clin Nutr
+    year: 2014
+    pmid: "24667752"

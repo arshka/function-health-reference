@@ -1,0 +1,18 @@
+id: mixed_nuts_45g
+canonical_name: Mixed nuts
+type: food
+dose_amount: 45
+dose_unit: g_per_day
+dose_split: "30–60 g/d, replacing refined carbs / SFA snacks"
+mechanisms:
+  - mufa_substitution
+  - pufa_substitution
+  - sfa_reduction
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - mediterranean
+exclusions:
+  - type: dietary
+    value: nut_allergy

@@ -1,0 +1,15 @@
+id: high_water_intake_5l
+canonical_name: Sustained high water intake (>5 L/day)
+type: behavior
+dose_amount: 5
+dose_unit: l_per_day
+mechanisms:
+  - renal_clearance
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: siadh
+  - type: condition
+    value: chronic_kidney_disease
+  - type: condition
+    value: heart_failure

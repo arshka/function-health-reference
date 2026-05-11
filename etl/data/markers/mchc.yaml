@@ -1,0 +1,14 @@
+# Source: blood_cbc_indices.md §MCHC; biomarker_interventions/cbc/MCHC.md
+# Mean corpuscular hemoglobin concentration. In-band; low = hypochromic anemia,
+# high = hereditary spherocytosis or lab artifact (cold agglutinins, lipemia).
+
+id: mchc
+name: Mean Corpuscular Hemoglobin Concentration
+panel: cbc
+units: g/dL
+direction: in_band
+ref_lo: 32
+ref_hi: 36
+opt_lo: 33
+opt_hi: 35
+immutable: false

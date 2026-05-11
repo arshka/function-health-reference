@@ -1,0 +1,15 @@
+# Source: urinalysis_panel.md, biomarker_interventions/urinalysis/urine_nitrites.md
+# Qualitative dipstick: 0 = negative, 1 = positive (strongly suggests gram-negative UTI).
+# Optimal is negative; encode opt 0-0.5 to satisfy strict-less-than Pydantic check.
+
+id: urine_nitrites
+name: Urine Nitrites
+panel: urinalysis
+units: qualitative_0_1
+direction: lower_is_better
+ref_lo: 0
+ref_hi: 1
+opt_lo: 0
+opt_hi: 0.5
+immutable: false
+demographic_modifiers: []

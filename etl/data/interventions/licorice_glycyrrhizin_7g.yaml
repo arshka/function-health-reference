@@ -1,0 +1,16 @@
+id: licorice_glycyrrhizin_7g
+canonical_name: Licorice (real, glycyrrhizin-containing)
+type: food
+dose_amount: 7
+dose_unit: g_per_day
+dose_split: "7 g/day glycyrrhetinic acid"
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: condition
+    value: hypertension
+  - type: condition
+    value: hypokalemia

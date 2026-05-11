@@ -1,0 +1,12 @@
+id: filter_coffee_switch
+canonical_name: Switch from unfiltered to paper-filter coffee
+type: behavior
+dose_amount: 3
+dose_unit: cups_per_day
+dose_split: "Replace boiled/French press/espresso/Turkish with paper-filter brew"
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

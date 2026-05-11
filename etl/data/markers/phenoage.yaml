@@ -1,0 +1,23 @@
+# Source: heavy_metals_and_biological_age.md §3; phenoage.md preamble.
+# Levine PhenoAge (Levine 2018 Aging; Liu 2018 PLOS Med) — mortality-calibrated
+# composite of chronological age + 9 chemistry markers (albumin, creatinine,
+# glucose, log-CRP, lymphocyte %, MCV, RDW, ALP, WBC). Reported in YEARS.
+# Interpretable only relative to chronological age; solver should compare
+# phenoage_actual to chronological age (PhenoAge Acceleration = PhenoAge − CA).
+# Lower is better at population level, with large noise floor (±2–3 yr) in
+# young adults from CRP/WBC/glucose/ALP day-to-day variability. Mutable —
+# smoking cessation, weight loss, Mediterranean/DASH diet, sleep, exercise,
+# OSA/periodontitis treatment all move the components. Use broad ref/opt
+# ranges since interpretation is user-relative.
+
+id: phenoage
+name: PhenoAge (Levine Phenotypic Age)
+panel: heavy_metals_phenoage
+units: years
+direction: lower_is_better
+ref_lo: 20
+ref_hi: 120
+opt_lo: 20
+opt_hi: 80
+immutable: false
+demographic_modifiers: []

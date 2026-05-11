@@ -1,0 +1,21 @@
+# Source: biomarker_interventions/cardiovascular/non-HDL-C.md §2
+# "Coconut oil | 30 g/d | Non-HDL-C +12–18 mg/dL | 4–8 wk | [Meta]"
+
+intervention_id: coconut_oil_30g
+marker_id: non_hdl_c
+direction: increase
+effect_type: absolute
+effect_lo: 12
+effect_hi: 18
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Neelakantan
+    journal: Circulation
+    year: 2020
+    vol: 141
+    page: 803

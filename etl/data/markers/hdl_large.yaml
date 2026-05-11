@@ -1,0 +1,17 @@
+# Source: biomarker_interventions/advanced_lipids/HDL_large.md §6 Synthesis;
+# heart_lipids_advanced.md §7. NMR LipoProfile (LabCorp/Function Health) units = μmol/L.
+# Optimal: >7 μmol/L; low <5 μmol/L is metabolic-syndrome signature.
+# Caveat: HDL Large is a marker of metabolic health rather than a causal CV target
+# (MR & negative HDL-raising drug trials). Treat as in higher_is_better.
+
+id: hdl_large
+name: HDL Large Particles
+panel: advanced_lipids
+units: umol/L
+direction: higher_is_better
+ref_lo: 1.0
+ref_hi: 20.0
+opt_lo: 7.0
+opt_hi: 20.0
+immutable: false
+demographic_modifiers: []

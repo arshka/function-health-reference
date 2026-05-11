@@ -1,0 +1,11 @@
+id: processed_red_meat_75g
+canonical_name: Processed red meat (sausage, bacon, salami, hot dogs)
+type: food
+dose_amount: 75
+dose_unit: g_per_day
+dose_split: "50–100 g/day"
+mechanisms:
+  - sfa_reduction
+dietary_tags:
+  - gluten_free
+exclusions: []

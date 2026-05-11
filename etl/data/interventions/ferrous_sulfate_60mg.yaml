@@ -1,0 +1,24 @@
+id: ferrous_sulfate_60mg
+canonical_name: Ferrous sulfate (60 mg elemental iron, alternate-day fasting)
+type: supplement
+dose_amount: 60
+dose_unit: mg_per_day
+dose_split: "60 mg elemental Fe alternate-day, fasting morning, with vitamin C, away from coffee/tea/dairy"
+mechanisms:
+  - heme_iron_provision
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions:
+  - type: gene
+    value: hfe_c282y_homozygous
+  - type: condition
+    value: hemochromatosis
+  - type: drug_interaction
+    value: levothyroxine_within_4h
+  - type: drug_interaction
+    value: tetracycline_within_2h
+  - type: drug_interaction
+    value: fluoroquinolone_within_2h

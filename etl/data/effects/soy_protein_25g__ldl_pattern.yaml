@@ -1,0 +1,21 @@
+# Source: LDL_pattern.md §1 — Soy protein (substituted for animal protein) 25 g/d, 6 wk
+# "Pattern B → A conversion in some subjects; consistent shift in particle distribution"
+# Independent of isoflavones.
+
+intervention_id: soy_protein_25g
+marker_id: ldl_pattern
+direction: decrease
+effect_type: absolute
+effect_lo: -0.5
+effect_hi: -0.2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 6
+time_hi_wk: 12
+citations:
+  - author: Desroches
+    journal: J Nutr
+    year: 2004
+    pmid: "14988449"

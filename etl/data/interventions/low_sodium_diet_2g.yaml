@@ -1,0 +1,14 @@
+id: low_sodium_diet_2g
+canonical_name: Low-sodium diet (<2.3 g Na/d)
+type: behavior
+dose_amount: 2.3
+dose_unit: g_per_day
+dose_split: "Sodium target <2.3 g/d (approximately 100 mmol/d)"
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+  - mediterranean
+exclusions: []

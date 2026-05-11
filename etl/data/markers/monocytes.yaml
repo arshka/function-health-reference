@@ -1,0 +1,15 @@
+# Source: immune_cbc_differential.md §4 (Monocytes), summary table.
+# Absolute count chosen for consistency with other CBC differential markers.
+# Conventional 0.1-1.0 ×10⁹/L; functional optimal 0.2-0.6 for young adult.
+
+id: monocytes
+name: Monocytes (absolute)
+panel: immune
+units: x10^9/L
+direction: in_band
+ref_lo: 0.1
+ref_hi: 1.0
+opt_lo: 0.2
+opt_hi: 0.6
+immutable: false
+demographic_modifiers: []

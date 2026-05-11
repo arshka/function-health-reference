@@ -1,0 +1,17 @@
+id: omega3_ep_dha_4g
+canonical_name: Marine omega-3 (EPA+DHA) 4 g/day (prescription)
+type: supplement
+dose_amount: 4
+dose_unit: g_per_day
+dose_split: "3–4 g/day prescription (Lovaza, Vascepa, Omtryg)"
+mechanisms:
+  - omega3_epa_dha
+  - anti_inflammatory
+dietary_tags:
+  - pescatarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: fish_allergy
+  - type: drug_interaction
+    value: warfarin

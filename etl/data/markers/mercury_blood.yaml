@@ -1,0 +1,23 @@
+# Source: heavy_metals_and_biological_age.md §2.6; mercury_blood.md §6.
+# Whole-blood total Hg in adults is ~70–75% methylmercury from predator fish.
+# NHANES adult GM 0.73 µg/L; LabCorp/Quest "normal" <10 µg/L (operational, not
+# protective). Realistic optimum <1–2 µg/L (around or below NHANES median).
+# MeHg blood t½ ~50 days → dietary change visible in 2–4 months. Mutable via
+# eliminating top-tier predator fish (shark, swordfish, king mackerel, tilefish,
+# bigeye tuna) and substituting low-Hg high-omega-3 species. Asian Americans
+# run ~2× higher baseline (Caldwell 2014 NHANES 2011–12).
+
+id: mercury_blood
+name: Mercury (whole blood total)
+panel: heavy_metals_phenoage
+units: µg/L
+direction: lower_is_better
+ref_lo: 0
+ref_hi: 10
+opt_lo: 0
+opt_hi: 5
+immutable: false
+demographic_modifiers:
+  - trait: asian_american
+    opt_lo: 0
+    opt_hi: 5

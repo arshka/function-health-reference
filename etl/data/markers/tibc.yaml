@@ -1,0 +1,14 @@
+# Source: biomarker_interventions/iron/TIBC.md §6 Synthesis (physiologic range 250-400 µg/dL;
+# IDA shows ~400-450; OCP/HRT elevates 25-30%). Conventional clinical reference 240-450 µg/dL.
+# High TIBC = iron deficiency; low TIBC = inflammation / liver disease / malnutrition.
+
+id: tibc
+name: Total Iron Binding Capacity
+panel: iron
+units: µg/dL
+direction: in_band
+ref_lo: 240
+ref_hi: 450
+opt_lo: 300
+opt_hi: 360
+immutable: false

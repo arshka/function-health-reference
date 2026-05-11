@@ -1,0 +1,24 @@
+# Source: biomarker_interventions/heavy_metals_phenoage/arsenic.md §1, §4
+# Basmati / jasmine rice (especially Indian/Pakistani/Thai-grown) ~30-50% lower iAs
+# vs other white rice categories (US-grown short-grain, arborio, Calrose).
+intervention_id: basmati_jasmine_rice
+marker_id: arsenic
+direction: decrease
+effect_type: pct
+effect_lo: -50
+effect_hi: -30
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: FDA
+    journal: Inorganic Arsenic in Rice and Rice Products Risk Assessment
+    year: 2016
+  - author: Meharg
+    journal: Environ Sci Technol
+    year: 2008
+    vol: 42
+    page: 1051

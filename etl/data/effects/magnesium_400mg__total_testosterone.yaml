@@ -1,0 +1,18 @@
+intervention_id: magnesium_400mg
+marker_id: total_testosterone
+direction: increase
+effect_type: pct
+effect_lo: 8
+effect_hi: 24
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 4
+time_hi_wk: 4
+citations:
+  - author: Cinar
+    journal: Biol Trace Elem Res
+    year: 2011
+    vol: 140
+    page: 18

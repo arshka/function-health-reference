@@ -1,0 +1,27 @@
+# Source: HDL-C.md §3 Supplements — Raising HDL-C
+# "Niacin (immediate-release or extended-release) | 1.5–2 g/d |
+#  HDL-C +20–25% (~+8–12 mg/dL) | 12–16 wk | [RCT]"
+# Important: Despite HDL-C rise, no CV event reduction (AIM-HIGH, HPS2-THRIVE).
+
+intervention_id: niacin_er_2g
+marker_id: hdl_c
+direction: increase
+effect_type: pct
+effect_lo: 20
+effect_hi: 25
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: Boden
+    journal: NEJM
+    year: 2011
+  - author: HPS2-THRIVE Collaborative Group
+    journal: NEJM
+    year: 2014
+  - author: Carlson
+    journal: J Intern Med
+    year: 2005

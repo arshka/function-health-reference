@@ -1,0 +1,25 @@
+# Source: biomarker_interventions/male_hormones/FSH.md §1 & §4
+# "Weight loss in obese baseline | 10 kg loss | FSH recovers from obesity-suppressed
+# levels | 3–6 months | [Meta] Camacho 2013 (EMAS)"
+# Direction: in_band marker; rising suppressed FSH from obesity-driven HPG suppression
+# is clinically beneficial. Magnitude described as "variable"; conservative absolute
+# bounds chosen to span recovery into mid-normal range.
+
+intervention_id: weight_loss_10kg
+marker_id: fsh
+direction: increase
+effect_type: absolute
+effect_lo: 0.5
+effect_hi: 2.0
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.2
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 26
+citations:
+  - author: Camacho
+    journal: Eur J Endocrinol
+    year: 2013
+    vol: 168
+    page: 445

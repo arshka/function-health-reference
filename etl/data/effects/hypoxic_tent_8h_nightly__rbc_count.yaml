@@ -1,0 +1,16 @@
+intervention_id: hypoxic_tent_8h_nightly
+marker_id: rbc_count
+direction: increase
+effect_type: pct
+effect_lo: 3
+effect_hi: 7
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 3
+time_hi_wk: 6
+citations:
+  - author: Wilber
+    journal: Med Sci Sports Exerc
+    year: 2007

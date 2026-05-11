@@ -1,0 +1,18 @@
+intervention_id: spinach_cooked_1cup
+marker_id: potassium
+direction: increase
+effect_type: absolute
+effect_lo: 0.05
+effect_hi: 0.15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Mente
+    journal: NEJM
+    year: 2014
+    vol: 371
+    page: 601

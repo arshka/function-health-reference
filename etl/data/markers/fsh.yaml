@@ -1,0 +1,15 @@
+# Source: hormones_male_panel.md §FSH; biomarker_interventions/male_hormones/FSH.md
+# Adult male reference 1.5-12.4 mIU/mL. Elevated FSH suggests testicular failure /
+# impaired spermatogenesis; very low FSH indicates pituitary suppression.
+
+id: fsh
+name: Follicle-Stimulating Hormone
+panel: male_hormones
+units: mIU/mL
+direction: in_band
+ref_lo: 1.5
+ref_hi: 12.4
+opt_lo: 2.0
+opt_hi: 8.0
+immutable: false
+demographic_modifiers: []

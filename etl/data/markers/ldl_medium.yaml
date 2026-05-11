@@ -1,0 +1,17 @@
+# Source: biomarker_interventions/advanced_lipids/LDL_medium.md §6 Synthesis;
+# heart_lipids_advanced.md §6. NMR LipoProfile, units = nmol/L. Most labs do not
+# publish an explicit "medium LDL optimal" cutoff (§8 of source); using the file's
+# "near-optimal baseline (<300 nmol/L)" and "elevated baseline (>500 nmol/L)" as
+# practical anchors. Transitional marker — interpret with LDL-P + small LDL together.
+
+id: ldl_medium
+name: LDL Medium Particles
+panel: advanced_lipids
+units: nmol/L
+direction: lower_is_better
+ref_lo: 0
+ref_hi: 800
+opt_lo: 0
+opt_hi: 300
+immutable: false
+demographic_modifiers: []

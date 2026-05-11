@@ -1,0 +1,25 @@
+# Source: hs-CRP.md §4 Activities & Behaviors
+# "Aerobic exercise (continuous) | ≥150 min/wk moderate | hs-CRP −0.26 mg/L (mean) | 12–26 wk | [Meta]"
+
+intervention_id: aerobic_zone2_150min_wk
+marker_id: hs_crp
+direction: decrease
+effect_type: absolute
+effect_lo: -0.4
+effect_hi: -0.15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.4
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 26
+citations:
+  - author: Goldhammer
+    journal: Int J Cardiol
+    year: 2005
+  - author: Fedewa
+    journal: Br J Sports Med
+    year: 2017
+  - author: Kelley
+    journal: Sports Med
+    year: 2024

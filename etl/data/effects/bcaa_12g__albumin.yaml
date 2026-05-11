@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/liver/albumin.md §1 row 4 / §3 (BCAA in cirrhosis)
+# Disease-specific (cirrhotic hypoalbuminemia), 0.3-0.5 g/dL over 12-24 wk.
+
+intervention_id: bcaa_12g
+marker_id: albumin
+direction: increase
+effect_type: absolute
+effect_lo: 0.3
+effect_hi: 0.5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.2
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Marchesini
+    journal: Hepatology
+    year: 2003
+    pmid: "12830003"

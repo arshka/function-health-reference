@@ -1,0 +1,18 @@
+# Source: immune_cbc_differential.md §2 (Neutrophils), summary table.
+# Absolute count chosen over percent for clinical interpretability.
+# Conventional 1.5-7.7 ×10⁹/L; functional optimal 2.0-5.5 for young adult.
+
+id: neutrophils
+name: Neutrophils (absolute)
+panel: immune
+units: x10^9/L
+direction: in_band
+ref_lo: 1.5
+ref_hi: 7.7
+opt_lo: 2.0
+opt_hi: 5.5
+immutable: false
+demographic_modifiers:
+  - trait: duffy_null
+    opt_lo: 1.0
+    opt_hi: 5.5

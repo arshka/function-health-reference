@@ -1,0 +1,27 @@
+# Source: Lp(a).md §2 Foods that RAISE
+# "Saturated-fat REDUCTION (low-SFA diet) | 16% → 6% SFA | Lp(a) +24% (one feeding RCT);
+#  meta-analysis: +10–25% across trials | 5 wk | [Meta] + [RCT]"
+# CRITICAL: SFA reduction RAISES Lp(a) — paradoxical, well-replicated.
+# The LDL-C/ApoB benefit dominates; do not abandon SFA reduction for Lp(a).
+
+intervention_id: sfa_reduction_low_sfa_diet
+marker_id: lp_a
+direction: increase
+effect_type: pct
+effect_lo: 10
+effect_hi: 25
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 5
+time_hi_wk: 12
+citations:
+  - author: Faghihnia
+    journal: J Lipid Res
+    year: 2023
+    pmid: "37482217"
+  - author: Law
+    journal: AJCN
+    year: 2024
+    pmid: "38964657"

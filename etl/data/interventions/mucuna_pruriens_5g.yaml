@@ -1,0 +1,18 @@
+id: mucuna_pruriens_5g
+canonical_name: Mucuna pruriens (L-DOPA source)
+type: supplement
+dose_amount: 5
+dose_unit: g_per_day
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions:
+  - type: drug_interaction
+    value: maoi
+  - type: drug_interaction
+    value: ssri
+  - type: drug_interaction
+    value: antipsychotic

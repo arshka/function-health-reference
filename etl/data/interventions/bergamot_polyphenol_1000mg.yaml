@@ -1,0 +1,14 @@
+id: bergamot_polyphenol_1000mg
+canonical_name: Bergamot polyphenol fraction (BPF)
+type: supplement
+dose_amount: 1000
+dose_unit: mg_per_day
+dose_split: "500–1500 mg/d standardized"
+mechanisms:
+  - polyphenol_oxldl_reduction
+  - ldlr_upregulation
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

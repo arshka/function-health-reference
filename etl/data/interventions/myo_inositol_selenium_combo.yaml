@@ -1,0 +1,15 @@
+id: myo_inositol_selenium_combo
+canonical_name: Myo-inositol 600 mg + selenomethionine 83 mcg (twice daily)
+type: supplement
+dose_amount: 1200
+dose_unit: mg_per_day
+dose_split: "600 mg myo-inositol + 83 mcg Se BID"
+mechanisms:
+  - selenium_deiodinase
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: condition
+    value: pregnancy

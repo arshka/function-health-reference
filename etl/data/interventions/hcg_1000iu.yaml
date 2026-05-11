@@ -1,0 +1,13 @@
+id: hcg_1000iu
+canonical_name: Human chorionic gonadotropin (HCG)
+type: supplement
+dose_amount: 1000
+dose_unit: iu_per_dose
+dose_split: "500–1000 IU subcut 2–3×/wk"
+mechanisms: []
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: prostate_cancer
+  - type: condition
+    value: hormone_sensitive_cancer

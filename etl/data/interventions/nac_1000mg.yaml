@@ -1,0 +1,13 @@
+id: nac_1000mg
+canonical_name: N-acetylcysteine (NAC)
+type: supplement
+dose_amount: 1000
+dose_unit: mg_per_day
+mechanisms:
+  - antioxidant_defense
+  - anti_inflammatory
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

@@ -1,0 +1,21 @@
+# Source: biomarker_interventions/metabolic/fasting_insulin.md §4
+intervention_id: walking_after_meals_15min
+marker_id: fasting_insulin
+direction: decrease
+effect_type: absolute
+effect_lo: -2
+effect_hi: -0.5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: Reynolds
+    journal: Diabetologia
+    year: 2016
+    pmid: "27747394"
+  - author: Bellini
+    journal: Sports Med
+    year: 2022

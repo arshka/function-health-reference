@@ -1,0 +1,21 @@
+# Source: Triglycerides.md §3 (Lowering)
+# "Vitamin D3 (in deficient subjects only) | 2000–4000 IU/d | TG −5 mg/dL in deficient; ±0 in replete | 12–24 wk | [Meta]"
+
+intervention_id: vitamin_d3_3000iu
+marker_id: triglycerides
+direction: decrease
+effect_type: absolute
+effect_lo: -5
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Dibaba
+    journal: Nutr Rev
+    year: 2019
+    vol: 77
+    page: 890

@@ -1,0 +1,17 @@
+intervention_id: resistance_training_3x_wk
+marker_id: homa_ir
+direction: decrease
+effect_type: absolute
+effect_lo: -1.3
+effect_hi: -0.7
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: Yang
+    journal: Sports Med
+    year: 2014
+    pmid: "37331899"

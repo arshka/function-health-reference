@@ -1,0 +1,17 @@
+id: pistachios_60g
+canonical_name: Pistachios
+type: food
+dose_amount: 60
+dose_unit: g_per_day
+dose_split: "40–80 g/day"
+mechanisms:
+  - mufa_substitution
+  - sfa_reduction
+  - polyphenol_oxldl_reduction
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: tree_nut_allergy

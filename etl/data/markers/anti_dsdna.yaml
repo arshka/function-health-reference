@@ -1,0 +1,17 @@
+# Source: autoimmunity_panel.md §6, §8e (reflex panel); biomarker_interventions/autoimmunity_psa/anti_dsDNA.md §6
+# Anti-dsDNA: negative <30 IU/mL (ELISA/FEIA); highly specific for SLE (~95%).
+# Mutable=false would over-promise: lifestyle effect is essentially zero in healthy people.
+# However, drug-induced cases (anti-TNF, IFN-α) are reversible by stopping the drug.
+# Keep mutable=false default — only pharmacotherapy reliably moves the titer in established disease.
+
+id: anti_dsdna
+name: Anti-Double-Stranded DNA Antibody (Anti-dsDNA)
+panel: autoimmunity_psa
+units: IU/mL
+direction: lower_is_better
+ref_lo: 0
+ref_hi: 200
+opt_lo: 0
+opt_hi: 30
+immutable: false
+demographic_modifiers: []

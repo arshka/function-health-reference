@@ -1,0 +1,17 @@
+intervention_id: aerobic_zone2_150min_wk
+marker_id: ggt
+direction: decrease
+effect_type: pct
+effect_lo: -25
+effect_hi: -10
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Keating
+    journal: J Hepatol
+    year: 2012
+    pmid: "22561023"

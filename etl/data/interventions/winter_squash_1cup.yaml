@@ -1,0 +1,11 @@
+id: winter_squash_1cup
+canonical_name: Winter squash / pumpkin (cooked)
+type: food
+dose_amount: 1
+dose_unit: cups_per_day
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions: []

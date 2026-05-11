@@ -1,0 +1,26 @@
+# Source: biomarker_interventions/urinalysis/urine_ketones.md §2 (foods that RAISE)
+# Ketogenic diet (carb <50 g/d, fat >70%) sustained → ketones small to moderate
+# (15-80 mg/dL urine, 0.5-3 mmol/L plasma β-OHB) within 3-14 days
+
+intervention_id: ketogenic_diet
+marker_id: urine_ketones
+direction: increase
+effect_type: absolute
+effect_lo: 15
+effect_hi: 80
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 1
+time_hi_wk: 2
+citations:
+  - author: Bueno
+    journal: Br J Nutr
+    year: 2013
+    vol: 110
+    page: 1178
+    pmid: "24054112"
+  - author: Volek
+    journal: Lipids
+    year: 2009

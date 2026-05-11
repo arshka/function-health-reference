@@ -1,0 +1,9 @@
+id: late_night_eating
+canonical_name: Late-night eating (caloric intake ≥21:00)
+type: behavior
+dose_amount: 1
+dose_unit: pattern
+mechanisms:
+  - glycemic_load_reduction
+dietary_tags: []
+exclusions: []

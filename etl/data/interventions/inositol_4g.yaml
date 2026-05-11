@@ -1,0 +1,15 @@
+id: inositol_4g
+canonical_name: Myo-inositol (with D-chiro-inositol 40:1)
+type: supplement
+dose_amount: 4
+dose_unit: g_per_day
+dose_split: "2g BID"
+mechanisms:
+  - insulin_sensitization
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: condition
+    value: bipolar_disorder

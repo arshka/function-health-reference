@@ -1,0 +1,17 @@
+id: cholestyramine_12g
+canonical_name: Cholestyramine (bile acid sequestrant)
+type: supplement
+dose_amount: 12
+dose_unit: g_per_day
+dose_split: "4–24 g/day"
+mechanisms:
+  - bile_acid_sequestration
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: drug_interaction
+    value: concurrent_drug_absorption_spaced_4h
+  - type: condition
+    value: chronic_constipation

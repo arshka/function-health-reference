@@ -1,0 +1,19 @@
+intervention_id: vitamin_d3_3000iu
+marker_id: homa_ir
+direction: decrease
+effect_type: absolute
+effect_lo: -0.5
+effect_hi: -0.1
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.2
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Pittas
+    journal: NEJM
+    year: 2019
+  - author: Mirhosseini
+    journal: J Clin Endocrinol Metab
+    year: 2018

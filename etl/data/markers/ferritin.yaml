@@ -1,0 +1,19 @@
+# Source: biomarker_interventions/iron/ferritin.md §6 Synthesis & §9 Open questions;
+# effect_sizes_hematology_other.md (iron section). Reference range unified across sexes
+# (lab convention: female 15-150, male 30-400 ng/mL); optimal targets per functional
+# medicine (70-150 ng/mL) with sex-shifted floor. Premenopausal female base; male modifier.
+
+id: ferritin
+name: Ferritin
+panel: iron
+units: ng/mL
+direction: in_band
+ref_lo: 15
+ref_hi: 400
+opt_lo: 30
+opt_hi: 100
+immutable: false
+demographic_modifiers:
+  - trait: male
+    opt_lo: 50
+    opt_hi: 200

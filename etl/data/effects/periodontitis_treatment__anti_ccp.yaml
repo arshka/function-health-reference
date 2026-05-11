@@ -1,0 +1,25 @@
+# Source: biomarker_interventions/autoimmunity_psa/anti_CCP.md §4 Activities
+# P. gingivalis PAD enzyme citrullinates host proteins -> ACPA generation.
+# NIH-funded periodontal-RA treatment trials show modest DAS28 and anti-CCP
+# improvement with periodontal therapy (Mikuls 2014). Most plausible non-pharm
+# mechanism for anti-CCP modification. Single-trial level evidence for titer.
+intervention_id: periodontitis_treatment
+marker_id: anti_ccp
+direction: decrease
+effect_type: pct
+effect_lo: -15
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 24
+time_hi_wk: 52
+citations:
+  - author: Mikuls
+    journal: Arthritis Rheum
+    year: 2014
+    pmid: "24449578"
+  - author: Wegner
+    journal: Immunol Rev
+    year: 2010

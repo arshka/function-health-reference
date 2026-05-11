@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/male_hormones/free_testosterone.md §2
+# Very high doses (>100 mg isoflavones/d): mild suppression of total T → free T similar
+intervention_id: soy_isoflavones_100mg
+marker_id: free_testosterone
+direction: decrease
+effect_type: pct
+effect_lo: -8
+effect_hi: -2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Hamilton-Reeves
+    journal: Fertil Steril
+    year: 2010
+    vol: 94
+    page: 997

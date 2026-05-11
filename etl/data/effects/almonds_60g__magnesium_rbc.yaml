@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/vitamins_minerals/magnesium_RBC.md §1
+# Almonds ~80 mg Mg per 30 g; 60 g ≈ 160 mg Mg (~40% RDA). Daily habit
+# expected to modestly raise RBC Mg over months as a dietary contributor.
+intervention_id: almonds_60g
+marker_id: magnesium_rbc
+direction: increase
+effect_type: pct
+effect_lo: 2
+effect_hi: 5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: mechanism
+evidence_weight: 0.4
+time_lo_wk: 8
+time_hi_wk: 24
+citations:
+  - author: USDA FoodData Central
+    journal: USDA
+    year: 2023
+    page: "FDC composition database"

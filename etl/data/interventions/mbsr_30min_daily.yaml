@@ -1,0 +1,12 @@
+id: mbsr_30min_daily
+canonical_name: Mindfulness-based stress reduction (MBSR)
+type: behavior
+dose_amount: 30
+dose_unit: min_per_day
+dose_split: "30 min/day for 8-week MBSR-style program"
+mechanisms:
+  - stress_reduction
+  - cortisol_modulation
+  - anti_inflammatory
+dietary_tags: []
+exclusions: []

@@ -1,0 +1,22 @@
+# Source: biomarker_interventions/metabolic/leptin.md §4 (Aerobic exercise row, 150 min/wk × 12 wk).
+# Leptin -20% in obese; modest in lean. Diet > exercise alone for leptin reduction.
+
+intervention_id: aerobic_zone2_150min_wk
+marker_id: leptin
+direction: decrease
+effect_type: pct
+effect_lo: -20
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.2
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Fedewa
+    journal: Br J Sports Med
+    year: 2018
+  - author: Becic
+    journal: Sports
+    year: 2018

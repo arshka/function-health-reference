@@ -1,0 +1,15 @@
+# Source: metabolic_panel.md §HOMA-IR; biomarker_interventions/metabolic/HOMA-IR.md.
+# HOMA-IR = (fasting glucose mg/dL × fasting insulin μIU/mL) / 405.
+# Optimal <=1.5; >2.5 indicates insulin resistance; >3.0 = strong IR / metabolic syndrome risk.
+
+id: homa_ir
+name: HOMA-IR
+panel: metabolic
+units: dimensionless
+direction: lower_is_better
+ref_lo: 0.5
+ref_hi: 3.0
+opt_lo: 0.5
+opt_hi: 1.5
+immutable: false
+demographic_modifiers: []

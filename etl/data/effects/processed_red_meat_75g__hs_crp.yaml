@@ -1,0 +1,21 @@
+# Source: hs-CRP.md §2 Foods that RAISE
+# "Processed red meat | 50–100 g/d | hs-CRP +0.3 mg/L | 8–24 wk | [Cohort]"
+
+intervention_id: processed_red_meat_75g
+marker_id: hs_crp
+direction: increase
+effect_type: absolute
+effect_lo: 0.2
+effect_hi: 0.4
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.6
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 8
+time_hi_wk: 24
+citations:
+  - author: Schwedhelm
+    journal: Eur J Nutr
+    year: 2017
+    vol: 56
+    page: 1995

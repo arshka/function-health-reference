@@ -1,0 +1,23 @@
+intervention_id: smoking_cessation
+marker_id: egfr
+direction: increase
+effect_type: absolute
+effect_lo: 1
+effect_hi: 3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 52
+time_hi_wk: 260
+citations:
+  - author: Orth
+    journal: Kidney Int
+    year: 2008
+    vol: 74
+    page: "S58"
+  - author: Yacoub
+    journal: BMC Public Health
+    year: 2010
+    vol: 10
+    page: 731

@@ -1,0 +1,18 @@
+id: red_yeast_rice_10mg
+canonical_name: Red yeast rice (standardized monacolin K)
+type: supplement
+dose_amount: 10
+dose_unit: mg_monacolin_k_per_day
+dose_split: "3–10 mg monacolin K/day"
+mechanisms:
+  - hmg_coa_inhibition
+  - ldlr_upregulation
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: drug_interaction
+    value: statin
+  - type: condition
+    value: liver_disease

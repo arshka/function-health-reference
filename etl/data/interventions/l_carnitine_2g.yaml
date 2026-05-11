@@ -1,0 +1,11 @@
+id: l_carnitine_2g
+canonical_name: L-carnitine (oral)
+type: supplement
+dose_amount: 2
+dose_unit: g_per_day
+dose_split: "1–4 g/day oral"
+mechanisms: []
+dietary_tags:
+  - vegetarian
+  - gluten_free
+exclusions: []

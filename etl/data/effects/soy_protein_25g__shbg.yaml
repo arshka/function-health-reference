@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/male_hormones/SHBG.md §1 (soy / legumes 25-50 g/d)
+intervention_id: soy_protein_25g
+marker_id: shbg
+direction: increase
+effect_type: pct
+effect_lo: 10
+effect_hi: 15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Goodin
+    journal: Cancer Epidemiology Biomarkers Prevention
+    year: 2007
+  - author: Hamilton-Reeves
+    journal: Fertility and Sterility
+    year: 2010

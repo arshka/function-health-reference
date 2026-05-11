@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/advanced_lipids/LDL_peak_size.md §2 row 6 / §4 alcohol heavy
+# Alcohol >3 drinks/d: peak size ↓ via TG
+# Magnitude not directly quantified - inferred small absolute decrease
+
+intervention_id: heavy_alcohol_40g
+marker_id: ldl_peak_size
+direction: decrease
+effect_type: absolute
+effect_lo: -0.2
+effect_hi: -0.05
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Brien
+    journal: BMJ
+    year: 2011

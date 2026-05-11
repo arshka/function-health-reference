@@ -1,0 +1,12 @@
+id: tomato_paste_60g
+canonical_name: Tomato (paste / sauce / dried, concentrated forms)
+type: food
+dose_amount: 60
+dose_unit: g_per_day
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+  - mediterranean
+exclusions: []

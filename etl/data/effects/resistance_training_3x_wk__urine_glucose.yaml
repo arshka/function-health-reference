@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/urinalysis/urine_glucose.md §4
+# Resistance training 2-3×/wk lowers HbA1c 0.4-0.6% over 12 wk, proportionally
+# reducing time-above-180 mg/dL and glycosuria probability.
+intervention_id: resistance_training_3x_wk
+marker_id: urine_glucose
+direction: decrease
+effect_type: pct
+effect_lo: -20
+effect_hi: -10
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 12
+citations:
+  - author: Yang
+    journal: Sports Med
+    year: 2014
+    pmid: "24777826"

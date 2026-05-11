@@ -1,0 +1,35 @@
+# Note: Toulis 2010 meta found NO significant TgAb effect in primary analysis.
+# Karanikas 2008 (n=36) and Nordio 2017 trials suggest modest reduction.
+# TgAb is the less responsive antibody to selenium vs TPO Ab.
+# Tagged one_trial (not meta) because the meta-analysis primary endpoint was null;
+# only secondary single trials show modest reduction. Bounds reflect this uncertainty (0 allowed).
+intervention_id: selenium_200mcg
+marker_id: tgab
+direction: decrease
+effect_type: pct
+effect_lo: -25
+effect_hi: 0
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 12
+time_hi_wk: 26
+citations:
+  - author: Toulis
+    journal: Thyroid
+    year: 2010
+    vol: 20
+    page: 1163
+  - author: Karanikas
+    journal: Thyroid
+    year: 2008
+    vol: 18
+    page: 7
+    pmid: "18302514"
+  - author: Wichman
+    journal: Thyroid
+    year: 2016
+    vol: 26
+    page: 1681
+    pmid: "27702392"

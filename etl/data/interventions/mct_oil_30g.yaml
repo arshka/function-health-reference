@@ -1,0 +1,12 @@
+id: mct_oil_30g
+canonical_name: MCT oil supplements
+type: supplement
+dose_amount: 30
+dose_unit: g_per_day
+mechanisms:
+  - sfa_reduction
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

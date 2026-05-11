@@ -1,0 +1,9 @@
+id: multivitamin_folate_300mcg
+canonical_name: Multivitamin (with folic acid 200-400 µg)
+type: supplement
+dose_amount: 300
+dose_unit: mcg_per_day
+mechanisms:
+  - folate_provision
+dietary_tags: []
+exclusions: []

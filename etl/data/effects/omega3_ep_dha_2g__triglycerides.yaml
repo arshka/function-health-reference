@@ -1,0 +1,21 @@
+# Source: Triglycerides.md §3 (Lowering)
+# "Marine omega-3 (EPA+DHA) | 2 g/d | TG −43 mg/dL | 8–12 wk | [Meta]"
+
+intervention_id: omega3_ep_dha_2g
+marker_id: triglycerides
+direction: decrease
+effect_type: absolute
+effect_lo: -43
+effect_hi: -43
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Skulas-Ray
+    journal: Circulation
+    year: 2019
+    vol: 140
+    page: e673

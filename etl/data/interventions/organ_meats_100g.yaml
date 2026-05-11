@@ -1,0 +1,15 @@
+id: organ_meats_100g
+canonical_name: Organ meats (liver, kidney, sweetbreads, brain)
+type: food
+dose_amount: 100
+dose_unit: g_per_day
+dose_split: "Any serving of organ meats per day"
+mechanisms: []
+dietary_tags: []
+exclusions:
+  - type: dietary
+    value: vegan
+  - type: dietary
+    value: vegetarian
+  - type: condition
+    value: gout

@@ -1,0 +1,19 @@
+# Source: biomarker_interventions/male_hormones/prolactin.md §3 (supplements lowering)
+intervention_id: mucuna_pruriens_5g
+marker_id: prolactin
+direction: decrease
+effect_type: pct
+effect_lo: -20
+effect_hi: -15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 12
+time_hi_wk: 12
+citations:
+  - author: Shukla
+    journal: Fertil Steril
+    year: 2009
+    vol: 92
+    page: 1934

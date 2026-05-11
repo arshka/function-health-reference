@@ -1,0 +1,19 @@
+intervention_id: low_carb_diet_50g
+marker_id: rt3
+direction: increase
+effect_type: pct
+effect_lo: 5
+effect_hi: 20
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: Spaulding
+    journal: JCEM
+    year: 1976
+  - author: Iacovides
+    journal: PLoS One
+    year: 2022

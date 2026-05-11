@@ -1,0 +1,33 @@
+# Source: biomarker_interventions/vitamins_minerals/magnesium_RBC.md §3 (Mg glycinate / citrate)
+# Oral Mg 200-400 mg elemental → serum Mg ↑ 0.05-0.10 mmol/L (~6-12%); RBC Mg
+# tracks proportionally with ~3-month lag.
+intervention_id: magnesium_400mg
+marker_id: magnesium_rbc
+direction: increase
+effect_type: pct
+effect_lo: 6
+effect_hi: 12
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Walker
+    journal: Magnes Res
+    year: 2003
+    vol: 16
+    page: 183
+    pmid: "14596323"
+  - author: Coudray
+    journal: Magnes Res
+    year: 2005
+    vol: 18
+    page: 215
+  - author: Firoz
+    journal: Magnes Res
+    year: 2001
+    vol: 14
+    page: 257
+    pmid: "11794633"

@@ -1,0 +1,12 @@
+id: weight_loss_10kg
+canonical_name: Weight loss (lifestyle)
+type: behavior
+dose_amount: 10
+dose_unit: kg_total
+dose_split: "lifestyle-mediated weight loss"
+mechanisms:
+  - caloric_deficit
+  - visceral_fat_reduction
+  - insulin_sensitization
+dietary_tags: []
+exclusions: []

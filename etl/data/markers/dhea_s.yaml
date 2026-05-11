@@ -1,0 +1,18 @@
+# Source: hormones_male_panel.md §DHEA-S; biomarker_interventions/male_hormones/DHEA-S.md
+# Reference 80-560 μg/dL (adult male). DHEA-S declines ~10%/decade after age 30;
+# optimal is age-relative. Default opt 200-560 reflects young/middle-aged males.
+
+id: dhea_s
+name: DHEA-Sulfate
+panel: male_hormones
+units: μg/dL
+direction: in_band
+ref_lo: 80
+ref_hi: 560
+opt_lo: 200
+opt_hi: 560
+immutable: false
+demographic_modifiers:
+  - trait: age_65_plus
+    opt_lo: 100
+    opt_hi: 400

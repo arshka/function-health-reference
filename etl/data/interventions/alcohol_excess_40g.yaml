@@ -1,0 +1,14 @@
+id: alcohol_excess_40g
+canonical_name: Excess alcohol intake (heavy drinking)
+type: behavior
+dose_amount: 40
+dose_unit: g_ethanol_per_day
+dose_split: ">40 g/day ethanol chronic (heavy drinking pattern)"
+mechanisms:
+  - alcohol_reduction
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: pregnancy
+  - type: condition
+    value: alcohol_use_disorder

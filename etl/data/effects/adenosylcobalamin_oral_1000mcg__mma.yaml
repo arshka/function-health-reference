@@ -1,0 +1,21 @@
+# Source: biomarker_interventions/vitamins_minerals/MMA.md §3
+# Adenosylcobalamin (dibencozide) 1000 µg/d: theoretically more direct supply to
+# MMA-mutase enzyme; in human RCTs no superior MMA reduction vs cyano/methyl.
+# Limited human comparative data; bounds match cyano/methyl response.
+
+intervention_id: adenosylcobalamin_oral_1000mcg
+marker_id: mma
+direction: decrease
+effect_type: pct
+effect_lo: -40
+effect_hi: -25
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Limited human comparative data
+    journal: per MMA review
+    year: 2025

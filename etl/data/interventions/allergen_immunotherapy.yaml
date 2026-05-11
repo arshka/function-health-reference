@@ -1,0 +1,13 @@
+id: allergen_immunotherapy
+canonical_name: Allergen immunotherapy (SCIT or SLIT, multi-year)
+type: behavior
+dose_amount: 1
+dose_unit: course_per_year
+mechanisms:
+  - anti_inflammatory
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: uncontrolled_asthma
+  - type: condition
+    value: severe_atopic_disease

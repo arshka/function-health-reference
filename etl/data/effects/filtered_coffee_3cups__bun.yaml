@@ -1,0 +1,22 @@
+# Source: BUN.md §1 row 4
+# "Coffee | 3-4 cups/d, chronic | BUN ↓ 0.5-1.5 mg/dL via mild diuresis + lower BP | Weeks | [Cohort]"
+
+intervention_id: filtered_coffee_3cups
+marker_id: bun
+direction: decrease
+effect_type: absolute
+effect_lo: -1.5
+effect_hi: -0.5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: Hu
+    journal: AJKD
+    year: 2018
+    vol: 72
+    page: 214
+    pmid: "29459144"

@@ -1,0 +1,23 @@
+# Source: biomarker_interventions/cbc/platelets.md §2 + §4
+# Chronic heavy alcohol intake (>14 drinks/wk men) suppresses megakaryopoiesis,
+# lowering platelet count to <150 (sometimes <100).
+
+intervention_id: heavy_alcohol_40g
+marker_id: platelets
+direction: decrease
+effect_type: absolute
+effect_lo: -100
+effect_hi: -50
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 1.0
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 12
+time_hi_wk: 52
+citations:
+  - author: Lieber
+    journal: Mt Sinai J Med
+    year: 2003
+  - author: Latvala
+    journal: Alcohol
+    year: 2004

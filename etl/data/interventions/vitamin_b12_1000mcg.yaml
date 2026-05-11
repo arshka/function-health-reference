@@ -1,0 +1,13 @@
+id: vitamin_b12_1000mcg
+canonical_name: Vitamin B12 (cyanocobalamin / methylcobalamin)
+type: supplement
+dose_amount: 1000
+dose_unit: mcg_per_day
+mechanisms:
+  - b12_provision
+  - methylation_support
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

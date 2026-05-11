@@ -1,0 +1,15 @@
+# Source: heart_lipids_basic.md §hs-CRP, AHA/CDC consensus 2003.
+# AHA risk strata: <1.0 = low; 1.0-3.0 = intermediate; >3.0 = high CV risk.
+# Optimal: <1.0 mg/L. Persistently elevated hs-CRP (>2.0) is an independent CV risk marker.
+
+id: hs_crp
+name: High-sensitivity C-reactive protein
+panel: cardiovascular
+units: mg/L
+direction: lower_is_better
+ref_lo: 0
+ref_hi: 10
+opt_lo: 0
+opt_hi: 1
+immutable: false
+demographic_modifiers: []

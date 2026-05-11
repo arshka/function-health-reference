@@ -1,0 +1,16 @@
+id: brazil_nuts_2_per_day
+canonical_name: Brazil nuts (selenomethionine-rich)
+type: food
+dose_amount: 2
+dose_unit: nuts_per_day
+mechanisms:
+  - antioxidant_defense
+  - selenium_deiodinase
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions:
+  - type: condition
+    value: selenosis

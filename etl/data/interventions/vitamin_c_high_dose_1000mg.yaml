@@ -1,0 +1,14 @@
+id: vitamin_c_high_dose_1000mg
+canonical_name: High-dose vitamin C (>1 g/day, oxalate-precursor)
+type: supplement
+dose_amount: 1000
+dose_unit: mg_per_day
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions:
+  - type: condition
+    value: history_of_calcium_oxalate_stones

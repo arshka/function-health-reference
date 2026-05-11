@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/urinalysis/urine_bilirubin.md §2
+# Heavy alcohol (>3 drinks/d men) sustained → alcoholic hepatitis with
+# conjugated hyperbilirubinemia → urine bilirubin POSITIVE. Magnitude as
+# pct increase in conjugated/urine bilirubin probability.
+intervention_id: heavy_alcohol_40g
+marker_id: urine_bilirubin
+direction: increase
+effect_type: pct
+effect_lo: 20
+effect_hi: 60
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 1.0
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 12
+time_hi_wk: 260
+citations:
+  - author: Crabb
+    journal: Hepatology
+    year: 2020

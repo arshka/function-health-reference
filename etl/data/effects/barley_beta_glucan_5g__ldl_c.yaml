@@ -1,0 +1,21 @@
+# Source: biomarker_interventions/cardiovascular/LDL-C.md §1
+# "Barley β-glucan | 3–8 g/d β-glucan | LDL-C −0.25 mmol/L (~−10 mg/dL) | 6–12 wk | [Meta]"
+
+intervention_id: barley_beta_glucan_5g
+marker_id: ldl_c
+direction: decrease
+effect_type: absolute
+effect_lo: -10
+effect_hi: -10
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 6
+time_hi_wk: 12
+citations:
+  - author: AbuMweis
+    journal: Eur J Clin Nutr
+    year: 2010
+    vol: 64
+    page: 1472

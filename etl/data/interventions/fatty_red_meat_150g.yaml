@@ -1,0 +1,10 @@
+id: fatty_red_meat_150g
+canonical_name: Fatty cuts of beef / lamb / pork
+type: food
+dose_amount: 150
+dose_unit: g_per_day
+mechanisms:
+  - sfa_reduction
+dietary_tags:
+  - gluten_free
+exclusions: []

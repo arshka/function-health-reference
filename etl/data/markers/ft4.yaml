@@ -1,0 +1,14 @@
+# Source: thyroid_panel.md §2.3 Reference ranges, §2.6 Optimal range.
+# Reference 0.8-1.8 ng/dL conventional; optimal mid-range 1.0-1.4 ng/dL for euthyroid adults
+# (avoids low-normal depression/cognitive risk and high-normal AFib/bone/mortality risks).
+
+id: ft4
+name: Free T4 (Free Thyroxine)
+panel: thyroid
+units: ng/dL
+direction: in_band
+ref_lo: 0.8
+ref_hi: 1.8
+opt_lo: 1.0
+opt_hi: 1.4
+immutable: false

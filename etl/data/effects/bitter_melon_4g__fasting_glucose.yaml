@@ -1,0 +1,18 @@
+# Source: biomarker_interventions/metabolic/fasting_glucose.md §3
+# Modest effect, high heterogeneity, low quality
+intervention_id: bitter_melon_4g
+marker_id: fasting_glucose
+direction: decrease
+effect_type: absolute
+effect_lo: -5
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Yin
+    journal: Asian Pac J Trop Biomed
+    year: 2014

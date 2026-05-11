@@ -1,0 +1,19 @@
+# Source: biomarker_interventions/metabolic/uric_acid.md §4 (Weight loss 5–10%)
+# Sustained 5–10% weight loss → UA −0.5 to −1.0 mg/dL. Rapid loss may transiently raise UA first.
+
+intervention_id: weight_loss_10pct
+marker_id: uric_acid
+direction: decrease
+effect_type: absolute
+effect_lo: -1.0
+effect_hi: -0.5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Nielsen
+    journal: Ann Rheum Dis
+    year: 2017

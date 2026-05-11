@@ -1,0 +1,15 @@
+# Source: nutrients_vitamins_minerals.md §Vitamin D, biomarker_interventions/vitamins_minerals/vitamin_D_25OH.md.
+# Reference per Endocrine Society / standard labs (20-100 ng/mL).
+# Optimal 40-80 ng/mL per Vitamin D Council and cardio/bone outcome data.
+
+id: vitamin_d_25oh
+name: Vitamin D, 25-hydroxy
+panel: vitamins_minerals
+units: ng/mL
+direction: higher_is_better
+ref_lo: 20
+ref_hi: 100
+opt_lo: 40
+opt_hi: 80
+immutable: false
+demographic_modifiers: []

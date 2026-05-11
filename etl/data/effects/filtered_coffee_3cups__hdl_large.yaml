@@ -1,0 +1,18 @@
+# Source: HDL_large.md §1 / §4 — Filtered coffee 2–4 cups/d
+# "HDL Large modestly ↑; CEC ↑ via macrophage ABCA1" 4–12 wk
+intervention_id: filtered_coffee_3cups
+marker_id: hdl_large
+direction: increase
+effect_type: pct
+effect_lo: 2
+effect_hi: 5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: Uto-Kondo
+    journal: Circ Res
+    year: 2010

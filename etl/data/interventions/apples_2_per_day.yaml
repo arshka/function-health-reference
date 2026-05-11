@@ -1,0 +1,13 @@
+id: apples_2_per_day
+canonical_name: Apples / pears (pectin)
+type: food
+dose_amount: 2
+dose_unit: fruits_per_day
+dose_split: "2 fresh apples/day or pectin 6 g/day"
+mechanisms:
+  - viscous_fiber
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

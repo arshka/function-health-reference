@@ -1,0 +1,14 @@
+# Source: blood_cbc_indices.md §RDW; biomarker_interventions/cbc/RDW.md
+# Red cell distribution width. Lower-is-better: elevated RDW predicts all-cause
+# mortality and cardiovascular events independent of anemia (multiple cohort studies).
+
+id: rdw
+name: Red Cell Distribution Width
+panel: cbc
+units: '%'
+direction: lower_is_better
+ref_lo: 11.5
+ref_hi: 14.5
+opt_lo: 11.5
+opt_hi: 13.0
+immutable: false

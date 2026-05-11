@@ -1,0 +1,23 @@
+intervention_id: dark_cola_avoidance
+marker_id: phosphorus
+direction: decrease
+effect_type: absolute
+effect_lo: -0.3
+effect_hi: -0.1
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Saldana
+    journal: Epidemiology
+    year: 2007
+    vol: 18
+    page: 501
+  - author: Tucker
+    journal: Am J Clin Nutr
+    year: 2006
+    vol: 84
+    page: 936

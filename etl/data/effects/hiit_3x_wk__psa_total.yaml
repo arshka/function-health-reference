@@ -1,0 +1,24 @@
+# Source: biomarker_interventions/autoimmunity_psa/PSA_total.md §4
+# ERASE trial (Kang 2021, n=52, 12 wk HIIT in active surveillance PCa):
+# PSA, PSA velocity, and LNCaP cell growth all reduced vs. usual-care control.
+# Magnitude not given as a precise %; modeled as a modest decrease bounded by
+# the typical small-effect range from similar exercise oncology trials. Effect
+# in healthy men with low baseline PSA likely much smaller (floor effects).
+
+intervention_id: hiit_3x_wk
+marker_id: psa_total
+direction: decrease
+effect_type: pct
+effect_lo: -15
+effect_hi: -3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 12
+citations:
+  - author: Kang
+    journal: JAMA Oncol
+    year: 2021
+    pmid: "34410322"

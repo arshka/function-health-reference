@@ -1,0 +1,25 @@
+# Source: biomarker_interventions/male_hormones/LH.md §3 Supplements (raising LH)
+# Ashwagandha 300-600 mg/d; LH mildly increased in trials. Industry-funded preponderance, effect small.
+
+intervention_id: ashwagandha_600mg
+marker_id: lh
+direction: increase
+effect_type: pct
+effect_lo: 5
+effect_hi: 10
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 8
+time_hi_wk: 16
+citations:
+  - author: Lopresti
+    journal: Medicine (Baltimore)
+    year: 2019
+    pmid: "30640217"
+  - author: Wankhede
+    journal: J Int Soc Sports Nutr
+    year: 2015
+    vol: 12
+    page: 43

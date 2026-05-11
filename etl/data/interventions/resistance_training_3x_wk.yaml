@@ -1,0 +1,12 @@
+id: resistance_training_3x_wk
+canonical_name: Resistance training (full-body)
+type: activity
+dose_amount: 3
+dose_unit: sessions_per_week
+dose_split: "3 sessions/wk full-body compound lifts"
+mechanisms:
+  - resistance_training
+  - lean_mass_accretion
+  - anti_inflammatory
+dietary_tags: []
+exclusions: []

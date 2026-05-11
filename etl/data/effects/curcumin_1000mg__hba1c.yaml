@@ -1,0 +1,17 @@
+# Source: HbA1c.md §3 — Curcumin (with piperine) 500–2000 mg/d; A1c −0.32% (WMD, 34 RCTs)
+intervention_id: curcumin_1000mg
+marker_id: hba1c
+direction: decrease
+effect_type: absolute
+effect_lo: -0.40
+effect_hi: -0.20
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.4
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 24
+citations:
+  - author: Tabrizi
+    journal: PLOS ONE
+    year: 2019

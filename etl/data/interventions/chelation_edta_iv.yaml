@@ -1,0 +1,18 @@
+# IV chelator; clinically indicated only at BLL ≥45 µg/dL or symptomatic toxicity.
+# Listed per assignment as supplement-class (not pharmacotherapy); flagged for human review.
+id: chelation_edta_iv
+canonical_name: Calcium disodium EDTA (CaNa2EDTA) IV chelation
+type: supplement
+dose_amount: 1250
+dose_unit: mg_per_m2_per_day
+dose_split: "1000–1500 mg/m²/day IV × 5 days"
+mechanisms:
+  - heavy_metal_chelation
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: bll_below_45_ug_dL
+  - type: condition
+    value: renal_impairment
+  - type: condition
+    value: pregnancy

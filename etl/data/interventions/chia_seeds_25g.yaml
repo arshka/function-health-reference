@@ -1,0 +1,13 @@
+id: chia_seeds_25g
+canonical_name: Chia seeds
+type: food
+dose_amount: 25
+dose_unit: g_per_day
+mechanisms:
+  - viscous_fiber
+  - pufa_substitution
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

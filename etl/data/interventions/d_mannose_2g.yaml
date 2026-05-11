@@ -1,0 +1,14 @@
+id: d_mannose_2g
+canonical_name: D-mannose (recurrent UTI prevention)
+type: supplement
+dose_amount: 2
+dose_unit: g_per_day
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions:
+  - type: condition
+    value: diabetes_mellitus

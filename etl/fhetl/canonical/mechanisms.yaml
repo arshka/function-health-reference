@@ -1,0 +1,119 @@
+# Canonical mechanism enum.
+#
+# Used for the MILP overlap constraint: interventions sharing a mechanism don't
+# stack additively (max-of within mechanism class), but stack across classes.
+#
+# Seeded from cardiovascular research. Extend as new panels are extracted —
+# add a new mechanism here ONLY after confirming it's not a synonym of an
+# existing one. Unknown mechanisms in effect files surface as warnings.
+
+mechanisms:
+  # Lipid / ApoB mechanisms
+  - id: viscous_fiber
+    description: Soluble viscous fiber forming a gel in the gut; psyllium, β-glucan, glucomannan
+  - id: bile_acid_sequestration
+    description: Binds bile acids, increasing hepatic cholesterol turnover
+  - id: cholesterol_absorption_inhibition
+    description: Plant sterols/stanols competing with cholesterol at NPC1L1
+  - id: ldlr_upregulation
+    description: Increased hepatic LDL receptor expression (statin-like)
+  - id: hmg_coa_inhibition
+    description: Direct or partial HMG-CoA reductase inhibition
+  - id: sfa_reduction
+    description: Saturated fat displacement / replacement with MUFA/PUFA
+  - id: mufa_substitution
+    description: Monounsaturated fat replacing SFA; olive oil, avocado, nuts
+  - id: pufa_substitution
+    description: Polyunsaturated fat replacing SFA; vegetable oils, fish, walnuts
+  - id: omega3_epa_dha
+    description: Marine omega-3 fatty acids; TG-lowering, anti-inflammatory
+  - id: polyphenol_oxldl_reduction
+    description: Polyphenols reducing oxidized LDL; cocoa, EVOO, tea catechins
+  - id: ampk_activation
+    description: AMPK pathway; berberine, metformin-like
+  - id: srebp_modulation
+    description: SREBP-2 downregulation; affects hepatic cholesterol synthesis
+  - id: niacin_pathway
+    description: Niacin / nicotinic acid receptor mediated lipid effects
+
+  # Glycemic / insulin
+  - id: insulin_sensitization
+    description: Improved peripheral insulin sensitivity
+  - id: glycemic_load_reduction
+    description: Reduced postprandial glucose excursion via lower-GI/GL foods
+  - id: glp1_modulation
+    description: GLP-1 receptor activity (food-mediated, distinct from GLP-1 agonists)
+  - id: gluconeogenesis_modulation
+    description: Hepatic glucose output modification
+
+  # Body composition / energy balance
+  - id: caloric_deficit
+    description: Negative energy balance; weight loss-driven effects
+  - id: lean_mass_accretion
+    description: Resistance-training mediated muscle gain; affects metabolic markers
+  - id: visceral_fat_reduction
+    description: Specific reduction in visceral adipose tissue
+
+  # Inflammation / oxidation
+  - id: anti_inflammatory
+    description: Reduced systemic inflammation (hs-CRP, IL-6)
+  - id: antioxidant_defense
+    description: Upregulation of endogenous antioxidant systems (Nrf2, glutathione)
+
+  # Endocrine
+  - id: shbg_modulation
+    description: Sex hormone binding globulin modification; affects free hormones
+  - id: cortisol_modulation
+    description: HPA axis modification
+  - id: thyroid_iodine_substrate
+    description: Iodine availability for thyroid hormone synthesis
+  - id: selenium_deiodinase
+    description: Selenium-dependent deiodinase activity (T4→T3 conversion)
+
+  # Nutrient bioavailability
+  - id: heme_iron_provision
+    description: Heme-iron from animal sources; high-bioavailability iron
+  - id: non_heme_iron_provision
+    description: Plant iron; absorption modulated by vitamin C and phytates
+  - id: b12_provision
+    description: Cobalamin from animal/fortified sources
+  - id: folate_provision
+    description: Dietary folate / 5-MTHF
+  - id: vitamin_d_provision
+    description: Cholecalciferol from sun, fortified foods, or supplement
+  - id: methylation_support
+    description: One-carbon metabolism support (methionine, choline, B12, folate)
+  - id: magnesium_provision
+    description: Magnesium repletion (RBC magnesium reflects intracellular status)
+  - id: zinc_provision
+    description: Zinc repletion (testosterone, immune, taste)
+  - id: omega6_3_balance
+    description: Linoleic / arachidonic vs EPA/DHA balance
+
+  # Detox / clearance
+  - id: heavy_metal_chelation
+    description: Binding and excretion of lead, mercury, cadmium, arsenic
+  - id: glutathione_conjugation
+    description: Phase II liver detoxification support
+  - id: renal_clearance
+    description: Hydration / kidney function-mediated solute clearance
+
+  # Behavior / lifestyle
+  - id: aerobic_capacity
+    description: VO₂max improvement; cardio-metabolic benefits
+  - id: resistance_training
+    description: Strength training stimulus
+  - id: hiit
+    description: High-intensity interval training
+  - id: sleep_consolidation
+    description: Sleep duration / regularity improvement
+  - id: stress_reduction
+    description: Mindfulness, meditation, parasympathetic activation
+  - id: heat_acclimation
+    description: Sauna / heat exposure; cardiovascular adaptation
+  - id: cold_exposure
+    description: Cold plunge, cryotherapy; norepinephrine, BAT activation
+  - id: smoking_cessation
+    description: Removal of tobacco-related oxidative and inflammatory load
+  - id: alcohol_reduction
+    description: Decreased ethanol intake

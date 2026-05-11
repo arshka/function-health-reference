@@ -1,0 +1,22 @@
+# Source: Lp(a).md §3 Supplements (lowering)
+# "L-carnitine oral | 1–4 g/d for 12–24 wk | Lp(a) −8.82 mg/dL (pooled); oral subgroup
+#  −9 mg/dL (~−15–20% relative); IV: no effect | 12–24 wk | [Meta]"
+# Caveat: TMAO penalty may neutralize CV benefit; not recommended by most lipidologists.
+
+intervention_id: l_carnitine_2g
+marker_id: lp_a
+direction: decrease
+effect_type: pct
+effect_lo: -20
+effect_hi: -15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Serban
+    journal: Sci Rep
+    year: 2016
+    pmid: "26754058"

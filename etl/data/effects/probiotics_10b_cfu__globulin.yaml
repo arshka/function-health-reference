@@ -1,0 +1,18 @@
+# Source: biomarker_interventions/liver/globulin.md §3 row 4 (probiotics multi-strain)
+intervention_id: probiotics_10b_cfu
+marker_id: globulin
+direction: decrease
+effect_type: pct
+effect_lo: -3
+effect_hi: -1
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 8
+time_hi_wk: 24
+citations:
+  - author: Wastyk
+    journal: Cell
+    year: 2021
+    pmid: "34256014"

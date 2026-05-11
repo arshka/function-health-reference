@@ -1,0 +1,16 @@
+id: magnesium_400mg
+canonical_name: Magnesium (citrate / glycinate / malate)
+type: supplement
+dose_amount: 400
+dose_unit: mg_per_day
+dose_split: "300–500 mg elemental Mg/day"
+mechanisms:
+  - magnesium_provision
+  - anti_inflammatory
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: condition
+    value: severe_renal_impairment

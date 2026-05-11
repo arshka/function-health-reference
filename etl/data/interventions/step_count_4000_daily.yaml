@@ -1,0 +1,11 @@
+id: step_count_4000_daily
+canonical_name: Increased NEAT / step count (+4000 steps/d)
+type: activity
+dose_amount: 4000
+dose_unit: steps_per_day_above_baseline
+dose_split: "+4000 steps/day above sedentary baseline"
+mechanisms:
+  - aerobic_capacity
+  - visceral_fat_reduction
+dietary_tags: []
+exclusions: []

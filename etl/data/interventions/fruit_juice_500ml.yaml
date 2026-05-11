@@ -1,0 +1,13 @@
+id: fruit_juice_500ml
+canonical_name: Fruit juice (orange, apple, grape)
+type: food
+dose_amount: 500
+dose_unit: ml_per_day
+dose_split: "500 mL/day of fruit juice"
+mechanisms:
+  - glycemic_load_reduction
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

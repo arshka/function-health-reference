@@ -1,0 +1,21 @@
+# Source: Triglycerides.md §2
+# "Very low-fat diet (>65% kcal carb, especially refined) | <15% kcal fat | TG +20–50 mg/dL | 8–12 wk | [RCT]"
+
+intervention_id: very_low_fat_high_carb_diet
+marker_id: triglycerides
+direction: increase
+effect_type: absolute
+effect_lo: 20
+effect_hi: 50
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Volek
+    journal: Lipids
+    year: 2009
+    vol: 44
+    page: 297

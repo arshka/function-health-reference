@@ -1,0 +1,15 @@
+# Source: liver_panel.md §2 AST; biomarker_interventions/liver/AST.md.
+# Reference range per standard clinical labs (Quest/LabCorp). Optimal 10-25 U/L
+# per outcome-validated thresholds (Kwo 2017 ACG; PMC12628042 2024). AST is not
+# liver-specific; rule out muscle/hemolytic sources via CK before liver attribution.
+
+id: ast
+name: Aspartate Aminotransferase (AST)
+panel: liver
+units: U/L
+direction: lower_is_better
+ref_lo: 8
+ref_hi: 48
+opt_lo: 10
+opt_hi: 25
+immutable: false

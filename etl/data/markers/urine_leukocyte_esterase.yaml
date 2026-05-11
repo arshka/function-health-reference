@@ -1,0 +1,15 @@
+# Source: urinalysis_panel.md, biomarker_interventions/urinalysis/urine_leukocyte_esterase.md
+# Encoded as WBC per high-power field (WBC/hpf). Clinical normal <=5 WBC/hpf.
+# Reference 0-10 (includes mild pyuria), optimal 0-4. Elevations indicate UTI / inflammation.
+
+id: urine_leukocyte_esterase
+name: Urine Leukocyte Esterase
+panel: urinalysis
+units: WBC/hpf
+direction: lower_is_better
+ref_lo: 0
+ref_hi: 10
+opt_lo: 0
+opt_hi: 4
+immutable: false
+demographic_modifiers: []

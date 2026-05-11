@@ -1,0 +1,21 @@
+# Source: biomarker_interventions/cardiovascular/LDL-C.md §1
+# "Almonds | 45–85 g/d | LDL-C −5.79 mg/dL pooled | 4–12 wk | [Meta]"
+
+intervention_id: almonds_60g
+marker_id: ldl_c
+direction: decrease
+effect_type: absolute
+effect_lo: -5.79
+effect_hi: -5.79
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: Lee-Bravatti
+    journal: J Am Heart Assoc
+    year: 2019
+    vol: 8
+    page: e010422

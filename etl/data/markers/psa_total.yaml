@@ -1,0 +1,25 @@
+# Source: prostate_psa.md §1-11; biomarker_interventions/autoimmunity_psa/PSA_total.md §6, §8
+# Total PSA: standard Hybritech cutoff 4.0 ng/mL; optimal <1.0 ng/mL (Function Health tighter target).
+# Median PSA in 20s is ~0.5 ng/mL. Reference 0-4.0; optimal 0-1.0.
+# Sex: skip if female (PSA is a male-only marker — female prostate tissue absent).
+# Age modifiers: younger men have tighter optimal (Oesterling age-specific medians).
+
+id: psa_total
+name: Prostate-Specific Antigen, Total
+panel: autoimmunity_psa
+units: ng/mL
+direction: lower_is_better
+ref_lo: 0
+ref_hi: 4.0
+opt_lo: 0
+opt_hi: 1.0
+immutable: false
+demographic_modifiers:
+  - trait: female
+    skip: true
+  - trait: age_under_40
+    opt_lo: 0
+    opt_hi: 0.7
+  - trait: age_60plus
+    opt_lo: 0
+    opt_hi: 2.5

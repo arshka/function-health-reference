@@ -1,0 +1,16 @@
+# Source: liver_panel.md §5 Total Bilirubin; biomarker_interventions/liver/total_bilirubin.md.
+# Reference range per standard clinical labs. Direction: in_band — though mild
+# hyperbilirubinemia (Gilbert syndrome, ~0.8-1.5 mg/dL) is associated with reduced
+# CV/cancer mortality (antioxidant effect), the marker is treated as in_band here
+# with an upper-mid optimal band 0.5-1.0 reflecting the protective sweet spot.
+
+id: total_bilirubin
+name: Total Bilirubin
+panel: liver
+units: mg/dL
+direction: in_band
+ref_lo: 0.2
+ref_hi: 1.2
+opt_lo: 0.5
+opt_hi: 1.0
+immutable: false

@@ -1,0 +1,13 @@
+id: injectable_testosterone_150mg_wk
+canonical_name: Injectable testosterone (TRT, esters)
+type: supplement
+dose_amount: 150
+dose_unit: mg_per_week
+dose_split: "100–200 mg/wk therapeutic TRT (testosterone enanthate / cypionate)"
+mechanisms: []
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: prostate_cancer
+  - type: condition
+    value: erythrocytosis

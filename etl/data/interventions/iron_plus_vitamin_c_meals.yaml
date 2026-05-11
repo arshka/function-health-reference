@@ -1,0 +1,11 @@
+id: iron_plus_vitamin_c_meals
+canonical_name: Plant iron-rich foods + vitamin C co-ingestion (lentils/beans/tofu with citrus/capsicum/kiwi)
+type: food
+dose_amount: 100
+dose_unit: mg_vit_c_per_meal
+mechanisms:
+  - non_heme_iron_provision
+dietary_tags:
+  - vegan
+  - vegetarian
+exclusions: []

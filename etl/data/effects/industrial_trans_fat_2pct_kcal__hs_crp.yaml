@@ -1,0 +1,21 @@
+# Source: hs-CRP.md §2 Foods that RAISE
+# "Industrial trans fat | 2% kcal iTFA | hs-CRP +0.3 to +0.5 mg/L | 4–8 wk | [RCT]"
+
+intervention_id: industrial_trans_fat_2pct_kcal
+marker_id: hs_crp
+direction: increase
+effect_type: absolute
+effect_lo: 0.3
+effect_hi: 0.5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.6
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Han
+    journal: AJCN
+    year: 2002
+    vol: 76
+    page: 1131

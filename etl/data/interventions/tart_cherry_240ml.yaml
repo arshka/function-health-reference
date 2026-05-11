@@ -1,0 +1,14 @@
+id: tart_cherry_240ml
+canonical_name: Tart cherry juice / cherries
+type: food
+dose_amount: 240
+dose_unit: ml_per_day
+dose_split: "8–10 oz/day tart cherry juice (~1.5 cups cherries)"
+mechanisms:
+  - polyphenol_oxldl_reduction
+  - antioxidant_defense
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

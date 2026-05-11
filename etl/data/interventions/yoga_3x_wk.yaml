@@ -1,0 +1,12 @@
+id: yoga_3x_wk
+canonical_name: Yoga (regular practice)
+type: activity
+dose_amount: 3
+dose_unit: sessions_per_week
+dose_split: "2–3 sessions/wk × 60 min"
+mechanisms:
+  - stress_reduction
+  - aerobic_capacity
+  - anti_inflammatory
+dietary_tags: []
+exclusions: []

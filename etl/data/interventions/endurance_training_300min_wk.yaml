@@ -1,0 +1,13 @@
+id: endurance_training_300min_wk
+canonical_name: High-volume endurance training
+type: activity
+dose_amount: 300
+dose_unit: min_per_week
+dose_split: "≥300 min/wk; long-distance running, cycling, swimming"
+mechanisms:
+  - aerobic_capacity
+  - visceral_fat_reduction
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: unstable_cardiovascular_disease

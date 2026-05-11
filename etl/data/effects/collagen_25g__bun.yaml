@@ -1,0 +1,21 @@
+# Source: BUN.md §2 row 5
+# "Bone broth / collagen daily | 20-30 g | BUN ↑ small (1-3 mg/dL) | Weeks | [Mechanism]"
+
+intervention_id: collagen_25g
+marker_id: bun
+direction: increase
+effect_type: absolute
+effect_lo: 1
+effect_hi: 3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: mechanism
+evidence_weight: 0.4
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: Sands
+    journal: Annu Rev Physiol
+    year: 2003
+    vol: 65
+    page: 543

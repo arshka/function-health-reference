@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/immune/eosinophils.md §3 supplements (lowering)
+intervention_id: fish_oil_epa_dha_3g
+marker_id: eosinophils
+direction: decrease
+effect_type: absolute
+effect_lo: -0.1
+effect_hi: -0.05
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 24
+citations:
+  - author: Yang
+    journal: Lipids Health Dis
+    year: 2013
+  - author: Wong
+    journal: J Asthma
+    year: 2005

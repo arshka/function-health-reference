@@ -1,0 +1,19 @@
+# Source: biomarker_interventions/metabolic/leptin.md §3 (Probiotics row, multistrain 10^9-10^10 CFU/d).
+# Leptin modest ↓ in some trials; strain-dependent.
+
+intervention_id: probiotics_10b_cfu
+marker_id: leptin
+direction: decrease
+effect_type: pct
+effect_lo: -10
+effect_hi: -2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Borges
+    journal: Adv Nutr
+    year: 2020

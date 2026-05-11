@@ -1,0 +1,22 @@
+# Source: biomarker_interventions/metabolic/leptin.md §1 (Olive oil row, 25 mL/d).
+# Polyphenol-mediated reduction in adipose inflammation; limited large-RCT data.
+
+intervention_id: evoo_30ml
+marker_id: leptin
+direction: decrease
+effect_type: pct
+effect_lo: -15
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Bondia-Pons
+    journal: Mol Nutr Food Res
+    year: 2010
+  - author: Razquin
+    journal: Mol Nutr Food Res
+    year: 2010

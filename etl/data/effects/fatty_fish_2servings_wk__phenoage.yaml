@@ -1,0 +1,16 @@
+intervention_id: fatty_fish_2servings_wk
+marker_id: phenoage
+direction: decrease
+effect_type: absolute
+effect_lo: -0.8
+effect_hi: -0.2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Li
+    journal: J Cardiovasc Pharmacol Ther
+    year: 2014

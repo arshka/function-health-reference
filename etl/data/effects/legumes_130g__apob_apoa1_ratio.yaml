@@ -1,0 +1,19 @@
+intervention_id: legumes_130g
+marker_id: apob_apoa1_ratio
+direction: decrease
+effect_type: pct
+effect_lo: -5
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 6
+time_hi_wk: 12
+citations:
+  - author: Bazzano
+    journal: Nutr Metab Cardiovasc Dis
+    year: 2011
+  - author: Ha
+    journal: CMAJ
+    year: 2014

@@ -1,0 +1,19 @@
+# Source: Triglycerides.md §1
+# "Mediterranean diet (full pattern) | Olive oil + fish + nuts + legumes + low refined carb | TG −16 to −30 mg/dL | 12–24 wk | [Meta]"
+
+intervention_id: mediterranean_diet
+marker_id: triglycerides
+direction: decrease
+effect_type: absolute
+effect_lo: -30
+effect_hi: -16
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Liyanage
+    journal: PLOS One
+    year: 2016

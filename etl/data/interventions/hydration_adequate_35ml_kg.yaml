@@ -1,0 +1,17 @@
+id: hydration_adequate_35ml_kg
+canonical_name: Adequate hydration (euvolemia, 30-35 mL/kg/day water)
+type: behavior
+dose_amount: 35
+dose_unit: ml_per_kg_per_day
+dose_split: "30-35 mL/kg/day water; aim for pale yellow urine"
+mechanisms:
+  - renal_clearance
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: condition
+    value: heart_failure
+  - type: condition
+    value: hyponatremia

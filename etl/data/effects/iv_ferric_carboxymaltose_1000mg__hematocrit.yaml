@@ -1,0 +1,17 @@
+intervention_id: iv_ferric_carboxymaltose_1000mg
+marker_id: hematocrit
+direction: increase
+effect_type: pct
+effect_lo: 4.5
+effect_hi: 7.5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 3
+time_hi_wk: 4
+citations:
+  - author: Onken
+    journal: Transfusion
+    year: 2014
+    pmid: "24117770"

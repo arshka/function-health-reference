@@ -1,0 +1,14 @@
+id: beer_heavy_4_servings
+canonical_name: Heavy beer intake (hops 8-prenylnaringenin)
+type: food
+dose_amount: 4
+dose_unit: servings_per_day
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+exclusions:
+  - type: condition
+    value: pregnancy
+  - type: condition
+    value: hepatic_impairment

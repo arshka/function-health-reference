@@ -1,0 +1,25 @@
+# Source: Lp(a).md §2 Foods that RAISE
+# "Boiled / unfiltered coffee (French press, espresso, Turkish, Scandinavian) | ≥3 cups/d
+#  | Lp(a) ↑ ~25–35% vs filter coffee in chronic consumers | 8–12 wk | [Cohort] + [RCT]"
+# Mechanism: diterpenes cafestol/kahweol.
+
+intervention_id: unfiltered_coffee_3cups
+marker_id: lp_a
+direction: increase
+effect_type: pct
+effect_lo: 25
+effect_hi: 35
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Stensvold
+    journal: Atherosclerosis
+    year: 1996
+    pmid: "9010383"
+  - author: Urgert
+    journal: Eur J Clin Nutr
+    year: 1997

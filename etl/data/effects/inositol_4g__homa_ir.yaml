@@ -1,0 +1,19 @@
+intervention_id: inositol_4g
+marker_id: homa_ir
+direction: decrease
+effect_type: absolute
+effect_lo: -2.62
+effect_hi: -1.30
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.4
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Unfer
+    journal: Int J Endocrinol
+    year: 2018
+  - author: Greff
+    journal: Reprod Biol Endocrinol
+    year: 2025

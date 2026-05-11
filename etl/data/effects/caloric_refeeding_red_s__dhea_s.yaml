@@ -1,0 +1,17 @@
+intervention_id: caloric_refeeding_red_s
+marker_id: dhea_s
+direction: increase
+effect_type: pct
+effect_lo: 25
+effect_hi: 50
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Mountjoy
+    journal: Br J Sports Med
+    year: 2018
+    pmid: "29773536"

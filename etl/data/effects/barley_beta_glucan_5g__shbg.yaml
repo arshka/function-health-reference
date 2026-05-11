@@ -1,0 +1,17 @@
+# Source: biomarker_interventions/male_hormones/SHBG.md §1 (high-fiber breakfast β-glucan)
+intervention_id: barley_beta_glucan_5g
+marker_id: shbg
+direction: increase
+effect_type: pct
+effect_lo: 2
+effect_hi: 5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: mechanism
+evidence_weight: 0.4
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: Whitehead
+    journal: American Journal of Clinical Nutrition
+    year: 2014

@@ -1,0 +1,9 @@
+id: algal_oil_epa_500mg
+canonical_name: Algal oil EPA
+type: supplement
+dose_amount: 500
+dose_unit: mg_per_day
+mechanisms:
+- omega3_epa_dha
+dietary_tags: []
+exclusions: []

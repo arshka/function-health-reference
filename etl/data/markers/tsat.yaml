@@ -1,0 +1,14 @@
+# Source: biomarker_interventions/iron/TSAT.md (preamble + §6 Synthesis): iron deficiency <20%
+# (often <16%); hemochromatosis screening trigger >45% (AASLD) / >50% (EASL); ACD 10-20%.
+# Optimal 25-40% (mid-range, avoiding both functional deficiency and overload signals).
+
+id: tsat
+name: Transferrin Saturation
+panel: iron
+units: "%"
+direction: in_band
+ref_lo: 20
+ref_hi: 50
+opt_lo: 25
+opt_hi: 40
+immutable: false

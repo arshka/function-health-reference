@@ -1,0 +1,23 @@
+# Source: biomarker_interventions/iron/TIBC.md §1 — heme iron sources sustained intake
+# Iron repletion via heme sources lowers elevated TIBC (~400-450) toward 300-360 over 8-16 wk
+# TIBC fall confirms effective repletion (negative correlation with ferritin)
+
+intervention_id: heme_iron_meals_3x_wk
+marker_id: tibc
+direction: decrease
+effect_type: absolute
+effect_lo: -100
+effect_hi: -50
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 8
+time_hi_wk: 16
+citations:
+  - author: Hallberg
+    journal: AJCN
+    year: 2000
+    vol: 71
+    page: 1147
+    pmid: "10799378"

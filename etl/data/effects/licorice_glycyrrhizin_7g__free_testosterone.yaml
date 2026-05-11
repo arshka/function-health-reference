@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/male_hormones/free_testosterone.md §2
+# 7 g/d glycyrrhetinic acid → total T −26 to −35%; free T proportional
+intervention_id: licorice_glycyrrhizin_7g
+marker_id: free_testosterone
+direction: decrease
+effect_type: pct
+effect_lo: -35
+effect_hi: -26
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 1.0
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 1
+time_hi_wk: 4
+citations:
+  - author: Armanini
+    journal: NEJM
+    year: 2003
+    vol: 348
+    page: 2116

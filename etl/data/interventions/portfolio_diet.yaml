@@ -1,0 +1,15 @@
+id: portfolio_diet
+canonical_name: Portfolio diet (full pattern)
+type: behavior
+dose_amount: 1
+dose_unit: pattern_adherence
+dose_split: "Soy 25 g + nuts 45 g + viscous fiber 8 g + plant sterols 2 g daily"
+mechanisms:
+  - sfa_reduction
+  - viscous_fiber
+  - cholesterol_absorption_inhibition
+  - mufa_substitution
+dietary_tags:
+  - vegan
+  - vegetarian
+exclusions: []

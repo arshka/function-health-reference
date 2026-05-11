@@ -1,0 +1,10 @@
+id: high_phytate_meal_pattern
+canonical_name: High-phytate meals without enhancers (whole grain bread, bran, raw legumes; phytate:Fe >10)
+type: food
+dose_amount: 1
+dose_unit: meals_per_day
+mechanisms: []
+dietary_tags:
+  - vegetarian
+  - vegan
+exclusions: []

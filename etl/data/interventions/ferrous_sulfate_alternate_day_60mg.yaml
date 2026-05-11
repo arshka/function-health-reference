@@ -1,0 +1,15 @@
+id: ferrous_sulfate_alternate_day_60mg
+canonical_name: Ferrous sulfate, alternate-day dosing (60 mg elemental Fe)
+type: supplement
+dose_amount: 60
+dose_unit: mg_elemental_fe_alternate_day
+mechanisms:
+  - non_heme_iron_provision
+dietary_tags:
+  - vegan
+  - vegetarian
+exclusions:
+  - type: gene
+    value: hfe_c282y_homozygous
+  - type: condition
+    value: iron_overload

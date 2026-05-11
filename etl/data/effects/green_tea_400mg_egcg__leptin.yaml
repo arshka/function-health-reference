@@ -1,0 +1,19 @@
+# Source: biomarker_interventions/metabolic/leptin.md §3 (Green tea EGCG row, 270-500 mg/d).
+# Leptin modestly ↓; small weight-loss effect. Hepatotoxicity at >800 mg/d.
+
+intervention_id: green_tea_400mg_egcg
+marker_id: leptin
+direction: decrease
+effect_type: pct
+effect_lo: -12
+effect_hi: -3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Phung
+    journal: Am J Clin Nutr
+    year: 2010

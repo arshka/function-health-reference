@@ -1,0 +1,8 @@
+id: high_sodium_diet_5g
+canonical_name: High-sodium dietary intake (>5 g Na/day)
+type: behavior
+dose_amount: 5
+dose_unit: g_per_day
+mechanisms: []
+dietary_tags: []
+exclusions: []

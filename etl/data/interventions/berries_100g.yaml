@@ -1,0 +1,14 @@
+id: berries_100g
+canonical_name: Berries (mixed)
+type: food
+dose_amount: 100
+dose_unit: g_per_day
+dose_split: "50–150 g/day"
+mechanisms:
+  - polyphenol_oxldl_reduction
+  - antioxidant_defense
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

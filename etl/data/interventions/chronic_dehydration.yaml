@@ -1,0 +1,9 @@
+id: chronic_dehydration
+canonical_name: Chronic inadequate fluid intake (dehydration)
+type: behavior
+dose_amount: 1
+dose_unit: pattern_adherence
+mechanisms:
+  - renal_clearance
+dietary_tags: []
+exclusions: []

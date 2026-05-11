@@ -1,0 +1,19 @@
+# Source: biomarker_interventions/cardiovascular/non-HDL-C.md §2
+# "Sugar-sweetened beverages | ≥600 mL/d | Non-HDL-C +10–20 mg/dL via TG/VLDL pathway | 8–10 wk | [RCT]"
+
+intervention_id: sugar_sweetened_beverages_600ml
+marker_id: non_hdl_c
+direction: increase
+effect_type: absolute
+effect_lo: 10
+effect_hi: 20
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 8
+time_hi_wk: 10
+citations:
+  - author: Stanhope
+    journal: J Clin Endocrinol Metab
+    year: 2011

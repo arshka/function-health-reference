@@ -1,0 +1,17 @@
+intervention_id: whole_grains_3_servings
+marker_id: alt
+direction: decrease
+effect_type: pct
+effect_lo: -10
+effect_hi: -3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 8
+time_hi_wk: 24
+citations:
+  - author: Georgoulis
+    journal: Nutrients
+    year: 2014
+    pmid: "25390650"

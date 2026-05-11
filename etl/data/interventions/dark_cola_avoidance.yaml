@@ -1,0 +1,13 @@
+id: dark_cola_avoidance
+canonical_name: Dark cola avoidance (eliminate phosphoric acid sodas)
+type: behavior
+dose_amount: 1
+dose_unit: pattern_adherence
+dose_split: "Eliminate dark cola intake (Coke, Pepsi, Dr. Pepper, RC); clear sodas OK"
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions: []

@@ -1,0 +1,12 @@
+id: unfiltered_coffee_3cups
+canonical_name: Unfiltered (boiled/French press/espresso) coffee
+type: food
+dose_amount: 3
+dose_unit: cups_per_day
+dose_split: "≥3 cups/d of boiled/French press/espresso/Turkish/Scandinavian boiled"
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

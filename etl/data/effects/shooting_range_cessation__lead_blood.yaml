@@ -1,0 +1,18 @@
+intervention_id: shooting_range_cessation
+marker_id: lead_blood
+direction: decrease
+effect_type: pct
+effect_lo: -60
+effect_hi: -50
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.2
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: JKMS Review
+    journal: J Korean Med Sci
+    year: 2025
+    vol: 40
+    page: "e116"

@@ -1,0 +1,11 @@
+id: calcium_d_glucarate_2000mg
+canonical_name: Calcium-D-glucarate
+type: supplement
+dose_amount: 2000
+dose_unit: mg_per_day
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

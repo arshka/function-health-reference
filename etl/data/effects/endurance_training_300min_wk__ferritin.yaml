@@ -1,0 +1,23 @@
+intervention_id: endurance_training_300min_wk
+marker_id: ferritin
+direction: decrease
+effect_type: absolute
+effect_lo: -30
+effect_hi: -10
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Burden
+    journal: Br J Sports Med
+    year: 2015
+  - author: Peeling
+    journal: PLoS One
+    year: 2014
+    pmid: "24667916"
+  - author: McClung
+    journal: J Trace Elem Med Biol
+    year: 2013

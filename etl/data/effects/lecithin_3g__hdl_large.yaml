@@ -1,0 +1,19 @@
+# Source: HDL_large.md §3 — Lecithin / phosphatidylcholine 2–4 g/d
+# "HDL Large modestly ↑ in some trials; mechanism via LCAT activation" 12 wk
+# Weak evidence; can elevate TMAO.
+intervention_id: lecithin_3g
+marker_id: hdl_large
+direction: increase
+effect_type: pct
+effect_lo: 2
+effect_hi: 8
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 12
+time_hi_wk: 12
+citations:
+  - author: Pal
+    journal: Nutr J
+    year: 2010

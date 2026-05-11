@@ -1,0 +1,17 @@
+intervention_id: sugar_sweetened_beverages_600ml
+marker_id: nlr
+direction: increase
+effect_type: absolute
+effect_lo: 0.2
+effect_hi: 0.5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 12
+time_hi_wk: 52
+citations:
+  - author: de Koning
+    journal: Circulation
+    year: 2012
+    pmid: "22412070"

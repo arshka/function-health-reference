@@ -1,0 +1,14 @@
+# Source: nutrients_omega_fatty_acids.md §9 AA:EPA; biomarker_interventions/omega_fatty_acids/AA_EPA_ratio.md
+# Dimensionless ratio. RBC ~8-12 in Western adults; Sears/OmegaQuant target ≤3 as cardioprotective.
+
+id: aa_epa_ratio
+name: AA:EPA Ratio
+panel: omega_fatty_acids
+units: ratio
+direction: lower_is_better
+ref_lo: 1
+ref_hi: 25
+opt_lo: 1
+opt_hi: 3
+immutable: false
+demographic_modifiers: []

@@ -1,0 +1,24 @@
+# Source: Triglycerides.md §1
+# "Berries / fruit (whole, replacing refined carb) | 200 g/d | TG −5–10 mg/dL | 4–8 wk | [1-Trial]"
+
+intervention_id: berries_200g
+marker_id: triglycerides
+direction: decrease
+effect_type: absolute
+effect_lo: -10
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Luís
+    journal: Antioxidants
+    year: 2018
+    vol: 7
+    page: 12
+  - author: Wallace
+    journal: Adv Nutr
+    year: 2016

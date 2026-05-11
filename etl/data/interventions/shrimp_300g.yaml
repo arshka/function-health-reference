@@ -1,0 +1,11 @@
+id: shrimp_300g
+canonical_name: High-cholesterol shellfish (shrimp)
+type: food
+dose_amount: 300
+dose_unit: g_per_day
+mechanisms: []
+dietary_tags:
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: shellfish_allergy

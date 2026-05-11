@@ -1,0 +1,29 @@
+# Source: biomarker_interventions/vitamins_minerals/copper.md §4 (Activities & Behaviors)
+# Stop chronic excess Zn (>25 mg/d) → serum Cu typically recovers over 4-12 wk if functional
+# reserve intact. Most adult ambulatory Cu deficiency is iatrogenic from Zn supplementation.
+
+intervention_id: stop_chronic_zinc_supplementation
+marker_id: copper
+direction: increase
+effect_type: pct
+effect_lo: 20
+effect_hi: 50
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: Duncan
+    journal: Br J Clin Pharmacol
+    year: 2023
+    vol: 89
+    page: 1875
+    pmid: "26085547"
+  - author: Willis
+    journal: Am J Clin Pathol
+    year: 2005
+    vol: 123
+    page: 125
+    pmid: "15762287"

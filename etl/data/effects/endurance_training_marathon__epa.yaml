@@ -1,0 +1,18 @@
+# Source: biomarker_interventions/omega_fatty_acids/EPA.md §4 - high-volume aerobic training >10 h/wk
+# "EPA may fall slightly via accelerated oxidation"; magnitude not specified - small drop
+intervention_id: endurance_training_marathon
+marker_id: epa
+direction: decrease
+effect_type: absolute
+effect_lo: -0.2
+effect_hi: -0.05
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 16
+time_hi_wk: 52
+citations:
+  - author: Walser
+    journal: Eur J Appl Physiol
+    year: 2008

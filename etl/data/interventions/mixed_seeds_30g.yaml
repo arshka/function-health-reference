@@ -1,0 +1,8 @@
+id: mixed_seeds_30g
+canonical_name: Mixed seeds (pumpkin/sunflower/sesame)
+type: food
+dose_amount: 30
+dose_unit: g_per_day
+mechanisms: []
+dietary_tags: []
+exclusions: []

@@ -1,0 +1,14 @@
+id: added_sugar_reduction_25g
+canonical_name: Added-sugar restriction
+type: behavior
+dose_amount: 25
+dose_unit: g_per_day_ceiling
+dose_split: "Reduce added sugars to <25 g/day (independent of total calories)"
+mechanisms:
+  - glycemic_load_reduction
+  - insulin_sensitization
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

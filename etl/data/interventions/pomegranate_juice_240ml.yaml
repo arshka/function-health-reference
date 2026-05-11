@@ -1,0 +1,14 @@
+id: pomegranate_juice_240ml
+canonical_name: Pomegranate juice
+type: food
+dose_amount: 240
+dose_unit: ml_per_day
+dose_split: "240 mL/d (8 oz)"
+mechanisms:
+  - polyphenol_oxldl_reduction
+  - antioxidant_defense
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

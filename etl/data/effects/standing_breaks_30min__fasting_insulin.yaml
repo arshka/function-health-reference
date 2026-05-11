@@ -1,0 +1,21 @@
+# Source: biomarker_interventions/metabolic/fasting_insulin.md §4
+intervention_id: standing_breaks_30min
+marker_id: fasting_insulin
+direction: decrease
+effect_type: absolute
+effect_lo: -1.5
+effect_hi: -0.3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 2
+time_hi_wk: 12
+citations:
+  - author: Dunstan
+    journal: Diabetes Care
+    year: 2012
+    pmid: "22374636"
+  - author: Dempsey
+    journal: Diabetes Care
+    year: 2016

@@ -1,0 +1,20 @@
+id: trout_rainbow_300g_wk
+canonical_name: Rainbow trout (farmed)
+type: food
+dose_amount: 300
+dose_unit: g_per_week
+dose_split: "2 servings/wk (~300 g)"
+mechanisms:
+  - omega3_epa_dha
+  - anti_inflammatory
+dietary_tags:
+  - pescatarian
+  - mediterranean
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: fish_allergy
+  - type: dietary
+    value: vegan
+  - type: dietary
+    value: vegetarian

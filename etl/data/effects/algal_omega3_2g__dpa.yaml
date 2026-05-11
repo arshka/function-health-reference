@@ -1,0 +1,18 @@
+# Source: DPA.md §3 — Algal oil 500–1000 mg DHA/d → RBC DPA ↑ slightly via DHA→DPA retro-conversion
+
+intervention_id: algal_omega3_2g
+marker_id: dpa
+direction: increase
+effect_type: absolute
+effect_lo: 0.1
+effect_hi: 0.3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: mechanism
+evidence_weight: 0.4
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: Conquer
+    journal: J Nutr
+    year: 1996

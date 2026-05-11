@@ -1,0 +1,20 @@
+intervention_id: chia_seeds_25g
+marker_id: omega6_3_ratio
+direction: decrease
+effect_type: pct
+effect_lo: -15.0
+effect_hi: -5.0
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: Brenna
+    journal: PLEFA
+    year: 2009
+    pmid: "19053988"
+  - author: Nieman
+    journal: Nutr Res
+    year: 2009

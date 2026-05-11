@@ -1,0 +1,15 @@
+# Source: hormones_male_panel.md §SHBG; biomarker_interventions/male_hormones/SHBG.md
+# Reference per adult male assay (10-80 nmol/L). Both extremes problematic:
+# low SHBG correlates with insulin resistance / NAFLD; high SHBG reduces free T.
+
+id: shbg
+name: Sex Hormone Binding Globulin
+panel: male_hormones
+units: nmol/L
+direction: in_band
+ref_lo: 10
+ref_hi: 80
+opt_lo: 20
+opt_hi: 50
+immutable: false
+demographic_modifiers: []

@@ -1,0 +1,21 @@
+# Source: biomarker_interventions/metabolic/fasting_glucose.md §3
+intervention_id: berberine_1500mg
+marker_id: fasting_glucose
+direction: decrease
+effect_type: absolute
+effect_lo: -15
+effect_hi: -15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Yin
+    journal: Metabolism
+    year: 2008
+    pmid: "18442638"
+  - author: Lan
+    journal: J Ethnopharmacol
+    year: 2015

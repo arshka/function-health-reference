@@ -1,0 +1,12 @@
+id: unfiltered_coffee_5cups
+canonical_name: Unfiltered coffee (cafestol / kahweol)
+type: food
+dose_amount: 5
+dose_unit: cups_per_day
+dose_split: "French press, Turkish, espresso, Scandinavian boiled"
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

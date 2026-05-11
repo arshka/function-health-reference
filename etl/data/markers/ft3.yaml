@@ -1,0 +1,14 @@
+# Source: thyroid_panel.md §3.2 Reference ranges, §3.5 Optimal range for a 20yM.
+# Reference 2.3-4.2 pg/mL (lab-typical); optimal 3.0-4.0 pg/mL — mid-upper normal aligns with
+# functional medicine framings (Optimal DX 3.2-4.4) while staying within Cleveland/LabCorp range.
+
+id: ft3
+name: Free T3 (Free Triiodothyronine)
+panel: thyroid
+units: pg/mL
+direction: in_band
+ref_lo: 2.3
+ref_hi: 4.2
+opt_lo: 3.0
+opt_hi: 4.0
+immutable: false

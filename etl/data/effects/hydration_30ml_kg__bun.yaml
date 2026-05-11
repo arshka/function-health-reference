@@ -1,0 +1,33 @@
+# Source: BUN.md §1 row 3 / §4 hydration habits
+# "Hydration / rehydration | 30-35 mL/kg/d water | BUN ↓ 3-8 mg/dL when shifting from mild dehydration to euhydration | Hours-24 h | [Mechanism + Cohort]"
+
+intervention_id: hydration_30ml_kg
+marker_id: bun
+direction: decrease
+effect_type: absolute
+effect_lo: -8
+effect_hi: -3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 0
+time_hi_wk: 1
+citations:
+  - author: Sontrop
+    journal: Am J Nephrol
+    year: 2013
+    vol: 37
+    page: 434
+    pmid: "23635803"
+  - author: Clark
+    journal: JAMA
+    year: 2018
+    vol: 319
+    page: 1870
+    pmid: "29801012"
+  - author: Roussel
+    journal: Diabetes Care
+    year: 2011
+    vol: 34
+    page: 2551

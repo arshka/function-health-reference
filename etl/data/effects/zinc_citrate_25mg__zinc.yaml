@@ -1,0 +1,19 @@
+intervention_id: zinc_citrate_25mg
+marker_id: zinc
+direction: increase
+effect_type: absolute
+effect_lo: 5
+effect_hi: 15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Wegmuller
+    journal: J Nutr
+    year: 2014
+    vol: 144
+    page: 132
+    pmid: "24225449"

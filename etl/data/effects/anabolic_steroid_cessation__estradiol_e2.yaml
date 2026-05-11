@@ -1,0 +1,16 @@
+intervention_id: anabolic_steroid_cessation
+marker_id: estradiol_e2
+direction: decrease
+effect_type: pct
+effect_lo: -60
+effect_hi: -30
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: mechanism
+evidence_weight: 0.4
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: AAS post-cycle therapy cohorts
+    journal: aggregate
+    year: 2015

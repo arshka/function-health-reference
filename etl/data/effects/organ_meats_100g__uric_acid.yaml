@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/metabolic/uric_acid.md §2 (Organ meats — liver, kidney, sweetbreads)
+# Highest-purine foods → UA ↑↑ acutely; gout risk ↑ 5-fold per serving/d (Choi 2004).
+
+intervention_id: organ_meats_100g
+marker_id: uric_acid
+direction: increase
+effect_type: absolute
+effect_lo: 0.5
+effect_hi: 1.5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 1
+time_hi_wk: 4
+citations:
+  - author: Choi
+    journal: NEJM
+    year: 2004
+    pmid: "15014182"

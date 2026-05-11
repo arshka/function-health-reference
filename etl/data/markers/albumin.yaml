@@ -1,0 +1,15 @@
+# Source: liver_panel.md §6 Albumin; biomarker_interventions/liver/albumin.md.
+# Reference range per standard clinical labs. Higher-is-better within ref: high-normal
+# albumin (≥4.3 g/dL) predicts longevity and lower all-cause mortality (Corti 1994 JAMA;
+# Phillips 1989 Lancet). Reflects hepatic synthetic function and nutritional status.
+
+id: albumin
+name: Albumin
+panel: liver
+units: g/dL
+direction: higher_is_better
+ref_lo: 3.5
+ref_hi: 5.0
+opt_lo: 4.3
+opt_hi: 5.0
+immutable: false

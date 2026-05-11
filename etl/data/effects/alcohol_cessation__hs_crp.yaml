@@ -1,0 +1,21 @@
+# Source: hs-CRP.md §4 Activities & Behaviors
+# "Alcohol cessation (from heavy drinking) | Full elimination | hs-CRP −0.5 to −1.0 mg/L over months | 3–6 months | [Cohort]"
+
+intervention_id: alcohol_cessation
+marker_id: hs_crp
+direction: decrease
+effect_type: absolute
+effect_lo: -1.0
+effect_hi: -0.5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.6
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 12
+time_hi_wk: 26
+citations:
+  - author: Albert
+    journal: Am J Cardiol
+    year: 2003
+    vol: 91
+    page: 474

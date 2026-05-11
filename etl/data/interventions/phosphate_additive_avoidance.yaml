@@ -1,0 +1,13 @@
+id: phosphate_additive_avoidance
+canonical_name: Phosphate-additive avoidance (avoid E338-E343 in processed foods)
+type: behavior
+dose_amount: 1
+dose_unit: pattern_adherence
+dose_split: "Read labels; avoid processed foods with phosphate additives (E338-E343, sodium polyphosphate, calcium phosphate)"
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions: []

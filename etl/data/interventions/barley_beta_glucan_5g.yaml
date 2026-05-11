@@ -1,0 +1,15 @@
+id: barley_beta_glucan_5g
+canonical_name: Barley β-glucan
+type: food
+dose_amount: 5
+dose_unit: g_per_day
+dose_split: "3–8 g β-glucan/day"
+mechanisms:
+  - viscous_fiber
+  - bile_acid_sequestration
+dietary_tags:
+  - vegan
+  - vegetarian
+exclusions:
+  - type: dietary
+    value: gluten_containing

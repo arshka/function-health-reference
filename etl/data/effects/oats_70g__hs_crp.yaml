@@ -1,0 +1,21 @@
+# Source: hs-CRP.md §1 Foods that LOWER
+# "Oats / oat bran | 70 g/d dry oats | hs-CRP −0.3 mg/L | 4–8 wk | [1-Trial]"
+
+intervention_id: oats_70g
+marker_id: hs_crp
+direction: decrease
+effect_type: absolute
+effect_lo: -0.4
+effect_hi: -0.2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Lefevre
+    journal: Nutr Rev
+    year: 2012
+    vol: 70
+    page: 387

@@ -1,0 +1,13 @@
+id: dash_diet
+canonical_name: DASH dietary pattern
+type: behavior
+dose_amount: 1
+dose_unit: pattern_adherence
+dose_split: "High-adherence DASH (high fruit/veg, low-fat dairy, whole grains, low sodium)"
+mechanisms:
+  - sfa_reduction
+  - viscous_fiber
+  - magnesium_provision
+dietary_tags:
+  - vegetarian
+exclusions: []

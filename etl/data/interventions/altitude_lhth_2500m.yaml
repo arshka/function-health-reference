@@ -1,0 +1,13 @@
+id: altitude_lhth_2500m
+canonical_name: Altitude training - Live High Train Low (2200-2500 m, 3+ wk)
+type: behavior
+dose_amount: 3
+dose_unit: weeks_per_block
+dose_split: "Sleep ≥3 wk at 2200-2500 m, train at lower altitude"
+mechanisms: []
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: pulmonary_hypertension
+  - type: condition
+    value: erythrocytosis

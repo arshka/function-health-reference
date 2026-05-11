@@ -1,0 +1,15 @@
+# Source: nutrients_vitamins_minerals.md §Copper, biomarker_interventions/vitamins_minerals/copper.md.
+# Serum copper reference 70-175 μg/dL. In-band marker — low (Menkes-like, zinc-induced)
+# and high (Wilson's, inflammation/estrogen-driven ceruloplasmin elevation) both pathologic.
+
+id: copper
+name: Copper, serum
+panel: vitamins_minerals
+units: μg/dL
+direction: in_band
+ref_lo: 70
+ref_hi: 175
+opt_lo: 85
+opt_hi: 130
+immutable: false
+demographic_modifiers: []

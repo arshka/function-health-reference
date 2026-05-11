@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/male_hormones/SHBG.md §1 (low-fructose diet <25 g/d)
+# Strongest dietary lever for low SHBG — reducing fructose de-represses HNF-4α → ↑SHBG.
+intervention_id: added_sugar_reduction_25g
+marker_id: shbg
+direction: increase
+effect_type: pct
+effect_lo: 5
+effect_hi: 15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: mechanism
+evidence_weight: 0.4
+time_lo_wk: 8
+time_hi_wk: 24
+citations:
+  - author: Selva
+    journal: Journal of Clinical Investigation
+    year: 2007
+    vol: 117
+    page: 3979

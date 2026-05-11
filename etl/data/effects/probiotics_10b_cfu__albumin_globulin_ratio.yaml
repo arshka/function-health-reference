@@ -1,0 +1,20 @@
+# Source: albumin_globulin_ratio.md §3 — Probiotics ≥10⁹ CFU/d multi-strain
+# "A/G ↑ modestly via gut-immune axis" — 1-Trial, indirect.
+
+intervention_id: probiotics_10b_cfu
+marker_id: albumin_globulin_ratio
+direction: increase
+effect_type: pct
+effect_lo: 1
+effect_hi: 3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 8
+time_hi_wk: 24
+citations:
+  - author: Wastyk
+    journal: Cell
+    year: 2021
+    pmid: "34256014"

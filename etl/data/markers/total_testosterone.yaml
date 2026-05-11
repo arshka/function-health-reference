@@ -1,0 +1,21 @@
+# Source: hormones_male_panel.md §Total Testosterone; biomarker_interventions/male_hormones/total_testosterone.md
+# Reference range per AUA/Endocrine Society (264-916 ng/dL).
+# Optimal >=500 ng/dL for symptomatic benefit; lower target in men 65+.
+# Sex-specific marker — female reference range is ~15-70 ng/dL, skip for females.
+
+id: total_testosterone
+name: Total Testosterone
+panel: male_hormones
+units: ng/dL
+direction: higher_is_better
+ref_lo: 264
+ref_hi: 916
+opt_lo: 500
+opt_hi: 916
+immutable: false
+demographic_modifiers:
+  - trait: female
+    skip: true
+  - trait: age_65_plus
+    opt_lo: 400
+    opt_hi: 916

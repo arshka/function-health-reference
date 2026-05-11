@@ -1,0 +1,16 @@
+id: whole_fat_dairy_100g
+canonical_name: Whole-fat dairy (cream, butter) — large amounts
+type: food
+dose_amount: 100
+dose_unit: g_per_day
+dose_split: "100 g/day butter or cream"
+mechanisms:
+  - sfa_reduction
+dietary_tags:
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: vegan
+  - type: dietary
+    value: lactose_intolerant

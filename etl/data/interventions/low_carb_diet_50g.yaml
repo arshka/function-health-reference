@@ -1,0 +1,16 @@
+id: low_carb_diet_50g
+canonical_name: Low-carbohydrate / ketogenic diet
+type: behavior
+dose_amount: 50
+dose_unit: g_carb_per_day
+dose_split: "<50–100 g carb/day; sustained pattern"
+mechanisms:
+  - glycemic_load_reduction
+  - insulin_sensitization
+  - caloric_deficit
+dietary_tags:
+  - low_carb
+  - keto
+exclusions:
+  - type: condition
+    value: type_1_diabetes

@@ -1,0 +1,16 @@
+id: selenomethionine_100mcg
+canonical_name: Selenomethionine (organic Se)
+type: supplement
+dose_amount: 100
+dose_unit: mcg_per_day
+mechanisms:
+  - antioxidant_defense
+  - selenium_deiodinase
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions:
+  - type: condition
+    value: selenosis

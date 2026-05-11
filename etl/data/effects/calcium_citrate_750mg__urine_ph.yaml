@@ -1,0 +1,19 @@
+intervention_id: calcium_citrate_750mg
+marker_id: urine_ph
+direction: increase
+effect_type: absolute
+effect_lo: 0.0
+effect_hi: 0.2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: mechanism
+evidence_weight: 0.4
+time_lo_wk: 1
+time_hi_wk: 1
+citations:
+  - author: Heller
+    journal: J Urol
+    year: 2002
+    vol: 168
+    page: 1907
+    pmid: "12394676"

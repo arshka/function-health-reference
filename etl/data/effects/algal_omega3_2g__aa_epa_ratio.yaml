@@ -1,0 +1,21 @@
+# Source: biomarker_interventions/omega_fatty_acids/AA_EPA_ratio.md §3
+# Algal oil with EPA (300-600 mg EPA + 600 mg DHA/d): ratio drops proportional to EPA dose
+# Slightly less efficient than fish oil per mg EPA; SA vegetarian section: ~25 to ~5-7
+intervention_id: algal_omega3_2g
+marker_id: aa_epa_ratio
+direction: decrease
+effect_type: pct
+effect_lo: -55
+effect_hi: -40
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: Arterburn
+    journal: AJCN
+    year: 2008
+    vol: 88
+    page: "1167S"

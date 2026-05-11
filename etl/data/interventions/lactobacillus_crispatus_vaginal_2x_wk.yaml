@@ -1,0 +1,11 @@
+id: lactobacillus_crispatus_vaginal_2x_wk
+canonical_name: Vaginal Lactobacillus crispatus (CTV-05) probiotic suppository
+type: supplement
+dose_amount: 2
+dose_unit: sessions_per_week
+mechanisms:
+  - anti_inflammatory
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: severe_immunocompromise

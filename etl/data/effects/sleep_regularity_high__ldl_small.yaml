@@ -1,0 +1,16 @@
+intervention_id: sleep_regularity_high
+marker_id: ldl_small
+direction: decrease
+effect_type: pct
+effect_lo: -5
+effect_hi: -1
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Lunsford-Avery
+    journal: Sci Rep
+    year: 2018

@@ -1,0 +1,15 @@
+# Source: urinalysis_panel.md, biomarker_interventions/urinalysis/urine_blood.md
+# Encoded as RBC per high-power field (RBC/hpf). Clinical normal <=3-5 RBC/hpf.
+# Reference 0-5, optimal 0-2. Higher values flag hematuria (stones, UTI, GN, malignancy).
+
+id: urine_blood
+name: Urine Blood
+panel: urinalysis
+units: RBC/hpf
+direction: lower_is_better
+ref_lo: 0
+ref_hi: 5
+opt_lo: 0
+opt_hi: 2
+immutable: false
+demographic_modifiers: []

@@ -1,0 +1,16 @@
+id: sun_exposure_midday_summer
+canonical_name: Midday summer sun exposure (UV index 6–8)
+type: behavior
+dose_amount: 4
+dose_unit: sessions_per_week
+dose_split: "15–20 min face + arms uncovered, 3–4×/wk (fair skin); 45–90 min for skin type V"
+mechanisms:
+  - vitamin_d_provision
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: skin_cancer_history
+  - type: condition
+    value: photosensitive_disorder
+  - type: drug_interaction
+    value: photosensitizing_drugs

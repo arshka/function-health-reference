@@ -1,0 +1,24 @@
+# Source: biomarker_interventions/omega_fatty_acids/arachidonic_acid.md §1, §3
+# 2 g/d EPA+DHA → RBC AA ↓ ~1–2 pp at 12–16 wk. Most reproducible AA-lowering intervention.
+
+intervention_id: omega3_ep_dha_2g
+marker_id: arachidonic_acid
+direction: decrease
+effect_type: absolute
+effect_lo: -2.0
+effect_hi: -1.0
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: Harris
+    journal: AJCN
+    year: 2022
+    vol: 116
+    page: 1334
+  - author: Davidson
+    journal: Clin Ther
+    year: 2007

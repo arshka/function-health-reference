@@ -1,0 +1,16 @@
+intervention_id: vitamin_d_fortified_milk_750ml
+marker_id: rdw
+direction: decrease
+effect_type: absolute
+effect_lo: -0.5
+effect_hi: -0.3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Lippi
+    journal: Clin Chem Lab Med
+    year: 2014

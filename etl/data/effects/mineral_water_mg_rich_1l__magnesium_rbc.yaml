@@ -1,0 +1,23 @@
+# Source: biomarker_interventions/vitamins_minerals/magnesium_RBC.md §3 / §4
+# Mg-rich mineral water (Gerolsteiner-class, ~108 mg Mg/L): 1 L/d adds 50-100
+# mg/d Mg with absorption comparable to supplements; serum Mg ↑ over 4-8 wk;
+# RBC Mg tracks more slowly. Smaller magnitude than 300-400 mg supplement.
+intervention_id: mineral_water_mg_rich_1l
+marker_id: magnesium_rbc
+direction: increase
+effect_type: pct
+effect_lo: 2
+effect_hi: 6
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 4
+time_hi_wk: 8
+citations:
+  - author: Sabatier
+    journal: Am J Clin Nutr
+    year: 2002
+    vol: 75
+    page: 65
+    pmid: "11756061"

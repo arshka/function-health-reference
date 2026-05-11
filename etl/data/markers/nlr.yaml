@@ -1,0 +1,18 @@
+# Source: immune_cbc_differential.md §7 (NLR), NLR.md.
+# Healthy reference 0.78-3.53 from Forget et al. BMC Res Notes 2017 (PMC5217256).
+# Optimal <2.0 (predicts all-cause mortality, CV/cancer/depression risk).
+
+id: nlr
+name: Neutrophil-to-Lymphocyte Ratio
+panel: immune
+units: ratio
+direction: lower_is_better
+ref_lo: 0.78
+ref_hi: 3.53
+opt_lo: 0.78
+opt_hi: 2.0
+immutable: false
+demographic_modifiers:
+  - trait: south_asian
+    opt_lo: 0.78
+    opt_hi: 1.8

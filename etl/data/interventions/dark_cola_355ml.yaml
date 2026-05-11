@@ -1,0 +1,13 @@
+id: dark_cola_355ml
+canonical_name: Dark cola (Coke, Pepsi, Dr. Pepper, RC) - phosphoric acid soda
+type: food
+dose_amount: 355
+dose_unit: ml_per_day
+dose_split: "≥1 can (12 oz / 355 mL) daily of dark cola"
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions: []

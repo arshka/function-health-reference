@@ -1,0 +1,20 @@
+id: sardines_canned_200g_wk
+canonical_name: Sardines (canned, in water or olive oil)
+type: food
+dose_amount: 200
+dose_unit: g_per_week
+dose_split: "2 cans (~200 g) per week"
+mechanisms:
+  - omega3_epa_dha
+  - anti_inflammatory
+dietary_tags:
+  - pescatarian
+  - mediterranean
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: fish_allergy
+  - type: dietary
+    value: vegan
+  - type: dietary
+    value: vegetarian

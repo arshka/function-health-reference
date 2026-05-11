@@ -1,0 +1,21 @@
+intervention_id: ashwagandha_600mg
+marker_id: cortisol
+direction: decrease
+effect_type: pct
+effect_lo: -28
+effect_hi: -14
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Chandrasekhar
+    journal: Indian J Psychol Med
+    year: 2012
+    vol: 34
+    page: 255
+  - author: Lopresti
+    journal: Medicine
+    year: 2019

@@ -1,0 +1,24 @@
+# Source: biomarker_interventions/liver/albumin.md §1 row 1 (adequate protein intake)
+# Effect in deficient → 0.2-0.5 g/dL ↑ over weeks-months. Tiny in healthy young.
+
+intervention_id: high_protein_diet_2g_kg
+marker_id: albumin
+direction: increase
+effect_type: absolute
+effect_lo: 0.2
+effect_hi: 0.5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.2
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 24
+citations:
+  - author: Wolfe
+    journal: Am J Clin Nutr
+    year: 2008
+    pmid: "18469287"
+  - author: Bauer
+    journal: J Am Med Dir Assoc
+    year: 2013
+    pmid: "23867520"

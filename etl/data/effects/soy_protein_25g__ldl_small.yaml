@@ -1,0 +1,17 @@
+intervention_id: soy_protein_25g
+marker_id: ldl_small
+direction: decrease
+effect_type: pct
+effect_lo: -12
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 6
+time_hi_wk: 6
+citations:
+  - author: Desroches
+    journal: J Nutr
+    year: 2004
+    pmid: "14988449"

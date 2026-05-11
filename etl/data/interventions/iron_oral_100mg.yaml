@@ -1,0 +1,16 @@
+id: iron_oral_100mg
+canonical_name: Oral iron (ferrous sulfate / fumarate)
+type: supplement
+dose_amount: 100
+dose_unit: mg_per_day
+mechanisms:
+  - non_heme_iron_provision
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: condition
+    value: hemochromatosis
+  - type: condition
+    value: iron_overload

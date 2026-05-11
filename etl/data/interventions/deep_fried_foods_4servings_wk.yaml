@@ -1,0 +1,9 @@
+id: deep_fried_foods_4servings_wk
+canonical_name: Deep-fried foods (oxidized oils, AGEs)
+type: food
+dose_amount: 4
+dose_unit: servings_per_week
+mechanisms:
+  - anti_inflammatory
+dietary_tags: []
+exclusions: []

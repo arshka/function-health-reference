@@ -1,0 +1,13 @@
+id: high_water_vegetables_200g
+canonical_name: High-water-content vegetables (cucumber, celery, lettuce)
+type: food
+dose_amount: 200
+dose_unit: g_per_day
+mechanisms:
+  - renal_clearance
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions: []

@@ -1,0 +1,22 @@
+# Source: heart_lipids_basic.md §6 TC/HDL Ratio (line 324) and Quick Reference (line 549);
+# biomarker_interventions/cardiovascular/TC_HDL_ratio.md §intro.
+# Risk strata: <3.5 low (AHA optimal); 4.0-5.0 intermediate; >5.0 high. Women run lower ratios
+# than men (higher baseline HDL-C); sex-specific optimal cutoffs reflect this.
+
+id: tc_hdl_ratio
+name: Total Cholesterol / HDL-C Ratio
+panel: cardiovascular
+units: ratio
+direction: lower_is_better
+ref_lo: 1.5
+ref_hi: 5.0
+opt_lo: 1.5
+opt_hi: 3.5
+immutable: false
+demographic_modifiers:
+  - trait: female
+    opt_lo: 1.5
+    opt_hi: 3.0
+  - trait: south_asian
+    opt_lo: 1.5
+    opt_hi: 3.0

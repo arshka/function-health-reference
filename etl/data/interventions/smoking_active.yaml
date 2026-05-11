@@ -1,0 +1,9 @@
+id: smoking_active
+canonical_name: Active tobacco smoking
+type: behavior
+dose_amount: 1
+dose_unit: pack_per_day_proxy
+dose_split: "Active vs never smoker"
+mechanisms: []
+dietary_tags: []
+exclusions: []

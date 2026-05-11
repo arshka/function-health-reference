@@ -1,0 +1,12 @@
+id: chromium_picolinate_400mcg
+canonical_name: Chromium picolinate
+type: supplement
+dose_amount: 400
+dose_unit: mcg_per_day
+mechanisms:
+  - insulin_sensitization
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

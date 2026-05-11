@@ -1,0 +1,13 @@
+id: hypoxic_tent_normobaric
+canonical_name: Normobaric hypoxic tent (FiO2 ~15%, 8-10 h/night)
+type: behavior
+dose_amount: 56
+dose_unit: hours_per_week
+dose_split: "8-10 h/night sleeping in hypoxic tent at FiO2 ~15%, ≥3 wk"
+mechanisms: []
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: pulmonary_hypertension
+  - type: condition
+    value: erythrocytosis

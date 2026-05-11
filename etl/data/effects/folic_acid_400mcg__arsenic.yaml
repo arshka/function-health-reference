@@ -1,0 +1,23 @@
+# Source: biomarker_interventions/heavy_metals_phenoage/arsenic.md §1, §3
+# Bangladesh FACT trial: folic acid 400 µg/d × 12 wk in folate-deficient
+# adults → blood As ↓ ~14% via enhanced methylation. Effect smaller in
+# folate-replete US adults; baseline_mod_lean reduced.
+intervention_id: folic_acid_400mcg
+marker_id: arsenic
+direction: decrease
+effect_type: pct
+effect_lo: -14
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Gamble
+    journal: AJCN
+    year: 2006
+    vol: 84
+    page: 1093
+    pmid: "16687477"

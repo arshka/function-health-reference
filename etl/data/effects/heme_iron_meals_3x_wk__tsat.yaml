@@ -1,0 +1,19 @@
+intervention_id: heme_iron_meals_3x_wk
+marker_id: tsat
+direction: increase
+effect_type: absolute
+effect_lo: 8
+effect_hi: 15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 8
+time_hi_wk: 16
+citations:
+  - author: Hallberg
+    journal: AJCN
+    year: 2000
+    vol: 71
+    page: 1147
+    pmid: "10799378"

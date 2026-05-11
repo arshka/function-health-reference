@@ -1,0 +1,14 @@
+id: probiotics_10b_cfu
+canonical_name: Probiotics (multi-strain Lactobacillus / Bifidobacterium)
+type: supplement
+dose_amount: 10000000000
+dose_unit: cfu_per_day
+dose_split: "1e9–1e10 CFU/day"
+mechanisms:
+  - anti_inflammatory
+dietary_tags:
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: condition
+    value: severe_immunocompromise

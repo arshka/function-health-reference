@@ -1,0 +1,18 @@
+# Source: biomarker_interventions/iron/serum_iron.md §6 Synthesis & §9 Open questions.
+# Base = premenopausal female (50-170 µg/dL); male shifted via demographic_modifier (60-170).
+# Optimal middle band per functional medicine (80-130) per §9.
+
+id: serum_iron
+name: Serum Iron
+panel: iron
+units: µg/dL
+direction: in_band
+ref_lo: 50
+ref_hi: 170
+opt_lo: 70
+opt_hi: 130
+immutable: false
+demographic_modifiers:
+  - trait: male
+    opt_lo: 80
+    opt_hi: 130

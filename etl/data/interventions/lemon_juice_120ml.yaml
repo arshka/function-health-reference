@@ -1,0 +1,8 @@
+id: lemon_juice_120ml
+canonical_name: Lemon / lime juice therapy (4 oz in 2 L water)
+type: food
+dose_amount: 120
+dose_unit: ml_per_day
+mechanisms: [renal_clearance]
+dietary_tags: [vegan, vegetarian, gluten_free, dairy_free]
+exclusions: []

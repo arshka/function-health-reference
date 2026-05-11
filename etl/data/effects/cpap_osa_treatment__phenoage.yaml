@@ -1,0 +1,21 @@
+intervention_id: cpap_osa_treatment
+marker_id: phenoage
+direction: decrease
+effect_type: absolute
+effect_lo: -2.0
+effect_hi: -0.5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 13
+time_hi_wk: 52
+citations:
+  - author: Baessler
+    journal: Sleep Med Rev
+    year: 2013
+    vol: 17
+    page: 199
+  - author: Iftikhar
+    journal: Hypertension
+    year: 2014

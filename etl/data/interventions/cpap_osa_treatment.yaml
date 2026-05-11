@@ -1,0 +1,13 @@
+id: cpap_osa_treatment
+canonical_name: CPAP for obstructive sleep apnea (nightly use)
+type: behavior
+dose_amount: 7
+dose_unit: nights_per_week
+dose_split: "Nightly use, ≥4 h/night, titrated PAP via sleep study"
+mechanisms:
+  - sleep_consolidation
+  - anti_inflammatory
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: no_diagnosed_osa

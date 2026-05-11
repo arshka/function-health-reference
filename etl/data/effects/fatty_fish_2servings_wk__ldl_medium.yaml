@@ -1,0 +1,16 @@
+intervention_id: fatty_fish_2servings_wk
+marker_id: ldl_medium
+direction: decrease
+effect_type: pct
+effect_lo: -8
+effect_hi: -3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Bernstein
+    journal: Circulation
+    year: 2012

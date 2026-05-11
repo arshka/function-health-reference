@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/advanced_lipids/LDL_pattern.md;
+# heart_lipids_advanced.md §4. LDL Pattern is qualitative A vs. B (categorical).
+# Encoded as numeric proxy per task guidance: 1 = Pattern A (large, buoyant LDL —
+# favorable), 2 = Pattern B (small, dense LDL — metabolic-syndrome signature).
+# Some labs report A/B intermediate which we treat as ~1.5; ref spans the full
+# categorical space [1,2], optimal is Pattern A only (==1).
+# Direction = in_band because numeric values are categorical proxies, not a continuous
+# scale; lower_is_better would conceptually fit but in_band keeps "1 is the target".
+
+id: ldl_pattern
+name: LDL Pattern (A vs B)
+panel: advanced_lipids
+units: qualitative
+direction: in_band
+ref_lo: 1
+ref_hi: 2
+opt_lo: 1
+opt_hi: 1
+immutable: false
+demographic_modifiers: []

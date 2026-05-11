@@ -1,0 +1,13 @@
+id: sunflower_oil_high_la_15ml
+canonical_name: Sunflower oil (high-LA, regular cultivar)
+type: food
+dose_amount: 15
+dose_unit: ml_per_day
+dose_split: "1 tbsp/day"
+mechanisms:
+  - pufa_substitution
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

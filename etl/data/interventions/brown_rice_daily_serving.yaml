@@ -1,0 +1,12 @@
+id: brown_rice_daily_serving
+canonical_name: Brown rice and brown rice products (cereal, cakes, pasta, flour, protein powder)
+type: food
+dose_amount: 1
+dose_unit: servings_per_day
+mechanisms: []
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions: []

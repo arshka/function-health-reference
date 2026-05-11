@@ -1,0 +1,20 @@
+# Source: §3 Prenatal vitamin 600-1000 µg folic acid + Fe/I/B12/D — folate adequacy
+intervention_id: prenatal_vitamin
+marker_id: folate
+direction: increase
+effect_type: pct
+effect_lo: 40
+effect_hi: 60
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: rct
+evidence_weight: 0.85
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: MRC Vitamin Study Research Group
+    journal: Lancet
+    year: 1991
+    vol: 338
+    page: 131
+    pmid: "1675341"

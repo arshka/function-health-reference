@@ -1,0 +1,16 @@
+intervention_id: fatty_fish_2servings_wk
+marker_id: monocytes
+direction: decrease
+effect_type: absolute
+effect_lo: -0.07
+effect_hi: -0.02
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 24
+citations:
+  - author: Calder
+    journal: Br J Clin Pharmacol
+    year: 2013

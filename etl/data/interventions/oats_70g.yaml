@@ -1,0 +1,15 @@
+id: oats_70g
+canonical_name: Oats / oat bran (β-glucan)
+type: food
+dose_amount: 70
+dose_unit: g_per_day
+dose_split: "~3 g β-glucan/day (~70 g dry oats)"
+mechanisms:
+  - viscous_fiber
+  - bile_acid_sequestration
+dietary_tags:
+  - vegan
+  - vegetarian
+exclusions:
+  - type: dietary
+    value: gluten_sensitive  # cross-contamination risk; use certified GF oats

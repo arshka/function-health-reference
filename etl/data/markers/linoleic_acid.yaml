@@ -1,0 +1,15 @@
+# Source: nutrients_omega_fatty_acids.md §6 LA; biomarker_interventions/omega_fatty_acids/linoleic_acid.md
+# Marklund 2019 Circulation pooled biomarker analysis — higher LA inversely associated with CV mortality.
+# RBC % of total fatty acids; in-band target.
+
+id: linoleic_acid
+name: Linoleic Acid (LA, 18:2n-6)
+panel: omega_fatty_acids
+units: "% of total fatty acids"
+direction: in_band
+ref_lo: 10
+ref_hi: 25
+opt_lo: 13
+opt_hi: 20
+immutable: false
+demographic_modifiers: []

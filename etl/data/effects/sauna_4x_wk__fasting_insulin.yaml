@@ -1,0 +1,20 @@
+# Source: biomarker_interventions/metabolic/fasting_insulin.md §4 (Finnish sauna, T2D incidence ↓ 27%)
+intervention_id: sauna_4x_wk
+marker_id: fasting_insulin
+direction: decrease
+effect_type: absolute
+effect_lo: -1.5
+effect_hi: -0.3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 8
+time_hi_wk: 24
+citations:
+  - author: Krause
+    journal: Med Sci Sports Exerc
+    year: 2015
+  - author: Laukkanen
+    journal: Eur J Endocrinol
+    year: 2018

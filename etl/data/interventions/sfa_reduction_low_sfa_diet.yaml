@@ -1,0 +1,13 @@
+id: sfa_reduction_low_sfa_diet
+canonical_name: Saturated fat reduction (low-SFA diet, DASH-style)
+type: behavior
+dose_amount: 10
+dose_unit: pct_energy_reduction
+dose_split: "Shift from ~16% energy SFA to ~6% energy SFA"
+mechanisms:
+  - sfa_reduction
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

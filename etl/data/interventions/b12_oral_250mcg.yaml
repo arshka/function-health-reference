@@ -1,0 +1,14 @@
+id: b12_oral_250mcg
+canonical_name: Oral cyanocobalamin (vitamin B12) 250 mcg
+type: supplement
+dose_amount: 250
+dose_unit: mcg_per_day
+mechanisms:
+  - b12_provision
+  - methylation_support
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - dairy_free
+exclusions: []

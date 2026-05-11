@@ -1,0 +1,15 @@
+id: sauna_5x_wk
+canonical_name: Finnish dry sauna
+type: activity
+dose_amount: 5
+dose_unit: sessions_per_week
+dose_split: "4–7 sessions/wk, 15–20 min @ 80–100°C"
+mechanisms:
+  - heat_acclimation
+  - anti_inflammatory
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: unstable_cardiovascular_disease
+  - type: condition
+    value: pregnancy

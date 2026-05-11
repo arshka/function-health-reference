@@ -1,0 +1,10 @@
+id: iron_fortified_cereal_1serving
+canonical_name: Iron-fortified breakfast cereal (4-18 mg fortification iron)
+type: food
+dose_amount: 1
+dose_unit: serving_per_day
+mechanisms:
+  - non_heme_iron_provision
+dietary_tags:
+  - vegetarian
+exclusions: []

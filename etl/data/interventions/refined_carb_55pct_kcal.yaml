@@ -1,0 +1,10 @@
+id: refined_carb_55pct_kcal
+canonical_name: High refined carbohydrate intake
+type: food
+dose_amount: 55
+dose_unit: pct_kcal_refined_carb
+dose_split: ">55% kcal from refined carbohydrate"
+mechanisms:
+  - glycemic_load_reduction
+dietary_tags: []
+exclusions: []

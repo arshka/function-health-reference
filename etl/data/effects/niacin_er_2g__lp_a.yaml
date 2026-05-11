@@ -1,0 +1,29 @@
+# Source: Lp(a).md §3 Supplements (lowering)
+# "Niacin (ER nicotinic acid) | 1.5–2 g/d | Lp(a) −22.9% WMD; range −19% to −40% | 12–16 wk | [Meta]"
+# Critical caveat: AIM-HIGH and HPS2-THRIVE both showed niacin failed to reduce CV events on
+# top of statin despite Lp(a) reduction. Causes flushing, hyperglycemia, hepatotoxicity, gout.
+# NOT recommended by NLA 2024 or ESC/EAS 2025 for Lp(a) reduction.
+
+intervention_id: niacin_er_2g
+marker_id: lp_a
+direction: decrease
+effect_type: pct
+effect_lo: -40
+effect_hi: -19
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 12
+time_hi_wk: 16
+citations:
+  - author: Sahebkar
+    journal: Metabolism
+    year: 2016
+    pmid: "27733255"
+  - author: Boden
+    journal: NEJM
+    year: 2011
+  - author: Landray
+    journal: NEJM
+    year: 2014

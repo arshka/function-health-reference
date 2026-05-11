@@ -1,0 +1,16 @@
+# Source: autoimmunity_panel.md §1-9; biomarker_interventions/autoimmunity_psa/ANA.md §6
+# ANA reported as titer (1:dilution). Encoded as numeric titer denominator.
+# Negative <1:80 (opt_hi=80); ref upper 320 to bound the field (titers >1:320 are clinically meaningful).
+# Mutable=false would over-promise — lifestyle (vit D, drug withdrawal) can shift titers in some cases.
+
+id: ana
+name: Antinuclear Antibodies (ANA)
+panel: autoimmunity_psa
+units: titer
+direction: lower_is_better
+ref_lo: 0
+ref_hi: 320
+opt_lo: 0
+opt_hi: 80
+immutable: false
+demographic_modifiers: []

@@ -1,0 +1,16 @@
+intervention_id: cpap_osa_treatment
+marker_id: urine_protein
+direction: decrease
+effect_type: pct
+effect_lo: -25
+effect_hi: -15
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 24
+time_hi_wk: 52
+citations:
+  - author: Loffler
+    journal: Am J Respir Crit Care Med
+    year: 2017

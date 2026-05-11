@@ -1,0 +1,15 @@
+# Source: nutrients_vitamins_minerals.md §Homocysteine, biomarker_interventions/vitamins_minerals/homocysteine.md.
+# Lab reference 4-15 μmol/L; CV/cognitive-decline risk rises continuously above ~7 μmol/L
+# (Oxford OPTIMA, Smith 2010). Optimal 4-7.
+
+id: homocysteine
+name: Homocysteine
+panel: vitamins_minerals
+units: μmol/L
+direction: lower_is_better
+ref_lo: 4
+ref_hi: 15
+opt_lo: 4
+opt_hi: 7
+immutable: false
+demographic_modifiers: []

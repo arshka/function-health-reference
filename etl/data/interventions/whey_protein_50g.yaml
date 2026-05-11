@@ -1,0 +1,16 @@
+id: whey_protein_50g
+canonical_name: Whey protein (chronic supplementation)
+type: supplement
+dose_amount: 50
+dose_unit: g_per_day
+dose_split: "50-100 g/day whey protein concentrate or isolate"
+mechanisms:
+  - lean_mass_accretion
+dietary_tags:
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: dairy_free
+  - type: dietary
+    value: vegan

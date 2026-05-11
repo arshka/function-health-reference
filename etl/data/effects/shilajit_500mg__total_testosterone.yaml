@@ -1,0 +1,19 @@
+intervention_id: shilajit_500mg
+marker_id: total_testosterone
+direction: increase
+effect_type: pct
+effect_lo: 12
+effect_hi: 22
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 12
+time_hi_wk: 13
+citations:
+  - author: Pandit
+    journal: Andrologia
+    year: 2016
+    vol: 48
+    page: 570
+    pmid: "26395129"

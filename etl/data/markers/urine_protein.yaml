@@ -1,0 +1,16 @@
+# Source: urinalysis_panel.md, biomarker_interventions/urinalysis/urine_protein.md
+# Dipstick semiquantitative: negative ~0, trace ~10, 1+ ~30, 2+ ~100, 3+ ~300 mg/dL.
+# Reference allows up to dipstick 2+ (100) before clinical flag; optimal target is negative.
+# Pydantic rejects degenerate opt_lo==opt_hi, so opt set to [0, 5] (effectively negative dipstick).
+
+id: urine_protein
+name: Urine Protein
+panel: urinalysis
+units: mg/dL
+direction: lower_is_better
+ref_lo: 0
+ref_hi: 100
+opt_lo: 0
+opt_hi: 5
+immutable: false
+demographic_modifiers: []

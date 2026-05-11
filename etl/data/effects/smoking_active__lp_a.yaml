@@ -1,0 +1,21 @@
+# Source: Lp(a).md §4 Activities
+# "Smoking | Active vs former vs never | Smoking modestly raises Lp(a) (~5–10%);
+#  cessation does not reliably reduce | [Cohort]"
+# Direction is "smoking raises Lp(a)" — i.e., active smoking is associated with +5–10%.
+
+intervention_id: smoking_active
+marker_id: lp_a
+direction: increase
+effect_type: pct
+effect_lo: 5
+effect_hi: 10
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 52
+time_hi_wk: 520
+citations:
+  - author: Enkhmaa
+    journal: Nutrients
+    year: 2020

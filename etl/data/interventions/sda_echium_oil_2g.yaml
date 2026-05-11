@@ -1,0 +1,14 @@
+id: sda_echium_oil_2g
+canonical_name: Stearidonic-acid (SDA) oil (echium)
+type: supplement
+dose_amount: 2
+dose_unit: g_per_day
+dose_split: "1–4 g SDA/day; bypasses Δ6-desaturase bottleneck"
+mechanisms:
+  - omega3_epa_dha
+  - pufa_substitution
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []

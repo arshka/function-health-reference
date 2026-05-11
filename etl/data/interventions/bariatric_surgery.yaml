@@ -1,0 +1,10 @@
+id: bariatric_surgery
+canonical_name: Bariatric surgery (RYGB or sleeve gastrectomy)
+type: behavior
+dose_amount: 1
+dose_unit: procedure
+mechanisms:
+  - caloric_deficit
+  - visceral_fat_reduction
+dietary_tags: []
+exclusions: []

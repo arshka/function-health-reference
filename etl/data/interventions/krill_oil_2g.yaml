@@ -1,0 +1,16 @@
+id: krill_oil_2g
+canonical_name: Krill oil (matched EPA+DHA)
+type: supplement
+dose_amount: 2
+dose_unit: g_per_day
+dose_split: "2–3 g/day krill oil (~500–700 mg EPA+DHA)"
+mechanisms:
+  - omega3_epa_dha
+dietary_tags:
+  - pescatarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: shellfish_allergy
+  - type: drug_interaction
+    value: warfarin

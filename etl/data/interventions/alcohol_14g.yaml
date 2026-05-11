@@ -1,0 +1,10 @@
+id: alcohol_14g
+canonical_name: Alcohol (≥14 g ethanol/day)
+type: behavior
+dose_amount: 14
+dose_unit: g_ethanol_per_day
+dose_split: "≥14 g/day ethanol from any source (beer, wine, spirits)"
+mechanisms:
+  - alcohol_reduction
+dietary_tags: []
+exclusions: []

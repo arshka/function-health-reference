@@ -1,0 +1,16 @@
+id: tongkat_ali_200mg
+canonical_name: Tongkat ali (Eurycoma longifolia, standardized extract)
+type: supplement
+dose_amount: 200
+dose_unit: mg_per_day
+mechanisms:
+  - cortisol_modulation
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: condition
+    value: prostate_cancer
+  - type: condition
+    value: hormone_sensitive_cancer

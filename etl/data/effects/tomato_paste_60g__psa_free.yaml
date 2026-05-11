@@ -1,0 +1,23 @@
+# Source: biomarker_interventions/autoimmunity_psa/PSA_free.md §1
+# NOTE: Free PSA effect inferred from total PSA measurement in Kucuk 2001
+# (lycopene 30 mg/d → tPSA −18% pre-prostatectomy). Free PSA was not directly
+# measured; inference assumes proportional movement of free with total PSA.
+# Flagged as uncertain — single trial, indirect endpoint.
+
+intervention_id: tomato_paste_60g
+marker_id: psa_free
+direction: decrease
+effect_type: pct
+effect_lo: -18
+effect_hi: -10
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 3
+time_hi_wk: 12
+citations:
+  - author: Kucuk
+    journal: Cancer Epidemiol Biomarkers Prev
+    year: 2001
+    pmid: "11588146"

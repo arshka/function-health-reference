@@ -1,0 +1,18 @@
+intervention_id: evoo_30ml
+marker_id: total_testosterone
+direction: increase
+effect_type: pct
+effect_lo: 10
+effect_hi: 17
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 3
+time_hi_wk: 3
+citations:
+  - author: Derouiche
+    journal: Nat Prod Res
+    year: 2013
+    vol: 27
+    page: 1953

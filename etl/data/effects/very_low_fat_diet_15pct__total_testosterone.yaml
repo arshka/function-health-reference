@@ -1,0 +1,19 @@
+intervention_id: very_low_fat_diet_15pct
+marker_id: total_testosterone
+direction: decrease
+effect_type: pct
+effect_lo: -15
+effect_hi: -8
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 4
+time_hi_wk: 12
+citations:
+  - author: Whittaker
+    journal: J Steroid Biochem Mol Biol
+    year: 2021
+    vol: 210
+    page: 105878
+    pmid: "33741447"

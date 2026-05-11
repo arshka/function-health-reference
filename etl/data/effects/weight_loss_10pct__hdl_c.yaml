@@ -1,0 +1,21 @@
+# Source: HDL-C.md §4 Activities & Behaviors
+# "Weight loss (lifestyle) | Per 1 kg lost (at stable reduced weight) |
+#  HDL-C +0.46 mg/dL (95% CI 0.20–0.71) | Plateau at 6+ months stable | [Meta]"
+# 10 kg loss → ~+4.6 mg/dL (CI: ~2–7 mg/dL). Using weight_loss_10pct as proxy for ~10 kg.
+
+intervention_id: weight_loss_10pct
+marker_id: hdl_c
+direction: increase
+effect_type: absolute
+effect_lo: 2
+effect_hi: 7
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.3
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 24
+time_hi_wk: 52
+citations:
+  - author: Liu
+    journal: J Clin Endocrinol Metab
+    year: 2020

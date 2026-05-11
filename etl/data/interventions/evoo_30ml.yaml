@@ -1,0 +1,16 @@
+id: evoo_30ml
+canonical_name: Extra virgin olive oil
+type: food
+dose_amount: 30
+dose_unit: ml_per_day
+dose_split: "with meals, substituting butter / palm / coconut oil"
+mechanisms:
+  - mufa_substitution
+  - sfa_reduction
+  - polyphenol_oxldl_reduction
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+  - mediterranean
+exclusions: []

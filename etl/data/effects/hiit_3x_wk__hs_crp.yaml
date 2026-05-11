@@ -1,0 +1,26 @@
+# Source: hs-CRP.md §4 Activities & Behaviors
+# "HIIT | 3×/wk, 4×4 min @ 85–95% VO₂max | hs-CRP −0.3 to −0.5 mg/L | 8–12 wk | [Meta]"
+
+intervention_id: hiit_3x_wk
+marker_id: hs_crp
+direction: decrease
+effect_type: absolute
+effect_lo: -0.5
+effect_hi: -0.3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: meta
+evidence_weight: 1.0
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Wewege
+    journal: Obes Rev
+    year: 2017
+    vol: 18
+    page: 635
+  - author: Ramos
+    journal: Sports Med
+    year: 2015
+    vol: 45
+    page: 679

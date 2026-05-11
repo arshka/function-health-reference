@@ -1,0 +1,19 @@
+# Source: biomarker_interventions/male_hormones/prolactin.md §4 (activities & behaviors)
+intervention_id: mbsr_30min_daily
+marker_id: prolactin
+direction: decrease
+effect_type: pct
+effect_lo: -15
+effect_hi: -5
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 8
+time_hi_wk: 12
+citations:
+  - author: Tooley
+    journal: Biol Psychol
+    year: 2000
+    vol: 53
+    page: 69

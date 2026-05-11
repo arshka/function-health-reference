@@ -1,0 +1,26 @@
+# Source: biomarker_interventions/heavy_metals_phenoage/cadmium.md §2
+# Smokers blood Cd ~3-5x non-smokers (~1.5 vs 0.3 µg/L); raw delta exceeds validator
+# magnitude ceiling of ±60% — clamped to +60%.
+intervention_id: smoking_active
+marker_id: cadmium
+direction: increase
+effect_type: pct
+effect_lo: 40
+effect_hi: 60
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 1.0
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 52
+time_hi_wk: 520
+citations:
+  - author: Mannino
+    journal: Thorax
+    year: 2004
+    vol: 59
+    page: 194
+  - author: Tellez-Plaza
+    journal: Environ Health Perspect
+    year: 2012
+    vol: 120
+    page: 1017

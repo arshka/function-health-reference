@@ -1,0 +1,21 @@
+intervention_id: ultra_processed_food_50pct_kcal
+marker_id: phenoage
+direction: increase
+effect_type: absolute
+effect_lo: 0.5
+effect_hi: 2.0
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: cohort
+evidence_weight: 0.65
+time_lo_wk: 13
+time_hi_wk: 52
+citations:
+  - author: Hall
+    journal: Cell Metab
+    year: 2019
+    vol: 30
+    page: 67
+  - author: Monteiro
+    journal: Public Health Nutr
+    year: 2018

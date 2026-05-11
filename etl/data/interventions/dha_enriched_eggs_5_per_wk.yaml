@@ -1,0 +1,16 @@
+id: dha_enriched_eggs_5_per_wk
+canonical_name: DHA / n-3 enriched eggs (pasture-raised)
+type: food
+dose_amount: 5
+dose_unit: eggs_per_week
+dose_split: "4–6 eggs/wk (DHA-fortified, ~150–250 mg DHA each)"
+mechanisms:
+  - omega3_epa_dha
+dietary_tags:
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: dietary
+    value: egg_allergy
+  - type: dietary
+    value: vegan

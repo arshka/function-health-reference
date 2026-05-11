@@ -1,0 +1,11 @@
+id: lecithin_3g
+canonical_name: Lecithin / phosphatidylcholine
+type: supplement
+dose_amount: 3
+dose_unit: g_per_day
+dose_split: "2–4 g/day"
+mechanisms: []
+dietary_tags:
+  - vegetarian
+  - gluten_free
+exclusions: []

@@ -1,0 +1,19 @@
+# Source: albumin_globulin_ratio.md §4 — Stress reduction / MBSR
+# "A/G ↑ modestly via cortisol/IL-6 ↓" — 1-Trial, indirect.
+
+intervention_id: mbsr_30min_daily
+marker_id: albumin_globulin_ratio
+direction: increase
+effect_type: pct
+effect_lo: 1
+effect_hi: 2
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.5
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 8
+time_hi_wk: 16
+citations:
+  - author: Pascoe
+    journal: Psychoneuroendocrinology
+    year: 2017

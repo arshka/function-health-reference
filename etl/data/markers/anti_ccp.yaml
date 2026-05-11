@@ -1,0 +1,16 @@
+# Source: autoimmunity_panel.md §6 (RF-associated diseases); biomarker_interventions/autoimmunity_psa/anti_CCP.md §6
+# Anti-CCP (ACPA): negative <20 U/mL standard threshold; high-titer >3× ULN carries strongest RA association.
+# Mutable=false would be wrong: smoking cessation × HLA-SE interaction is the textbook lifestyle lever
+# (Klareskog 2006; OR up to 21 for double-SE smokers); periodontal care also has modest signal.
+
+id: anti_ccp
+name: Anti-Cyclic Citrullinated Peptide Antibody (Anti-CCP)
+panel: autoimmunity_psa
+units: U/mL
+direction: lower_is_better
+ref_lo: 0
+ref_hi: 200
+opt_lo: 0
+opt_hi: 20
+immutable: false
+demographic_modifiers: []

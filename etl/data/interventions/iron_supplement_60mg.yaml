@@ -1,0 +1,19 @@
+id: iron_supplement_60mg
+canonical_name: Iron supplementation (in iron-deficient subjects)
+type: supplement
+dose_amount: 60
+dose_unit: mg_per_day
+dose_split: "30–65 mg elemental Fe/day with vitamin C"
+mechanisms:
+  - non_heme_iron_provision
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions:
+  - type: condition
+    value: iron_overload
+  - type: gene
+    value: HFE_C282Y_homozygous
+  - type: condition
+    value: hemochromatosis

@@ -1,0 +1,19 @@
+# Source: biomarker_interventions/metabolic/leptin.md §3 (Resveratrol row, 100-500 mg/d).
+# Leptin modestly ↓ in obese; SIRT1 mechanism. Mixed evidence.
+
+intervention_id: resveratrol_300mg
+marker_id: leptin
+direction: decrease
+effect_type: pct
+effect_lo: -12
+effect_hi: -3
+baseline_mod_elevated: 1.0
+baseline_mod_lean: 0.2
+evidence_tag: one_trial
+evidence_weight: 0.5
+time_lo_wk: 12
+time_hi_wk: 24
+citations:
+  - author: Mendez-del Villar
+    journal: Metab Syndr Relat Disord
+    year: 2014

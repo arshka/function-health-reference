@@ -1,0 +1,13 @@
+id: moderate_protein_diet_0_8g_kg
+canonical_name: Moderate protein intake (0.8-1.0 g/kg/day)
+type: behavior
+dose_amount: 0.8
+dose_unit: g_per_kg_per_day
+dose_split: "0.8-1.0 g/kg/day total protein, RDA-level"
+mechanisms: []
+dietary_tags: []
+exclusions:
+  - type: condition
+    value: sarcopenia
+  - type: condition
+    value: protein_energy_malnutrition

@@ -1,0 +1,11 @@
+id: step_count_increase_4000
+canonical_name: Step count increase (NEAT)
+type: activity
+dose_amount: 4000
+dose_unit: steps_per_day
+dose_split: "+4000 steps/day above sedentary baseline"
+mechanisms:
+  - aerobic_capacity
+  - caloric_deficit
+dietary_tags: []
+exclusions: []

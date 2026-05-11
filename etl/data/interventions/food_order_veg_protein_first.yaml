@@ -1,0 +1,14 @@
+id: food_order_veg_protein_first
+canonical_name: Vegetables / protein first (food order)
+type: behavior
+dose_amount: 10
+dose_unit: min_before_carbs
+dose_split: "consume vegetables and protein ≥10 min before carbohydrate at each meal"
+mechanisms:
+  - glp1_modulation
+  - glycemic_load_reduction
+dietary_tags:
+  - vegan
+  - vegetarian
+  - gluten_free
+exclusions: []
