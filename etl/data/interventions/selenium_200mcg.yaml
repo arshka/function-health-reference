@@ -4,13 +4,14 @@ type: supplement
 dose_amount: 200
 dose_unit: mcg_per_day
 mechanisms:
-  - antioxidant_defense
-  - selenium_deiodinase
+- antioxidant_defense
+- selenium_deiodinase
 dietary_tags:
-  - vegan
-  - vegetarian
-  - gluten_free
-  - dairy_free
+- vegan
+- vegetarian
+- gluten_free
+- dairy_free
 exclusions:
-  - type: condition
-    value: selenosis
+- type: condition
+  value: selenosis
+active_ingredient: selenium

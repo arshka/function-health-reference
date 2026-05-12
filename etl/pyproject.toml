@@ -10,6 +10,8 @@ dependencies = [
     "streamlit>=1.57.0",
     "pandas>=3.0.2",
     "matplotlib>=3.10.9",
+    "mistune>=3.2.1",
+    "rapidfuzz>=3.14.5",
 ]
 
 [dependency-groups]

@@ -13,13 +13,26 @@ Models the recommendation problem as a mixed-integer linear program:
       capped_j ≤ total_improvement_j         — and ≤ gap_j (don't overshoot)
       Σ_i y_i ≤ budget
     Objective:
-      max Σ_j capped_j / gap_j               — normalized gap closure across markers
+      max Σ_j capped_j                       — severity-weighted partial progress
+        + α · Σ_j gap_pct_j · cross_ref_j    — severity bonus for critical → healthy
+        + β · Σ_j gap_pct_j · cross_opt_j    — severity bonus for any → optimal
+        + γ · Σ_j cross_ref_j                — FLAT bonus per critical escape
 
 V2: each intervention belongs to its FULL mechanism set (not just the first
 mechanism), so overlap with other interventions on any shared mechanism is
 modeled. To prevent a multi-mechanism intervention from being "primary" in
 several classes simultaneously and claiming its effect N times, we add the
 constraint Σ_k z_ijk ≤ 1 per (intervention, marker).
+
+V3: gap-weighted crossing bonuses. The earlier objective `Σ capped/gap_pct`
+normalized severity *out* — a 100% closure of a 2% gap counted the same as
+100% closure of a 40% gap, biasing the solver toward broad shallow progress.
+V3 drops the normalization (severe markers are now naturally weighted higher
+because they have more % room to improve) and adds binary crossing indicators
+for two thresholds per marker: `cross_ref` fires when a currently-critical
+marker reaches the clinical reference boundary, `cross_opt` fires when any
+out-of-optimal marker reaches the optimal subrange. Each crossing earns an
+extra `gap_pct_j` units of objective, so harder wins pay more.
 """
 from __future__ import annotations
 
@@ -46,6 +59,11 @@ class Plan:
     improvements_pct: dict[str, float]             # per marker, % improvement
     uncovered_markers: list[str]                   # markers with gap but no improvement
     objective_value: float
+    # V3: which markers the solver projects will cross a clinical threshold.
+    # These come from the MILP's crossing binaries (canonical ref/opt boundaries
+    # — independent of any per-user lab reference range shown in the UI).
+    crossings_to_healthy: list[str] = field(default_factory=list)
+    crossings_to_optimal: list[str] = field(default_factory=list)
 
 
 def _mech_classes(intervention_id: str, interventions: dict[str, Intervention]) -> list[str]:
@@ -88,9 +106,30 @@ def solve(
     interventions: dict[str, Intervention],
     effects: list[Effect],
     budget: int = 5,
+    alpha_ref_cross: float = 2.0,
+    beta_opt_cross: float = 0.5,
+    gamma_ref_flat: float = 10.0,
 ) -> Plan:
+    """Build and solve the game-plan MILP.
+
+    Crossing bonuses (escaping critical or reaching optimal) sit on top of
+    severity-weighted continuous progress.
+
+    `alpha_ref_cross` (default 2.0) — per-unit-severity bonus for a
+        critical→healthy crossing. Scales with gap_pct.
+    `beta_opt_cross` (default 0.5) — per-unit-severity bonus for any→optimal.
+    `gamma_ref_flat` (default 10.0) — FLAT bonus per critical→healthy escape,
+        independent of gap size. Ensures small-gap critical escapes (e.g.
+        Vitamin D 19 → 30 ng/mL) still beat similar-severity healthy→optimal
+        moves on clinical-relevance grounds.
+
+    Total reward for a marker that fully escapes critical = capped_imp_j
+        + α · gap_pct_j + γ; a critical→optimal jump also adds β · gap_pct_j.
+    """
     # --- 1. Compute per-marker gap (absolute units) ---
-    # Apply demographic modifiers (e.g., south_asian -> tighter ApoB target)
+    # Apply demographic modifiers (e.g., south_asian -> tighter ApoB target).
+    # Demographic modifiers only affect the OPTIMAL boundary (per schema), so
+    # critical-zone classification uses raw ref_lo/ref_hi for all users.
     def _effective_range(m: Marker) -> tuple[float, float]:
         opt_lo, opt_hi = m.opt_lo, m.opt_hi
         for d in m.demographic_modifiers:
@@ -100,6 +139,10 @@ def solve(
         return opt_lo, opt_hi
 
     gaps: dict[str, float] = {}
+    # % improvement required to reach the clinical-reference boundary, for
+    # markers currently OUTSIDE that boundary (critical zone). 0 for markers
+    # already in the healthy range.
+    imp_for_ref_pct: dict[str, float] = {}
     immutable_out_of_range: list[str] = []
     for mid, val in profile.marker_values.items():
         m = markers.get(mid)
@@ -108,16 +151,22 @@ def solve(
         opt_lo, opt_hi = _effective_range(m)
         if m.direction == "lower_is_better":
             gap = max(0.0, val - opt_hi)
+            ref_excess = max(0.0, val - m.ref_hi)
+            imp_ref = (ref_excess / val) * 100 if val > 0 and ref_excess > 0 else 0.0
         elif m.direction == "higher_is_better":
             gap = max(0.0, opt_lo - val)
+            ref_deficit = max(0.0, m.ref_lo - val)
+            imp_ref = (ref_deficit / val) * 100 if val > 0 and ref_deficit > 0 else 0.0
         else:
             gap = 0.0  # in_band — v1 ignores
+            imp_ref = 0.0
         if m.immutable and gap > 0:
             # Marker is largely genetic / non-modifiable by lifestyle (e.g., Lp(a)).
             # Surface as uncovered; don't let the solver waste stack capacity on it.
             immutable_out_of_range.append(mid)
             continue
         gaps[mid] = gap
+        imp_for_ref_pct[mid] = imp_ref
     needs_fixing = {mid: g for mid, g in gaps.items() if g > 0}
 
     # --- 2. Filter eligible effects ---
@@ -184,32 +233,94 @@ def solve(
         if len(zkeys) > 1:
             prob += pulp.lpSum(z[k] for k in zkeys) <= 1
 
-    # Per-marker totals, capped at gap (in % units)
+    # Per-marker totals, capped at gap (in % units). gap_pct doubles as both
+    # the cap on `capped_imp` AND the threshold for the optimal-crossing binary
+    # (reaching opt boundary == capped_imp at its cap).
     total_imp: dict[str, pulp.LpAffineExpression] = {}
     capped_imp: dict[str, pulp.LpVariable] = {}
+    gap_pct_by_marker: dict[str, float] = {}
     for mid, gap_abs in needs_fixing.items():
         current = profile.marker_values[mid]
         gap_pct = (gap_abs / current) * 100 if current > 0 else 0.0
+        gap_pct_by_marker[mid] = gap_pct
         contribs = [m_var[(j, k)] for (j, k) in m_var if j == mid]
         total_imp[mid] = pulp.lpSum(contribs)
         capped_imp[mid] = pulp.LpVariable(f"capped__{mid}", lowBound=0)
         prob += capped_imp[mid] <= total_imp[mid]
         prob += capped_imp[mid] <= gap_pct
 
+    # V3: crossing binaries.
+    #   cross_opt[mid] = 1 ⇒ capped_imp[mid] ≥ gap_pct (i.e. fully closed)
+    #   cross_ref[mid] = 1 ⇒ capped_imp[mid] ≥ imp_for_ref_pct[mid]
+    # Both are linear because the multipliers are constants per marker.
+    # cross_ref only defined for currently-critical markers (imp_for_ref > 0).
+    # When imp_for_ref ≥ gap_pct (shouldn't happen by construction since opt is
+    # inside ref, but we guard) we skip the ref binary to avoid an unsatisfiable
+    # tie with the gap cap.
+    cross_opt: dict[str, pulp.LpVariable] = {}
+    cross_ref: dict[str, pulp.LpVariable] = {}
+    for mid, gap_pct in gap_pct_by_marker.items():
+        if gap_pct <= 0:
+            continue
+        cross_opt[mid] = pulp.LpVariable(f"cross_opt__{mid}", cat="Binary")
+        prob += capped_imp[mid] >= gap_pct * cross_opt[mid]
+
+        imp_ref = imp_for_ref_pct.get(mid, 0.0)
+        if 0 < imp_ref <= gap_pct:
+            cross_ref[mid] = pulp.LpVariable(f"cross_ref__{mid}", cat="Binary")
+            prob += capped_imp[mid] >= imp_ref * cross_ref[mid]
+
     # Budget
     prob += pulp.lpSum(y.values()) <= budget
 
-    # Objective: normalized gap closure across markers, minus a tiny per-intervention
-    # penalty (lex: maximize coverage first, then minimize stack size). The penalty is
-    # smaller than the smallest possible gain in coverage, so it only breaks ties.
-    obj_terms = []
-    for mid, gap_abs in needs_fixing.items():
-        current = profile.marker_values[mid]
-        gap_pct = (gap_abs / current) * 100 if current > 0 else 0.0
-        if gap_pct > 0:
-            obj_terms.append(capped_imp[mid] * (1.0 / gap_pct))
+    # Active-ingredient grouping: at most one selection per group. Stops the
+    # solver from recommending two dose / formulation variants of the same
+    # compound simultaneously (e.g. vitamin_d3_1000iu AND vitamin_d3_loading).
+    # Interventions with active_ingredient=None are ungrouped and don't
+    # participate in this constraint. Only applies when ≥2 eligible
+    # interventions in the same group exist (otherwise the constraint is
+    # trivial: y_i ≤ 1, already implied by y being binary).
+    # `getattr` (not iv.active_ingredient) because Streamlit's
+    # @st.cache_resource may hold Intervention instances from a previous
+    # process that predates this field on the schema. New runs reparse
+    # fresh, but in a long-running dev session the cached instances are
+    # bound to the old class definition without the attribute.
+    by_active: dict[str, list[str]] = defaultdict(list)
+    for iv_id in eligible_ivs:
+        iv = interventions.get(iv_id)
+        active = getattr(iv, "active_ingredient", None) if iv else None
+        if active:
+            by_active[active].append(iv_id)
+    for group_key, group_ids in by_active.items():
+        if len(group_ids) >= 2:
+            prob += pulp.lpSum(y[i] for i in group_ids) <= 1
+
+    # Objective: severity-weighted partial progress + gap-weighted crossing
+    # bonuses + a FLAT escape-critical bonus, minus a tiny parsimony penalty.
+    #   continuous:    Σ capped_imp_j                       — partial progress
+    #   ref severity:  α · Σ gap_pct_j · cross_ref_j        — critical → healthy
+    #   opt severity:  β · Σ gap_pct_j · cross_opt_j        — anything → optimal
+    #   ref flat:      γ · Σ cross_ref_j                    — clinical bonus
+    # The flat term γ ensures small-gap critical escapes (e.g. Vit D 19→30) are
+    # rewarded on clinical-relevance grounds even when severity is modest. A
+    # critical→optimal jump fires BOTH binaries — earning (α·gap + β·gap + γ)
+    # on top of continuous, the most valuable single-marker move.
     PARSIMONY_PENALTY = 1e-4
-    prob += pulp.lpSum(obj_terms) - PARSIMONY_PENALTY * pulp.lpSum(y.values())
+    continuous_term = pulp.lpSum(capped_imp.values())
+    ref_bonus = pulp.lpSum(
+        gap_pct_by_marker[mid] * cross_ref[mid] for mid in cross_ref
+    )
+    opt_bonus = pulp.lpSum(
+        gap_pct_by_marker[mid] * cross_opt[mid] for mid in cross_opt
+    )
+    ref_flat_bonus = pulp.lpSum(cross_ref.values())
+    prob += (
+        continuous_term
+        + alpha_ref_cross * ref_bonus
+        + beta_opt_cross * opt_bonus
+        + gamma_ref_flat * ref_flat_bonus
+        - PARSIMONY_PENALTY * pulp.lpSum(y.values())
+    )
 
     prob.solve(pulp.PULP_CBC_CMD(msg=False))
 
@@ -249,10 +360,19 @@ def solve(
         + immutable_out_of_range
     )
 
+    crossings_to_healthy = sorted(
+        mid for mid, var in cross_ref.items() if (var.value() or 0) > 0.5
+    )
+    crossings_to_optimal = sorted(
+        mid for mid, var in cross_opt.items() if (var.value() or 0) > 0.5
+    )
+
     return Plan(
         interventions=selected,
         projected_marker_values=projected,
         improvements_pct=improvements,
         uncovered_markers=uncovered,
         objective_value=prob.objective.value() or 0.0,
+        crossings_to_healthy=crossings_to_healthy,
+        crossings_to_optimal=crossings_to_optimal,
     )

@@ -1,0 +1,14 @@
+# Manual aliases for intervention-phrase → canonical-ID matching when fuzzy
+# matching is ambiguous. Lookups are exact-substring (case-insensitive) on the
+# intervention_phrase column extracted from research markdown.
+#
+# Add entries here for any recurring phrase that the rapidfuzz matcher gets
+# wrong or marks as LOW confidence. An alias hit is treated as HIGH confidence.
+# Keep it tiny and hand-maintained. If an alias gets stale (canonical ID
+# renamed), the audit will surface it as an unresolved alias in the report.
+
+aliases:
+  # (intervention_phrase substring) → canonical_id
+  # Example seeds — extend as audit surfaces poor matches:
+  # "fish oil, tg form": fish_oil_3g
+  # "vitamin d3 1000 iu": vitamin_d3_1000iu

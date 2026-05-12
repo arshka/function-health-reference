@@ -3,18 +3,19 @@ canonical_name: Chronic high-dose zinc supplementation (>40 mg/day)
 type: supplement
 dose_amount: 50
 dose_unit: mg_per_day
-dose_split: "50 mg elemental Zn/day chronic, without copper co-supplementation"
+dose_split: 50 mg elemental Zn/day chronic, without copper co-supplementation
 mechanisms:
-  - zinc_provision
+- zinc_provision
 dietary_tags:
-  - vegan
-  - vegetarian
-  - gluten_free
-  - dairy_free
+- vegan
+- vegetarian
+- gluten_free
+- dairy_free
 exclusions:
-  - type: drug_interaction
-    value: tetracycline_within_2h
-  - type: drug_interaction
-    value: fluoroquinolone_within_2h
-  - type: drug_interaction
-    value: levothyroxine_within_4h
+- type: drug_interaction
+  value: tetracycline_within_2h
+- type: drug_interaction
+  value: fluoroquinolone_within_2h
+- type: drug_interaction
+  value: levothyroxine_within_4h
+active_ingredient: zinc

@@ -3,17 +3,18 @@ canonical_name: Niacin (extended-release nicotinic acid)
 type: supplement
 dose_amount: 2
 dose_unit: g_per_day
-dose_split: "1.5–2 g/day extended-release"
+dose_split: 1.5–2 g/day extended-release
 mechanisms:
-  - niacin_pathway
+- niacin_pathway
 dietary_tags:
-  - vegan
-  - vegetarian
-  - gluten_free
+- vegan
+- vegetarian
+- gluten_free
 exclusions:
-  - type: condition
-    value: hepatic_impairment
-  - type: condition
-    value: gout
-  - type: condition
-    value: diabetes
+- type: condition
+  value: hepatic_impairment
+- type: condition
+  value: gout
+- type: condition
+  value: diabetes
+active_ingredient: niacin

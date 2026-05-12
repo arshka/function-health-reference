@@ -3,9 +3,10 @@ canonical_name: DHA-only fish oil
 type: supplement
 dose_amount: 3
 dose_unit: g_per_day
-dose_split: "2–4 g DHA/day"
+dose_split: 2–4 g DHA/day
 mechanisms:
-  - omega3_epa_dha
+- omega3_epa_dha
 dietary_tags:
-  - gluten_free
+- gluten_free
 exclusions: []
+active_ingredient: epa_dha_fish_oil

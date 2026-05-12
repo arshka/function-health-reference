@@ -1,1 +1,6 @@
 .context/
+
+# audit_coverage.py outputs — regenerable from research markdown via
+# `uv run python scripts/audit_coverage.py`
+coverage_report.md
+etl/proposed_effects/
