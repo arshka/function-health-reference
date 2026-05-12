@@ -46,6 +46,13 @@ class Intervention(BaseModel):
     mechanisms: list[str] = Field(default_factory=list)
     dietary_tags: list[str] = Field(default_factory=list)
     exclusions: list[Exclusion] = Field(default_factory=list)
+    # Interventions sharing the same `active_ingredient` are dose / formulation
+    # variants of the same compound (e.g. vitamin_d3_1000iu / vitamin_d3_3000iu /
+    # vitamin_d3_loading_50000iu_weekly all share "vitamin_d3"). The solver
+    # enforces at most one selection per active_ingredient group, so the user
+    # never gets a stack that includes two protocols of the same drug. `None`
+    # means "no group" — purely additive with other interventions.
+    active_ingredient: str | None = None
 
 
 class DemographicModifier(BaseModel):

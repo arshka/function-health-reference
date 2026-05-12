@@ -4,12 +4,13 @@ type: supplement
 dose_amount: 1000
 dose_unit: mcg_per_day
 mechanisms:
-  - folate_provision
-  - methylation_support
+- folate_provision
+- methylation_support
 dietary_tags:
-  - vegan
-  - vegetarian
-  - gluten_free
+- vegan
+- vegetarian
+- gluten_free
 exclusions:
-  - type: condition
-    value: untreated_b12_deficiency
+- type: condition
+  value: untreated_b12_deficiency
+active_ingredient: folate

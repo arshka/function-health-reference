@@ -5,13 +5,14 @@ dose_amount: 45
 dose_unit: mmol_per_day
 mechanisms: []
 dietary_tags:
-  - vegan
-  - vegetarian
-  - gluten_free
+- vegan
+- vegetarian
+- gluten_free
 exclusions:
-  - type: condition
-    value: hyperkalemia
-  - type: condition
-    value: ckd_advanced
-  - type: drug_interaction
-    value: potassium_sparing_diuretic
+- type: condition
+  value: hyperkalemia
+- type: condition
+  value: ckd_advanced
+- type: drug_interaction
+  value: potassium_sparing_diuretic
+active_ingredient: potassium

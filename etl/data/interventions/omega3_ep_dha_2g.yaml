@@ -3,15 +3,16 @@ canonical_name: Marine omega-3 (EPA+DHA) 2 g/day
 type: supplement
 dose_amount: 2
 dose_unit: g_per_day
-dose_split: "2 g/day combined EPA+DHA"
+dose_split: 2 g/day combined EPA+DHA
 mechanisms:
-  - omega3_epa_dha
-  - anti_inflammatory
+- omega3_epa_dha
+- anti_inflammatory
 dietary_tags:
-  - pescatarian
-  - gluten_free
+- pescatarian
+- gluten_free
 exclusions:
-  - type: dietary
-    value: fish_allergy
-  - type: drug_interaction
-    value: warfarin
+- type: dietary
+  value: fish_allergy
+- type: drug_interaction
+  value: warfarin
+active_ingredient: epa_dha_fish_oil

@@ -3,14 +3,15 @@ canonical_name: Krill oil
 type: supplement
 dose_amount: 2.5
 dose_unit: g_per_day
-dose_split: "2–3 g/d krill oil"
+dose_split: 2–3 g/d krill oil
 mechanisms:
-  - omega3_epa_dha
+- omega3_epa_dha
 dietary_tags:
-  - pescatarian
-  - gluten_free
+- pescatarian
+- gluten_free
 exclusions:
-  - type: dietary
-    value: shellfish_allergy
-  - type: drug_interaction
-    value: anticoagulant
+- type: dietary
+  value: shellfish_allergy
+- type: drug_interaction
+  value: anticoagulant
+active_ingredient: krill_oil

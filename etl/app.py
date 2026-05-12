@@ -305,6 +305,79 @@ cols[1].metric("🟡 Healthy (not optimal)", f"{cur_health} → {proj_health}", 
 cols[2].metric("🔴 Outside healthy range", f"{cur_crit} → {proj_crit}", delta=proj_crit - cur_crit,
                delta_color="inverse")
 
+# Plain-language summary. Derived from the same (Current zone, Projected zone)
+# classification that powers the tiles above, so the numbers always reconcile.
+# This is intentionally NOT sourced from the solver's crossing binaries — those
+# use canonical thresholds and can disagree with lab-specific reference ranges,
+# which would show the user two contradicting stories. Single source of truth.
+def _transition(cur: str, proj: str) -> int:
+    return sum(1 for r in records if r["Current zone"] == cur and r["Projected zone"] == proj)
+
+crit_to_opt = _transition("critical", "optimal")
+crit_to_healthy = _transition("critical", "healthy")
+healthy_to_opt = _transition("healthy", "optimal")
+crit_stuck = _transition("critical", "critical")
+healthy_stuck = _transition("healthy", "healthy")
+addressable = cur_crit + cur_health
+moved_category = crit_to_opt + crit_to_healthy + healthy_to_opt
+# Markers improved meaningfully but didn't cross a category boundary.
+improved_within = sum(
+    1 for r in records
+    if r["Improvement %"] >= 5.0 and r["Current zone"] == r["Projected zone"]
+)
+
+# Build a few bullet sentences that only appear when they have content.
+lines: list[str] = []
+if moved_category:
+    parts = []
+    if crit_to_opt:
+        parts.append(f"**{crit_to_opt}** jump from outside-healthy straight into optimal")
+    if crit_to_healthy:
+        parts.append(f"**{crit_to_healthy}** escape outside-healthy into the normal range")
+    if healthy_to_opt:
+        parts.append(f"**{healthy_to_opt}** push from healthy-not-optimal into optimal")
+    lines.append("Categorical wins: " + "; ".join(parts) + ".")
+if improved_within:
+    lines.append(
+        f"**{improved_within}** more markers improve ≥5% but stay in the same category "
+        "(see the bar chart and table for per-marker detail)."
+    )
+still_stuck = crit_stuck + healthy_stuck
+if still_stuck:
+    bits = []
+    if crit_stuck:
+        bits.append(f"{crit_stuck} still outside-healthy")
+    if healthy_stuck:
+        bits.append(f"{healthy_stuck} still healthy-but-not-optimal")
+    lines.append(
+        "Unmoved: " + ", ".join(bits) + ". "
+        "Either no eligible intervention closes the gap, the effect is too small "
+        "to cross the threshold at your starting value, or the marker is "
+        "non-modifiable by lifestyle (see *Uncovered* below)."
+    )
+
+if addressable == 0:
+    st.success(
+        f"All {cur_opt} entered markers are already in the optimal range — "
+        "no stack needed."
+    )
+else:
+    st.markdown(
+        f"**What this stack does for you:** of your {len(records)} entered "
+        f"markers, **{addressable} have room to improve** "
+        f"({cur_crit} outside-healthy + {cur_health} healthy-not-optimal). "
+        "The solver projects:"
+    )
+    for line in lines:
+        st.markdown(f"- {line}")
+    st.caption(
+        "Categories use your lab's reference range where available (for the "
+        "outside-healthy boundary) and the canonical optimal subrange. A "
+        "marker can improve a lot without crossing a category, and a small "
+        "nudge can cross a category if it starts near the boundary — the "
+        "bar chart shows raw % gain, the tiles show category transitions."
+    )
+
 # --- Top-improvements chart (the actionable wins) ---
 movers = sorted(
     [r for r in records if r["Improvement %"] > 0.5],

@@ -3,13 +3,14 @@ canonical_name: Aged garlic extract
 type: supplement
 dose_amount: 900
 dose_unit: mg_per_day
-dose_split: "600–1200 mg/day aged garlic extract"
+dose_split: 600–1200 mg/day aged garlic extract
 mechanisms:
-  - anti_inflammatory
+- anti_inflammatory
 dietary_tags:
-  - vegan
-  - vegetarian
-  - gluten_free
+- vegan
+- vegetarian
+- gluten_free
 exclusions:
-  - type: drug_interaction
-    value: anticoagulant
+- type: drug_interaction
+  value: anticoagulant
+active_ingredient: garlic

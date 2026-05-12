@@ -190,6 +190,9 @@ UNIT_CONVERSIONS: dict[str, float] = {
     "monocytes": 1e-3,
     "eosinophils": 1e-3,
     "basophils": 1e-3,
+    # Lab gives nmol/L for NMR particle subfractions, canonical uses μmol/L for
+    # HDL Large. 1 nmol/L == 1e-3 μmol/L.
+    "hdl_large": 1e-3,
 }
 
 

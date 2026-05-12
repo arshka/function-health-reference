@@ -3,6 +3,12 @@ canonical_name: Magnesium citrate (400-800 mg/day)
 type: supplement
 dose_amount: 600
 dose_unit: mg_per_day
-mechanisms: [magnesium_provision]
-dietary_tags: [vegan, vegetarian, gluten_free, dairy_free]
+mechanisms:
+- magnesium_provision
+dietary_tags:
+- vegan
+- vegetarian
+- gluten_free
+- dairy_free
 exclusions: []
+active_ingredient: magnesium

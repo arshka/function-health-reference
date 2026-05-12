@@ -3,11 +3,12 @@ canonical_name: Garlic (raw or aged extract)
 type: food
 dose_amount: 4
 dose_unit: g_per_day
-dose_split: "raw ≥4 g/d, or aged extract 600–1200 mg/d"
+dose_split: raw ≥4 g/d, or aged extract 600–1200 mg/d
 mechanisms:
-  - polyphenol_oxldl_reduction
+- polyphenol_oxldl_reduction
 dietary_tags:
-  - vegan
-  - vegetarian
-  - gluten_free
+- vegan
+- vegetarian
+- gluten_free
 exclusions: []
+active_ingredient: garlic

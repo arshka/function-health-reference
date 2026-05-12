@@ -4,11 +4,12 @@ type: supplement
 dose_amount: 1000
 dose_unit: mcg_per_day
 mechanisms:
-  - b12_provision
-  - methylation_support
+- b12_provision
+- methylation_support
 dietary_tags:
-  - vegan
-  - vegetarian
-  - gluten_free
-  - dairy_free
+- vegan
+- vegetarian
+- gluten_free
+- dairy_free
 exclusions: []
+active_ingredient: vitamin_b12
