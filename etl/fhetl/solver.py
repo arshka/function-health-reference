@@ -280,11 +280,17 @@ def solve(
     # participate in this constraint. Only applies when ≥2 eligible
     # interventions in the same group exist (otherwise the constraint is
     # trivial: y_i ≤ 1, already implied by y being binary).
+    # `getattr` (not iv.active_ingredient) because Streamlit's
+    # @st.cache_resource may hold Intervention instances from a previous
+    # process that predates this field on the schema. New runs reparse
+    # fresh, but in a long-running dev session the cached instances are
+    # bound to the old class definition without the attribute.
     by_active: dict[str, list[str]] = defaultdict(list)
     for iv_id in eligible_ivs:
         iv = interventions.get(iv_id)
-        if iv and iv.active_ingredient:
-            by_active[iv.active_ingredient].append(iv_id)
+        active = getattr(iv, "active_ingredient", None) if iv else None
+        if active:
+            by_active[active].append(iv_id)
     for group_key, group_ids in by_active.items():
         if len(group_ids) >= 2:
             prob += pulp.lpSum(y[i] for i in group_ids) <= 1
